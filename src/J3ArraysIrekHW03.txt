@@ -1,0 +1,130 @@
+/**
+ * Java Core. Home work 3. Collections
+ *
+ * @author Irek Nabiullin
+ * @version dated March 05, 2018
+ * @link https://github.com/IrekNabiullin
+ *
+ */
+
+import java.util.*;
+
+public class J3ArraysIrekHW03 {
+
+    public static void main(String[] args) {
+        //Task#1
+        String[] colorArray = {"Red", "Blue", "Green", "Silver", "Orange", "Black", "White", "Green", "Gold", "Olive", "Gold", "Silver", "Brown", "Black", "Gold"}; //задаем массив
+        HashSet<String> colorSet = new HashSet<String>();       // для того чтобы в коллекции остались только уникальные значения
+        Collections.addAll(colorSet, colorArray);               // преобразуем массив в Set
+        System.out.println("Уникальные значения: " + colorSet); // выводим уникальные значения
+
+        int k = 0;                                              // задаем переменную для подсчета повторяемости слов
+        Object[] colorObjArr = colorSet.toArray();              // преобразуем Set в массив объектов для сравнения
+
+        for (int i = 0; i < colorObjArr.length; i++) {          // пробегаем циклом по каждому значению
+            for (int j = 0; j < colorArray.length; j++) {
+                if (colorObjArr[i].equals(colorArray[j])) {
+                    k++;
+                }
+            }
+            System.out.print(colorObjArr[i]);
+            System.out.println(" встречается " + k + " раз(а)");   // выводим на консоль количество сколько раз встречается каждое слово
+            k = 0;
+        }
+
+        // Task#2
+
+        YellowPages pages = new YellowPages();
+        pages.makeList();
+        pages.add("Smirnov", "8(999)333-00-11");
+        pages.add("Petrov", "8(999)333-00-22");
+        pages.get("Petrov");
+        pages.get("Sergeev");
+    }
+}
+
+import java.util.*;
+
+public class YellowPages {
+
+    // создаем двумерный массив с фамилиями и номерами телефонов
+    private String[][] phoneBook = {
+            {"Ivanov", "8(999)111-11-00)"},
+            {"Petrov", "8(999)111-11-11)"},
+            {"Sidorov", "8(999)111-11-22)"},
+            {"Petrov", "8(999)111-11-33)"},
+            {"Kozlov", "8(999)111-11-44)"},
+            {"Fedorov", "8(999)111-11-55)"},
+            {"Semenov", "8(999)111-11-66)"},
+            {"Potapov", "8(999)111-11-77)"},
+            {"Ivanov", "8(999)111-11-88)"},
+            {"Petrov", "8(999)111-11-99)"},
+            {"Petrov", "8(999)111-22-00)"}};
+
+    // Используем HashMap. Фамилии будем хранить в качестве ключа, а телефоны в виде списка
+    HashMap<String, ArrayList> names = new HashMap<String, ArrayList>(16, 0.75f);
+    // создадим списки для каждого значения HashMap:
+    ArrayList[] arrayLists = new ArrayList[phoneBook.length];
+
+    void makeList() {
+
+        for (int i = 0; i < phoneBook.length; i++) { // в цикле пробегаемся по всему массиву номеров
+            arrayLists[i] = new ArrayList();          // создаем списки номеров для каждой фамилии
+            arrayLists[i].add(phoneBook[i][1]);       // добавляем номера телефонов в список
+
+            if (!names.containsKey(phoneBook[i][0])) { // если фамилии нет в HashMap
+                names.put(phoneBook[i][0], arrayLists[i]); // присваиваем ее в качестве ключа и давляем телефон в список
+            } else {                                     // если фамилия уже используется в качестве ключа
+                names.get(phoneBook[i][0]).add(arrayLists[i]); // добавляем в список еще один телефон
+            }
+        }
+
+/*        System.out.println("All phone book:"); // для проверки можем распечатать все фамилии. Работает.
+        Set<Map.Entry<String, ArrayList>> set = names.entrySet();
+        for (Map.Entry<String, ArrayList> o : set) {
+            System.out.print(o.getKey() + ": ");
+            System.out.println(o.getValue());
+        }*/
+    }
+
+
+    public void add(String name, String phone) {
+        ArrayList arrayList  = new ArrayList();
+            if(names.containsKey(name)) {
+                names.get(name).add(phone);
+            } else {
+                names.put(name, arrayList);
+                arrayList.add(phone);
+            }
+    }
+
+    public void get(String getName) {
+        ArrayList arrayListNotFound  = new ArrayList();
+        arrayListNotFound.add("Name not found");
+        System.out.println(getName + ": "+ names.getOrDefault(getName, arrayListNotFound));
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (obj == null || obj.getClass() != this.getClass() || !(obj instanceof YellowPages)) {
+            return false;
+        }
+
+        YellowPages bookEntry = (YellowPages) obj;
+        return (names.get(this) != null &&names.get(this).equals(bookEntry));
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 37; // берем одно из простых чисел
+        int result = 1;
+        result = prime * result + ((names.get(this) == null) ? 0 : names.get(this).hashCode());
+        result = prime * result +
+                ((names.get(this) == null) ? 0 : names.get(this).hashCode());
+        return result;
+    }
+}
+
