@@ -30,8 +30,8 @@ public class MyWindow extends JFrame {
          */
         jp[0].setLayout(new BorderLayout());
         JTextArea jta = new JTextArea();
-        JScrollPane jsp = new JScrollPane(jta);
-        jp[0].add(jsp);
+        JScrollPane jsp = new JScrollPane(jta);//текстовое поле заворачиваем в скроллинговую панель
+        jp[0].add(jsp); //на поле добавляем саму скролящуюся панель
 
         /*
         Во второй панели содержится 2 типа элементов: JCheckBox и JRadioButton. JCheckBox предназначен
@@ -56,25 +56,48 @@ public class MyWindow extends JFrame {
         /*
         На третьей панели расположена пара элементов типа JComboBox, которые представляют собой
         выпадающие списки. ActionListener для JComboBox проверяет событие выбора пользователем одного из пунктов.
+        Добавим на панель поле для ввода текста
          */
-        jp[2].setLayout(new FlowLayout());
-        String[] comboStr = {"Item #1", "Item #2", "Item #3", "Item #4"};
-        JComboBox<String> jcombo1 = new JComboBox<String >(comboStr);
-        JComboBox<String> jcombo2 = new JComboBox<String >(comboStr);
+//        jp[2].setLayout(new FlowLayout());
+        jp[2].setLayout(new GridLayout(2,1));
+        jp[2].setPreferredSize(new Dimension(10,60));//пытаемся установить предпочтительную высоту в 60 пикс
+        String[] comboStr1 = {"select", "cool", "nice", "not bad", "so-so", "ugly"};
+        String[] comboStr2 = {"select", ":)",")))",  ";-)",":/", ";-(", "((("};
+        JComboBox<String> jcombo1 = new JComboBox<String >(comboStr1);
+        JComboBox<String> jcombo2 = new JComboBox<String >(comboStr2);
         jp[2].add(jcombo1);
         jp[2].add(jcombo2);
         jcombo1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println(jcombo1.getSelectedItem().toString());
+                jta.append("You: " + jcombo1.getSelectedItem().toString() + "\n");
             }
         });
+        jcombo2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println(jcombo2.getSelectedItem().toString());
+                jta.append("You: " + jcombo2.getSelectedItem().toString() + "\n");
+            }
+        });
+
+        JTextField jtf = new JTextField();          // добавим поле для ввода текста
+        jtf.addActionListener(new ActionListener() {// для текстового поля нажатие Enter вызывает ActionListener
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                jta.append("You: " + jtf.getText() + "\n");  //перемещаем текст из TextField в TextArea
+                jtf.setText("");                    //очищаем TextField
+            }
+        });
+        jp[2].add(jtf); //поле для ввода текста помещаем на панель
 
         /*
         Четвёртая панель представляет собой пример расстановки элементов с использованием абсолютных
         координат. На ней расположено обычное нередактируемое текстовое поле, которое показывает
         значение, выбранное на JSlider.
          */
+//        jp[3].setLayout(null);
         jp[3].setLayout(null);
         JSlider js = new JSlider();
         JLabel jlab = new JLabel("Value: 50");
@@ -104,12 +127,14 @@ public class MyWindow extends JFrame {
         JMenu mEdit = new JMenu("Edit");
         JMenuItem miFileNew​ = new JMenuItem("New");
         JMenuItem miFileExit = new JMenuItem("Exit");
+        JMenuItem miEditClear = new JMenuItem("Clear");
         setJMenuBar(mainMenu​);
         mainMenu​.add(mFile);
         mainMenu​.add(mEdit);
         mFile.add(miFileNew​);
         mFile.addSeparator();
         mFile.add(miFileExit);
+        mEdit.add(miEditClear);
 
         miFileExit.addActionListener(new ActionListener() {
             @Override
@@ -117,6 +142,15 @@ public class MyWindow extends JFrame {
                 System.exit(0);
             }
         });
+        miEditClear.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                jta.selectAll();
+                jta.cut();
+            }
+        });
+
+        //закрытие основного окна:
         addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
