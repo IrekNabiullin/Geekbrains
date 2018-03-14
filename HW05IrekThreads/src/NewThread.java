@@ -14,15 +14,11 @@ public class NewThread implements Runnable {
     public void run() {
         arrayCalc(halfArray);
     }
-    private float[] arrayCalc (float[] halfArray) {
+    public static float[] arrayCalc(float[] halfArray) {
         for (int i = 0; i < halfArray.length; i++) {
             halfArray[i] = (float) (halfArray[i] * Math.sin(0.2f + i / 5) * (Math.cos(0.4f + i / 2)));
         }
 
-        for (int i = 0; i < 5; i++) {
-            System.out.print(halfArray[i] + " ");
-        }
-        System.out.println("Thread finished.");
         return halfArray;
     }
 }

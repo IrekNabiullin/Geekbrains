@@ -21,20 +21,9 @@ arr[i] = (float)(arr[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math
  */
 
 public class HW05IrekThreads {
- /*       implements Runnable {
-    @Override
-    public void run() {
 
-        for (int i = 0; i < halfArray.length; i++) {
-            halfArray [i] = (float)(halfArray [i] * Math.sin(0.2f + i/5) * (Math.cos(0.4f + i/2)));
-        }
-        System.out.println ("Thread finished.");
-    }
-    */
-    static final int size = 500000;
+    static final int size = 10000000;
     static final int halfSize = size/2;
-
- //   float [] halfArray; // массив на входе потока
 
     public static void main(String[] args) {
 
@@ -53,16 +42,12 @@ public class HW05IrekThreads {
         // засекаем время
         long time1 = System.currentTimeMillis();
 
-
+        //обсчитываем по формуле
         for (int i = 0; i < size; i++) {
             arr[i] = (float)(arr[i] * Math.sin(0.2f + i/5) * (Math.cos(0.4f + i/2)));
         }
-
+        // выводим результат на консоль
         System.out.println ("Method #1 result = " + (System.currentTimeMillis() - time1));
-        for (int i = 0; i < 5; i++) {
-            System.out.print (arr[i] + " ");
-        }
-        System.out.println();
     }
 
     // создаем второй метод
@@ -80,29 +65,21 @@ public class HW05IrekThreads {
         //создаем два массива для половинок
         float [] a1 = new float[halfSize];
         float [] a2 = new float[halfSize];
-
+        float [] a11;
+        float [] a22;
         // режем массив на 2 половины
         System.arraycopy (arr,0, a1,0, halfSize); //копируем массив с позиции 0 в массив а1, начиная с позиции 0 до длины halfSize
         System.arraycopy (arr,halfSize, a2,0, halfSize );//копируем массив с позиции halfSize в массив а2, начиная с позиции 0 до длины halfSize
 
         //запускаем два потока с половинками массива на входе
-
-        new NewThread (a1);
-        new NewThread (a2);
- /*       Thread halfThread1 = new Thread(a1);
-        halfThread1.start();*/
-
+        a11 = NewThread.arrayCalc(a1);
+        a22 = NewThread.arrayCalc(a2);
 
         // склеиваем две половины в один массив
-        System.arraycopy (a1,0, arr,0, halfSize); //копируем массив с позиции 0 в массив а1, начиная с позиции 0 до длины halfSize
-        System.arraycopy (a2, 0, arr, halfSize, halfSize );//копируем массив с позиции halfSize в массив а2, начиная с позиции 0 до длины halfSize
+        System.arraycopy (a11,0, arr,0, halfSize); //копируем массив с позиции 0 в массив а1, начиная с позиции 0 до длины halfSize
+        System.arraycopy (a22, 0, arr, halfSize, halfSize );//копируем массив с позиции halfSize в массив а2, начиная с позиции 0 до длины halfSize
 
-
+        // выводим результат на консоль
         System.out.println ("Method #2 result = " + (System.currentTimeMillis() - time2));
-
-        for (int i = 0; i < 5; i++) {
-            System.out.print (arr[i] + " ");
-        }
-        System.out.println("Output array");
     }
 }
