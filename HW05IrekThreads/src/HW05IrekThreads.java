@@ -69,11 +69,17 @@ public class HW05IrekThreads {
         float [] a22;
         // режем массив на 2 половины
         System.arraycopy (arr,0, a1,0, halfSize); //копируем массив с позиции 0 в массив а1, начиная с позиции 0 до длины halfSize
-        System.arraycopy (arr,halfSize, a2,0, halfSize );//копируем массив с позиции halfSize в массив а2, начиная с позиции 0 до длины halfSize
+        System.arraycopy (arr, size/2, a2,0, halfSize );//копируем массив с позиции halfSize в массив а2, начиная с позиции halfSize до длины Size
+
+        // присаиваем началььное и конечное значение порядковому номеру элемента в половинке массива, соответствующего индексу большого массива
+        int iBegin1 = 0;
+        int iStop1 = halfSize;
+        int iBegin2 = halfSize;
+        int iStop2 = size;
 
         //запускаем два потока с половинками массива на входе
-        a11 = NewThread.arrayCalc(a1);
-        a22 = NewThread.arrayCalc(a2);
+        a11 = NewThread.arrayCalc(a1, iBegin1, iStop1);
+        a22 = NewThread.arrayCalc(a2, iBegin2, iStop2);
 
         // склеиваем две половины в один массив
         System.arraycopy (a11,0, arr,0, halfSize); //копируем массив с позиции 0 в массив а1, начиная с позиции 0 до длины halfSize
