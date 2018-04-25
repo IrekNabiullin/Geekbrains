@@ -26,7 +26,7 @@ public class Car implements Runnable {
     public int getSpeed() {
         return speed;
     }
-    
+
 
     public Car(Race race, int speed, CountDownLatch cdownStart, CyclicBarrier cbarrier, CountDownLatch cdownFinish) {
         this.race = race;
