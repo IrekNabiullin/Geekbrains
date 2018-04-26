@@ -27,7 +27,10 @@ public class Main {
         Method after = null;
 
         for(Method m : methods) {
-            if(m.isAnnotationPresent(BeforeSuite.class)) {
+            if(m.isAnnotationPresent(Test.class)) {
+                list.add(m);
+
+            }else if(m.isAnnotationPresent(BeforeSuite.class)) {
                 if(before != null) throw new RuntimeException("BeforeSuite");
                 before = m;
             }
@@ -37,7 +40,7 @@ public class Main {
             }
         }
 
-    list.sort((o1, o2) -> o1.getAnnotation(Test.class).priority() - o2.getAnnotation(Tests.class).priority());
+    list.sort((o1, o2) -> (int) (o1.getAnnotation(Test.class).value() - o2.getAnnotation(Test.class).value()));
 
         if (before != null) {
             before.invoke(test);

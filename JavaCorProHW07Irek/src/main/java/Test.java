@@ -32,6 +32,13 @@ class Tests {
         System.out.println("Test with priority " + priority + " runs...");
     }
 
+
+    @Test
+    public void runTest5() {
+        int priority = 5;
+        System.out.println("Test with priority " + priority + " runs...");
+    }
+
     @Test (value = 3.0f)
     public void runTest3() {
         int priority = 3;
