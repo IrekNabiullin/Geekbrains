@@ -2,6 +2,8 @@ package com.geekbrains.game;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
 public class Map {
     public static final int MAP_CELLS_WIDTH = 16;
@@ -12,13 +14,14 @@ public class Map {
     public static final int CELL_BOX = 2;
 
     private byte[][] data;
-    private Texture textureGrass, textureWall, textureBox;
+    private TextureRegion textureGrass, textureWall, textureBox;
 
-    public Map() {
+    public Map(TextureAtlas atlas) {
         data = new byte[MAP_CELLS_WIDTH][MAP_CELLS_HEIGHT];
-        textureBox = new Texture("box.png");
-        textureGrass = new Texture("grass.png");
-        textureWall = new Texture("wall.png");
+        textureBox = atlas.findRegion("box");
+        textureGrass = atlas.findRegion("grass");
+        textureWall = atlas.findRegion("wall");
+
 
         for (int i = 0; i < MAP_CELLS_WIDTH; i++) {
             data[i][0] = CELL_WALL;
@@ -50,6 +53,10 @@ public class Map {
             }
         }
     }
+
+ //   public void putBomb (int xBombPosition, int yBombPOsition) {
+ //
+ //   }
 
     public boolean isCellEmpty(int cellX, int cellY) {
         return data[cellX][cellY] == CELL_EMPTY;
