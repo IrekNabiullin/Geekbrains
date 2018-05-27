@@ -42,7 +42,7 @@ public class BomberGame extends ApplicationAdapter {
     @Override
     public void create() {
         batch = new SpriteBatch();
-        atlas = new TextureAtlas( "game.pack");
+        atlas = new TextureAtlas( "game2.pak");
         map = new Map(atlas);
         player = new Bomberman(map, atlas);
         animationEmitter = new AnimationEmitter(atlas);
