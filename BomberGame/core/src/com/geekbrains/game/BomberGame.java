@@ -24,8 +24,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class BomberGame extends ApplicationAdapter {
     private SpriteBatch batch;
     private Map map;
-    protected static Bomberman player;
     protected Bomb bomb;
+ //   protected static Bomberman player;
+    protected Bomberman player;
     private AnimationEmitter animationEmitter;
     private TextureAtlas atlas;
     private BitmapFont font32;
@@ -44,11 +45,12 @@ public class BomberGame extends ApplicationAdapter {
         batch = new SpriteBatch();
         atlas = new TextureAtlas( "game2.pak");
         map = new Map(atlas);
-        player = new Bomberman(map, atlas);
+        bomb = new Bomb(atlas, animationEmitter,false, 0, 0);
+        player = new Bomberman(map, atlas, bomb);
         animationEmitter = new AnimationEmitter(atlas);
         xPos = player.getCellX();
         yPos = player.getCellY();
-        bomb = new Bomb(atlas, animationEmitter,false, xPos, yPos);
+//        bomb = new Bomb(atlas, animationEmitter,false, xPos, yPos);
 
         FreeTypeFontGenerator.FreeTypeFontParameter fontParameter = new FreeTypeFontGenerator.FreeTypeFontParameter();
         fontParameter.size = 32;
@@ -78,14 +80,11 @@ public class BomberGame extends ApplicationAdapter {
         batch.end();
     }
 
-    public void update(float dt) {
+    protected void update(float dt) {
         map.update(dt);
         player.update(dt);
         animationEmitter.update(dt);
         bomb.update(dt);
- //       if (Gdx.input.justTouched()) {
-//            animationEmitter.createAnimation(Gdx.input.getX(), 720 - Gdx.input.getY(), MathUtils.random(1.0f, 10.0f), AnimationEmitter.AnimationType.EXPLOSION);
-//        }
     }
 
     @Override
@@ -93,4 +92,7 @@ public class BomberGame extends ApplicationAdapter {
         batch.dispose();
         atlas.dispose();
     }
+
+
+
 }

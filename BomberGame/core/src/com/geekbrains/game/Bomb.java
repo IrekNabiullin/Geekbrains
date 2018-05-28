@@ -11,7 +11,7 @@ import com.badlogic.gdx.math.Vector2;
 
 public class Bomb {
     public enum State {
-        READY(0), EXPLODE(1);
+        READY(0), EXPLOSION(1);
 
         private int animationIndex;
 
@@ -21,30 +21,24 @@ public class Bomb {
     }
 
     private Vector2 position;
-    private TextureRegion textureBomb;
     private float time;
     private boolean active;
-    private AnimationEmitter animationEmitter;
-    private Bomberman player;
+    protected AnimationEmitter animationEmitter;
     private Bomb.State currentState;
     private Animation[] animations;
-    private TextureAtlas atlas;
+    private TextureRegion atlas;
 
-    public int getBombX() { return (int) (position.x/ Rules.CELL_SIZE); }
-    public int getBomblY() { return (int) (position.y / Rules.CELL_SIZE); }
+    protected Bomb(TextureAtlas atlas, AnimationEmitter animationEmitter, boolean isActive, int xPos, int yPos) {
 
-    public Bomb(TextureAtlas atlas, AnimationEmitter animationEmitter, boolean isActive, int xPos, int yPos) {
         this.position = new Vector2(xPos * Rules.CELL_SIZE, yPos *  Rules.CELL_SIZE);
-        this.textureBomb = atlas.findRegion("bomb");
         this.time = 2.0f;
         this.active = isActive;
         this.animationEmitter = animationEmitter;
-        this.player = BomberGame.player;
         this.animations = new Animation[Bomb.State.values().length];
-        this.atlas = atlas;
         for (int i = 0; i < Bomb.State.values().length; i++) {
             this.animations[i] = new Animation();
             this.animations[i].activate(0, 0, 1, new TextureRegion(atlas.findRegion("bombA")).split(Rules.CELL_SIZE, Rules.CELL_SIZE)[i], 0.1f, true);
+
         }
         this.currentState = Bomb.State.READY;
     }
@@ -52,42 +46,46 @@ public class Bomb {
     public void render(SpriteBatch batch) {
         if (active)
             batch.draw(animations[currentState.animationIndex].getCurrentRegion(), position.x - Rules.CELL_HALF_SIZE, position.y - Rules.CELL_HALF_SIZE);
-//            batch.draw(textureBomb, position.x - Rules.CELL_HALF_SIZE, position.y - Rules.CELL_HALF_SIZE);
+
     }
 
-    public void putBomb() {
 
-        position.x = player.getCellX()*Rules.CELL_SIZE + Rules.CELL_HALF_SIZE;
-        position.y = player.getCellY()*Rules.CELL_SIZE + Rules.CELL_HALF_SIZE;
+        public void putBomb(int xPos, int yPos) {
+            position.x = xPos*Rules.CELL_SIZE + Rules.CELL_HALF_SIZE;
+            position.y = yPos*Rules.CELL_SIZE + Rules.CELL_HALF_SIZE;
 
         if (active == true) {
             this.active = false;
-        }else this.active = true;
+            this.currentState = Bomb.State.READY;
+
+        }else {
+            this.active = true;
+            this.currentState = State.EXPLOSION;
+        }
     }
 
     public void setActive(boolean active) {
         this.active = active;
     }
 
+    protected void boom(){
+        this.currentState = State.EXPLOSION;
+        //       animationEmitter.createAnimation(position.x, position.y, 2.0f, AnimationEmitter.AnimationType.EXPLOSION);
+ //       animationEmitter.createAnimation(position.x , position.y, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
+    }
 
     public void update(float dt) {
         animations[currentState.animationIndex].update(dt);
         if (active){
         time -= dt;
         if (time <= 0.0f) {
-            animationEmitter.createAnimation(position.x, position.y, 2.0f, AnimationEmitter.AnimationType.EXPLOSION);
-                active = false;
+            active = false;
+            boom();
+//            animationEmitter.createAnimation(position.x, position.y, 2.0f, AnimationEmitter.AnimationType.EXPLOSION);
+
             }
         } else {
             time = 2.0f;
-        }
-
-
-        if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) {
-            putBomb();
-
-
-
         }
     }
 

@@ -54,9 +54,6 @@ public class Map {
         }
     }
 
- //   public void putBomb (int xBombPosition, int yBombPOsition) {
- //
- //   }
 
     public boolean isCellEmpty(int cellX, int cellY) {
         return data[cellX][cellY] == CELL_EMPTY;
