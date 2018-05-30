@@ -3,7 +3,6 @@ package com.geekbrains.game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
@@ -22,13 +21,12 @@ public class Bomberman {
 
     private Map map;
     private Animation[] animations;
-    public Vector2 position;
+    private Vector2 position;
     private Vector2 velocity;
     private float pathCounter;
     private float speed;
     private State currentState;
-    protected AnimationEmitter animationEmitter;
-    public Bomb bomb;
+    private BombEmitter bombEmitter;
 
     public int getCellX() {
         return (int) (position.x / Rules.CELL_SIZE);
@@ -38,18 +36,17 @@ public class Bomberman {
         return (int) (position.y / Rules.CELL_SIZE);
     }
 
-    public Bomberman(Map map, TextureAtlas atlas, Bomb bomb) {
+    public Bomberman(Map map, BombEmitter bombEmitter) {
         this.map = map;
-        this.bomb = bomb;
+        this.bombEmitter = bombEmitter;
         this.position = new Vector2(120.0f, 120.0f);
         this.velocity = new Vector2(0.0f, 0.0f);
         this.speed = 200.0f;
         this.pathCounter = -1;
         this.animations = new Animation[State.values().length];
-        this.animationEmitter = animationEmitter;
         for (int i = 0; i < State.values().length; i++) {
             this.animations[i] = new Animation();
-            this.animations[i].activate(0, 0, 1, new TextureRegion(atlas.findRegion("bomberA")).split(Rules.CELL_SIZE, Rules.CELL_SIZE)[i], 0.1f, true);
+            this.animations[i].activate(0, 0, 1, new TextureRegion(Assets.getInstance().getAtlas().findRegion("bomberA")).split(Rules.CELL_SIZE, Rules.CELL_SIZE)[i], 0.1f, true);
         }
         this.currentState = State.IDLE;
     }
@@ -81,9 +78,9 @@ public class Bomberman {
             pathCounter = 0.1f;
             currentState = State.MOVE;
         }
-
         if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) {
-            bomb.putBomb(getCellX(), getCellY());
+            Bomb b = bombEmitter.getActiveElement();
+            b.activate(getCellX(), getCellY(), 2.0f, 3);
         }
 
         if (pathCounter > 0.0f) {

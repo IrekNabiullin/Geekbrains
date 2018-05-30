@@ -25,7 +25,7 @@ public class AnimationEmitter {
 
     private HashMap<AnimationType, TextureRegion[]> regions;
 
-    public AnimationEmitter(TextureAtlas atlas) {
+    public AnimationEmitter() {
         animations = new Animation[MAX_COUNT];
         for (int i = 0; i < animations.length; i++) {
             animations[i] = new Animation();
@@ -34,7 +34,7 @@ public class AnimationEmitter {
         regions = new HashMap<AnimationType, TextureRegion[]>();
         for (int a = 0; a < AnimationType.values().length; a++) {
             AnimationType current = AnimationType.values()[a];
-            TextureRegion[][] tempRegions = atlas.findRegion(current.regionName).split(Rules.CELL_SIZE, Rules.CELL_SIZE);
+            TextureRegion[][] tempRegions = Assets.getInstance().getAtlas().findRegion(current.regionName).split(Rules.CELL_SIZE, Rules.CELL_SIZE);
             TextureRegion[] currentRegions = new TextureRegion[tempRegions.length * tempRegions[0].length];
             int n = 0;
             for (int i = 0; i < tempRegions.length; i++) {

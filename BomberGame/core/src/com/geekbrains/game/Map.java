@@ -16,12 +16,11 @@ public class Map {
     private byte[][] data;
     private TextureRegion textureGrass, textureWall, textureBox;
 
-    public Map(TextureAtlas atlas) {
+    public Map() {
         data = new byte[MAP_CELLS_WIDTH][MAP_CELLS_HEIGHT];
-        textureBox = atlas.findRegion("box");
-        textureGrass = atlas.findRegion("grass");
-        textureWall = atlas.findRegion("wall");
-
+        textureBox = Assets.getInstance().getAtlas().findRegion("box");
+        textureGrass = Assets.getInstance().getAtlas().findRegion("grass");
+        textureWall = Assets.getInstance().getAtlas().findRegion("wall");
 
         for (int i = 0; i < MAP_CELLS_WIDTH; i++) {
             data[i][0] = CELL_WALL;
@@ -54,7 +53,6 @@ public class Map {
         }
     }
 
-
     public boolean isCellEmpty(int cellX, int cellY) {
         return data[cellX][cellY] == CELL_EMPTY;
     }
@@ -62,6 +60,8 @@ public class Map {
     public boolean isCellDestructable(int cellX, int cellY) {
         return data[cellX][cellY] == CELL_BOX;
     }
+
+    public boolean isCellWall(int cellX, int cellY)  { return data[cellX][cellY] == CELL_WALL;}
 
     public void clearCell(int cellX, int cellY) {
         data[cellX][cellY] = CELL_EMPTY;
