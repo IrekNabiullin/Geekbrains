@@ -12,6 +12,7 @@ public class Map {
     public static final int CELL_EMPTY = 0;
     public static final int CELL_WALL = 1;
     public static final int CELL_BOX = 2;
+    public static final int CELL_BOMB = 3;
 
     private byte[][] data;
     private TextureRegion textureGrass, textureWall, textureBox;
@@ -61,7 +62,17 @@ public class Map {
         return data[cellX][cellY] == CELL_BOX;
     }
 
-    public boolean isCellWall(int cellX, int cellY)  { return data[cellX][cellY] == CELL_WALL;}
+    public boolean isCellBomb(int cellX, int cellY) {
+        return data[cellX][cellY] == CELL_BOMB;
+    }
+
+    public boolean isCellUndestructable(int cellX, int cellY) {
+        return data[cellX][cellY] == CELL_WALL;
+    }
+
+    public void setBombCell(int cellX, int cellY) {
+        data[cellX][cellY] = CELL_BOMB;
+    }
 
     public void clearCell(int cellX, int cellY) {
         data[cellX][cellY] = CELL_EMPTY;

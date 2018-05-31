@@ -5,14 +5,19 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
 
 public class Bomb implements Poolable {
+    private Bomberman owner;
     private TextureRegion texture;
-    private AnimationEmitter animationEmitter;
+    private GameScreen gs;
     private int cellX, cellY;
     private int radius;
     private float time;
     private float maxTime;
     private boolean active;
-    private Map map;
+
+    @Override
+    public boolean isActive() {
+        return active;
+    }
 
     public int getCellX() {
         return cellX;
@@ -22,94 +27,62 @@ public class Bomb implements Poolable {
         return cellY;
     }
 
-    @Override
-    public boolean isActive() {
-        return active;
-    }
-
-    public Bomb(AnimationEmitter animationEmitter, TextureRegion texture, Map map) {
+    public Bomb(GameScreen gs, TextureRegion texture) {
+        this.gs = gs;
         this.texture = texture;
-        this.animationEmitter = animationEmitter;
-        this.map = map;
+        this.owner = null;
     }
 
     public void update(float dt) {
         time += dt;
         if (time >= maxTime) {
-            boom(map);
+            boom();
         }
     }
 
-    public void boom(Map map) {
+    public void boom() {
+        boolean left = true, right = true, up = true, down = true;
         active = false;
-        animationEmitter.createAnimation(cellX * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, cellY * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
-        int kRight = 1;
-        int kLeft = 1;
-        int kUp = 1;
-        int kDown = 1;
+        boomInCell(cellX, cellY);
         for (int i = 1; i <= radius; i++) {
-            if (kRight < radius + 1 && map.isCellWall(getCellX() + kRight, getCellY())) {
-                kRight = radius + 1;
-            }else if (kRight < radius + 1) {
-                    if (map.isCellEmpty(getCellX() + kRight, getCellY()) || map.isCellDestructable(getCellX() + kRight, getCellY())) {
-                        animationEmitter.createAnimation((cellX + kRight) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, cellY * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
-                    }
-                    if (map.isCellDestructable(getCellX() + kRight, getCellY())) {
-                        map.clearCell(getCellX() + kRight, getCellY());
-                        kRight = radius + 1;
-                    }
-                    kRight++;
-            }
-
-            if (kLeft < radius + 1 && map.isCellWall(getCellX() - kLeft, getCellY())) {
-                kLeft = radius + 1;
-            }else if (kLeft < radius + 1) {
-                    if (map.isCellEmpty(getCellX() - kLeft, getCellY()) || map.isCellDestructable(getCellX() - kLeft, getCellY())) {
-                        animationEmitter.createAnimation((cellX - kLeft) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, cellY * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
-                    }
-                    if (map.isCellDestructable(getCellX() - kLeft, getCellY())) {
-                        map.clearCell(getCellX() - kLeft, getCellY());
-                        kLeft = radius + 1;
-                    }
-                    kLeft++;
-            }
-
-            if (kUp < radius + 1 && map.isCellWall(getCellX(), getCellY() + kUp)) {
-                kUp = radius + 1;
-            } else if (kUp < radius + 1) {
-                    if (map.isCellEmpty(getCellX(), getCellY() + kUp) || map.isCellDestructable(getCellX(), getCellY() + kUp)) {
-                        animationEmitter.createAnimation(cellX * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, (cellY + kUp) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
-                    }
-                    if (map.isCellDestructable(getCellX(), getCellY() + kUp)) {
-                        map.clearCell(getCellX(), getCellY() + kUp);
-                        kUp = radius + 1;
-                    }
-                    kUp++;
-            }
-
-            if (kDown < radius + 1 && map.isCellWall(getCellX(), getCellY() - kDown)) {
-                kDown = radius + 1;
-            } else if (kDown < radius + 1) {
-                    if (map.isCellEmpty(getCellX(), getCellY() - kDown) || map.isCellDestructable(getCellX(), getCellY() - kDown)) {
-                        animationEmitter.createAnimation(cellX * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, (cellY - kDown) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
-                    }
-                    if (map.isCellDestructable(getCellX(), getCellY() - kDown)) {
-                        map.clearCell(getCellX(), getCellY() - kDown);
-                        kDown = radius + 1;
-                    }
-                    kDown++;
-            }
-
+            if (right && cellX + i < Map.MAP_CELLS_WIDTH - 1) right = boomInCell(cellX + i, cellY);
+            if (left && cellX - i > 0) left = boomInCell(cellX - i, cellY);
+            if (up && cellY + i < Map.MAP_CELLS_HEIGHT - 1) up = boomInCell(cellX, cellY + i);
+            if (down && cellY - i > 0) down = boomInCell(cellX, cellY - i);
         }
     }
 
-    public void activate(int cellX, int cellY, float maxTime, int radius) {
+    private boolean boomInCell(int cellX, int cellY) {
+        if (gs.getMap().isCellUndestructable(cellX, cellY)) {
+            return false;
+        }
+        gs.getAnimationEmitter().createAnimation((cellX) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, cellY * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
+        if (gs.getMap().isCellDestructable(cellX, cellY)) {
+            gs.getMap().clearCell(cellX, cellY);
+            owner.addScore(100);
+            return false;
+        }
+        if (gs.getMap().isCellBomb(cellX, cellY)) {
+            gs.getMap().clearCell(cellX, cellY);
+            gs.getBombEmitter().tryToDetonateBomb(cellX, cellY);
+            return false;
+        }
+        return true;
+    }
+
+    public void activate(Bomberman owner, int cellX, int cellY, float maxTime, int radius) {
+        this.owner = owner;
         this.cellX = cellX;
         this.cellY = cellY;
+        this.gs.getMap().setBombCell(cellX, cellY);
         this.maxTime = maxTime;
         this.radius = radius;
         this.time = 0.0f;
         this.active = true;
+    }
+
+    public void detonate() {
+        this.time = this.maxTime;
     }
 
     public void render(SpriteBatch batch) {
