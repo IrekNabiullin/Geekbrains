@@ -1,5 +1,7 @@
 package com.geekbrains.game;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
@@ -13,6 +15,7 @@ public class Bomb implements Poolable {
     private float time;
     private float maxTime;
     private boolean active;
+    private Sound tiktaksound;
 
     @Override
     public boolean isActive() {
@@ -31,6 +34,7 @@ public class Bomb implements Poolable {
         this.gs = gs;
         this.texture = texture;
         this.owner = null;
+        this.tiktaksound = Gdx.audio.newSound(Gdx.files.internal("tiktak.mp3"));
     }
 
     public void update(float dt) {
@@ -56,7 +60,7 @@ public class Bomb implements Poolable {
         if (gs.getMap().isCellUndestructable(cellX, cellY)) {
             return false;
         }
-        gs.getAnimationEmitter().createAnimation((cellX) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, cellY * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
+        gs.getAnimationEmitter().createAnimation((cellX) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, cellY * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION, tiktaksound);
         if (gs.getMap().isCellDestructable(cellX, cellY)) {
             gs.getMap().clearCell(cellX, cellY);
             owner.addScore(100);

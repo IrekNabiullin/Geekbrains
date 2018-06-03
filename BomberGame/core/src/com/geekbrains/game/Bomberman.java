@@ -2,6 +2,7 @@ package com.geekbrains.game;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
@@ -30,6 +31,7 @@ public class Bomberman {
     private int scoreToShow;
     private StringBuilder tmpStringBuilder;
     private float time;
+    private Sound playersound;
 
     public int getCellX() {
         return (int) (position.x / Rules.CELL_SIZE);
@@ -46,9 +48,10 @@ public class Bomberman {
         this.speed = 200.0f;
         this.pathCounter = -1;
         this.animations = new Animation[State.values().length];
+        this.playersound = Gdx.audio.newSound(Gdx.files.internal("playersound.mp3"));
         for (int i = 0; i < State.values().length; i++) {
-            this.animations[i] = new Animation();
-            this.animations[i].activate(0, 0, 1, new TextureRegion(Assets.getInstance().getAtlas().findRegion("bomber")).split(Rules.CELL_SIZE, Rules.CELL_SIZE)[i], 0.1f, true);
+            this.animations[i] = new Animation(playersound);
+            this.animations[i].activate(0, 0, 1, new TextureRegion(Assets.getInstance().getAtlas().findRegion("bomber")).split(Rules.CELL_SIZE, Rules.CELL_SIZE)[i], 0.1f, true, playersound);
         }
         this.currentState = State.IDLE;
         this.score = 0;
@@ -102,10 +105,10 @@ public class Bomberman {
                 b.activate(this, getCellX(), getCellY(), 2.0f, 3);
             }
 
-            if (!gs.getBotEmitter().isBotInCell(getCellX(), getCellY())) {
-                Bot bot = gs.getBotEmitter().getActiveElement();
-                bot.activate(getCellX(), getCellY());
-            }
+//            if (!gs.getBotEmitter().isBotInCell(getCellX(), getCellY())) {
+//                Bot bot = gs.getBotEmitter().getActiveElement();
+//                bot.activate(getCellX(), getCellY());
+//            }
         }
 
         if (pathCounter > 0.0f) {

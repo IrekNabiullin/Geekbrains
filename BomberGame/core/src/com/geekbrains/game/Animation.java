@@ -1,5 +1,6 @@
 package com.geekbrains.game;
 
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
@@ -15,12 +16,13 @@ public class Animation {
     private float timePerFrame;
     private boolean active;
     private boolean infinity;
+    private Sound sound;
 
     public boolean isActive() {
         return active;
     }
 
-    public Animation() {
+    public Animation(Sound sound) {
         this.position = new Vector2(0.0f, 0.0f);
         this.regions = null;
         this.framesCount = 0;
@@ -30,9 +32,10 @@ public class Animation {
         this.active = false;
         this.scale = 1.0f;
         this.infinity = false;
+        this.sound = sound;
     }
 
-    public void activate(float x, float y, float scale, TextureRegion[] regions, float timePerFrame, boolean infinity) {
+    public void activate(float x, float y, float scale, TextureRegion[] regions, float timePerFrame, boolean infinity, Sound sound) {
         this.position.set(x, y);
         this.scale = scale;
         this.regions = regions;
@@ -42,6 +45,7 @@ public class Animation {
         this.time = 0.0f;
         this.active = true;
         this.infinity = infinity;
+        this.sound = sound;
     }
 
     public void render(SpriteBatch batch) {
@@ -56,6 +60,7 @@ public class Animation {
 
     public void update(float dt) {
         time += dt;
+        sound.play();
         if (time >= maxTime) {
             if (!infinity) {
                 active = false;

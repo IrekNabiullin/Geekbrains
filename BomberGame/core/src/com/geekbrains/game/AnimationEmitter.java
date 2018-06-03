@@ -1,5 +1,7 @@
 package com.geekbrains.game;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
@@ -22,13 +24,16 @@ public class AnimationEmitter {
 
     private final int MAX_COUNT = 200;
     private Animation[] animations;
+    private Sound blowSound;
 
     private HashMap<AnimationType, TextureRegion[]> regions;
 
     public AnimationEmitter() {
         animations = new Animation[MAX_COUNT];
+        this.blowSound = Gdx.audio.newSound(Gdx.files.internal("blow01.mp3"));
         for (int i = 0; i < animations.length; i++) {
-            animations[i] = new Animation();
+            animations[i] = new Animation(blowSound);
+
         }
 
         regions = new HashMap<AnimationType, TextureRegion[]>();
@@ -47,10 +52,11 @@ public class AnimationEmitter {
         }
     }
 
-    public void createAnimation(float x, float y, float scale, AnimationType type) {
+    public void createAnimation(float x, float y, float scale, AnimationType type, Sound blowSound) {
         for (int i = 0; i < animations.length; i++) {
             if (!animations[i].isActive()) {
-                animations[i].activate(x, y, scale, regions.get(type), type.timePerFrame, false);
+                animations[i].activate(x, y, scale, regions.get(type), type.timePerFrame, false, blowSound);
+
                 break;
             }
         }
@@ -67,6 +73,7 @@ public class AnimationEmitter {
     public void update(float dt) {
         for (int i = 0; i < animations.length; i++) {
             if (animations[i].isActive()) {
+//                blowSound.play();
                 animations[i].update(dt);
             }
         }
