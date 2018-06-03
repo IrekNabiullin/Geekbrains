@@ -60,7 +60,7 @@ public class Bomb implements Poolable {
         if (gs.getMap().isCellUndestructable(cellX, cellY)) {
             return false;
         }
-        gs.getAnimationEmitter().createAnimation((cellX) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, cellY * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION, tiktaksound);
+        gs.getAnimationEmitter().createAnimation((cellX) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, cellY * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
         if (gs.getMap().isCellDestructable(cellX, cellY)) {
             gs.getMap().clearCell(cellX, cellY);
             owner.addScore(100);

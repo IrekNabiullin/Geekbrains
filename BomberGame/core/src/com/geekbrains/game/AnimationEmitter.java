@@ -24,15 +24,13 @@ public class AnimationEmitter {
 
     private final int MAX_COUNT = 200;
     private Animation[] animations;
-    private Sound blowSound;
 
     private HashMap<AnimationType, TextureRegion[]> regions;
 
     public AnimationEmitter() {
         animations = new Animation[MAX_COUNT];
-        this.blowSound = Gdx.audio.newSound(Gdx.files.internal("blow01.mp3"));
         for (int i = 0; i < animations.length; i++) {
-            animations[i] = new Animation(blowSound);
+            animations[i] = new Animation();
 
         }
 
@@ -52,10 +50,10 @@ public class AnimationEmitter {
         }
     }
 
-    public void createAnimation(float x, float y, float scale, AnimationType type, Sound blowSound) {
+    public void createAnimation(float x, float y, float scale, AnimationType type) {
         for (int i = 0; i < animations.length; i++) {
             if (!animations[i].isActive()) {
-                animations[i].activate(x, y, scale, regions.get(type), type.timePerFrame, false, blowSound);
+                animations[i].activate(x, y, scale, regions.get(type), type.timePerFrame, false);
 
                 break;
             }
@@ -73,7 +71,6 @@ public class AnimationEmitter {
     public void update(float dt) {
         for (int i = 0; i < animations.length; i++) {
             if (animations[i].isActive()) {
-//                blowSound.play();
                 animations[i].update(dt);
             }
         }

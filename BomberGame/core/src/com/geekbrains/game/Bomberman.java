@@ -50,8 +50,8 @@ public class Bomberman {
         this.animations = new Animation[State.values().length];
         this.playersound = Gdx.audio.newSound(Gdx.files.internal("playersound.mp3"));
         for (int i = 0; i < State.values().length; i++) {
-            this.animations[i] = new Animation(playersound);
-            this.animations[i].activate(0, 0, 1, new TextureRegion(Assets.getInstance().getAtlas().findRegion("bomber")).split(Rules.CELL_SIZE, Rules.CELL_SIZE)[i], 0.1f, true, playersound);
+            this.animations[i] = new Animation();
+            this.animations[i].activate(0, 0, 1, new TextureRegion(Assets.getInstance().getAtlas().findRegion("bomber")).split(Rules.CELL_SIZE, Rules.CELL_SIZE)[i], 0.1f, true);
         }
         this.currentState = State.IDLE;
         this.score = 0;
@@ -83,21 +83,25 @@ public class Bomberman {
             velocity.set(speed, 0.0f);
             pathCounter = 0.1f;
             currentState = State.MOVE;
+            playersound.play();
         }
         if (Gdx.input.isKeyPressed(Input.Keys.A) && pathCounter < 0.0f && gs.getMap().isCellEmpty(getCellX() - 1, getCellY())) {
             velocity.set(-speed, 0.0f);
             pathCounter = 0.1f;
             currentState = State.MOVE;
+            playersound.play();
         }
         if (Gdx.input.isKeyPressed(Input.Keys.W) && pathCounter < 0.0f && gs.getMap().isCellEmpty(getCellX(), getCellY() + 1)) {
             velocity.set(0.0f, speed);
             pathCounter = 0.1f;
             currentState = State.MOVE;
+            playersound.play();
         }
         if (Gdx.input.isKeyPressed(Input.Keys.S) && pathCounter < 0.0f && gs.getMap().isCellEmpty(getCellX(), getCellY() - 1)) {
             velocity.set(0.0f, -speed);
             pathCounter = 0.1f;
             currentState = State.MOVE;
+            playersound.play();
         }
         if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) {
             if (!gs.getBombEmitter().isBombInCell(getCellX(), getCellY())) {
@@ -137,10 +141,11 @@ public class Bomberman {
         CellY = MathUtils.random(0, (720 - Rules.CELL_SIZE)  / Rules.CELL_SIZE);
                }while(!gs.getMap().isCellEmpty(CellX, CellY));
 
-            if (!gs.getBotEmitter().isBotInCell(CellX, CellY)) {
+            if (!gs.getBotEmitter().isBotInCell(CellX, CellY) && gs.getBotEmitter().getFreeList().size()<10) {
                 Bot bot = gs.getBotEmitter().getActiveElement();
-                bot.activate(CellX, CellY);
-
+                if(bot != null) {
+                    bot.activate(CellX, CellY);
+                }
         }
     }
 
