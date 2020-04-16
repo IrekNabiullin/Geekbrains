@@ -1,5 +1,9 @@
 package com.geekbrains.game;
 
+/**
+ * Created by Irek Nabiullin on 30.09.2018.
+ */
+
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;

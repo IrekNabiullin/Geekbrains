@@ -12,6 +12,7 @@ public class BombEmitter extends ObjectPool<Bomb> implements Serializable {
     public void reloadResources(GameScreen gs) {
         this.gs = gs;
         this.textureRegion = Assets.getInstance().getAtlas().findRegion("bomb");
+//        this.textureRegion = Assets.getInstance().getAtlas().findRegion("bombA");
         for (int i = 0; i < activeList.size(); i++) {
             activeList.get(i).reloadResources(gs, textureRegion);
         }
@@ -28,6 +29,7 @@ public class BombEmitter extends ObjectPool<Bomb> implements Serializable {
     public BombEmitter(GameScreen gs) {
         this.gs = gs;
         this.textureRegion = Assets.getInstance().getAtlas().findRegion("bomb");
+//        this.textureRegion = Assets.getInstance().getAtlas().findRegion("bombA");
         this.addObjectsToFreeList(10);
     }
 
@@ -42,15 +44,18 @@ public class BombEmitter extends ObjectPool<Bomb> implements Serializable {
         for (int i = 0; i < activeList.size(); i++) {
             activeList.get(i).render(batch);
         }
+        checkPool(); //added when bullet of boat written
     }
 
     public boolean isBombInCell(int cellX, int cellY) {
-        for (int i = 0; i < activeList.size(); i++) {
+        for (int i = 0; i <  activeList.size(); i++) {
             Bomb b = activeList.get(i);
             if (b.getCellX() == cellX && b.getCellY() == cellY) {
+                checkPool(); //added when bullet of boat written
                 return true;
             }
         }
+        checkPool(); //added when bullet of boat written
         return false;
     }
 
@@ -59,6 +64,7 @@ public class BombEmitter extends ObjectPool<Bomb> implements Serializable {
             Bomb b = activeList.get(i);
             if (b.getCellX() == cellX && b.getCellY() == cellY) {
                 b.detonate();
+                checkPool(); //added when bullet of boat written
                 return;
             }
         }

@@ -9,7 +9,9 @@ import java.util.HashMap;
 
 public class AnimationEmitter {
     public enum AnimationType {
-        EXPLOSION("explosion", 0.02f), BLOOD("botDestroy", 0.04f);
+//        EXPLOSION("explosion", 0.02f), BLOOD("botDestroyed2", 0.04f), BOMBREADY("bombA", 0.02f);
+//        EXPLOSION("explosion", 0.02f), BLOOD("botDestroyed5", 0.04f), BOMBREADY("bombA", 0.02f);
+        EXPLOSION("explosion", 0.02f), BLOOD("botDestroyed5", 0.02f), BOMBREADY("bombB", 0.02f), FIRE("fire", 0.02f);
 
         private String regionName;
         private float timePerFrame;
