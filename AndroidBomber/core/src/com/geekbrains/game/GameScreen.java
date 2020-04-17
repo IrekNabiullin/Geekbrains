@@ -65,7 +65,8 @@ public class GameScreen implements Screen {
     private int costHp = 10000; // cost of HP upgrade
     private int hp = 3;  // Health Points of Bomberman
     private int costRadius = 50000; // cost of Bomb radius upgrade
-    private Group upgradeGroup, chooseGroup, infoGroup, infoGroup1, infoGroup2, infoGroup3, infoGroup4, infoGroup5, infoGroup6, savingGroup, loadingGroup, quitGroup, pauseGroup, gameOverGroup;
+    private float savedTimer = 0.0f;
+    private Group upgradeGroup, chooseGroup, infoGroup, infoGroup1, infoGroup2, infoGroup3, infoGroup4, infoGroup5, infoGroup6, savingGroup, savedGroup, loadingGroup, quitGroup, pauseGroup, gameOverGroup;
     protected Status currentStatus;
     transient Music musicGame;
     private transient Sound upgradeSound;
@@ -111,6 +112,7 @@ public class GameScreen implements Screen {
         }
         return this.currentStatus;
     }
+
 
     // Check music state
     public void checkMusic() {
@@ -610,6 +612,7 @@ public class GameScreen implements Screen {
         infoBar4(dt);
         infoBar5(dt);
         savingBar(dt);
+        savedBtn(dt);
         loadingBar(dt);
         quitBar(dt);
         pauseBar(dt);
@@ -717,6 +720,9 @@ public class GameScreen implements Screen {
         if (currentStatus == Status.PLAY && savingGroup.getY() < 800.0f) {
             savingGroup.setY(savingGroup.getY() + 600.0f * 2 * dt);
         }
+        if (currentStatus == Status.SAVED && savingGroup.getY() < 800.0f) {
+            savingGroup.setY(savingGroup.getY() + 600.0f * 4 * dt);
+        }
         /**
         if(currentStatus == Status.SAVED){
             savingGroup.savingBtn.setVisible(false);
@@ -728,6 +734,25 @@ public class GameScreen implements Screen {
 //            System.out.println("Game status = " + currentStatus);
         }
          */
+    }
+
+    // try to close saved bar automatically
+
+    public void savedBtn(float dt) {
+
+        if (currentStatus == Status.SAVED ) {
+            savedTimer = savedTimer+dt;
+            savedGroup.setY(400.0f);
+            System.out.println("savedTimer = " + savedTimer);
+            if (savedTimer >=0.70f) {
+                savedTimer = 0.0f;
+                currentStatus = Status.PLAY;
+            }
+
+            if (currentStatus == Status.PLAY){
+                savedGroup.setY(800.0f);
+            }
+        }
     }
 
     // loading bar
@@ -847,17 +872,17 @@ public class GameScreen implements Screen {
 
 
         final Button savingBtn = new TextButton("Save game?", skin, "simpleSkin");
-        final Button savedBtn = new TextButton("Game saved", skin, "simpleSkin");
+//        final Button savedBtn = new TextButton("Game saved", skin, "simpleSkin");
 
         Button noBtn = new Button(skin.getDrawable("noButton"));
 
         yesBtn.setPosition(0, 0);
         savingBtn.setPosition(98,20);
-        savedBtn.setPosition(68,20);
+ //       savedBtn.setPosition(68,20);
         noBtn.setPosition(300, 0);
  //       if (currentStatus == Status.PLAY){
-            savingBtn.setVisible(true);
-            savedBtn.setVisible(false);
+ //           savingBtn.setVisible(true);
+//            savedBtn.setVisible(false);
 //        } else if (currentStatus == Status.SAVED){
 //            savingBtn.setVisible(false);
 //            savedBtn.setVisible(true);
@@ -865,17 +890,25 @@ public class GameScreen implements Screen {
         savingGroup.addActor(imageSaving);
         savingGroup.addActor(yesBtn);
         savingGroup.addActor(savingBtn);
-        savingGroup.addActor(savedBtn);
+//        savingGroup.addActor(savedBtn);
         savingGroup.addActor(noBtn);
+
+
+
+//        if (currentStatus == Status.PLAY){
+//            savingBtn.setVisible(true);
+//            savedBtn.setVisible(false);
+//            yesBtn.setVisible(true);
+//        }
 
 
         yesBtn.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
                 saveGame();
-                savingBtn.setVisible(false);
-                savedBtn.setVisible(true);
-                yesBtn.setVisible(false);
+//                savingBtn.setVisible(false);
+//                savedBtn.setVisible(true);
+//                yesBtn.setVisible(false);
  //               savingBtn.setPosition(150,20);
                 currentStatus = Status.SAVED;
 
@@ -890,7 +923,7 @@ public class GameScreen implements Screen {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
                 savingBtn.setVisible(true);
-                savedBtn.setVisible(false);
+ //               savedBtn.setVisible(false);
                 yesBtn.setVisible(true);
                 currentStatus = Status.PLAY;
             }
@@ -904,6 +937,17 @@ public class GameScreen implements Screen {
 //        }
 
         stage.addActor(savingGroup);
+
+
+    // saved Group
+
+        savedGroup = new Group();
+        savedGroup.setPosition(Rules.WORLD_WIDTH / 2 - 200, 800);
+        Image imageSaved = new Image(skin.getDrawable("upgPanel"));
+        final Button savedBtn = new TextButton("Game saved", skin, "simpleSkin");
+        savedBtn.setPosition(68,20);
+        savedGroup.addActor(savedBtn);
+        stage.addActor(savedGroup);
 
 
         // loadingGroup
