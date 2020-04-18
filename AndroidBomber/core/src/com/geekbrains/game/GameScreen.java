@@ -1393,6 +1393,8 @@ public class GameScreen implements Screen {
             public void changed(ChangeEvent event, Actor actor) {
                 level = 1;
                 GameLevel.INSTANCE.setGameLevel(1);
+                continueSavedGame = false;
+                TempSavedGameStatus.INSTANCE.setTempSavedGameState(0);
                 ScreenManager.getInstance().changeScreen(ScreenManager.ScreenType.DRUNKEXIT);
 
             }
@@ -1438,6 +1440,8 @@ public class GameScreen implements Screen {
             public void changed(ChangeEvent event, Actor actor) {
                 level = 1;
                 GameLevel.INSTANCE.setGameLevel(1);
+                continueSavedGame = false;
+                TempSavedGameStatus.INSTANCE.setTempSavedGameState(0);
                 ScreenManager.getInstance().changeScreen(ScreenManager.ScreenType.SMOKEEXIT);
 
             }

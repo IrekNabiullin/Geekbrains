@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.regex.*;
+import java.util.stream.IntStream;
 
 class InputClass {
 
@@ -47,13 +48,12 @@ class InputClass {
         }
 
         static ArrayList<String> findFigures(String userInput){
-
+        figures = new ArrayList<>();
         tokens = userInput.split(" +-/*");                                          // Split input string to tokens devided by Math operation chars
-        for (int i =0; i<userInput.length(); i++) {
-            System.out.println(tokens[i]);
-            figures.add(tokens[i]);
-
-        }
+            IntStream.range(0, userInput.length()).forEach(i -> {
+                System.out.println(tokens[i]);
+                figures.add(tokens[i]);
+            });
         return figures;
     }
 
