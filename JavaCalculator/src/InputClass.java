@@ -1,6 +1,8 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.regex.*;
 import java.util.stream.IntStream;
 
@@ -17,15 +19,15 @@ class InputClass {
         this.numberOfInputObjects = numberOfInputObjects;
     }
 
-    static String inputFromConsole() throws Exception {
-
+    protected String inputFromConsole() throws Exception {
+        System.out.println("Please input arithmetic operation with two figures from 0 till 10:");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));   // We use BufferedReader because it is more preferable then scanner
         String userInput = reader.readLine();
 
         return userInput;
     }
 
-    static ArrayList<String> findOperation(String userInput){
+    protected ArrayList<String> findOperation(String userInput){
 
         ArrayList<String> operationCodes = new ArrayList<>();
 
@@ -47,13 +49,15 @@ class InputClass {
         return operationCodes;
         }
 
-        static ArrayList<String> findFigures(String userInput){
+        protected ArrayList<String> findFigures(String userInput){
         figures = new ArrayList<>();
-        tokens = userInput.split(" +-/*");                                          // Split input string to tokens devided by Math operation chars
-            IntStream.range(0, userInput.length()).forEach(i -> {
-                System.out.println(tokens[i]);
-                figures.add(tokens[i]);
-            });
+//        tokens = userInput.split("\\s +-/*");                                          // Split input string to tokens devided by Math operation chars
+          tokens = userInput.split("[- +*/]");
+            System.out.println("tokens.length = " + tokens.length);
+            System.out.println(Arrays.toString(tokens));
+            for (int i=0; i<tokens.length; i++) {
+                System.out.println("token " + i + " = " + tokens[i]);
+            }
         return figures;
     }
 
