@@ -42,8 +42,8 @@ class InputClass {
                 }
                 inputMessage = userInput;
 
-            } else if (inputType.equals("InputStream")) {
-                System.out.println("TO DO. Write bufferedInputStream");
+            } else if (inputType.equals("InputStream")) {  //TO DO. Write bufferedInputStream
+                System.out.println("Not console input");
                 new Thread(new Runnable() {
                     @Override
                     public void run() {

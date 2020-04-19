@@ -29,24 +29,19 @@ class OperationClass {
 
 
     public void calculation(){
-        System.out.println("STEP1");
         findFigures(inputMessage);
-        System.out.println("STEP2");
         transformFigures(figures);
-        System.out.println("STEP3");
         arithmeticCalculations(figuresToCalculate);
-        System.out.println("Game over");
-
     }
 
     protected ArrayList<String> findFigures(String userInput){       // Split input string to tokens devided by Math operation chars
         SpaceRemover tester = new SpaceRemover(userInput);
         inputMessageWithoutSpaces = tester.getMessageWithoutSpaces(userInput);
         figures = new ArrayList<>();
-        System.out.println("inputMessageWithoutSpaces = " + inputMessageWithoutSpaces);
+//        System.out.println("inputMessageWithoutSpaces = " + inputMessageWithoutSpaces);
         tokens = inputMessageWithoutSpaces.split("[- +*/]");
-        System.out.println("tokens.length = " + tokens.length);
-        System.out.println(Arrays.toString(tokens));
+//        System.out.println("tokens.length = " + tokens.length);
+//        System.out.println(Arrays.toString(tokens));
         for (int i=0; i<tokens.length; i++) {
             System.out.println("token " + i + " = " + tokens[i]);
             figures.add(tokens[i]);
@@ -58,7 +53,7 @@ class OperationClass {
         arabicNumerals = new double[inputFigures.size()];               //counter for arabic figures in input message
         romanNumerals = new double[inputFigures.size()];               //counter for roman figures in input message
 
-        System.out.println("inputFigures.size = " + inputFigures.size());
+//        System.out.println("inputFigures.size = " + inputFigures.size());
         for (int i = 0; i < inputFigures.size(); i++) {
             try {
                 tempFigure = Integer.parseInt(inputFigures.get(i));
@@ -181,12 +176,10 @@ class OperationClass {
 
         if (counterArabicType > 0 && counterRomanType == 0) {
             inputType = "Arabic";
-            System.out.println("inputType = " + inputType);
-//            figuresToCalculate = new double[arabicLength];
+//            System.out.println("inputType = " + inputType);
         } else if (counterArabicType == 0 && counterRomanType > 0) {
             inputType = "Roman";
-            System.out.println("inputType = " + inputType);
- //           figuresToCalculate = new double[romanLength];
+//            System.out.println("inputType = " + inputType);
         } else {
             throw new NumberFormatException("Different formats of input figures! Program finished.");
         }
@@ -224,7 +217,8 @@ class OperationClass {
 
 //        return result;
 
-        OutputClass output = new OutputClass(result, inputType);
+//        OutputClass output = new OutputClass(result, inputType);
+        OutputClass output = new OutputClass();
         output.outputToConsole(result, inputType);
     }
 

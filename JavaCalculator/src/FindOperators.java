@@ -36,22 +36,22 @@ public class FindOperators {
                 case 43:
                     operators[outputArrayLengthCount] = 43;  // byte code for "+" operator
                     outputArrayLengthCount++;
-                    System.out.println("Operator is -");
+//                    System.out.println("Operator is -");
                     break;
                 case 45:
                     operators[outputArrayLengthCount] = 45;   // byte code for "-" operator
                     outputArrayLengthCount++;
-                    System.out.println("Operator is +");
+//                    System.out.println("Operator is +");
                     break;
                 case 42:
                     operators[outputArrayLengthCount] = 42;   // byte code for "*" operator
                     outputArrayLengthCount++;
-                    System.out.println("Operator is *");
+//                    System.out.println("Operator is *");
                     break;
                 case 47:
                     operators[outputArrayLengthCount] = 47;    // byte code for "/" operator
                     outputArrayLengthCount++;
-                    System.out.println("Operator is /");
+//                    System.out.println("Operator is /");
                     break;
             }
         }

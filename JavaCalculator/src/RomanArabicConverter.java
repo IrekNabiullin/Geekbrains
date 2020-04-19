@@ -26,52 +26,80 @@ public class RomanArabicConverter {
         }
     }
 
+    /**  not need here from Roman to Arabic convertation
 
-    public static int romanToArabic(String input) {
-        String romanNumeral = input.toUpperCase();
-        int result = 0;
+     public static int romanToArabic(String input) {
+     String romanNumeral = input.toUpperCase();
+     int result = 0;
 
-        List<RomanNumeral> romanNumerals = RomanNumeral.getReverseSortedValues();
+     List<RomanNumeral> romanNumerals = RomanNumeral.getReverseSortedValues();
 
-        int i = 0;
+     int i = 0;
 
-        while ((romanNumeral.length() > 0) && (i < romanNumerals.size())) {
-            RomanNumeral symbol = romanNumerals.get(i);
-            if (romanNumeral.startsWith(symbol.name())) {
-                result += symbol.getValue();
-                romanNumeral = romanNumeral.substring(symbol.name().length());
-            } else {
-                i++;
-            }
-        }
+     while ((romanNumeral.length() > 0) && (i < romanNumerals.size())) {
+     RomanNumeral symbol = romanNumerals.get(i);
+     if (romanNumeral.startsWith(symbol.name())) {
+     result += symbol.getValue();
+     romanNumeral = romanNumeral.substring(symbol.name().length());
+     } else {
+     i++;
+     }
+     }
 
-        if (romanNumeral.length() > 0) {
-            throw new IllegalArgumentException(input + " cannot be converted to a Roman Numeral");
-        }
+     if (romanNumeral.length() > 0) {
+     throw new IllegalArgumentException(input + " cannot be converted to a Roman Numeral");
+     }
 
-        return result;
-    }
+     return result;
+     }
+     */
 
     public static String arabicToRoman(int number) {
-        if ((number <= -10) || (number > 4000)) {
-            throw new IllegalArgumentException(number + " is not in range (0,4000]");
-        }
-
-        List<RomanNumeral> romanNumerals = RomanNumeral.getReverseSortedValues();
-
         int i = 0;
         StringBuilder sb = new StringBuilder();
+        String output;
+        List<RomanNumeral> romanNumerals = RomanNumeral.getReverseSortedValues();
 
-        while ((number > 0) && (i < romanNumerals.size())) {
-            RomanNumeral currentSymbol = romanNumerals.get(i);
-            if (currentSymbol.getValue() <= number) {
-                sb.append(currentSymbol.name());
-                number -= currentSymbol.getValue();
-            } else {
-                i++;
-            }
+        if ((number <= -10) || (number > 100)) {
+            System.out.println("number = " + number);
+            throw new IllegalArgumentException(number + " is not in range (-10,100]");
         }
-        System.out.println(sb.toString());
+
+        if ((number > -10) && (number <= 0)) {       //to output nagative result
+            System.out.println("number = " + number);
+            number = -1 * number;
+            System.out.println("number = " + number);
+
+            sb.append("- ");
+            while ((number >= -10) && (i < romanNumerals.size())) {
+                RomanNumeral currentSymbol = romanNumerals.get(i);
+                if (currentSymbol.getValue() <= number) {
+                    sb.append(currentSymbol.name());
+                    number -= currentSymbol.getValue();
+                } else {
+                    i++;
+                }
+            }
+
+            System.out.println(sb.toString());
+//            output = "-" + sb.toString();
+//            System.out.println("output = " + output);
+
+        } else if ((number > 0) && (number <= 100)) {
+
+            while ((number >= -10) && (i < romanNumerals.size())) {
+                RomanNumeral currentSymbol = romanNumerals.get(i);
+                if (currentSymbol.getValue() <= number) {
+                    sb.append(currentSymbol.name());
+                    number -= currentSymbol.getValue();
+                } else {
+                    i++;
+                }
+            }
+            System.out.println(sb.toString());
+ //           output = sb.toString();
+
+        }
         return sb.toString();
     }
 }
