@@ -1,71 +1,68 @@
+
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
-import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.regex.*;
-import java.util.stream.IntStream;
+
+import java.util.Scanner;
+
 
 class InputClass {
 
     private String inputType;
-    private int numberOfInputObjects;
-    private static String[] tokens;
-    private static ArrayList<String> figures;
 
 
-    InputClass(String inputType, int numberOfInputObjects){
+    String userInput;
+
+    private Scanner in;
+    String netInput;
+
+    String inputMessage;
+
+    InputClass(String inputType){
         this.inputType = inputType;
-        this.numberOfInputObjects = numberOfInputObjects;
     }
 
-    protected String inputFromConsole() throws Exception {
-        System.out.println("Please input arithmetic operation with two figures from 0 till 10:");
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));   // We use BufferedReader because it is more preferable then scanner
-        String userInput = reader.readLine();
+    protected String getInputMessage() {
 
-        return userInput;
+        String input = inputMsg(inputType);
+        return input;
     }
 
-    protected ArrayList<String> findOperation(String userInput){
+//    protected String input(String inputType) throws Exception {
+    protected String inputMsg(String inputType){
+        try {
+            if (inputType.equals("Console")) {
+                BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));   // We use BufferedReader because it is more preferable then scanner
+                System.out.println("Please input arithmetic operation with two figures from 0 till 10:");
+                userInput = reader.readLine();
+                try {
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                inputMessage = userInput;
 
-        ArrayList<String> operationCodes = new ArrayList<>();
+            } else if (inputType.equals("InputStream")) {
+                System.out.println("TO DO. Write bufferedInputStream");
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            while (true) {
+                                if (in.hasNext()) {
+                                    netInput = in.nextLine();
+                                }
+                            }
+                        } catch (Exception e) {
+                        }
+                    }
+                }).start();
 
-        char[] arr = userInput.toCharArray();
-        for(int i = 0; i<arr.length; i++) {
-            if ((byte) arr[i] == 43) {
-                operationCodes.add("PLUS");           // in case of +
-            } else if ((byte) arr[i] == 45) {
-                operationCodes.add("MINUS");           // in case of -
-            } else if ((byte) arr[i] == 42) {
-                operationCodes.add("MULTIPLY");           // in case of *
-            } else if ((byte) arr[i] == 47) {
-                operationCodes.add("PLUS");          // in case of /
-            } else {
-                operationCodes.add("NONE");            // in case of error
+                inputMessage = netInput;
             }
+        }catch (IOException e){
+
         }
-
-        return operationCodes;
-        }
-
-        protected ArrayList<String> findFigures(String userInput){
-        figures = new ArrayList<>();
-//        tokens = userInput.split("\\s +-/*");                                          // Split input string to tokens devided by Math operation chars
-          tokens = userInput.split("[- +*/]");
-            System.out.println("tokens.length = " + tokens.length);
-            System.out.println(Arrays.toString(tokens));
-            for (int i=0; i<tokens.length; i++) {
-                System.out.println("token " + i + " = " + tokens[i]);
-            }
-        return figures;
+    return inputMessage;
     }
-
-    /*
-    public static ArrayList<Double> inputAndPrepareFigures() throws Exception{
-        findFigures(inputFromConsole());
-        figures.add(findOperation(inputFromConsole()));
-        return figures;
-    }
-     */
 }

@@ -1,9 +1,9 @@
 public class MainClass {
-    public static void main(String[] args) throws Exception {
-        InputClass input = new InputClass(RulesClass.INPUT_TYPE, RulesClass.NUMBER_OF_INPUT_OBJECTS);
+    public static void main(String[] args) {
+        InputClass input = new InputClass(RulesClass.INPUT_TYPE);
 
-        OperationClass calculation = new OperationClass(input.findFigures(input.inputFromConsole()), input.findOperation(input.inputFromConsole()));
- //       OperationClass calculation = new OperationClass(InputClass.findFigures(InputClass.inputFromConsole()), InputClass.findOperation(InputClass.inputFromConsole()));
-        OutputClass output = new OutputClass(calculation.result);
+        OperationClass calculation = new OperationClass(input.getInputMessage());
+        OutputClass output = new OutputClass(calculation.getResult());
+        output.outputToConsole(calculation.result);
     }
 }

@@ -9,6 +9,6 @@ public class OutputClass {
     }
 
     public void outputToConsole(double resultToOutput){
-        System.out.println(resultToOutput);
+        System.out.println(" Result = " + resultToOutput);
     }
 }
