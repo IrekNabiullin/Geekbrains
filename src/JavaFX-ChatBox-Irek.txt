@@ -1,0 +1,138 @@
+/**
+ * Java Core. Home work 4. Java-FX ChatBox.
+ *
+ * @author Irek Nabiullin
+ * @version dated March 12, 2018
+ * @link https://github.com/IrekNabiullin/Geekbrains/
+ */
+package sample;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
+import javafx.scene.effect.DropShadow;
+import javafx.scene.layout.HBox;
+import javafx.scene.paint.Color;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import static java.lang.Thread.sleep;
+
+
+public class Controller {
+    @FXML
+    TextField mainTextField;
+
+    @FXML
+    TextArea textArea;
+
+    @FXML
+    Button exitHBox;
+
+    @FXML
+    Button btnAddText;
+
+    public void firstOfThreeButtonClick(ActionEvent actionEvent) { //при нажатии на кнопку Clear
+        mainTextField.setText(""); //очищаем окно ввода
+        mainTextField.requestFocus();
+        mainTextField.selectEnd();
+    }
+
+    public void oneOfThreeButtonClick(ActionEvent actionEvent) {
+        mainTextField.appendText(" " + ((Button)actionEvent.getSource()).getText());
+        mainTextField.requestFocus();
+        mainTextField.selectEnd();
+    }
+
+    public void addTextToArea(ActionEvent actionEvent) {
+        textArea.appendText("YOU: " + mainTextField.getText() + "\n");
+        mainTextField.setText("");
+    }
+
+    public void exitWindow(ActionEvent actionEvent) {
+        textArea.appendText("YOU: GOOD BYE!\n");
+        mainTextField.setText("");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+            System.exit(1);
+        }
+        System.exit(1);
+    }
+}
+
+sample.fxml
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.TextArea?>
+<VBox alignment="center" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.112-ea"
+      fx:controller="sample.Controller" stylesheets="@stylesheet.css">
+    <HBox>
+        <Button fx:id="exitHBox" prefWidth="48" prefHeight="20" text="Exit" onAction="#exitWindow" styleClass="myBtn2"/>
+    </HBox>
+
+    <TextArea VBox.vgrow="ALWAYS" fx:id="textArea"/>
+    <HBox>
+        <Button text="Clear" onAction="#firstOfThreeButtonClick"/>
+        <Button text=":)" onAction="#oneOfThreeButtonClick"/>
+        <Button text=":(" onAction="#oneOfThreeButtonClick"/>
+        <TextField fx:id="mainTextField" promptText="Write HERE..." HBox.hgrow="ALWAYS" onAction="#addTextToArea"/>
+        <Button fx:id="btnAddText" prefWidth="64" prefHeight="20" text="Send" onAction="#addTextToArea" styleClass="myBtn"/>
+    </HBox>
+
+
+    <padding>
+        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0"/>
+    </padding>
+</VBox>
+
+stylesheet.css
+.myBtn {
+    -fx-background-color: linear-gradient(#8f8 0%, #afa 20%, #0b0 60%, #0c0 75%, #0f0 100%);
+}
+
+.myBtn:hover {
+    -fx-background-color: linear-gradient(#afa 0%, #bfb 20%, #0c0 60%, #0d0 75%, #0f0 100%);
+}
+
+.myBtn2 {
+    -fx-background-color: linear-gradient(#f88 0%, #faa 20%, #b00 50%, #c00 55%, #f00 100%);
+}
+
+.myBtn2:hover {
+    -fx-background-color: linear-gradient(#faa 0%, #fbb 20%, #c00 50%, #d00 55%, #f00 100%);
+}
+
+main.java
+
+package sample;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class Main extends Application {
+    @Override
+    public void start(Stage primaryStage) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        primaryStage.setTitle("ChatBox JavaFX");
+        primaryStage.setScene(new Scene(root, 500, 500));
+        primaryStage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}

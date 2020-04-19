@@ -1,0 +1,353 @@
+
+images1.png
+format: RGBA8888
+filter: Nearest,Linear
+repeat: none
+explosion
+  rotate: false
+  xy: 2, 2
+  size: 640, 640
+  orig: 640, 640
+  offset: 0, 0
+  index: -1
+botDestroy
+  rotate: false
+  xy: 2, 644
+  size: 560, 240
+  orig: 560, 240
+  offset: 0, 0
+  index: -1
+botDestroyed3
+  rotate: false
+  xy: 644, 2
+  size: 320, 180
+  orig: 320, 180
+  offset: 0, 0
+  index: -1
+botDestroyed2
+  rotate: false
+  xy: 644, 184
+  size: 320, 180
+  orig: 320, 180
+  offset: 0, 0
+  index: -1
+bot4
+  rotate: false
+  xy: 644, 366
+  size: 320, 180
+  orig: 320, 180
+  offset: 0, 0
+  index: -1
+bot3
+  rotate: false
+  xy: 564, 644
+  size: 320, 180
+  orig: 320, 180
+  offset: 0, 0
+  index: -1
+bot2
+  rotate: false
+  xy: 564, 826
+  size: 320, 180
+  orig: 320, 180
+  offset: 0, 0
+  index: -1
+upgPanel
+  rotate: false
+  xy: 2, 886
+  size: 400, 100
+  orig: 400, 100
+  offset: 0, 0
+  index: -1
+transparentButton2
+  rotate: false
+  xy: 644, 548
+  size: 320, 80
+  orig: 320, 80
+  offset: 0, 0
+  index: -1
+yesButton
+  rotate: false
+  xy: 404, 886
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+upgScore
+  rotate: false
+  xy: 886, 644
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+upgRad
+  rotate: false
+  xy: 886, 826
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+wall
+  rotate: false
+  xy: 886, 928
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+rectangleButtonpng
+  rotate: false
+  xy: 966, 2
+  size: 51, 53
+  orig: 51, 53
+  offset: 0, 0
+  index: -1
+closeButtonpng
+  rotate: false
+  xy: 966, 57
+  size: 51, 53
+  orig: 51, 53
+  offset: 0, 0
+  index: -1
+closeButtonLittle
+  rotate: false
+  xy: 966, 112
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1
+
+images2.png
+format: RGBA8888
+filter: Nearest,Linear
+repeat: none
+upgPanelBig
+  rotate: false
+  xy: 2, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+bot1
+  rotate: false
+  xy: 404, 2
+  size: 320, 180
+  orig: 320, 180
+  offset: 0, 0
+  index: -1
+botDestroyed
+  rotate: false
+  xy: 404, 184
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+bot
+  rotate: false
+  xy: 2, 404
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+bomberI
+  rotate: false
+  xy: 2, 566
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+bomber
+  rotate: false
+  xy: 2, 728
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+bombA
+  rotate: false
+  xy: 324, 404
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+upgLife
+  rotate: false
+  xy: 726, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+upgHp
+  rotate: false
+  xy: 828, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+upArrow
+  rotate: false
+  xy: 726, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+rightArrow
+  rotate: false
+  xy: 828, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+resratButton
+  rotate: false
+  xy: 726, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+pauseButton
+  rotate: false
+  xy: 828, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+noButton
+  rotate: false
+  xy: 2, 890
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+menuButton
+  rotate: false
+  xy: 104, 890
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+leftArrow
+  rotate: false
+  xy: 206, 890
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+exitButton
+  rotate: false
+  xy: 646, 404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+emptyButton
+  rotate: false
+  xy: 748, 404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+downArrow
+  rotate: false
+  xy: 850, 404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+bombEmptyButton
+  rotate: false
+  xy: 324, 566
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+bombButton
+  rotate: false
+  xy: 324, 668
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+backButton
+  rotate: false
+  xy: 324, 770
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+transparentButton
+  rotate: false
+  xy: 426, 566
+  size: 320, 80
+  orig: 320, 80
+  offset: 0, 0
+  index: -1
+simpleButton
+  rotate: false
+  xy: 426, 648
+  size: 320, 80
+  orig: 320, 80
+  offset: 0, 0
+  index: -1
+hpBar2
+  rotate: false
+  xy: 828, 308
+  size: 160, 80
+  orig: 160, 80
+  offset: 0, 0
+  index: -1
+hpBar
+  rotate: false
+  xy: 748, 566
+  size: 160, 80
+  orig: 160, 80
+  offset: 0, 0
+  index: -1
+key
+  rotate: false
+  xy: 930, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+grass
+  rotate: false
+  xy: 930, 104
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+doorOpen
+  rotate: false
+  xy: 726, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+door
+  rotate: false
+  xy: 930, 206
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+box
+  rotate: false
+  xy: 324, 872
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+bonus
+  rotate: false
+  xy: 910, 566
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+bomb
+  rotate: false
+  xy: 748, 648
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1

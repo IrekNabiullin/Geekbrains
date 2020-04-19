@@ -1,0 +1,294 @@
+/*
+* ExitScreen created. After all lives is gone player goes to ExitScreen and have 2 options^ restart game or exit game.
+* Music and soundeffects added.
+*/
+
+public class Bomberman implements Serializable {
+...
+    private Sound playersound;
+    private Sound bombSet;
+...
+    public Bomberman(GameScreen gs) {
+        this.playersound = Gdx.audio.newSound(Gdx.files.internal("playersound.mp3"));
+        this.bombSet = Gdx.audio.newSound(Gdx.files.internal("bombSet.mp3"));
+
+...
+ public void takeDamage(int dmg) {
+        if (isVulnerable()) {
+            hp -= dmg;
+            damagedTimer = 3.0f;
+            if (hp <= 0) {
+                if (lifes>0) {    //negative number of lifes fixed
+                    lifes--;
+                    maxHp = 1;
+                    hp = maxHp;
+                    bombPower = 1;
+                }else {
+                    ScreenManager.getInstance().changeScreen(ScreenManager.ScreenType.EXIT);                
+                }
+            }
+        }
+    }
+	
+	...
+	        if ((Gdx.input.isKeyPressed(Input.Keys.S) || prefferedDirection == 'D') && pathCounter < 0.0f && gs.getMap().isCellPassable(getCellX(), getCellY() - 1)) {
+            velocity.set(0.0f, -speed);
+            pathCounter = 0.1f;
+            currentState = State.MOVE;
+            playersound.play();
+        }
+        if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) {
+            setupBomb();
+            bombSet.play();
+        }
+		...
+	
+*******	
+public class ScreenManager {
+    public enum ScreenType {
+        MENU, GAME, EXIT;
+    }
+
+    private static ScreenManager ourInstance = new ScreenManager();
+
+    public static ScreenManager getInstance() {
+        return ourInstance;
+    }
+
+    private BomberGame game;
+    private Screen targetScreen;
+    private LoadingScreen loadingScreen;
+    private GameScreen gameScreen;
+    private MenuScreen menuScreen;
+    private ExitScreen exitScreen;
+	
+	...
+	
+	public void init(BomberGame game, SpriteBatch batch) {
+        this.game = game;
+        this.batch = batch;
+        this.camera = new OrthographicCamera(1280, 720);
+        this.viewport = new FitViewport(1280, 720, camera);
+        this.gameScreen = new GameScreen(batch, camera);
+        this.menuScreen = new MenuScreen(batch);
+        this.exitScreen = new ExitScreen(batch);
+        this.loadingScreen = new LoadingScreen(batch);
+    }
+	...
+	
+	 public void changeScreen(ScreenType type) {
+        Screen screen = game.getScreen();
+        Gdx.input.setInputProcessor(null); // ?
+        Assets.getInstance().clear();
+        if (screen != null) {
+            screen.dispose();
+        }
+        resetCamera();
+        game.setScreen(loadingScreen);
+        switch (type) {
+            case MENU:
+                targetScreen = menuScreen;
+                Assets.getInstance().loadAssets(ScreenType.MENU);
+                break;
+            case GAME:
+                targetScreen = gameScreen;
+                Assets.getInstance().loadAssets(ScreenType.GAME);
+                break;
+            case EXIT:
+                targetScreen = exitScreen;
+                Assets.getInstance().loadAssets(ScreenType.EXIT);
+                break;
+        }
+    }
+	
+	
+*******	
+public class ExitScreen implements Screen {
+    private SpriteBatch batch;
+    private Stage stage;
+    private Skin skin;
+    private BitmapFont font32;
+    private BitmapFont font96;
+
+    public ExitScreen(SpriteBatch batch) {
+        this.batch = batch;
+    }
+
+    @Override
+    public void show() {
+        font32 = Assets.getInstance().getAssetManager().get("gomarice32.ttf", BitmapFont.class);
+        font96 = Assets.getInstance().getAssetManager().get("gomarice96.ttf", BitmapFont.class);
+        createGUI();
+    }
+
+    @Override
+    public void render(float delta) {
+        update(delta);
+        Gdx.gl.glClearColor(0.4f, 0.4f, 1.0f, 1.0f);
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+        batch.begin();
+        font96.draw(batch, "Game Over", 0, 600, 1280, 1, false);
+        batch.end();
+        stage.draw();
+    }
+
+    public void update(float dt) {
+        stage.act(dt);
+    }
+
+    public void createGUI() {
+        stage = new Stage(ScreenManager.getInstance().getViewport(), batch);
+        Gdx.input.setInputProcessor(stage);
+        skin = new Skin();
+        skin.addRegions(Assets.getInstance().getAtlas());
+        skin.add("font32", font32);
+
+        TextButton.TextButtonStyle textButtonStyle = new TextButton.TextButtonStyle();
+        textButtonStyle.up = skin.getDrawable("simpleButton");
+        textButtonStyle.font = font32;
+        skin.add("simpleSkin", textButtonStyle);
+
+        Button btnRestart = new TextButton("Restart a Game", skin, "simpleSkin");
+        Button btnExitGame = new TextButton("Exit Game", skin, "simpleSkin");
+        btnRestart.setPosition(640 - 160, 180);
+        btnExitGame.setPosition(640 - 160, 80);
+        stage.addActor(btnRestart);
+        stage.addActor(btnExitGame);
+        btnRestart.addListener(new ChangeListener() {
+            @Override
+            public void changed(ChangeEvent event, Actor actor) {
+                ScreenManager.getInstance().changeScreen(ScreenManager.ScreenType.GAME);
+            }
+        });
+        btnExitGame.addListener(new ChangeListener() {
+            @Override
+            public void changed(ChangeEvent event, Actor actor) {
+                Gdx.app.exit();
+            }
+        });
+    }
+
+    @Override
+    public void resize(int width, int height) {
+        ScreenManager.getInstance().resize(width, height);
+    }
+
+    @Override
+    public void pause() {
+    }
+
+    @Override
+    public void resume() {
+    }
+
+    @Override
+    public void hide() {
+    }
+
+    @Override
+    public void dispose() {
+    }
+}
+
+*******
+
+public class Assets {
+    private static Assets ourInstance = new Assets();
+
+    public static Assets getInstance() {
+        return ourInstance;
+    }
+
+    private AssetManager assetManager;
+    private TextureAtlas atlas;
+
+    public AssetManager getAssetManager() {
+        return assetManager;
+    }
+
+    public TextureAtlas getAtlas() {
+        return atlas;
+    }
+
+    private Assets() {
+        this.assetManager = new AssetManager();
+    }
+
+    public void loadAssets(ScreenManager.ScreenType type) {
+        switch (type) {
+            case MENU:
+                assetManager.load("game.pack", TextureAtlas.class);
+                createStdFont(32);
+                createStdFont(96);
+                break;
+            case GAME:
+                assetManager.load("game.pack", TextureAtlas.class);
+                createStdFont(48);
+                break;
+            case EXIT:
+                assetManager.load("game.pack", TextureAtlas.class);
+                createStdFont(32);
+                createStdFont(96);
+                break;
+
+        }
+    }
+	
+	
+**********
+
+public class MenuScreen implements Screen {
+    private SpriteBatch batch;
+    private Stage stage;
+    private Skin skin;
+    private BitmapFont font32;
+    private BitmapFont font96;
+    Music musicMenu;
+
+
+
+    @Override
+    public void show() {
+        font32 = Assets.getInstance().getAssetManager().get("gomarice32.ttf", BitmapFont.class);
+        font96 = Assets.getInstance().getAssetManager().get("gomarice96.ttf", BitmapFont.class);
+        createGUI();
+        musicMenu = Gdx.audio.newMusic(Gdx.files.internal("musicmenu.mp3"));
+        musicMenu.setVolume(0.1f);
+        musicMenu.setLooping(true);
+        musicMenu.play();
+    }
+
+....
+
+    @Override
+    public void dispose() {
+        musicMenu.stop();
+    }
+}
+
+*******
+public class GameScreen implements Screen {
+.....
+    public void createGUI() {
+	....
+ Button menuButton = new Button(skin.getDrawable("menu"));
+            menuButton.setPosition(1080,110);
+            menuButton.addListener(new ClickListener() {
+                @Override
+                public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                    ScreenManager.getInstance().changeScreen(ScreenManager.ScreenType.MENU);
+                    return true;
+                }
+            });
+            arrowGroup.addActor(menuButton);
+
+            Button pauseButton = new Button (skin.getDrawable("pause"));
+            pauseButton.setPosition(1080, 210);
+            pauseButton.addListener(new ClickListener() {
+                @Override
+                public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                    ScreenManager.getInstance().changeScreen(ScreenManager.ScreenType.MENU);
+                    return true;
+                }
+            });
+            arrowGroup.addActor(pauseButton);

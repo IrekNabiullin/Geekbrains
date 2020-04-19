@@ -1,0 +1,2 @@
+FileHandle handle = Gdx.files.internal("data/user.cfg");
+bestScore = Integer.parseInt(handle.readString());

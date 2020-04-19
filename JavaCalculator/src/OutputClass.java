@@ -1,14 +1,18 @@
 public class OutputClass {
-    /**
-     * This class for output. We may add methods to do any kind of ouput. Not only to console.
-     */
-    private double resultToOutput;
 
-    OutputClass(double resultToOutput){
+    private double resultToOutput;
+    private int resultToRomanOutput;
+
+    OutputClass(double resultToOutput, String typeOfOutput){
         this.resultToOutput = resultToOutput;
     }
 
-    public void outputToConsole(double resultToOutput){
-        System.out.println(" Result = " + resultToOutput);
+    public void outputToConsole(double resultToOutput, String typeOfOutput){
+        if(typeOfOutput.equals("Roman")){
+            resultToRomanOutput = (int)resultToOutput;
+            RomanArabicConverter.arabicToRoman(resultToRomanOutput);
+        } else if(typeOfOutput.equals("Arabic")) {
+            System.out.println(" Result = " + (int)resultToOutput);
+        }
     }
 }

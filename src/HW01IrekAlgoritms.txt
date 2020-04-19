@@ -1,0 +1,78 @@
+/*
+Irek Nabiullin
+
+
+1 Описать простейшие алгоритмы
+11 Возведение в степень *используя четность степени*
+12 *рекурсивный* Поиск минимального элемента в массиве
+13 Нахожденин среднего арифметического массива
+2 Подсчитать сложность описанных алгоритмов
+3 Какие правила подсчета применялись, оставьте комментарии в коде
+
+*/
+public class JavaAlgorithmsDZ1 {
+    
+    public static void main(String[] args) {
+    
+        int[] arr = {4,5,9,8,7,0,6,3,2,1};
+        
+        exponenta(3, 2);    //Task11
+        minimum(arr);       //Task12
+        System.out.println("Recursive minimum = " + recursMinimum(arr)); //Task12*
+        average(arr);       //Task13
+        }
+
+// Task 1.1. Eexponenta 
+private static void exponenta(int base, int power){
+        int result = base;
+if (power > 0){
+
+    for (int i = 0; i < power-1; i++){//Prostoy perebor. Vremya O(n)
+        result = result * base;
+    }
+    }else {
+        result = 1;
+    }
+       System.out.println(base + " ^ " + power + " = " + result);
+}
+
+
+
+    // Task 1.2. Find minimum in array
+    private static void minimum(int[] arr) {
+        int minimum = arr[0];
+            for (int i = 1; i < arr.length; i++) { //Prostoy perebor. Vremya O(n)
+                   if(arr[i] < minimum){
+                       minimum = arr[i];
+                   }
+                }
+            
+        System.out.println("Minimum = " + minimum);
+    }
+    
+    // Task1.2.*Recursive find minimum in array
+     static int recursMinimun(int[] arr) {
+        int i = arr.length - 1;
+        int minimum = arr[i];
+            if (arr.length == 1) {
+                return minimum;
+            } else {
+                int[] arrTemp = new arr[arr.length -1];
+                System.arraycopy(arr, 1, arrTemp, arr.length -1);
+            }
+            return recursMinimun(arrTemp);
+        }
+
+    
+    // Task 1.3. Calculate average in array
+    private static void average(int[] arr) {
+        double average = 0;
+        int sum = 0;
+            for (int i = 0; i < arr.length; i++) { //Prostoy perebor. Vremya O(n)
+                    sum = sum + arr[i];
+                }
+                average = sum / arr.length;
+            
+        System.out.println("Average = " + average);
+    }
+}

@@ -1,0 +1,67 @@
+﻿/**
+ * Java4. Home work 2. 
+ *
+ * @author Irek Nabiullin
+ * @version dated May 17, 2018
+ * @link https://github.com/IrekNabiullin
+ *
+ *
+ *  Задание:
+ *  1. Разбор кода
+ *  2. Заставить двигаться игрока по клеткам(одно нажатие - одна клетка)
+ *  3. Игрок не может заходить на стены
+ *  4. Игрок поедает коробки
+ */
+ 
+ // The comments written in english otherwise krakozyabry has appeared.
+ // Put here changed strings of code only.
+ public class Map {
+
+    public static byte[][] data; // changed data array to static, else bomberman has no access to data field
+	
+public class Bomberman {
+	
+	  public void update(float dt) {
+        // isKeyJustPressed() - отслеживание единичного нажатия
+        if (Gdx.input.isKeyJustPressed(Input.Keys.W)) {
+            cellYnew = cellY + 1;
+            checkWall(cellX,cellYnew);
+            checkBox(cellX,cellYnew);
+        }
+        if (Gdx.input.isKeyJustPressed(Input.Keys.D)) {
+            cellXnew = cellX + 1;
+            checkWall(cellXnew,cellY);
+            checkBox(cellXnew,cellY);
+        }
+        if (Gdx.input.isKeyJustPressed(Input.Keys.A)) {
+            cellXnew = cellX - 1;
+            checkWall(cellXnew,cellY);
+            checkBox(cellXnew,cellY);
+        }
+        if (Gdx.input.isKeyJustPressed(Input.Keys.S)) {
+            cellYnew = cellY - 1;
+            checkWall(cellX,cellYnew);
+            checkBox(cellX,cellYnew);
+        }
+    }
+
+    private void checkWall(int x, int y){
+        if(Map.data[cellXnew][cellYnew] == Map.CELL_WALL){
+            cellXnew = cellX;
+            cellYnew = cellY;
+        } else {
+            cellX = cellXnew;
+            cellY = cellYnew;
+        }
+    }
+
+    private void checkBox(int x, int y){
+        if(Map.data[cellXnew][cellYnew] == Map.CELL_BOX){
+            cellX = cellXnew;
+            cellY = cellYnew;
+            Map.data[cellXnew][cellYnew] = Map.CELL_EMPTY;
+        }
+    }
+}
+	
+	

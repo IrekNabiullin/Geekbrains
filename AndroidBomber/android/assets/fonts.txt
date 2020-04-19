@@ -1,0 +1,14 @@
+Шрифты
+Segoe UI Black 38
+коричневые в окне RulesScreen
+
+
+В окне Help 
+справа где правила 
+шрифт Algerian
+
+panelDrink_QA
+шрифт Algerian
+
+
+На кнопках

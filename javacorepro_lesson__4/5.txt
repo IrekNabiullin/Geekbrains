@@ -1,0 +1,38 @@
+he Java Platform, Standard Edition 8 Development Kit (JDK 8) is a feature release of the Java SE platform. It contains new features and enhancements in many functional areas.
+
+See the following links to release information about enhancements, changes, bugs, installation, runtime deployment, and documentation. Release Notes files are located on our website only and are not in the documentation download bundle, unless otherwise noted.
+
+What's New in JDK 8
+
+Compatibility Guide for JDK 8
+
+Known Issues for JDK 8
+
+JDK 8 Adoption Guide
+
+Java Mission Control 5.3 Release Notes
+
+Java SE 8 Names and Versions
+
+JDK 8 and JRE 8 Certified System Configurations
+
+JDK 8 and JRE 8 Supported Locales
+
+JDK 8 Installation Guide (All Platfoms)
+
+JDK 8 Desktop Technologies Troubleshooting Guide (also in docs bundle)
+
+JDK 8 HotSpot VM Troubleshooting Guide (also in docs bundle)
+
+Developer Guides and API Documentation (also in docs bundle)
+
+JDK README
+
+JRE README
+
+Submitting a Bug Report and Available Support Options
+
+Copyright and License Terms for Documentation (also in docs bundle)
+
+JRE Expiration Date
+The expiration date for JRE 8 is 05/15/2014. After this date, Java will provide additional warnings and reminders to users to update to the newer version. For more information, see JRE Expiration Date.

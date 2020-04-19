@@ -3,7 +3,8 @@ public class MainClass {
         InputClass input = new InputClass(RulesClass.INPUT_TYPE);
 
         OperationClass calculation = new OperationClass(input.getInputMessage());
-        OutputClass output = new OutputClass(calculation.getResult());
-        output.outputToConsole(calculation.result);
+        calculation.calculation();
+//        OutputClass output = new OutputClass(calculation.getResult());
+//        output.outputToConsole(calculation.result);
     }
 }

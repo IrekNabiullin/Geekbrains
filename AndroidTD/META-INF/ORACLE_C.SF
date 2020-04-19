@@ -1,0 +1,5798 @@
+Signature-Version: 1.0
+Created-By: 1.5.0_06 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest-Main-Attributes: wOe998gNWse2BB1FB/9SHhzKNZc=
+SHA1-Digest-Manifest: jHYqAI5ORXlvwHYFlBBH5vqvApI=
+
+Name: ensemble/samples/charts/area/StackedAreaChartSample.class
+SHA1-Digest: l/y3B7Aud2ttp2wEkje8Cx0jCYE=
+
+Name: ensemble/samples/graphics/effects/InnerShadowSample.class
+SHA1-Digest: WXCg5EVQ/CCB7LafUtc8q0eWP8c=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$PlanetaryPlayerPane$1.cl
+ ass
+SHA1-Digest: pJRQ3O9OP8i1QJ6K7H2AMRHIz6M=
+
+Name: org/apache/lucene/index/IndexReader$FieldOption.class
+SHA1-Digest: z+0THfn1hxf4hMI3sWs4B17e+oU=
+
+Name: org/apache/lucene/document/Field$1.class
+SHA1-Digest: uN0cSrvJO7Ej4+2CD/M1d4aPDaI=
+
+Name: org/apache/lucene/document/Field$TermVector$1.class
+SHA1-Digest: LYtsUVvnr8R6v1AsoFFksN+uf+g=
+
+Name: ensemble/samples/charts/bubble/BubbleChartSample.class
+SHA1-Digest: oVrk6EYWuvvl6QAFr71jBIY4FwY=
+
+Name: org/apache/lucene/util/MemoryModel.class
+SHA1-Digest: etLD0ABju4ntcMR/evVhVNaVkRg=
+
+Name: org/apache/lucene/index/SegmentNorms.class
+SHA1-Digest: R9jrbPRuux85yK/R3EjyMVkVd5o=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample$10.clas
+ s
+SHA1-Digest: AI7a1BFMKp9lJnTvXsGSOxwVw1s=
+
+Name: ensemble/pages/CategoryPage$1.class
+SHA1-Digest: /3jMQV5Pn8ykWzXJ807oy9OUkUc=
+
+Name: org/apache/lucene/index/IndexWriter$MaxFieldLength.class
+SHA1-Digest: zYYpKVrWUs4vC6IyRqcnAlWfg74=
+
+Name: org/apache/lucene/analysis/NumericTokenStream.class
+SHA1-Digest: E/vNRrqx9SFwJEV5zVy45krK7OU=
+
+Name: ensemble/pages/DocPage.class
+SHA1-Digest: Rw4NGF/S5rM+IhFA25bRyav48II=
+
+Name: ensemble/samples/animation/timelines/TimelineSample$7.class
+SHA1-Digest: yddqRBuRFv3EX2HMRnMW6ei7nGQ=
+
+Name: ensemble/samples/media/AudioClipSample$5.class
+SHA1-Digest: U4Aw6yTJ5SVCdBsfYftP9RjXzzg=
+
+Name: ensemble/samples/graphics/transforms/ScaleSample.java
+SHA1-Digest: 3wC26DyC7QZJhHre1aq2NUNa0cg=
+
+Name: org/apache/lucene/index/DocConsumerPerThread.class
+SHA1-Digest: Bb4roqzz6mRj0IagsZJwDFdKaOc=
+
+Name: org/apache/lucene/index/SegmentReader$1.class
+SHA1-Digest: IVLIXMsBYxD37Z+nileHRYnaapQ=
+
+Name: org/apache/lucene/index/MultipleTermPositions$IntQueue.class
+SHA1-Digest: Qm+yj+y3zGVQgIcuNsD24JuLauM=
+
+Name: org/apache/lucene/search/ScoringRewrite$2.class
+SHA1-Digest: LI83CzMSr1KoKFek57gc8tukbXM=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample$10.class
+SHA1-Digest: Rizpi/EOBQ7ioEe73puzncdxOqk=
+
+Name: ensemble/config/ProxyDialog$ProxyPanel$1.class
+SHA1-Digest: rMvfQSOS3VBubRhO45+rOe8FcwY=
+
+Name: ensemble/images/texture.png
+SHA1-Digest: 7f4sjQ87PmF5uTRPVSrYUDUjHIg=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$5.class
+SHA1-Digest: NYRi08uMVFj+4UvfQnTvLLTL3Bs=
+
+Name: ensemble/samples/graphics/shapes/PolylineSample.class
+SHA1-Digest: J/NlO1uPOLmzJMJQPwmi6DyTQig=
+
+Name: ensemble/images/window-close.png
+SHA1-Digest: 2KgIUN8Oho9lKu4P/gcpZdUuZMg=
+
+Name: org/apache/lucene/index/KeepOnlyLastCommitDeletionPolicy.class
+SHA1-Digest: ghCjzDYMTC927kxE/q25SyTBdZ8=
+
+Name: ensemble/samples/media/AudioClipSample$3.class
+SHA1-Digest: Mw8d1iCh+vghmxZWWwYcf+mO3YU=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample$7.class
+SHA1-Digest: Widrfm5mjFr61n+tQjiVeeKT5d0=
+
+Name: ensemble/samples/graphics/DigitalClock.java
+SHA1-Digest: neU3/0IQwKx0s0BY/ZRO1gHT8K8=
+
+Name: org/apache/lucene/analysis/tokenattributes/OffsetAttributeImpl.c
+ lass
+SHA1-Digest: 8KGDlDZB9tWpOQkKPYG8mR5Elao=
+
+Name: ensemble/Ensemble2$12.class
+SHA1-Digest: 7kYUqoFfqyruO5x+kQ/C94SY8fo=
+
+Name: org/apache/lucene/search/spans/SpanMultiTermQueryWrapper$TopTerm
+ sSpanBooleanQueryRewrite$1.class
+SHA1-Digest: YeMCmuTDgn9QQevqR3T7oKPfKdc=
+
+Name: ensemble/samples/animation/transitions/PathTransitionSample.java
+SHA1-Digest: +ySBhPIUwkOAtzuk3XwsoYnLTwY=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$5.class
+SHA1-Digest: 1FRNu6pquVfjLvYttUgMz9PDjCY=
+
+Name: ensemble/samples/charts/bar/ImageBarChartSample.png
+SHA1-Digest: jMaL4tMrXfQRa+56oTN5Sdb9ElY=
+
+Name: ensemble/samples/controls/table/TableSample.png
+SHA1-Digest: 3RpsCLp44ssed84Yj/zXUd7PzdU=
+
+Name: ensemble/samples/animation/transitions/FillTransitionSample.clas
+ s
+SHA1-Digest: W2WBIb2OtsEetCQaWqjitYs9Ktc=
+
+Name: ensemble/samples/graphics/PuzzlePieces.java
+SHA1-Digest: UmM/stCaGEIkWgCSXhT+hjyd8eQ=
+
+Name: org/apache/lucene/search/TermRangeTermEnum.class
+SHA1-Digest: 1i1shZsV+QrjSq8bFstpPp4Wdm8=
+
+Name: org/apache/lucene/index/SortedTermVectorMapper.class
+SHA1-Digest: lDgUde2RxHNUxdhe8CrYcUUDRNQ=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$3.class
+SHA1-Digest: G/p43PEw5pgWnG8HYHK5biZxo0A=
+
+Name: ensemble/controls/PropertySheet$EnumPropertyImpl.class
+SHA1-Digest: aQutnLDkzpvYZaFYLQe9csPm9P4=
+
+Name: org/apache/lucene/util/BitVector.class
+SHA1-Digest: +oscU10wbBaaLbeRDBjr0r/kDgc=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample.class
+SHA1-Digest: I8Oi59YC/LJY4a2H/vZ0vDbVLHw=
+
+Name: ensemble/samples/charts/custom/AdvCandleStickChartSample$Tooltip
+ Content.class
+SHA1-Digest: 3LGT/3oW3R7RsN3ALJMRZ6TBkUI=
+
+Name: ensemble/controls/WindowButtons$3.class
+SHA1-Digest: DXqBFJyxJMRvZXRnxIe7nEVgXW4=
+
+Name: org/apache/lucene/search/FieldComparator$IntComparator.class
+SHA1-Digest: Vt/WHZtwODb1cGnFh3gPO7J6Zv4=
+
+Name: ensemble/samples/layout/FlowPaneSample.java
+SHA1-Digest: mDwQ6CnMXHX1BX3yJvSrlkiWzRc=
+
+Name: ensemble/samples/controls/buttons/CheckBoxes.png
+SHA1-Digest: leq7vhqeBVepkbuBNN+gB5oec0k=
+
+Name: org/apache/lucene/util/SmallFloat.class
+SHA1-Digest: XOKF/9HWQNbMNdZzjbs6ui3/PSQ=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample$8$1.cla
+ ss
+SHA1-Digest: JTi+xzukRptxgusWdwj/kN5T1ow=
+
+Name: org/apache/lucene/util/SimpleStringInterner$1.class
+SHA1-Digest: MXZgpNOuY0F9SoYaQjLPn76sSWw=
+
+Name: org/apache/lucene/search/ConstantScoreQuery.class
+SHA1-Digest: ixGU47K9SfJLoY8Ld28YbknG7B4=
+
+Name: ensemble/Ensemble2.class
+SHA1-Digest: NhN4CRczYZ9b1gfmavxRrIbfI9k=
+
+Name: org/apache/lucene/search/function/ValueSourceQuery$ValueSourceWe
+ ight.class
+SHA1-Digest: Dfi+YDt/hV4OMqqrLpLQJm3VT7o=
+
+Name: org/apache/lucene/search/PositiveScoresOnlyCollector.class
+SHA1-Digest: PhP6PLqBxWLgf45DsDhlPgyTuWM=
+
+Name: org/apache/lucene/search/function/ValueSourceQuery$ValueSourceSc
+ orer.class
+SHA1-Digest: sHGxX8S8349zD9pisFkiNmY7ZAM=
+
+Name: ensemble/samples/media/Note2.wav
+SHA1-Digest: Zwx0TW9mckbRMgFvRkpEhebk7sY=
+
+Name: org/apache/lucene/util/SortedVIntList$1.class
+SHA1-Digest: 0ckLM5au9u3eWb2uPo9GloJ2HTI=
+
+Name: ensemble/images/search-box.png
+SHA1-Digest: 6LS7D2NcSDLCO4upa45srkB7YPs=
+
+Name: ensemble/samples/layout/FlowPaneSample.class
+SHA1-Digest: ajKAsd9SloWyLoUJ9IvTOelC/y4=
+
+Name: org/apache/lucene/index/DefaultSkipListWriter.class
+SHA1-Digest: hnHBygyq+wqVoE2FNX6IzB4C53M=
+
+Name: org/apache/lucene/index/InvertedDocEndConsumer.class
+SHA1-Digest: woUOAYwBaXEfFWVmNyT+9W8L+KM=
+
+Name: org/apache/lucene/search/QueryWrapperFilter.class
+SHA1-Digest: 28A5adSEsK97hEnytpXNH2QoI2o=
+
+Name: ensemble/Ensemble2$2.class
+SHA1-Digest: 6n5UUX6I0TBMgJPGrOWOOLFWBRk=
+
+Name: ensemble/samples/graphics/shapes/QuadCurveSample.class
+SHA1-Digest: 9lc/KEBkIYZD3fOAhOVd6f118C4=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl.class
+SHA1-Digest: N+1nibLPTmclAnRaHbY8dKo9Hk4=
+
+Name: ensemble/samples/charts/pie/AdvancedPieChartSample.class
+SHA1-Digest: pzIPCcfs4wH2YpmbPF+zQ1hos7E=
+
+Name: org/apache/lucene/search/FieldComparator$StringComparatorLocale.
+ class
+SHA1-Digest: SrwCrklDogc0i+moZKXOwgNprGc=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample$7.cla
+ ss
+SHA1-Digest: +BkYk1gjjMF4esDoEjSUIT48YoU=
+
+Name: ensemble/samples/controls/buttons/ToggleButtonSample.class
+SHA1-Digest: y8A8zKKymoVxGrrKYuZzGzzVuc4=
+
+Name: org/apache/lucene/search/Searcher.class
+SHA1-Digest: NbW9yl6IxZHB1z+MVqoC0hqTLSU=
+
+Name: ensemble/samples/graphics/ColorfulCirclesSample.png
+SHA1-Digest: C0ighNRQsByAylpUoPuKUr6P5co=
+
+Name: org/apache/lucene/index/NormsWriterPerThread.class
+SHA1-Digest: 2iWEw0o6qHe6/IDy64ly1ID6UTQ=
+
+Name: org/apache/lucene/search/WildcardTermEnum.class
+SHA1-Digest: q95mYSR9EuojImzl83Pto8E3/dY=
+
+Name: ensemble/images/window-min.png
+SHA1-Digest: SFVNtjtW5G6OGYkxNbCWYUw/8/A=
+
+Name: ensemble/pages/AllPagesPage.class
+SHA1-Digest: Z7fhLXV6xSiiLSMhVmm+Bd3IcVk=
+
+Name: org/apache/lucene/search/MatchAllDocsQuery$MatchAllScorer.class
+SHA1-Digest: z9K4UokBPPZL2fxFaX+G3c8CrCo=
+
+Name: ensemble/samples/media/OverlayMediaPlayer.png
+SHA1-Digest: ED13vnZOO3Ya+vSNLJUhyHsQbxA=
+
+Name: org/apache/lucene/search/FieldCacheImpl$ByteCache.class
+SHA1-Digest: 46wKhiGoHaJH9yfDQkH9KcOjdVs=
+
+Name: org/apache/lucene/search/spans/SpanMultiTermQueryWrapper$SpanRew
+ riteMethod.class
+SHA1-Digest: jByfo34JvRccQC5o2JZhsEQQuvQ=
+
+Name: org/apache/lucene/index/IndexDeletionPolicy.class
+SHA1-Digest: Br2QpK+4Ci0bSGBzigIGLYHsOJc=
+
+Name: ensemble/samples/controls/ProgressBarSample.class
+SHA1-Digest: JgVuF6qN6pRdUHNafntZfo2MzXk=
+
+Name: org/apache/lucene/search/FieldCache.class
+SHA1-Digest: e3u9e8AMAIM1UjBi01GC3nTHkRE=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample.java
+SHA1-Digest: xKW0AUfZbmnaRWi79JI9UVwpfWM=
+
+Name: org/apache/lucene/util/SortedVIntList$SortedVIntListBuilder.clas
+ s
+SHA1-Digest: YW/VHv3E0Xpg4oFHQlgbeuSQi/E=
+
+Name: ensemble/samples/graphics/effects/icon-48x48.png
+SHA1-Digest: U60/N6rUVgmKUvu9SmlskUm94do=
+
+Name: ensemble/samples/graphics/transforms/ShearSample.class
+SHA1-Digest: CjFiaHGGRXPX0cO/1OaX7ioUPFM=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample.class
+SHA1-Digest: yOCwEiM1dg7zLDKfNLH5HUF4BtU=
+
+Name: org/apache/lucene/search/BooleanClause$Occur.class
+SHA1-Digest: s6Jy5SKnNVoQjcU8OwHEbWIjC9I=
+
+Name: org/apache/lucene/store/LockObtainFailedException.class
+SHA1-Digest: hl1lZt5vV2Sez3RF+heRDarP/uQ=
+
+Name: ensemble/controls/SearchBox$2.class
+SHA1-Digest: Z6LCdORXSpMAQT/MbMaIWm5HdtM=
+
+Name: ensemble/samples/charts/line/AdvancedStockLineChartSample.class
+SHA1-Digest: 3ERm1HEOiglqh+7lrNTaEuyjLFs=
+
+Name: ensemble/sampleproject/SampleProjectBuilder.class
+SHA1-Digest: 51+dY91Qgcu3X3izSDUmfAvcgnQ=
+
+Name: org/apache/lucene/index/MergeScheduler.class
+SHA1-Digest: EjKdXh18vIJqQjyXb4mgwY28zbU=
+
+Name: ensemble/samples/scenegraph/events/KeyEventsSample$1.class
+SHA1-Digest: yIC5Y9gJmH8AxU/gYvha9r7mtDk=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$6.class
+SHA1-Digest: +PoH12kFimffRDnIQXD71kXyoKU=
+
+Name: ensemble/samples/animation/timelines/TimelineEventsSample$6.clas
+ s
+SHA1-Digest: 0eNhVMgUgnpuCHXBUUiaeDWloQQ=
+
+Name: org/apache/lucene/index/FieldsWriter$1.class
+SHA1-Digest: u/Ndn8M3NTLufLBqhdvi4e1odZg=
+
+Name: ensemble/samples/media/AdvancedMedia.png
+SHA1-Digest: oq6V8KBtwJiVVziU+GfZsCO1jxM=
+
+Name: ensemble/samples/graphics/PuzzlePieces.class
+SHA1-Digest: VLGv4yW0RmGNSptjiCD9ysfrbD0=
+
+Name: org/apache/lucene/index/CompoundFileReader.class
+SHA1-Digest: tsXsbS2TVxMQggEget8jjC0bNYs=
+
+Name: ensemble/controls/SimpleHSBColorPicker.class
+SHA1-Digest: cDevX9ymnyj0SxMvS2z6taz3Uu0=
+
+Name: org/apache/lucene/search/PrefixQuery.class
+SHA1-Digest: RCFKQx+6i0zt5cxQ+I+txOTso1s=
+
+Name: ensemble/samples/layout/VBoxSample.java
+SHA1-Digest: 3HFSvV/RxpqAaSLBfIrlMQua1kM=
+
+Name: org/apache/lucene/search/WildcardQuery.class
+SHA1-Digest: vBpKk5gdmz3tMa6MsSTVz5++fow=
+
+Name: ensemble/samples/controls/list/HorizontalListViewSample.class
+SHA1-Digest: Jv8FCCmpW2ALmmKJEHfbHcEK/MI=
+
+Name: org/apache/lucene/index/ParallelPostingsArray.class
+SHA1-Digest: rCWystuR5dk5sba7KRjZ+VSPqcE=
+
+Name: ensemble/samples/scenegraph/events/CursorSample.class
+SHA1-Digest: NWvy9kdk5tfhM3Th6nvD1QJ2BTQ=
+
+Name: ensemble/samples/graphics/images/ImageOperatorSample$3.class
+SHA1-Digest: T5ccsy0YkV05tJzRErrg1/dXdv8=
+
+Name: org/apache/lucene/analysis/CharReader.class
+SHA1-Digest: JXQ9nsUZ7np3sXUBdfjg44sY3lA=
+
+Name: org/apache/lucene/index/IndexWriterConfig$OpenMode.class
+SHA1-Digest: K3aNyBScMHTeBt0g5WIkB/IKeAM=
+
+Name: ensemble/samples/controls/text/TextValidatorSample$ValidationEve
+ nt.class
+SHA1-Digest: gXwpb9DyYE2dAVu23aH+fQABb+M=
+
+Name: ensemble/samples/graphics/DisplayShelfSample.java
+SHA1-Digest: u2br4og82080hI+EddjkFQKhb/4=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$4.class
+SHA1-Digest: hG4ZNnYKuDwuB+l2qgR6FGAighk=
+
+Name: org/apache/lucene/search/payloads/PayloadNearQuery$PayloadNearSp
+ anScorer.class
+SHA1-Digest: RFC0jnT0x5QC7TxmxVvqZe6sarg=
+
+Name: org/apache/lucene/index/TermsHashPerThread.class
+SHA1-Digest: cggymV7D82eyuI+Na6qbxKQTcgM=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$1.class
+SHA1-Digest: lPTcFtBUTU6ifQc6urZjaBuBQdc=
+
+Name: org/apache/lucene/search/CachingCollector.class
+SHA1-Digest: Ppn4AU3jpx+YUpkuRH7w0rjV8hA=
+
+Name: ensemble/samples/charts/bar/BarChartSample.png
+SHA1-Digest: Z8tceDdU+fHcQYsY5AVQu3/RWUI=
+
+Name: org/apache/lucene/analysis/tokenattributes/TermAttributeImpl.cla
+ ss
+SHA1-Digest: I7cF2HcvyJ84ujQEt9m+AKFdqtA=
+
+Name: ensemble/images/reload.png
+SHA1-Digest: L4mpFb3wpq2vuffDU3R6ZYK6BWY=
+
+Name: ensemble/samples/controls/text/TextFieldSample.class
+SHA1-Digest: iOX41o/oKCBvNnJU1HJH/beOxwU=
+
+Name: ensemble/images/search.png
+SHA1-Digest: rire2BVHrHiSoENlfe31qd76Wc4=
+
+Name: ensemble/samples/graphics3d/CubeSystemSample$Cube.class
+SHA1-Digest: I0FlsnF0JoGZgPsY/qPQkKqyr/g=
+
+Name: org/apache/lucene/search/spans/SpanScorer.class
+SHA1-Digest: tPz8ilp7cxwCsWxEK70FHaX3hcs=
+
+Name: org/apache/lucene/search/TopDocsCollector.class
+SHA1-Digest: 3yjBcj7UsIXfHqAadRHOIpCCn4Y=
+
+Name: org/apache/lucene/search/FieldCacheImpl$Cache.class
+SHA1-Digest: yBKdTxgwntpo4UXmo7Z1OAm7aPw=
+
+Name: ensemble/controls/PropertySheet$DoublePropertyImpl$1.class
+SHA1-Digest: eHLQ4e6PHJmyePLcb3FYGiUNLEs=
+
+Name: org/apache/lucene/search/CachingWrapperFilter.class
+SHA1-Digest: VTocvvgnQI9+LCbSPEQqlrg2eB8=
+
+Name: ensemble/samples/graphics/shapes/LineSample.class
+SHA1-Digest: BvZiqp0Aq5Ryf4dtm9DMiPHn9QY=
+
+Name: ensemble/samples/charts/area/chart-background.png
+SHA1-Digest: o0wrh0O4TdK0VU+PPThWY0b097g=
+
+Name: ensemble/search/index/_0.fdx
+SHA1-Digest: PwhorM1Ca/fYV/wg8HhEwJBlfJ0=
+
+Name: ensemble/samples/charts/bar/AdvancedBarChartSample$6.class
+SHA1-Digest: D1ODTmOeQesHZhqfHjteaILToTY=
+
+Name: org/apache/lucene/LucenePackage.class
+SHA1-Digest: /PSVTOzOZwmRo88jZJ9vqJPkIqE=
+
+Name: ensemble/images/animals-200x200/animal8.jpg
+SHA1-Digest: 4RF72mMLfRGDUKLuqEC/CTiN70o=
+
+Name: org/apache/lucene/search/FieldComparator$DocComparator.class
+SHA1-Digest: Uy/Sy1cjslIUkZOAdAwLXf4DBJo=
+
+Name: org/apache/lucene/index/CompoundFileWriter$1.class
+SHA1-Digest: oRK8MwE0pcj3pj5ze6HcXJWGZ84=
+
+Name: ensemble/controls/SimplePropertySheet.class
+SHA1-Digest: mUnxkOmAMooAlkhk1hjLca0x6nI=
+
+Name: org/apache/lucene/analysis/Analyzer.class
+SHA1-Digest: NGhY6vRONw4xkp05DIiD3mPLOpM=
+
+Name: ensemble/search/index/_0.prx
+SHA1-Digest: bTafl4NkUHz8O97zaDNJD5qchmU=
+
+Name: org/apache/lucene/store/Directory.class
+SHA1-Digest: Hic5WvuqP4iOUH/7Oig6WxXholg=
+
+Name: ensemble/config/ProxyDialog$1.class
+SHA1-Digest: gN07i4porh0r5DCgf1/QbK5lvWc=
+
+Name: org/apache/lucene/index/InvertedDocEndConsumerPerField.class
+SHA1-Digest: izdmHTgLRXPYpbJrBQA4xSTJdwc=
+
+Name: org/apache/lucene/search/function/FloatFieldSource.class
+SHA1-Digest: sqYS0a2DQIPPPR/zUsoRoBvBYkI=
+
+Name: ensemble/samples/scenegraph/events/MouseEventsSample.java
+SHA1-Digest: kFRvboIV3TSfpWhDFbf0kE9LrA8=
+
+Name: ensemble/samples/charts/custom/AdvCandleStickChartSample$CandleS
+ tickChart$1.class
+SHA1-Digest: Xbd4xn8msWvjIxM3JvP0bKvWnAU=
+
+Name: ensemble/samples/layout/GridPaneSample.class
+SHA1-Digest: PSbrfv4kU3O7fHRChVQD5LTtTTM=
+
+Name: ensemble/samples/scenegraph/node/CustomNodeSample.class
+SHA1-Digest: MrYrBnFlmfvZ9BBs4uYbHEJBK+4=
+
+Name: org/apache/lucene/search/BooleanClause$Occur$3.class
+SHA1-Digest: MYSp7dTHDUK0JpsMEk4vmQw62mA=
+
+Name: org/apache/lucene/analysis/standard/ClassicTokenizer.class
+SHA1-Digest: 7hQBOG4uDBl3BzuAmu5weSgffpQ=
+
+Name: ensemble/samples/charts/bar/AdvHorizontalBarChartSample$2.class
+SHA1-Digest: Pyvq+d4IluXVtnPGCOYoJetAypo=
+
+Name: org/apache/lucene/search/function/DocValues.class
+SHA1-Digest: hX8uqWpSZhyPAhlbazvbpljANfw=
+
+Name: ensemble/samples/scenegraph/stage/StageSample.java
+SHA1-Digest: pA82UUkX7qZJynHMcBme2Zgzo0k=
+
+Name: org/apache/lucene/index/IntBlockPool.class
+SHA1-Digest: bgwYICLfyBfZsUNTuY7qMnFXUa8=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample$8$1.c
+ lass
+SHA1-Digest: +IWH2TkQpcfGAJphnwAf3Ne/kN4=
+
+Name: org/apache/lucene/analysis/CharArraySet.class
+SHA1-Digest: k8Zg7+GRcAnpdPuF3ule7CgyPjg=
+
+Name: ensemble/samples/layout/BorderPaneSample.class
+SHA1-Digest: 6ZXFTKeLP/KqNQw4yRCTkf0AlhY=
+
+Name: ensemble/samples/charts/area/AreaChartSample.class
+SHA1-Digest: BYFHuKgjHO6+ec965VmEdaJaEmk=
+
+Name: ensemble/samples/animation/timelines/TimelineSample$8.class
+SHA1-Digest: +RqBTjOcGUIybHXzE68Ug3F9IBE=
+
+Name: org/apache/lucene/search/grouping/SearchGroupDocs.class
+SHA1-Digest: SPSFs9nJWyShPzMCtZfftoRM6OI=
+
+Name: org/apache/lucene/collation/CollationKeyAnalyzer$SavedStreams.cl
+ ass
+SHA1-Digest: MBu1mfTKOE9omU5y6uJNw5wUgpw=
+
+Name: ensemble/search/index/_0.nrm
+SHA1-Digest: W9DcUW4JTSaFf9szlGxHsdW4jpE=
+
+Name: org/apache/lucene/search/Searchable.class
+SHA1-Digest: zjOoa0NmsJvlG0tFWB5kyybup5Y=
+
+Name: ensemble/controls/SearchBox$6.class
+SHA1-Digest: KhtZqrHDIJYGVaHtpdyzayRrskE=
+
+Name: org/apache/lucene/messages/NLS.class
+SHA1-Digest: OOTJ96A8uzvxf3ZEDObsJ4E/llo=
+
+Name: org/apache/lucene/index/FrozenBufferedDeletes$2.class
+SHA1-Digest: +FOvtsK38mzjtSjRzLg3g897Nms=
+
+Name: ensemble/samples/graphics/DisplayShelfSample$DisplayShelf$2.clas
+ s
+SHA1-Digest: ofx8nd5hfe9mNj2puTl5oPnG8vY=
+
+Name: org/apache/lucene/index/SegmentMergeInfo.class
+SHA1-Digest: mSrBWgCdXcBHUIRV+/8FDX+mrTE=
+
+Name: ensemble/samples/controls/table/TableCellFactorySample$4.class
+SHA1-Digest: Q3wAPhhe+yXInAQmg1t8dmqYVuQ=
+
+Name: org/apache/lucene/index/FreqProxTermsWriterPerThread.class
+SHA1-Digest: q7NzPKFhRIOCFaU9Fd2IV7lZi1k=
+
+Name: org/apache/lucene/analysis/ISOLatin1AccentFilter.class
+SHA1-Digest: DT54Fcp9oHJPU7xojpSJcELLlQg=
+
+Name: org/apache/lucene/index/IndexReader.class
+SHA1-Digest: Db1sjta9wvB620Ysl92euK9zOSE=
+
+Name: ensemble/images/bottom-bar.png
+SHA1-Digest: weoCEPAgRPRTndYh9N3NpAXEMGQ=
+
+Name: ensemble/sampleproject/UserDirScanner$1.class
+SHA1-Digest: jFXg76HdXISoJjMDA8oShzU26xo=
+
+Name: ensemble/samples/controls/ProgressIndicatorSample.java
+SHA1-Digest: ac9HEF8Yjq5QolRgFjC35fuPZTY=
+
+Name: org/apache/lucene/search/spans/SpanPayloadCheckQuery.class
+SHA1-Digest: Bdj7ehOtGx/yA3ntTRC0pDlW4R4=
+
+Name: ensemble/audio/Note7.wav
+SHA1-Digest: 9YY/ylqqRnGasppCMxvtBXRyPmY=
+
+Name: ensemble/samples/controls/text/TextValidatorSample$TextInputVali
+ datorPane.class
+SHA1-Digest: sCHmNhHLs3PHZmzxp/L6Yo61/34=
+
+Name: ensemble/samples/controls/list/SimpleListViewSample.png
+SHA1-Digest: q45SXGANqxePp/6Fyic1u6OAtuw=
+
+Name: org/apache/lucene/util/Parameter.class
+SHA1-Digest: yj62PfOEDWtme1TyEJuUBzYiJl0=
+
+Name: org/apache/lucene/util/IOUtils.class
+SHA1-Digest: wW+L+I6xR8yRvfpyps/aK2Gt2QA=
+
+Name: ensemble/samples/language/collections/ObservableListSample$6.cla
+ ss
+SHA1-Digest: 9RmMJbnye3FjOl2/qLGpyknun/w=
+
+Name: ensemble/samples/controls/toolbar/StyledToolBar.css
+SHA1-Digest: +YAOqVoY87KV2NtZajTfO0tn0mg=
+
+Name: ensemble/samples/controls/buttons/PillButton.css
+SHA1-Digest: qZV3sDlbYeKDRYnwj4CwQCC4a4U=
+
+Name: org/apache/lucene/search/Similarity$1.class
+SHA1-Digest: tnI2EWpVrQUehNtUdJUoDuJ7yXw=
+
+Name: ensemble/samples/charts/custom/AdvCandleStickChartSample.class
+SHA1-Digest: 0U75YGAgzb5CuURSvWtZiV46NJs=
+
+Name: ensemble/samples/layout/BorderPaneSample.java
+SHA1-Digest: Wv1PE5oy+pjknB5qrDpSRaE8y3c=
+
+Name: org/apache/lucene/search/function/ShortFieldSource$1.class
+SHA1-Digest: rI9hgghewoLJJVlaKA/hLnK5qFg=
+
+Name: org/apache/lucene/store/IndexInput.class
+SHA1-Digest: KTtVK9selUBf27oSVNZP1WURgN4=
+
+Name: ensemble/samples/scenegraph/events/KeyStrokeMotion$LettersPane$2
+ .class
+SHA1-Digest: xpCgKOuWIKnZTzyjgYsfvLD61s8=
+
+Name: ensemble/samples/graphics3d/CubeSample$Cube.class
+SHA1-Digest: iJJFK9KNlKJKFY/q27eSPcMyflE=
+
+Name: ensemble/samples/animation/timelines/InterpolatorSample$2.class
+SHA1-Digest: oEwFpCY6LMDTaYPWskFPwGqG7H0=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample$6.class
+SHA1-Digest: C0O9x3q79WwFtO9aBk4Oupue/Ps=
+
+Name: org/apache/lucene/document/DateTools$2.class
+SHA1-Digest: 82eVo6M2NeWs2gkc/bhgTCBg6Q4=
+
+Name: ensemble/samples/graphics3d/AudioVisualizerSample$Cube.class
+SHA1-Digest: +Q07OKwUyS6Mhk3elZcR9eixjqc=
+
+Name: org/apache/lucene/index/IndexWriter.class
+SHA1-Digest: IJLhrcL3QBvRDwSnKk8+uHdKgBk=
+
+Name: org/apache/lucene/search/grouping/TopGroups.class
+SHA1-Digest: WAKqQ5fqJon7Z4Eg0NfRVZfrfqI=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample.png
+SHA1-Digest: P62IiAHWs4zZi3IGOha3XMpimHE=
+
+Name: org/apache/lucene/search/TopFieldCollector$OutOfOrderMultiCompar
+ atorScoringMaxScoreCollector.class
+SHA1-Digest: Rye8BAEfkRY+JheOBvl5qHnoW3Y=
+
+Name: ensemble/samples/concurrency/ServiceSample$GetDailySalesService.
+ class
+SHA1-Digest: klQWmGXIcQkPfxlt3RgQzODbKx8=
+
+Name: ensemble/samples/graphics/shapes/CircleSample.java
+SHA1-Digest: g4hcBPRhTznlI8GnpTxQAuWN+bg=
+
+Name: ensemble/samples/controls/text/SearchBoxSample$SearchBox$2.class
+SHA1-Digest: e8g/jbkDXfcFgqxsGorPGIivOzY=
+
+Name: ensemble/samples/charts/pie/PieChartSample.java
+SHA1-Digest: um9vaiP9MDcr79kvm34mXHXYOHc=
+
+Name: ensemble/samples/animation/transitions/TranslateTransitionSample
+ $1.class
+SHA1-Digest: MpNCQLLYfqTn6RuFrYz2IsnPmh8=
+
+Name: org/apache/lucene/search/FieldComparator$ShortComparator.class
+SHA1-Digest: NmV0oyBL3IrKFlKioeGGxKQtdEY=
+
+Name: ensemble/search/ClasspathDirectory$ClassPathIndexInput.class
+SHA1-Digest: z5RSb3pISjx6aOIJL5VhhDB3nQ8=
+
+Name: ensemble/samples/charts/pie/AdvancedPieChartSample$5.class
+SHA1-Digest: dXFcFm1H2ul9JmmFOOzDfoL8nC4=
+
+Name: org/apache/lucene/search/FieldCache$StringIndex.class
+SHA1-Digest: or0gNwVS1CnnicdBIdf6CcH1hNI=
+
+Name: org/apache/lucene/search/payloads/PayloadNearQuery.class
+SHA1-Digest: fKJcJLtARogIrFsSoyH7hAHC0xA=
+
+Name: org/apache/lucene/document/DateTools$DateFormats.class
+SHA1-Digest: 8L9ckn74/lj81XFLVQC5OMHI0J4=
+
+Name: ensemble/samples/scenegraph/events/MouseEventsSample$7.class
+SHA1-Digest: O8Fn5Mls8wlNzaWOKqtpANibs4E=
+
+Name: ensemble/samples/animation/transitions/TranslateTransitionSample
+ .java
+SHA1-Digest: 1y4HUKangP1L+qX5f+qLPoFXgew=
+
+Name: org/apache/lucene/index/DocumentsWriter$1.class
+SHA1-Digest: c45M7eda+V2t84z+CxMFaAlqRzk=
+
+Name: org/apache/lucene/index/MultiReader.class
+SHA1-Digest: WIuKR9uv5gnU7FHweHRy/z6t65k=
+
+Name: org/apache/lucene/index/ParallelReader.class
+SHA1-Digest: 842SN2SpUnIDWnSk28hZOKTtIhI=
+
+Name: ensemble/samples/graphics/DigitalClock$Clock$1$1.class
+SHA1-Digest: NsHIijcMwYHqtOBAnYbl2YY40Uw=
+
+Name: org/apache/lucene/index/CheckIndex$Status$TermIndexStatus.class
+SHA1-Digest: 5t5MJ+OfE3fjDCT/SLeU3FOhnQU=
+
+Name: org/apache/lucene/index/FormatPostingsDocsConsumer.class
+SHA1-Digest: fHn2XV/dmQr5l5Q7XXHmY+zTN24=
+
+Name: org/apache/lucene/util/ScorerDocQueue.class
+SHA1-Digest: U39/Ogo5RpXcixhY9x3DIRtN9+k=
+
+Name: org/apache/lucene/util/CharacterUtils$Java4CharacterUtils.class
+SHA1-Digest: x3gghAauMlNBAinkFqiEW6tDkkQ=
+
+Name: org/apache/lucene/store/Lock.class
+SHA1-Digest: j//4AudoCVNAHX1EKIw85Q3e6Lg=
+
+Name: ensemble/samples/controls/text/AdvancedLabel.class
+SHA1-Digest: RH5FobPDftFIvmfH24eogcQR1ig=
+
+Name: ensemble/sampleproject/NBInstallation$VersionComparator.class
+SHA1-Digest: kiHQ/LHxLj6fAxOBIc3gt/l9V3E=
+
+Name: ensemble/controls/SimplePropertySheet$PropDesc.class
+SHA1-Digest: zRbdWQzZfaoGrl//ui9rIdO1qgU=
+
+Name: ensemble/samples/graphics/DigitalClock$Clock.class
+SHA1-Digest: 88kjdYWlOyLd7wQO8OzlZekBqv8=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$8$1.class
+SHA1-Digest: POpMoUwFHdRxKJrgjfZ/wLNjGLo=
+
+Name: org/apache/lucene/index/TermsHashPerField.class
+SHA1-Digest: Y92UdqtHlbsqW/Myd6lZRInu/wA=
+
+Name: org/apache/lucene/search/grouping/SearchGroup.class
+SHA1-Digest: Lg6Nn/JhQ1cGx2rmSp+U7Z3VT+c=
+
+Name: org/apache/lucene/analysis/NormalizeCharMap.class
+SHA1-Digest: R3N6+MPeDRZN7GTxvVuOoLmxkLY=
+
+Name: org/apache/lucene/util/StringInterner.class
+SHA1-Digest: WDhSH19a3SWPZgoYIv2q/upJuh8=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample.java
+SHA1-Digest: Okw0xj5dz9x7M7QoXqA3YnduTic=
+
+Name: org/apache/lucene/index/TermVectorsReader.class
+SHA1-Digest: mt2VugKTT+RqYS9ZIs7xPjDlN3k=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample$7.class
+SHA1-Digest: iSu8xBxtXaBCB/uoDLBFbIq8dhs=
+
+Name: org/apache/lucene/queryParser/ParseException.class
+SHA1-Digest: TE4E2+WPhTH8ETzmpg33Q06FXVw=
+
+Name: ensemble/samples/charts/area/background.png
+SHA1-Digest: QQKZfnnvgMh+orSr+SRq28PpLvw=
+
+Name: ensemble/samples/graphics3d/XylophoneSample.java
+SHA1-Digest: RNbfsbw4rZqRDDzkESz8xXdKISQ=
+
+Name: ensemble/samples/scenegraph/events/MultiTouchSample$MultiTouchIm
+ ageView$2.class
+SHA1-Digest: dkRB+pnndlRPMXDwvQmpFKXI84Q=
+
+Name: org/apache/lucene/search/TermQuery.class
+SHA1-Digest: w2ChiglKHTR8tFEZ0KKjHgU4wVA=
+
+Name: org/apache/lucene/search/PhraseQuery$PhraseWeight.class
+SHA1-Digest: Y8C8fz2o3fV0nmc/gL2VuQo+gBA=
+
+Name: org/apache/lucene/search/FieldCacheImpl$ShortCache.class
+SHA1-Digest: Pu4D7We0iNX0fzXc6I9rQ5GhjvA=
+
+Name: ensemble/samples/controls/buttons/PillButtonSample.png
+SHA1-Digest: 1JRWoH6nEp/2FmRu/HBnaaLCleo=
+
+Name: ensemble/samples/graphics3d/XylophoneSample$Xform.class
+SHA1-Digest: JIGvBudFYVX0MYwF9bbWdLGo1hs=
+
+Name: org/apache/lucene/index/MultiLevelSkipListReader$SkipBuffer.clas
+ s
+SHA1-Digest: /FIXHIQCBMlyIxt6lpjy2tKPSZg=
+
+Name: ensemble/samples/graphics3d/XylophoneSample$6.class
+SHA1-Digest: gsY81Y4bCrZedyqPnF1JKNU9xrw=
+
+Name: ensemble/samples/scenegraph/events/KeyStrokeMotion.class
+SHA1-Digest: kAIRxzowbutABWhG3rypLq347SI=
+
+Name: org/apache/lucene/index/ByteBlockPool.class
+SHA1-Digest: oig7P4rdkqRTkl16GIni9GvJTRg=
+
+Name: ensemble/controls/SimplePropertySheet$2.class
+SHA1-Digest: p2cY3sMln2VrsHgaQTNi+W4a4Qw=
+
+Name: org/apache/lucene/search/FieldComparator$FloatComparator.class
+SHA1-Digest: N0WIzwsYHPVKt3I63dvQGqTv36Y=
+
+Name: ensemble/search/BuildEnsembleSearchIndex.class
+SHA1-Digest: jjKYENsLfnmsRvBF7FwA2rUXV8U=
+
+Name: org/apache/lucene/index/DirectoryReader$2.class
+SHA1-Digest: pkFhIC6wmYktKEJPvKxVQ+Gx8A0=
+
+Name: org/apache/lucene/index/MultipleTermPositions$1.class
+SHA1-Digest: ZZsRJYtEtEM5IhkRJm2trpkM3ko=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample.class
+SHA1-Digest: QudKWI63WCKNDywHbUa38GSfvok=
+
+Name: ensemble/samples/charts/pie/AdvancedPieChartSample$4.class
+SHA1-Digest: tnYcRK//y6Rkd2aFZSvOeIWIwF8=
+
+Name: org/apache/lucene/search/spans/NearSpansUnordered$CellQueue.clas
+ s
+SHA1-Digest: Ar5ZdwRNIf+iIyiJqEW7kJ+vTls=
+
+Name: org/apache/lucene/search/FieldCacheImpl.class
+SHA1-Digest: XOCJQTuOI8SoWNuP14Ht7Srgo5k=
+
+Name: ensemble/samples/graphics/StopWatchSample$Watch.class
+SHA1-Digest: YpKvwkx5xMgddtaIXaq+l+/a6yg=
+
+Name: ensemble/samples/controls/buttons/ToggleButtonSample$1.class
+SHA1-Digest: PlrdjPbYpxU4jXLtfRpYEY6KxdM=
+
+Name: ensemble/samples/media/AudioClipSample$6.class
+SHA1-Digest: OOT3hD68YebgQIMS9qd5jfB2kC0=
+
+Name: org/apache/lucene/search/function/FieldCacheSource.class
+SHA1-Digest: i1bKB8kcwbsKFnS1NmQN7YlF3wQ=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$PlanetaryPlayerPane$4.cl
+ ass
+SHA1-Digest: 4+1dXmW6+vRrqAZxA52YAj12nOY=
+
+Name: org/apache/lucene/search/TopScoreDocCollector$InOrderTopScoreDoc
+ Collector.class
+SHA1-Digest: +puI7mszVL2ubVShoL6jKXv62hc=
+
+Name: org/apache/lucene/index/DirectoryReader$1.class
+SHA1-Digest: HD9G46AnxdwIHWp68LzxjxOsWGs=
+
+Name: ensemble/samples/graphics/StopWatchSample$DigitalClock.class
+SHA1-Digest: e5k/4HJ0xoW0w7PQ51+HSBe9p6o=
+
+Name: ensemble/samples/charts/bar/truck-s.png
+SHA1-Digest: Rdo+lDmQJHr7RHL4BbiQK1DYs5s=
+
+Name: org/apache/lucene/search/spans/SpanNearPayloadCheckQuery.class
+SHA1-Digest: vrvLN2Ph8OcqD7JomVwUHmSuKXY=
+
+Name: ensemble/Ensemble2$6.class
+SHA1-Digest: /oHpanhTvFBbsKgJsv2zz6AFhWI=
+
+Name: ensemble/samples/charts/bubble/BubbleChartSample.java
+SHA1-Digest: OfLrrwa4zGV7XeWL86xD8ZBXXxU=
+
+Name: ensemble/samples/charts/area/AdvAreaAudioChartSample$1.class
+SHA1-Digest: sUdcHSCVxJlSpJKObkxIVkOb0Ig=
+
+Name: org/apache/lucene/index/IndexFileNameFilter.class
+SHA1-Digest: TgW3KbY49K4Umxxn9ca1hMHurJM=
+
+Name: ensemble/samples/controls/table/TableCellFactorySample.class
+SHA1-Digest: su09/PNJBs+G2nUHjB+joRJzcto=
+
+Name: org/apache/lucene/search/DisjunctionMaxQuery.class
+SHA1-Digest: C0346Dw/bpYoBnOWX9jfP3kNp9c=
+
+Name: ensemble/samples/controls/text/TextFieldSample.png
+SHA1-Digest: yTj2JFQYab11FNhg9U51eBgtznQ=
+
+Name: org/apache/lucene/search/QueryTermVector.class
+SHA1-Digest: wPkv7byQs0VD4shwtCQhLGX12PM=
+
+Name: ensemble/samples/media/AudioClipSample$8.class
+SHA1-Digest: 7SMpf0Fgkbi34XQw0X/OD1zqlCM=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$9$2.class
+SHA1-Digest: BRcl+ot5zTWZqHV6GuMae/36/Ks=
+
+Name: ensemble/controls/PropertySheet$EnumPropertyImpl$2.class
+SHA1-Digest: maDewxv5e6CEExc+HqcVYb/M2b0=
+
+Name: org/apache/lucene/index/DocInverterPerThread$1.class
+SHA1-Digest: JjCaIuBWiKzyHCHeNjpYd8c7TI0=
+
+Name: ensemble/samples/animation/transitions/PauseTransitionSample$2.c
+ lass
+SHA1-Digest: io2cmjHtgAfOqXd8jPm5ry2EkjU=
+
+Name: org/apache/lucene/analysis/CharArrayMap$1.class
+SHA1-Digest: xcs06OHBH1+IxuX52sUJS/hbslA=
+
+Name: ensemble/search/index/listAll.txt
+SHA1-Digest: jA8y0peMy/EmFWbUJ7gfPKAPHJ4=
+
+Name: org/apache/lucene/analysis/WhitespaceTokenizer.class
+SHA1-Digest: 3f+36rshPr/fZiK8P41d9sjfGRc=
+
+Name: ensemble/samples/charts/bar/AdvancedBarChartSample$5.class
+SHA1-Digest: qIjRQsdcsdrDs5z6H495uAPVHXk=
+
+Name: ensemble/samples/animation/transitions/ScaleTransitionSample.jav
+ a
+SHA1-Digest: UHUXVhWsIk2K1nSeio1VBIujMdc=
+
+Name: ensemble/util/ChartActions.class
+SHA1-Digest: HJ+MEDlsJEYYqM/MUfDR4nWM2nQ=
+
+Name: org/apache/lucene/store/RAMDirectory.class
+SHA1-Digest: saQhgqLdCzanJsZOQ7NwV2dgvL8=
+
+Name: ensemble/Ensemble2$13.class
+SHA1-Digest: G3SkaaLPv0fUhnZ4wMtuH+WhXxg=
+
+Name: ensemble/samples/charts/custom/AdvCandleStickChartSample.java
+SHA1-Digest: vDfXEz/Mu/hCTGUPRqIqwu2dr+8=
+
+Name: org/apache/lucene/search/FieldCache$ByteParser.class
+SHA1-Digest: ky48wUt6QO+2L0i6ZeTjpEGNiR8=
+
+Name: org/apache/lucene/search/MultiTermQuery$2.class
+SHA1-Digest: AUaJL5I3bZZO6FsgJCxYPWksn1E=
+
+Name: org/apache/lucene/search/ScoringRewrite$1.class
+SHA1-Digest: VbO/1Y0OC239+eiRNPnvCeYFTms=
+
+Name: org/apache/lucene/index/CompoundFileWriter$FileEntry.class
+SHA1-Digest: T2D+AZiUBi6MEASH/PoSJYOJB64=
+
+Name: ensemble/samples/graphics3d/Note1.wav
+SHA1-Digest: k4GxRvtWrE7+6mhVnVquDKEZXQA=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$PlanetaryPlayerPane$3.cl
+ ass
+SHA1-Digest: Xybbn/3SyGCxFUv9pkGcWp+E5Eo=
+
+Name: ensemble/samples/animation/timelines/TimelineSample$2.class
+SHA1-Digest: rsp+GU4NIt1KCRuntOS0/yZorHQ=
+
+Name: org/apache/lucene/index/TermInfosReader$ThreadResources.class
+SHA1-Digest: 3Fpj+kvySNJOfRCLztp//2KedTM=
+
+Name: org/apache/lucene/search/DisjunctionMaxQuery$DisjunctionMaxWeigh
+ t.class
+SHA1-Digest: eCjizrpVO5ugxe6CHge1FZZMjeI=
+
+Name: org/apache/lucene/util/ThreadInterruptedException.class
+SHA1-Digest: yMMtdx7do37ap6fcfuPayRZKWVg=
+
+Name: org/apache/lucene/search/function/FieldScoreQuery.class
+SHA1-Digest: 973Xgwk3BaCH5TlqfdCM0XlgFqc=
+
+Name: org/apache/lucene/index/DocConsumer.class
+SHA1-Digest: a3Ln+aJr4KfUX/GpcAG4YKXjGp8=
+
+Name: org/apache/lucene/analysis/standard/StandardTokenizerImpl.class
+SHA1-Digest: GXY5m7utAhoCrxYKoWRSnkTYKHM=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$1.class
+SHA1-Digest: 5HPS1YwYFUrCJDUNYqEF0zkiC8A=
+
+Name: org/apache/lucene/search/FieldCache$9.class
+SHA1-Digest: YP54C8K1ug600JSxFTJIokn9dvQ=
+
+Name: org/apache/lucene/index/IndexCommit.class
+SHA1-Digest: +HKaR02C1fDfEcAOv6LT2NRWeRY=
+
+Name: org/apache/lucene/document/Field$Index.class
+SHA1-Digest: siRSy2lVNxiBbcdF/hiC1vb5V8s=
+
+Name: org/apache/lucene/index/ReusableStringReader.class
+SHA1-Digest: C9OU3RJ3DmePn2EDTbKwGe3lzoM=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$PlanetaryPlayerPane$5.cl
+ ass
+SHA1-Digest: 8REhArD1fVizwj5/HTB8hYDDIZI=
+
+Name: ensemble/samples/controls/buttons/GraphicButton.java
+SHA1-Digest: /q4ud0rUcJiUZFOgeZcT6HeusBk=
+
+Name: ensemble/samples/controls/table/TableCellFactorySample$3.class
+SHA1-Digest: A7e1qsrhaEW2qtzRbRJHri80ff8=
+
+Name: ensemble/images/animals-200x200/animal7.jpg
+SHA1-Digest: ytudLLy0nlc5xkAT3Xps8k6OrEQ=
+
+Name: org/apache/lucene/search/grouping/SentinelIntSet.class
+SHA1-Digest: 3Rk9GxkPGezzRwldrjM2nigbdr8=
+
+Name: org/apache/lucene/search/FieldCacheImpl$FloatCache.class
+SHA1-Digest: 6QIqnOxNG2fNuMRi5TUakybpepk=
+
+Name: ensemble/Ensemble2$15.class
+SHA1-Digest: ZsojpJhz2SZHwj8iIso3lBe0Ws0=
+
+Name: org/apache/lucene/store/SingleInstanceLock.class
+SHA1-Digest: SB2alCFGB+nd5XSbWxXp2weGzkE=
+
+Name: ensemble/samples/charts/bar/van-s.png
+SHA1-Digest: oRbotcHnGVamw8eKKo0O9+Y3WeE=
+
+Name: org/apache/lucene/search/ScoreCachingWrappingScorer.class
+SHA1-Digest: Piv6ZzzxRTDqPfso14In7avJSQY=
+
+Name: org/apache/lucene/util/AverageGuessMemoryModel.class
+SHA1-Digest: mSD8F/FCnmYyG75avfU3d/gY8zo=
+
+Name: ensemble/search/ClasspathDirectory$1.class
+SHA1-Digest: f2XlEFVu1iXjfHZ+wBFTTgCMVO0=
+
+Name: ensemble/samples/graphics/images/ImageOperatorSample.java
+SHA1-Digest: 4aGB1JsFHZbFKGqxigIZR6dXvcU=
+
+Name: ensemble/samples/canvas/FireworksSample.class
+SHA1-Digest: SIumCtTnNdNEC2XFUh+m/DkM+Kg=
+
+Name: ensemble/samples/animation/timelines/InterpolatorSample$1.class
+SHA1-Digest: 0cp8w8bFJIITtwUjlXX4+lWkhAg=
+
+Name: ensemble/samples/controls/buttons/CheckBoxes.java
+SHA1-Digest: 8d2byB0nB48vJ/W6PsOZ+GVOjOE=
+
+Name: ensemble/samples/animation/transitions/TranslateTransitionSample
+ .class
+SHA1-Digest: 36s4K4pc62YZCSY1rtMfD/n4ZKI=
+
+Name: org/apache/lucene/util/AttributeImpl$1.class
+SHA1-Digest: H28TDujrIDXW7tizX5g6+hJp2Fk=
+
+Name: org/apache/lucene/search/spans/SpanOrQuery.class
+SHA1-Digest: UMmD/wItd1GkHj1s9WqCH4Gl/3s=
+
+Name: org/apache/lucene/document/AbstractField.class
+SHA1-Digest: 5/zHqPW1mPkKtZrt3hVvU3eQbdQ=
+
+Name: ensemble/samples/controls/PaginationSample.java
+SHA1-Digest: LPu/Q3SVxDEOhfDzAOb4LtkTHSk=
+
+Name: ensemble/samples/scenegraph/events/MouseEventsSample$11.class
+SHA1-Digest: gLvrE0WQ5U+q4zCp6O+ChCjVSJk=
+
+Name: org/apache/lucene/index/TermInfosWriter.class
+SHA1-Digest: 0KhIisZJFkqwfTyuqHj5ZEoN2q8=
+
+Name: org/apache/lucene/search/spans/SpanPositionCheckQuery$PositionCh
+ eckSpan.class
+SHA1-Digest: fxaQp/8HkQVU52rsta7rgDfYEXs=
+
+Name: ensemble/samples/animation/transitions/TranslateTransitionSample
+ $2.class
+SHA1-Digest: IlFPyw1jdpReOH9i2jM2P1RTtc0=
+
+Name: org/apache/lucene/store/FSDirectory.class
+SHA1-Digest: q8DZapv/Qj2uMkD24VXAQvSWp5g=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample$2.class
+SHA1-Digest: Mescr9qljksbTgOcCCUja6gAVeI=
+
+Name: org/apache/lucene/search/grouping/FirstPassGroupingCollector$1.c
+ lass
+SHA1-Digest: QH0MpIitF0XH7PBUm8M3ARktUnM=
+
+Name: ensemble/samples/controls/text/TextValidatorSample$TextInputVali
+ datorPane$2.class
+SHA1-Digest: et+IGqxCKrMjtIaeSSSurpHX+PA=
+
+Name: ensemble/samples/scenegraph/events/animal2.jpg
+SHA1-Digest: Xx9OB1Oyk13xh07AT3i6AokUbJY=
+
+Name: org/apache/lucene/analysis/standard/UAX29URLEmailTokenizer.class
+SHA1-Digest: U759qx7y5eHf+KKKEjUbM57t2hY=
+
+Name: org/apache/lucene/util/English.class
+SHA1-Digest: 0w0I12YoUj6JAIWBOobduisUf4U=
+
+Name: org/apache/lucene/analysis/tokenattributes/TermAttribute.class
+SHA1-Digest: OM3KSTyOwReChwx43bsppznmAyc=
+
+Name: ensemble/samples/controls/text/SimpleLabel.java
+SHA1-Digest: ARTP5YFV8OXpR2Y+rkLjUwDoaY4=
+
+Name: ensemble/images/sanfran.jpg
+SHA1-Digest: PnYTgvhhOvjZqFFRKz9ntMYD7Gc=
+
+Name: org/apache/lucene/index/FormatPostingsFieldsConsumer.class
+SHA1-Digest: MxAGKHTs/dt1YJBTimCoWuD0p+E=
+
+Name: org/apache/lucene/util/DoubleBarrelLRUCache.class
+SHA1-Digest: BUFUQn8NiiY8EZqVCQJoErn0v1k=
+
+Name: ensemble/samples/animation/timelines/InterpolatorSample.java
+SHA1-Digest: +PC3noKRoxZ2FS214CFop2q5xbM=
+
+Name: org/apache/lucene/util/CharacterUtils$CharacterBuffer.class
+SHA1-Digest: SLlHThlZzns1x+xtC0Ab9TLgGkc=
+
+Name: org/apache/lucene/analysis/CharArrayMap.class
+SHA1-Digest: jAkIfz01LFzVQlV6dB0yF9GblcU=
+
+Name: org/apache/lucene/store/NIOFSDirectory.class
+SHA1-Digest: bLfTzf+XL5mUaJq/taOz+7p4Qvg=
+
+Name: ensemble/samples/graphics3d/XylophoneSample$3.class
+SHA1-Digest: AWyDHOpm0lXqjWOI4Z19nVXSspw=
+
+Name: com/javafx/main/Main$1.class
+SHA1-Digest: WQauf+BS/8gGK+dadY+nUHXNFoI=
+
+Name: org/apache/lucene/analysis/LengthFilter.class
+SHA1-Digest: MW79EbrHHWI/fFwGjwpNT3J3mvo=
+
+Name: org/apache/lucene/search/grouping/AllGroupsCollector.class
+SHA1-Digest: 1UKO0upNhuJYM5zxmd9V6VNiNWw=
+
+Name: ensemble/samples/charts/bubble/BubbleChartSample.png
+SHA1-Digest: XURGjF/YhQp75nbUbP03+BlX8To=
+
+Name: org/apache/lucene/search/SpanFilter.class
+SHA1-Digest: Z5LYjkH6Hx+Vp8VJu2SEAnEKcyM=
+
+Name: org/apache/lucene/index/TermVectorsTermsWriterPerThread.class
+SHA1-Digest: pRTjHjgmqgniGVawb151BhIijXg=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$FieldCacheDocIdSe
+ t$2.class
+SHA1-Digest: h6RBekR5qZMno9hElqeTup+FUOc=
+
+Name: ensemble/samples/charts/area/graph-gridlines.png
+SHA1-Digest: v6jIliqDcbEPGVggJHWdNJy4alA=
+
+Name: ensemble/samples/media/Note8.wav
+SHA1-Digest: ZdGv6m2SlGgkaelhAQ+hm6QgC+8=
+
+Name: org/apache/lucene/search/Scorer$ScorerVisitor.class
+SHA1-Digest: zE9TW8jzGdL5bpJAMLt0uhyBWv8=
+
+Name: ensemble/samples/scenegraph/node/NodePropertiesSample.java
+SHA1-Digest: 1AAVk6OQecULS6J1a3VUe139Yfw=
+
+Name: org/apache/lucene/index/TermInfosReader.class
+SHA1-Digest: wVGTx0nM31HKh48kQFKEo2coX/g=
+
+Name: ensemble/samples/media/AdvancedMedia.class
+SHA1-Digest: +JtENOldlH3QqzpaZHJdOpG9FfM=
+
+Name: ensemble/images/animals-200x200/animal3.jpg
+SHA1-Digest: mUDYmMzQ4wGB41Ci5zpmFBNDjOA=
+
+Name: ensemble/samples/controls/table/TableCellFactorySample$CheckBoxT
+ ableCell.class
+SHA1-Digest: hTrw/5NrMmgozTrJ8wrM/v2ZmEQ=
+
+Name: org/apache/lucene/search/spans/SpanPositionCheckQuery$1.class
+SHA1-Digest: hupS4tQWmXQp4b2qIsTiKfy2p4E=
+
+Name: ensemble/config/ProxyDialog$3.class
+SHA1-Digest: lgVEKoEkfuGSB0mNy49b3I5eUq4=
+
+Name: org/apache/lucene/index/LogMergePolicy.class
+SHA1-Digest: YfSmoS/CqQ+rbnT90IC8cDrqpoI=
+
+Name: org/apache/lucene/index/FilterIndexReader$FilterTermEnum.class
+SHA1-Digest: 7P/syKMdPMmNdqo+ry/sCgEUgeg=
+
+Name: ensemble/pages/DocPage$DocPane$3.class
+SHA1-Digest: Ws48LYhquMulSdDiAe5JMWCV6Cs=
+
+Name: org/apache/lucene/search/ScoreDoc.class
+SHA1-Digest: tfLDZtoh8o4jxyyY4C9CbgyprzA=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$4.class
+SHA1-Digest: YatRGzce07bXeYmU01W5tFoAXSo=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$3.class
+SHA1-Digest: wOh1n8jx1KjofwEKHDqBalfHK0g=
+
+Name: ensemble/controls/WindowResizeButton$2.class
+SHA1-Digest: B2/52ldJY0/l+WcpsVLJOKh0lHU=
+
+Name: org/apache/lucene/search/IndexSearcher$MultiSearcherCallableWith
+ Sort.class
+SHA1-Digest: Q5FdIToOx5Tq0PDzHUdjCZktzUg=
+
+Name: ensemble/samples/graphics3d/Note8.wav
+SHA1-Digest: rTcbWBefySwiOJ/cEnCkgyM5+xE=
+
+Name: org/apache/lucene/index/FilterIndexReader$FilterTermDocs.class
+SHA1-Digest: KWi6sMPXMkvgUw9fwYk1bOQFufU=
+
+Name: org/apache/lucene/util/ReaderUtil.class
+SHA1-Digest: 1yj7gF35LwKjhM06hhGRuaUNlJ0=
+
+Name: ensemble/samples/charts/bar/BarChartSample.class
+SHA1-Digest: IgP+r0rVI81jQR9sQR8u3aiu3k4=
+
+Name: ensemble/samples/controls/text/TextValidatorSample$ValidationRes
+ ult$Type.class
+SHA1-Digest: nuM2uQcz1Y9yHmy77nywJClz+3Y=
+
+Name: ensemble/samples/language/beans/ChangeListenerSample.class
+SHA1-Digest: i/iryjYj0C2qSlTelu0HllqnP9M=
+
+Name: org/apache/lucene/document/Field$TermVector$5.class
+SHA1-Digest: BBj8hf/a9eNrXCp9dpdPjFTznuM=
+
+Name: org/apache/lucene/analysis/PorterStemFilter.class
+SHA1-Digest: 01DSqJvSqyE2as1bFQ7jASc8eBQ=
+
+Name: ensemble/images/tree-background.png
+SHA1-Digest: J1zaMJAHRTuNV/eJymYZYoSTwDw=
+
+Name: ensemble/samples/scenegraph/node/NodePropertiesSample$3.class
+SHA1-Digest: e5xtcdrvT4i1nVtIhwGPTlje31A=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$11.class
+SHA1-Digest: RXbMBDEZfz0EIkAseVVnv0HsJV8=
+
+Name: ensemble/samples/controls/text/Validators.css
+SHA1-Digest: d4tOvoVGKczJg/IAk/7EkplC8sM=
+
+Name: ensemble/samples/graphics/ColorfulCirclesSample.java
+SHA1-Digest: L1zHx8GdvaZwqNjBVwsIdM6KOGM=
+
+Name: org/apache/lucene/index/DirectoryReader$ReaderCommit.class
+SHA1-Digest: x6Eyt4QyMjo81bX4HFAI77vsvAY=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$9.class
+SHA1-Digest: c7XiElejcTyocPZFXDDIFX1x9EI=
+
+Name: ensemble/samples/scenegraph/node/CustomNodeSample$MyNode.class
+SHA1-Digest: Hax+0c/0vJ3/OwMCutKXU6gbzZk=
+
+Name: org/apache/lucene/search/TopScoreDocCollector$OutOfOrderTopScore
+ DocCollector.class
+SHA1-Digest: T5eXJYOYkaNg3AyovuRwPTrOTxg=
+
+Name: ensemble/samples/graphics3d/CubeSystemSample.class
+SHA1-Digest: GPYdTUu+PBmutW4Rcajk1DpJZNs=
+
+Name: ensemble/DocsHelper.class
+SHA1-Digest: jKsgxOZxUDAUS8Pwu14+kKsB6bw=
+
+Name: ensemble/samples/graphics3d/Note4.wav
+SHA1-Digest: UxpZEk/77UOJ/+drDnZFnvKMyJg=
+
+Name: org/apache/lucene/search/FieldCacheTermsFilter$FieldCacheTermsFi
+ lterDocIdSet.class
+SHA1-Digest: AWkZF1lNcBWjR62pUtQz9U6XeRc=
+
+Name: org/apache/lucene/search/spans/SpanMultiTermQueryWrapper$1$1.cla
+ ss
+SHA1-Digest: 0RV9wvvQyWmQ9iDsAeu9CtFR4Ek=
+
+Name: org/apache/lucene/index/IndexReader$1.class
+SHA1-Digest: sA1qdboKphmEfvn0SybuvQV9FJY=
+
+Name: ensemble/pages/SamplePage$3.class
+SHA1-Digest: FDJqVoIPpAuGMUtCUTAiUzpOjhI=
+
+Name: ensemble/samples/animation/transitions/ScaleTransitionSample$2.c
+ lass
+SHA1-Digest: fJmtXRNgzGyNH6c9DLHNhvwysek=
+
+Name: ensemble/samples/graphics/animal14.jpg
+SHA1-Digest: 3sAY946M43AEfvDssosqWY8eJYc=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$5.class
+SHA1-Digest: gf0Pg6u7wjeVxSozjpjkjb8by4A=
+
+Name: ensemble/samples/controls/list/ListViewCellFactorySample.png
+SHA1-Digest: wBw5Gjrs3GBIMdO1RFpzH+5y6gg=
+
+Name: org/apache/lucene/util/UnicodeUtil$UTF16Result.class
+SHA1-Digest: QyGQSUbUczkM/srrUaCq3syUZ3Y=
+
+Name: ensemble/samples/web/WebViewSample$1.class
+SHA1-Digest: fsxQGb8Zi7EMAi6vJGTO4Ztdczo=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$4.class
+SHA1-Digest: fQhXT9mubb/CHNyXdUrjNitTntI=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$2.class
+SHA1-Digest: 08EwrowYEk9OBOL7IyqANlIHYSI=
+
+Name: ensemble/samples/controls/buttons/ColorButtonSample.java
+SHA1-Digest: O8Svjw5eismMCU5QkgvLaTb6rog=
+
+Name: ensemble/samples/animation/transitions/PauseTransitionSample.jav
+ a
+SHA1-Digest: /THbnBqtRHxCwCA+VrZm/wdTAd0=
+
+Name: ensemble/samples/scenegraph/events/MouseEventsSample$6.class
+SHA1-Digest: lH1DAwuKW0+wLauSH4CzxMC7ltc=
+
+Name: org/apache/lucene/index/PayloadProcessorProvider$PayloadProcesso
+ r.class
+SHA1-Digest: zbJfk4GzO5pjT34JKwKaokP0VrI=
+
+Name: org/apache/lucene/analysis/KeywordTokenizer.class
+SHA1-Digest: vluSl3RYGn3ZqFbwVTB/6kpzNP0=
+
+Name: org/apache/lucene/util/CollectionUtil.class
+SHA1-Digest: hyEDCmv7Qyasq/QxUWdgg9QYZhw=
+
+Name: ensemble/controls/SearchBox$4.class
+SHA1-Digest: YZ/AR5y1+qhUIFD0sLfOh/b/acM=
+
+Name: ensemble/sampleproject/NBInstallation$LastUsedComparator.class
+SHA1-Digest: 9vhY6mW6IKohuYdZgx1gwOGjDEc=
+
+Name: ensemble/samples/scenegraph/events/MouseEventsSample$1.class
+SHA1-Digest: TSZyqfvc0JMvIPlJ3eh8+lhOmb0=
+
+Name: org/apache/lucene/search/CachingCollector$SegStart.class
+SHA1-Digest: +X7AZ8dYZSMtPbW4xHDxkyCBF2E=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane.class
+SHA1-Digest: 589L440yj1wzFevG48vqDe9TUAE=
+
+Name: ensemble/sampleproject/UserDirScanner.class
+SHA1-Digest: GePFBusN3LrObafUyuEOF52X4g8=
+
+Name: ensemble/samples/controls/text/TextValidatorSample.java
+SHA1-Digest: Wk8ZXEpqB210Gn35GFfJjP7ktPY=
+
+Name: org/apache/lucene/search/ParallelMultiSearcher$ExecutionHelper.c
+ lass
+SHA1-Digest: zTBxgy54r79miRdXVaNl6IrPKtA=
+
+Name: org/apache/lucene/store/FSLockFactory.class
+SHA1-Digest: S6hKHKdlMcsax45IszjKNlBBCzM=
+
+Name: ensemble/samples/animation/transitions/ParallelTransitionSample.
+ java
+SHA1-Digest: ld+YlExHwTo5xD8CYeqLHruq9wo=
+
+Name: org/apache/lucene/search/SimilarityDelegator.class
+SHA1-Digest: sBkx6+XyE3iHvw06L8BBwOJG91w=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$6$1.class
+SHA1-Digest: bn1shHD8oHZNwY0QeDO3fXXOEtA=
+
+Name: ensemble/samples/graphics/effects/DropShadowSample.class
+SHA1-Digest: EKgzg7qUSpqzX9lxl7SlGvasXco=
+
+Name: ensemble/samples/graphics/DisplayShelfSample$DisplayShelf.class
+SHA1-Digest: B2fIz5uhKKGAInbH80qQ1iLAXHk=
+
+Name: ensemble/samples/scenegraph/stage/AdvancedStageSample$1$2.class
+SHA1-Digest: Z2shpOBqqWF0zUYPRnDALheqqUE=
+
+Name: org/apache/lucene/index/StoredFieldsWriterPerThread.class
+SHA1-Digest: DHPWKutY8PUQx1aPsq0xAdeQJ+0=
+
+Name: ensemble/samples/graphics/paints/LinearGradientSample.java
+SHA1-Digest: cX9MisnC604ohWcc6k1Pr1huolQ=
+
+Name: org/apache/lucene/search/TopFieldDocs.class
+SHA1-Digest: YW3o1n9SJYKMpbrXP/wDx/otmg8=
+
+Name: org/apache/lucene/messages/NLSException.class
+SHA1-Digest: 5POuWbYb3Aq7ATTeBBL/Zvq/b5E=
+
+Name: ensemble/samples/animation/transitions/RotateTransitionSample$1.
+ class
+SHA1-Digest: o9TpNyG6lScrJl2nbxvT+3JrdgQ=
+
+Name: ensemble/Ensemble2$3.class
+SHA1-Digest: X2+wylpDDpV2VdD0R6CRyo5P9GA=
+
+Name: org/apache/lucene/search/CachingCollector$CachedScorer.class
+SHA1-Digest: VcRbR/GEwBZZ4wr3CT7yZ2Yxk9E=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$9.class
+SHA1-Digest: PyO+M51TN2cNF4hQHp0lciEy6Po=
+
+Name: org/apache/lucene/search/TopDocs.class
+SHA1-Digest: ILr5NUmqslm51zf3LZNxgsiwQt0=
+
+Name: org/apache/lucene/search/MultiTermQuery$TopTermsScoringBooleanQu
+ eryRewrite.class
+SHA1-Digest: ZF9AAfF3at7KfYCtkICxs+WHLMA=
+
+Name: org/apache/lucene/index/BufferedDeletes.class
+SHA1-Digest: ut/dOsOoCKo3mu7fsaaNHPGSrRg=
+
+Name: ensemble/samples/graphics/images/ImageOperatorSample$2.class
+SHA1-Digest: 8VI8o6nMeAx+nLFV1S3wPWowwC8=
+
+Name: org/apache/lucene/queryParser/QueryParser$LookaheadSuccess.class
+SHA1-Digest: BJzckUstLgMkzOlNTI8qvyxWPL4=
+
+Name: org/apache/lucene/analysis/tokenattributes/CharTermAttribute.cla
+ ss
+SHA1-Digest: QpKtF5nzVkJql4FD6Zop5K8Fpdw=
+
+Name: ensemble/samples/charts/bar/BarChartSample.java
+SHA1-Digest: kyQdNEc0QtB9BKd39u21tO7COhM=
+
+Name: ensemble/samples/graphics/StopWatchSample$Button.class
+SHA1-Digest: 3ms0LjVEzvfyfQygeL2KdWKa6JQ=
+
+Name: ensemble/samples/scenegraph/events/MouseEventsSample$5.class
+SHA1-Digest: 6BgA/3n9WKYZ+SmlXLiWoJ/icKk=
+
+Name: ensemble/samples/controls/text/SearchBoxSample$SearchBox.class
+SHA1-Digest: B4V3w9X6+t4ORRtwlEvfk0ufMrk=
+
+Name: ensemble/samples/media/images/button_default_forward.png
+SHA1-Digest: kf+ojdQqFxYSIaD3MpCw77Vu8nk=
+
+Name: ensemble/controls/PropertySheet$BooleanPropertyImpl$1.class
+SHA1-Digest: acPHzeL+6P2dHlmVqd7bdTEPzPk=
+
+Name: org/apache/lucene/search/payloads/PayloadTermQuery$PayloadTermWe
+ ight$PayloadTermSpanScorer.class
+SHA1-Digest: yBViM+zdkmo2/jKQ4b0Pu4vvsgI=
+
+Name: ensemble/samples/web/WebViewSample.java
+SHA1-Digest: WIIPKfuKp7WbovGmn3p8fskXLAU=
+
+Name: org/apache/lucene/index/TermVectorsTermsWriterPerField$TermVecto
+ rsPostingsArray.class
+SHA1-Digest: iMtuOVBopKuaGNa+xHr7kObwfXk=
+
+Name: org/apache/lucene/search/FieldCache$7.class
+SHA1-Digest: NBFjuiPStoGydEXOTvh2uOOcXGs=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$5$1.class
+SHA1-Digest: j6WFxXfAtJEEmyDTWODpL3YWpJY=
+
+Name: ensemble/samples/controls/MenuSample$2.class
+SHA1-Digest: WvrxxqwAOkjTf8pMkeiY62JjWVo=
+
+Name: ensemble/samples/controls/ComboBoxSample.png
+SHA1-Digest: +dpSu5D9JrPe0WS1BLHs4or7gSo=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$7.class
+SHA1-Digest: 8rVnftUaVFgGhATUbXWOas8SRw4=
+
+Name: ensemble/samples/controls/MenuSample.java
+SHA1-Digest: 1iVdlgIcf1OeyRyFmbbYvH9YlU4=
+
+Name: org/apache/lucene/util/AttributeSource$AttributeFactory$DefaultA
+ ttributeFactory.class
+SHA1-Digest: BBIwG2E/gsgWxKNs+rLI5RmprWo=
+
+Name: ensemble/samples/charts/bar/AdvBarAudioChartSample.class
+SHA1-Digest: UQfSvTicX5IpMYMIAX4tS/JGftw=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample$3.class
+SHA1-Digest: ldnUnEAzmCzAt5BxHOlCO9SERww=
+
+Name: org/apache/lucene/search/DocIdSet$1$1.class
+SHA1-Digest: GNwnYKU/MOB9SpAHPzqfWQRX3dU=
+
+Name: ensemble/controls/SearchBox$1.class
+SHA1-Digest: QwyJS5xKUSS//JM4ZaXDQDoIYaA=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$10.class
+SHA1-Digest: kLfyMj736ty+GTYcNl3wQzd/sUA=
+
+Name: org/apache/lucene/search/IndexSearcher$1.class
+SHA1-Digest: t9kR+eEpSvSmDQ91pjdi4WBMTN8=
+
+Name: org/apache/lucene/index/TermPositionVector.class
+SHA1-Digest: NdLa7umSSwivrbBrZBSUGOIrx6s=
+
+Name: org/apache/lucene/index/TermVectorsTermsWriter.class
+SHA1-Digest: NxzZJmIv20Ga4KE7KZEbyM757Gk=
+
+Name: org/apache/lucene/index/InvertedDocConsumer.class
+SHA1-Digest: 9XMfAgHoimPxs8M6b6Hw0F7wIqY=
+
+Name: org/apache/lucene/search/FilteredTermEnum.class
+SHA1-Digest: Z8YOXYRmorm7/Vxk769AesR0Iys=
+
+Name: org/apache/lucene/index/InvertedDocConsumerPerField.class
+SHA1-Digest: aA6gxaCYb1HNxrDymjTkMS6/Fec=
+
+Name: ensemble/samples/animation/timelines/TimelineEventsSample.java
+SHA1-Digest: ma57j9rYe+qehR5UfQXdGdOJRbg=
+
+Name: ensemble/samples/controls/list/SimpleListViewSample.class
+SHA1-Digest: avzSEQ6dGGvwHLeZFQqaI5OY2U0=
+
+Name: org/apache/lucene/index/SegmentTermEnum.class
+SHA1-Digest: WhNo2oTLOhZRURXMqO3kIybe12A=
+
+Name: ensemble/samples/graphics/transforms/TranslateSample.class
+SHA1-Digest: Ta7M/GK2pHJ7bl6byC7lMw8KsaI=
+
+Name: org/apache/lucene/search/function/ValueSourceQuery.class
+SHA1-Digest: CkUXWQbPmujlZI4TYSSHY20tP90=
+
+Name: ensemble/samples/graphics/StopWatchSample.class
+SHA1-Digest: BmGl05eIC4xPiGX+7+moW53HgSc=
+
+Name: ensemble/samples/layout/VBoxSample.class
+SHA1-Digest: rERcKTWwrt1k0XP5H2byNEs+6BI=
+
+Name: ensemble/controls/PropertySheet$IntegerPropertyImpl$1.class
+SHA1-Digest: jx8mi9AjDJrKyhBMNNrJTrvDt8s=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$14.class
+SHA1-Digest: Sar301OnbvPCPQk9eNAyK2CcXKc=
+
+Name: ensemble/images/icon-48x48.png
+SHA1-Digest: ebS0IKpAzAkj7HKpbymPQKP2flQ=
+
+Name: ensemble/samples/charts/area/StackedAreaChartSample.java
+SHA1-Digest: MhhYFfZGGy3gwbU2kdlQvBWzQ7w=
+
+Name: org/apache/lucene/util/StringHelper.class
+SHA1-Digest: l0a0H67WbqOzhp2xijwYGmPdVqc=
+
+Name: org/apache/lucene/index/TermsHashConsumerPerField.class
+SHA1-Digest: a9w5RgcrS/xiMXWRjWcGUhYtEfc=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$4.class
+SHA1-Digest: xueDu7on/OvqMYKmvhVjU0wsWEk=
+
+Name: org/apache/lucene/util/Attribute.class
+SHA1-Digest: zKO1l3uYkWZE/Rbc0pzINx+I7fc=
+
+Name: ensemble/samples/animation/timelines/TimelineEventsSample.class
+SHA1-Digest: lwdP66MmHIjOP0L2zEFvwRO+02I=
+
+Name: ensemble/samples/graphics3d/XylophoneSample$8.class
+SHA1-Digest: GCAT2j3tRtV2SjoHyFKQS4OLLms=
+
+Name: org/apache/lucene/analysis/TeeSinkTokenFilter$SinkTokenStream.cl
+ ass
+SHA1-Digest: yje1xdpGI2pLMp3t705gmTPOmM4=
+
+Name: org/apache/lucene/search/FieldComparatorSource.class
+SHA1-Digest: T7iu2n/9A/6xn3tUoUNxucGUA8I=
+
+Name: ensemble/samples/layout/AnchorPaneSample.java
+SHA1-Digest: /BDTeBj99xq3SYyTiarMs2iFx38=
+
+Name: org/apache/lucene/search/FieldCacheImpl$1.class
+SHA1-Digest: NRCH3d6zBX4eB7J+xsYMsbyZuUQ=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$9$2.class
+SHA1-Digest: 2p0am9zKMcZqzt6oQGzOOk+R5XA=
+
+Name: ensemble/samples/graphics3d/AudioVisualizerSample.class
+SHA1-Digest: BlnAupPWDJBkZnaXb5BghjTZu3g=
+
+Name: ensemble/samples/scenegraph/stage/AdvancedStageSample$1$4.class
+SHA1-Digest: qbMu/4JIeBCqAaRieULRccBpbtc=
+
+Name: ensemble/samples/graphics/StopWatchSample$Watch$4.class
+SHA1-Digest: /ZqF1JtwrxP/gZMlLpcQAx5P4Ts=
+
+Name: ensemble/samples/media/Note6.wav
+SHA1-Digest: Uu9cseAvk5UEP2enYXixEFMxqPg=
+
+Name: org/apache/lucene/index/InvertedDocEndConsumerPerThread.class
+SHA1-Digest: XUZuwa/+P6ywAfDouKsm8v59OMw=
+
+Name: ensemble/samples/media/AlphaMediaPlayer.css
+SHA1-Digest: hIhwj6DGfb3Z3sR/F+mjNHTCm1g=
+
+Name: ensemble/samples/animation/transitions/StrokeTransitionSample.ja
+ va
+SHA1-Digest: Pr0/6w31v+75c9ZBdFsK4P6EOaQ=
+
+Name: ensemble/samples/charts/line/AdvancedStockLineChartSample$1.clas
+ s
+SHA1-Digest: bO+XoVyQYMjsLHjZSDcnsolcgV4=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$PlanetaryPlayerPane$9.cl
+ ass
+SHA1-Digest: C2/QItuGZChHW/FXA7CyoP2clK4=
+
+Name: ensemble/samples/controls/ComboBoxSample.class
+SHA1-Digest: EgSucH8cxhmLPdtJcYAdlOtXvEU=
+
+Name: org/apache/lucene/search/MultiTermQuery$1.class
+SHA1-Digest: RgywnqwHDxR5/2iOvb6/9z3g0qE=
+
+Name: org/apache/lucene/index/MultiLevelSkipListReader.class
+SHA1-Digest: ZxyfyLDKCRCWOs9t023biZQWUE8=
+
+Name: ensemble/controls/PropertySheet.class
+SHA1-Digest: K48bu2tVyDSV6i3k+V6d4+AHQuk=
+
+Name: org/apache/lucene/search/FieldValueHitQueue$1.class
+SHA1-Digest: okNsB7ve3WTy/IGFG4i4ytURhGM=
+
+Name: ensemble/images/mid-bar.png
+SHA1-Digest: Md245XPlgpGbdHnD7TDHmSuWQZ8=
+
+Name: org/apache/lucene/index/NormsWriter.class
+SHA1-Digest: HhUz7HWsGNIHsLJPW9gxBktUNak=
+
+Name: org/apache/lucene/analysis/StopFilter.class
+SHA1-Digest: Lq/SJ2v17um8bcMFM8OltRx/CfA=
+
+Name: ensemble/samples/scenegraph/events/KeyStrokeMotion.png
+SHA1-Digest: b+ZpyLlc06zMkWP/GQs4CELD+sY=
+
+Name: ensemble/samples/animation/transitions/PathTransitionSample$1.cl
+ ass
+SHA1-Digest: EYE8Hp03aVPFU1kXT8udpRXBVkw=
+
+Name: org/apache/lucene/document/MapFieldSelector.class
+SHA1-Digest: MkLf6V82KmiFh8qHeNYOUXjwh5A=
+
+Name: ensemble/samples/graphics/paints/ColorSample.java
+SHA1-Digest: pkyfZoKSQnQsxZHIBuxiv5u9+FY=
+
+Name: ensemble/samples/charts/line/LineChartSample.java
+SHA1-Digest: 5s3u0TOVWyLjVqwH9nBp2bUjWFs=
+
+Name: ensemble/samples/charts/scatter/AdvScatterLiveChartSample$2.clas
+ s
+SHA1-Digest: S6S1P05nYXF8DLJfVrG7wVVLceM=
+
+Name: org/apache/lucene/search/grouping/FirstPassGroupingCollector.cla
+ ss
+SHA1-Digest: k+t0ISqD8etTAIdWxPuIHl4cjzY=
+
+Name: org/apache/lucene/search/CachingWrapperFilter$1.class
+SHA1-Digest: XrR5BvjEGVaX/UL9ad28T5KMeMc=
+
+Name: org/apache/lucene/analysis/PorterStemmer.class
+SHA1-Digest: OYQQ5Hqjh3Mc7RPlOGiLXPxDBEQ=
+
+Name: ensemble/samples/language/beans/ChangeListenerSample$5.class
+SHA1-Digest: cWIWMXQ/U8SoKfJnS1pJZlByuJE=
+
+Name: org/apache/lucene/index/StoredFieldsWriter$PerDoc.class
+SHA1-Digest: WZRyVSLetKz/d5Q8+X5xfOberjY=
+
+Name: ensemble/samples/graphics/effects/GaussianBlurSample.java
+SHA1-Digest: gCXQvaEIJcZ0bR0Mv64b9Ii2WQc=
+
+Name: org/apache/lucene/util/ToStringUtils.class
+SHA1-Digest: pMKDUY3WgkyE4LHLIEnLgxGqMzU=
+
+Name: ensemble/images/back.png
+SHA1-Digest: VBtx5MqgZTdUf3kU7wiJnK73b6o=
+
+Name: org/apache/lucene/search/CachingCollector$NoScoreCachingCollecto
+ r.class
+SHA1-Digest: v9RQoGjC57w3YHgpKBMEMMUQxHE=
+
+Name: org/apache/lucene/store/IndexOutput.class
+SHA1-Digest: SV0qjNnSj7FEbcdbGXgSo35TrM0=
+
+Name: ensemble/samples/charts/custom/AdvCandleStickChartSample$CandleS
+ tickExtraValues.class
+SHA1-Digest: Iugh5lPXH/p3+YhteUeHoDWWL4o=
+
+Name: org/apache/lucene/search/BooleanScorer$BooleanScorerCollector.cl
+ ass
+SHA1-Digest: rXotKLDosCytyl0a0wr+jO72A+I=
+
+Name: org/apache/lucene/search/FieldCacheImpl$LongCache.class
+SHA1-Digest: qAYAX00O2XN8Z97nuyBVszRdbZo=
+
+Name: org/apache/lucene/index/FrozenBufferedDeletes$1.class
+SHA1-Digest: jav8qZTyAxn+Rzq1ujScupzWMf4=
+
+Name: org/apache/lucene/index/FieldInfos.class
+SHA1-Digest: 8jS0hnvueggCXsa0xXUCpLNJQUo=
+
+Name: org/apache/lucene/util/MapOfSets.class
+SHA1-Digest: //EsV1H55L7sIufyTE6dvQtViTo=
+
+Name: org/apache/lucene/analysis/CharFilter.class
+SHA1-Digest: 94tRbE1iQlk1DzVqUduKqyWVC28=
+
+Name: ensemble/images/settings.png
+SHA1-Digest: DR1//O3Ywhnhy4UsrGIubzVvo7Y=
+
+Name: ensemble/samples/charts/custom/AdvCandleStickChartSample$Candle.
+ class
+SHA1-Digest: z5RbqmxY/7S5q5liQpFxUIC5JHA=
+
+Name: ensemble/samples/controls/splitpane/HiddenSplitPaneSample.java
+SHA1-Digest: k0gbPSUA/RaJQBAeZppRAaJ2fJQ=
+
+Name: org/apache/lucene/search/FilteredDocIdSet$1.class
+SHA1-Digest: YqCrurjVCeleKwAj/TEeZW4riew=
+
+Name: org/apache/lucene/index/MergePolicy$MergeAbortedException.class
+SHA1-Digest: 6W2cxnCM8tmN2vj/f6QiLnwoXq4=
+
+Name: ensemble/samples/media/images/button_pressed_forward.png
+SHA1-Digest: qb6+WNZXz8FexIcNpzIza5hbrhM=
+
+Name: ensemble/samples/controls/text/TextValidatorSample$ValidationRes
+ ult.class
+SHA1-Digest: T81gu5jm02pvjPNI9iO2pzeHyTk=
+
+Name: ensemble/samples/media/playbutton.png
+SHA1-Digest: h5KzdBIIG44hff+kwBBp6FY7Dp4=
+
+Name: org/apache/lucene/search/TopFieldCollector.class
+SHA1-Digest: NHllrtux9FkwClZLfIsUZHcSrCA=
+
+Name: ensemble/samples/scenegraph/node/NodePropertiesSample$6.class
+SHA1-Digest: SVdToBMV/yAjZF/DZtaX8vP1uJY=
+
+Name: org/apache/lucene/search/function/IntFieldSource.class
+SHA1-Digest: xe7iTjpHwwS7LwL/JrIVyFhIT2Y=
+
+Name: ensemble/samples/controls/text/InsetTextSample.class
+SHA1-Digest: vP5Y/chdmWonDHJOtLQWI6Fs0Es=
+
+Name: org/apache/lucene/index/FormatPostingsTermsConsumer.class
+SHA1-Digest: 9CC3xBJxrJr5mNlFBu5KgIqJOm8=
+
+Name: org/apache/lucene/util/MapBackedSet.class
+SHA1-Digest: XXEkQyWs0kYWG9WOf1q4onUJznk=
+
+Name: ensemble/samples/graphics/animal10.jpg
+SHA1-Digest: OJf6+qLFwlsroUgksezaoSW7a9I=
+
+Name: ensemble/Sample3D.class
+SHA1-Digest: UwNg8UlVgAqOwKNGXoCdMAyoU8U=
+
+Name: org/apache/lucene/search/ConjunctionScorer.class
+SHA1-Digest: JpZYTdTGkdzInrVrmZ3MvrlnsrY=
+
+Name: org/apache/lucene/index/TermVectorEntry.class
+SHA1-Digest: d8PVDASgLqsillPCKPiOJAX/naU=
+
+Name: org/apache/lucene/search/FieldDocSortedHitQueue.class
+SHA1-Digest: 3Wd3ZE9dIR7kTbio0MmwHGcRc9o=
+
+Name: ensemble/samples/scenegraph/stage/AdvancedStageSample.class
+SHA1-Digest: Kq4QdyfVepdpDsfNOvaQgJAsJko=
+
+Name: org/apache/lucene/search/spans/SpanOrQuery$SpanQueue.class
+SHA1-Digest: G2ZE0Z4jKWmK99WvnWBW7EAGME8=
+
+Name: ensemble/samples/scenegraph/stage/StageSample.png
+SHA1-Digest: AA8s40WVb2oQkJmAI7YnKtGRz6U=
+
+Name: org/apache/lucene/search/BooleanScorer2$2.class
+SHA1-Digest: DuqAjiGI9zJLGrafkZir0HSWj1o=
+
+Name: ensemble/samples/graphics3d/AudioVisualizerSample.java
+SHA1-Digest: 2MNUtlt7RjwPvEJe8MGCO0rzytE=
+
+Name: org/apache/lucene/analysis/TeeSinkTokenFilter$1.class
+SHA1-Digest: wWIe5Bzr2SllDOnqBR4qPCem9p0=
+
+Name: org/apache/lucene/index/NormsWriterPerField.class
+SHA1-Digest: kSytSMO0rLYS2AIcI5435appbPc=
+
+Name: org/apache/lucene/index/DocumentsWriter$DocState.class
+SHA1-Digest: 8CMnXxgAD4kMD7snuqG0GUcVABY=
+
+Name: org/apache/lucene/search/TopFieldCollector$OutOfOrderMultiCompar
+ atorScoringNoMaxScoreCollector.class
+SHA1-Digest: n0zzrfVlG5l8lwUd48Ff3oh8l9g=
+
+Name: ensemble/images/window-close-over.png
+SHA1-Digest: fNVfAGcrL5f7iZ++E63pp7uLifc=
+
+Name: ensemble/samples/controls/table/TableCellFactorySample.png
+SHA1-Digest: Q9hi7zAzuL2HjBBp0eeeUg2G0+c=
+
+Name: org/apache/lucene/search/function/CustomScoreQuery.class
+SHA1-Digest: 82r+V7E8580vhmFpQbQgnIy8n/M=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample$5.class
+SHA1-Digest: kIxqnRAhDwWogpgrC03qgCrM5uI=
+
+Name: ensemble/samples/layout/AnchorPaneSample.class
+SHA1-Digest: p50rP2+/+6Z2qNMFlpgqWGCQjbo=
+
+Name: ensemble/samples/animation/timelines/InterpolatorSample.class
+SHA1-Digest: SSaDS5ok+xP6g8C5RCZJ2hWpuwo=
+
+Name: org/apache/lucene/search/ScoringRewrite$3.class
+SHA1-Digest: Qu3rfuLutCNEX+tPbFy1vEIg6oU=
+
+Name: ensemble/Ensemble2$8.class
+SHA1-Digest: 3cnmqXDnQPnTaszXdEPayCluJ2I=
+
+Name: org/apache/lucene/analysis/MappingCharFilter.class
+SHA1-Digest: CxoGBl3AeIN41lp1dVeFlaqZ688=
+
+Name: ensemble/search/index/segments.gen
+SHA1-Digest: hWmvwOc5GZTlVdkOs3gM9CbJF8c=
+
+Name: ensemble/samples/animation/timelines/InterpolatorSample$4.class
+SHA1-Digest: Ta9c5/9KnjseSfPYm6mBDtdFE2Y=
+
+Name: ensemble/samples/controls/buttons/CheckBoxes.class
+SHA1-Digest: wlMiplA61gyQjURr7ZyujHwcLgk=
+
+Name: org/apache/lucene/search/NumericRangeFilter.class
+SHA1-Digest: QHFPlnqTK5xujXgsw7BF66FMq9w=
+
+Name: org/apache/lucene/index/SegmentInfos$1.class
+SHA1-Digest: YLQu53boSH85edLO6fquMfK/O9E=
+
+Name: org/apache/lucene/index/SnapshotDeletionPolicy$SnapshotInfo.clas
+ s
+SHA1-Digest: XqUGBOFnNP/bm4bclUIEwJ/EZyg=
+
+Name: ensemble/samples/animation/transitions/PauseTransitionSample.cla
+ ss
+SHA1-Digest: jVyjMZ/TTXSZIfoxAVk4GdfcE6c=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$4.class
+SHA1-Digest: E0FWBSqncdoxb+f15EkrpBiPdyk=
+
+Name: org/apache/lucene/index/Payload.class
+SHA1-Digest: BCsojvQXwcCDQRvdpvVkxCujaP8=
+
+Name: org/apache/lucene/document/Field$Index$2.class
+SHA1-Digest: b+MFfqw9isEGUDUwnAu3WvAVdAg=
+
+Name: org/apache/lucene/search/BooleanScorer$BucketTable.class
+SHA1-Digest: DYDtiv19/FmZfgMvCXnDvAPq0dc=
+
+Name: ensemble/samples/controls/text/TextValidatorSample$1.class
+SHA1-Digest: Jj+raTBFswMX3oTDkBbAOMWZICk=
+
+Name: ensemble/samples/graphics/StopWatchSample$Dial.class
+SHA1-Digest: 3w5T/lRsXvHMkTnq9yTnZNFxEvE=
+
+Name: org/apache/lucene/search/function/FloatFieldSource$1.class
+SHA1-Digest: y2n1nxKr5Z6JAnrS+mVuK340p4c=
+
+Name: org/apache/lucene/search/spans/SpanNotQuery.class
+SHA1-Digest: AqxRfh+0AKJZx4WXtIQO1CXNSo4=
+
+Name: ensemble/samples/graphics/StopWatchSample$Watch$1.class
+SHA1-Digest: UyYusc61fjLagQyHm5FT0a8S8E0=
+
+Name: org/apache/lucene/search/TermScorer.class
+SHA1-Digest: R3SBVOgtkfT3ozRzt5aCqiBp19A=
+
+Name: org/apache/lucene/analysis/CharStream.class
+SHA1-Digest: bMMKsE4zBeH5ckGW1AaLoNBglMM=
+
+Name: ensemble/samples/web/WebViewSample$2.class
+SHA1-Digest: FwwTon8DtEonZiGU8b/wYZJEEtI=
+
+Name: ensemble/samples/graphics/shapes/EllipseSample.class
+SHA1-Digest: 3eLMA7UbNdf+bFBcoh6haeatFVw=
+
+Name: org/apache/lucene/index/TermVectorMapper.class
+SHA1-Digest: T8GIDHPbufsAcV+wectfqgRLZEU=
+
+Name: ensemble/images/animals-200x200/animal13.jpg
+SHA1-Digest: nXKmJWzp+aHKqP2bd94XiYEBgb0=
+
+Name: ensemble/samples/controls/table/TableCellFactorySample$2.class
+SHA1-Digest: +TwbeRw1XXfkLLOjpu48++N3Bzk=
+
+Name: org/apache/lucene/search/spans/SpanTermQuery.class
+SHA1-Digest: MwQ+uVJNpdPO+lvHe0Hpbt4CG3A=
+
+Name: ensemble/samples/web/HTMLEditorSample.class
+SHA1-Digest: 9Bedw3Axp3iuv1YJxOV3s3OHI7E=
+
+Name: org/apache/lucene/search/spans/SpanOrQuery$1.class
+SHA1-Digest: o5bZbyUy7qTHJ1oJA3vWzLsyT74=
+
+Name: org/apache/lucene/search/BooleanScorer2$SingleMatchScorer.class
+SHA1-Digest: gqofj6VPOo0CRZd0h5PtQLFJZGw=
+
+Name: ensemble/samples/graphics/PuzzlePieces$Piece$1.class
+SHA1-Digest: 3dZKyk5rutz57r9r3NQ76sGYiZg=
+
+Name: org/apache/lucene/util/IndexableBinaryStringTools.class
+SHA1-Digest: EvO/nqSs+ZZGY8O04qkLaRJa/z0=
+
+Name: org/apache/lucene/search/TopFieldCollector$OutOfOrderOneComparat
+ orScoringMaxScoreCollector.class
+SHA1-Digest: Sa9Hs8jBClusCVEnNxvRw5p5VOg=
+
+Name: ensemble/samples/animation/timelines/TimelineSample$3.class
+SHA1-Digest: TCRIt/H67L8C9txda0sMS1aumRg=
+
+Name: org/apache/lucene/index/FreqProxTermsWriter.class
+SHA1-Digest: ji8vIJcPkk/LhiDU3PnCck6VObQ=
+
+Name: org/apache/lucene/util/DummyConcurrentLock.class
+SHA1-Digest: KNi0U69KY4a5PWu+XnVhJX+oe/M=
+
+Name: ensemble/samples/controls/buttons/RadioButtons.class
+SHA1-Digest: eht9ZL9Af6tBeEkb1UiihRBAxis=
+
+Name: org/apache/lucene/analysis/TokenStream.class
+SHA1-Digest: h1krZq8Kz+DMCE8zKkUGNALY4vw=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$10.class
+SHA1-Digest: dCpVKhsyexzkNKAGfJixqAG+1zI=
+
+Name: ensemble/controls/PropertySheet$EnumPropertyImpl$1.class
+SHA1-Digest: LW+GuXZVn+iCtJpcSHCMvGhIQ8k=
+
+Name: ensemble/samples/media/Note1.wav
+SHA1-Digest: 7JOGMcnA1YxAt7P2rZ80FBcjQ+Q=
+
+Name: ensemble/samples/graphics3d/AudioVisualizerSample$Xform.class
+SHA1-Digest: rBqqjnCqkPLeBXmyUh1Yz7/okb0=
+
+Name: ensemble/samples/animation/timelines/TimelineEventsSample$1.clas
+ s
+SHA1-Digest: U2r0YpdmBvlnKV5wPVekDAiuYoY=
+
+Name: org/apache/lucene/search/PhraseScorer.class
+SHA1-Digest: xb5Io4WQ7WUy4G0fgNFI8fGMiL8=
+
+Name: org/apache/lucene/util/StringHelper$1.class
+SHA1-Digest: NSCWtqkqRF8smbFVxMz7y2BXi6c=
+
+Name: org/apache/lucene/search/MultiSearcher.class
+SHA1-Digest: nYmcXCDPYUMnbIfNTQpD5ocAEfk=
+
+Name: ensemble/samples/graphics/StopWatchSample$Watch$6.class
+SHA1-Digest: zdan5wCIwQrvSa955UMxIZh88GM=
+
+Name: org/apache/lucene/analysis/standard/ClassicAnalyzer$1.class
+SHA1-Digest: CzOa+dzmnWVFbf5vdZ5FML+rjQo=
+
+Name: ensemble/samples/controls/ColorPickerSample.java
+SHA1-Digest: RW2VYwrHY34hOWh1CQ79w4u1z4c=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$11.class
+SHA1-Digest: ap4hZ4b3/cn8ug8HuY4YkwZ6wYM=
+
+Name: org/apache/lucene/search/MatchAllDocsQuery.class
+SHA1-Digest: 8G9ZAJQeH48V7sMdC72xAFhxnPE=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample$1.class
+SHA1-Digest: YrML+T+AGfuRoIMYcxXFMhY7elc=
+
+Name: org/apache/lucene/search/IndexSearcher$MultiSearcherCallableNoSo
+ rt.class
+SHA1-Digest: ciMLBQh0AbzCT3sclwU0jjbAb6c=
+
+Name: ensemble/samples/graphics/effects/boat.jpg
+SHA1-Digest: N+sRAz/o9YKsXOqKUpC9PmfMf5o=
+
+Name: org/apache/lucene/util/SimpleStringInterner$Entry.class
+SHA1-Digest: AF3+BvBn7kHLib2vVDqZRfVKgYk=
+
+Name: org/apache/lucene/search/FieldComparator$DoubleComparator.class
+SHA1-Digest: HiHo3qWJjXfRvsSlk6CF4uBPVZY=
+
+Name: org/apache/lucene/search/function/FieldScoreQuery$Type.class
+SHA1-Digest: I7ZQs5SMI2px5h2mR/WrKmSzSk4=
+
+Name: ensemble/samples/animation/transitions/SequentialTransitionSampl
+ e$1.class
+SHA1-Digest: K6RaJGtBBDOXGpfhxI1i/o6vhl4=
+
+Name: ensemble/pages/SamplePage$4.class
+SHA1-Digest: +oFlJa5h+7SeE7zZ61pgHyoS3jk=
+
+Name: ensemble/samples/media/images/button_pressed_play.png
+SHA1-Digest: T6C/htXpaFAHGCdzde4ysWNGhVQ=
+
+Name: org/apache/lucene/search/FieldComparator$LongComparator.class
+SHA1-Digest: u738Mr1I5dzW6y5KWkMSjKAbnFk=
+
+Name: org/apache/lucene/search/payloads/PayloadFunction.class
+SHA1-Digest: L1T8JvXNGRthZ92Gk7hNoWpGnE4=
+
+Name: org/apache/lucene/util/PriorityQueue.class
+SHA1-Digest: a6venbJSNPH+PpkO2ZeZhxqjyp8=
+
+Name: org/apache/lucene/index/DirectoryReader$MultiTermDocs.class
+SHA1-Digest: oCTjWaquzhr/CbH0MZgpZjP8eNk=
+
+Name: ensemble/samples/language/beans/StringBindingSample.class
+SHA1-Digest: azBcYtWmTYj8lLzLq+OiXygf5fk=
+
+Name: org/apache/lucene/index/SegmentMergeQueue.class
+SHA1-Digest: IZDdhL77zF5Q+cncEvY1WNthjUg=
+
+Name: ensemble/samples/controls/toolbar/ToolBarSample.png
+SHA1-Digest: pF3QJB2Ti+VppezK0eaByqPhDQ4=
+
+Name: ensemble/samples/layout/StackPaneSample.class
+SHA1-Digest: zdKRPuMVG83ZFvX0yZCXClX+lRg=
+
+Name: ensemble/samples/animation/timelines/TimelineSample$1.class
+SHA1-Digest: yeDfC4PpaWHDfkIjv3uvnnBVCAA=
+
+Name: ensemble/samples/charts/area/AreaChartSample.png
+SHA1-Digest: kRiUxELHx0QKihI3JUMJs/kgvAI=
+
+Name: ensemble/samples/graphics/animal4.jpg
+SHA1-Digest: GMBtW1xC/qadxNZDv3UN7kHQp9g=
+
+Name: org/apache/lucene/search/FieldComparator$StringValComparator.cla
+ ss
+SHA1-Digest: 5krOGgJZBM9OyoKvRet3R5r1/UM=
+
+Name: ensemble/samples/graphics/PuzzlePieces$Piece$3.class
+SHA1-Digest: iJ7mwAklCoq9DhxTSWbLeh6xu6Q=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample$9.cla
+ ss
+SHA1-Digest: R5vSWTXvKNq+eNlYoSOPnHKKAJA=
+
+Name: org/apache/lucene/store/NoLockFactory.class
+SHA1-Digest: 7kzhiwTY6KJ8WnKdMFf9C9D34vM=
+
+Name: ensemble/samples/controls/buttons/InsetTextButton.css
+SHA1-Digest: y2QNp14TVmhdK4+YDFtY7g/+vCA=
+
+Name: ensemble/samples/graphics3d/AudioVisualizerSample.png
+SHA1-Digest: 9TOJR6iNLcpHHKWnSFqsvyNfvGs=
+
+Name: ensemble/samples/scenegraph/events/KeyEventsSample$3.class
+SHA1-Digest: GvnN0aFJWoWH8GVYHI64FTgtCqk=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample.png
+SHA1-Digest: wtexYEHYb/SEqx5g8TOiGWMLiU4=
+
+Name: org/apache/lucene/search/Collector.class
+SHA1-Digest: gSd9GdNgqpkZPXUgh7EJ9MWgj6g=
+
+Name: org/apache/lucene/search/MultiSearcher$MultiSearcherCallableWith
+ Sort.class
+SHA1-Digest: rNkISmcCtMOii2g1UI+clWOKExo=
+
+Name: ensemble/samples/controls/buttons/HyperlinkSample.class
+SHA1-Digest: TQV8rf6qSGPAmNXOv2kd8RZIU7k=
+
+Name: org/apache/lucene/store/SimpleFSLock.class
+SHA1-Digest: JHK7MluL053/Ejz8a3Kc7QhLZno=
+
+Name: org/apache/lucene/collation/CollationKeyFilter.class
+SHA1-Digest: 19FOqQIXGwtO5mgAHYw+WVVkluI=
+
+Name: ensemble/samples/controls/list/ListViewCellFactorySample$1.class
+SHA1-Digest: wdMrzzY3abckd+G42iVTfB0jqX0=
+
+Name: org/apache/lucene/analysis/tokenattributes/PositionIncrementAttr
+ ibuteImpl.class
+SHA1-Digest: NMA9F0EhrFbT/6M+PEkZkWh8gnI=
+
+Name: ensemble/samples/controls/table/TableCellFactorySample$EditingCe
+ ll$1.class
+SHA1-Digest: DMVKl2JQO4xKesnB6s2/4pRn3V0=
+
+Name: ensemble/samples/scenegraph/stage/StageSample.class
+SHA1-Digest: Elj5Ssap5scD58uCr+bNrt0XEhs=
+
+Name: ensemble/images/window-min-over.png
+SHA1-Digest: rqN5ALFiNRu/tmA5EI4SJE8aYqg=
+
+Name: org/apache/lucene/search/TermCollectingRewrite.class
+SHA1-Digest: 5X8rDKn0MRsJBQ0VTogno/+0N0c=
+
+Name: ensemble/samples/graphics/paints/RadialGradientSample.java
+SHA1-Digest: 2S4gMMfRsDdaTdaYkfBeFLBx+9c=
+
+Name: ensemble/samples/charts/area/CurveFittedAreaChartSample.class
+SHA1-Digest: IKmcDALs+86TmvpbE7USjWvG/ng=
+
+Name: org/apache/lucene/index/NoDeletionPolicy.class
+SHA1-Digest: sETixDaUyJzilcNMGkQaQkiHH3U=
+
+Name: ensemble/controls/PropertySheet$IntegerPropertyImpl$2.class
+SHA1-Digest: EGc0OUG6+jMfC3V8sQWRwi1no6w=
+
+Name: org/apache/lucene/search/PrefixTermEnum.class
+SHA1-Digest: gXAcW2pOm63SJa/VCnyDFJiaL0Y=
+
+Name: ensemble/pages/SamplePage.class
+SHA1-Digest: tlXim42OkQnPg49mha8Oc6zTDFE=
+
+Name: ensemble/samples/charts/bar/AdvHorizontalBarChartSample.class
+SHA1-Digest: XEzPcSLq3LF4YnmkLcoaQ6hEqKc=
+
+Name: ensemble/controls/SearchBox$3.class
+SHA1-Digest: Yjr/xg1etxceHp4cT9v3XL0aPQk=
+
+Name: ensemble/images/animals-200x200/animal11.jpg
+SHA1-Digest: sf2x6jw10k+OUwJmo7JINLW+Tm0=
+
+Name: ensemble/config/ProxyDialog$LocalDirPanel.class
+SHA1-Digest: Wm4xrdtsI0NDmHuddrmi+3HVor0=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$8.class
+SHA1-Digest: MyQMDlazVdW2MN1D05Gzp7E92aQ=
+
+Name: ensemble/samples/controls/table/TableCellFactorySample$5.class
+SHA1-Digest: H/q1bpLY0dI90LhHWYmoyoVh9Ow=
+
+Name: ensemble/samples/scenegraph/events/MouseEventsSample.class
+SHA1-Digest: bFv35fOX7hzmm2n7ShgikizfrUk=
+
+Name: ensemble/samples/controls/text/TextValidatorSample$ValidatorPane
+ .class
+SHA1-Digest: 7mRAo5Bo4pfaHDGaFUV8P6lgeGM=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample.class
+SHA1-Digest: aQMFBKMmcVWic1QayoLwVhY1fP8=
+
+Name: ensemble/samples/controls/animal2.jpg
+SHA1-Digest: 7C/FPm3h5+VBItf00unumqD3Ock=
+
+Name: org/apache/lucene/search/spans/SpanFirstQuery.class
+SHA1-Digest: j7JTjG9txpiTnQ9QOXDYpv9afeQ=
+
+Name: org/apache/lucene/search/TermCollectingRewrite$TermCollector.cla
+ ss
+SHA1-Digest: J6ERVwiVO3fhiljsbWWY0qQInOc=
+
+Name: ensemble/samples/graphics/effects/ReflectionSample.java
+SHA1-Digest: WLe99hhbtmASLWJNKW5F+af+2tc=
+
+Name: org/apache/lucene/analysis/CharArraySet$1.class
+SHA1-Digest: 2dJDzO/oE+jt9e8k8DMbmjTEusY=
+
+Name: ensemble/samples/controls/table/TableSample.class
+SHA1-Digest: jt37wkU7KKTJicReWMugeQeWW1Q=
+
+Name: ensemble/samples/scenegraph/events/KeyStrokeMotion$LettersPane.c
+ lass
+SHA1-Digest: nHZWsvhp4yG5TNKqHROdu4aUkjU=
+
+Name: org/apache/lucene/search/FieldCache$1.class
+SHA1-Digest: oUEilT112B996VEeTNXHPUGKIiE=
+
+Name: org/apache/lucene/queryParser/MultiFieldQueryParser.class
+SHA1-Digest: b2gkJF67xtxovDuiv7NW8DAFflg=
+
+Name: ensemble/samples/graphics/DisplayShelfSample$DisplayShelf$3.clas
+ s
+SHA1-Digest: /keMXGrsC60u6QGxQN2kwN0DWvo=
+
+Name: org/apache/lucene/search/NumericRangeQuery$NumericRangeTermEnum$
+ 1.class
+SHA1-Digest: 6z/Z6cw99zcbWnwZeSx7IvA/3wI=
+
+Name: org/apache/lucene/index/TermPositions.class
+SHA1-Digest: COxJRGEn6Q+x7uF2DwiB/EbJhW8=
+
+Name: ensemble/Page$GoToPageEventHandler.class
+SHA1-Digest: Q1wCHCBtVfKGIXpIg2PxnhbDdbI=
+
+Name: ensemble/samples/graphics/StopWatchSample$Watch$2.class
+SHA1-Digest: FWQnLO5+IWY5f+zE2HXef/Hduhk=
+
+Name: ensemble/samples/controls/ColorPickerSample$1.class
+SHA1-Digest: cEG8vR0k9F1B6UrNv4cyIxf7Xp8=
+
+Name: org/apache/lucene/analysis/tokenattributes/FlagsAttributeImpl.cl
+ ass
+SHA1-Digest: mJWOZvkOuX/f37u7yiiInGfsEr8=
+
+Name: ensemble/samples/graphics/transforms/RotateSample.class
+SHA1-Digest: 7t5Ab8+0xE95JWQpw354JaPq0ts=
+
+Name: org/apache/lucene/index/PayloadProcessorProvider.class
+SHA1-Digest: dzxroKWUJSAkFoDLjlB1lcOrrJc=
+
+Name: org/apache/lucene/queryParser/QueryParserTokenManager.class
+SHA1-Digest: R1NaAw4NBW0J3re7P80L+VoLKZw=
+
+Name: org/apache/lucene/util/SetOnce.class
+SHA1-Digest: EBKnZVtsmb7mkkVipljbYNzI31Y=
+
+Name: ensemble/controls/WindowButtons$1.class
+SHA1-Digest: SnNfu9yXj3QfYMsp4JkmAarg9kE=
+
+Name: ensemble/samples/graphics/shapes/CubicCurveSample.java
+SHA1-Digest: OLF/x03lQ8H9j791aeiABceoK+k=
+
+Name: org/apache/lucene/index/DocumentsWriter$SkipDocWriter.class
+SHA1-Digest: 628uAX8tnV5Mi8gUWR6Dc+hG8I4=
+
+Name: ensemble/sampleproject/NBInstallation.class
+SHA1-Digest: NcvJasGYOHcppg48cFIrGteAkWU=
+
+Name: ensemble/samples/concurrency/TaskSample.class
+SHA1-Digest: cZNvORIetCzqf8PYjB29BDRwgA4=
+
+Name: ensemble/samples/graphics/PuzzlePieces$Desk.class
+SHA1-Digest: UuqCNor61yWXkkem8cBgED5CJQ4=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$9$1.class
+SHA1-Digest: /cXMdl+rG8+1uyk3eq10qnGWGFE=
+
+Name: ensemble/samples/animation/transitions/StrokeTransitionSample$2.
+ class
+SHA1-Digest: jckq6ZtOJbIEtowknpWg7S+DfQQ=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$9.class
+SHA1-Digest: zvzhn+gXNbJCI7mRk2EjrNesUGk=
+
+Name: ensemble/samples/animation/transitions/ParallelTransitionSample$
+ 2.class
+SHA1-Digest: HBPVCK4K6ptJp7Q/h1mCCZJ1Izs=
+
+Name: ensemble/samples/concurrency/ServiceSample.png
+SHA1-Digest: D3eDn+92ko2WySx+PZSs0LRx3AI=
+
+Name: ensemble/samples/animation/transitions/FillTransitionSample$2.cl
+ ass
+SHA1-Digest: DCob6gIKho1Vb+Yr5NG4Ow4l4m4=
+
+Name: ensemble/samples/language/collections/ObservableListSample$2.cla
+ ss
+SHA1-Digest: 2kuJlAuExnAprNt9Fdf1v91c0HA=
+
+Name: ensemble/samples/graphics/shapes/PolylineSample.java
+SHA1-Digest: Io7o0idu4j20cyGVHlMD7cHynXc=
+
+Name: org/apache/lucene/search/TopFieldCollector$MultiComparatorNonSco
+ ringCollector.class
+SHA1-Digest: ++jPposxT0tiy0pUimJ69SSIhis=
+
+Name: ensemble/samples/graphics/images/ImagePropertiesSample.class
+SHA1-Digest: 3mBOcbIHz9HY2WR70tdE2IuP0qY=
+
+Name: ensemble/samples/charts/pie/DrilldownPieChartSample.png
+SHA1-Digest: SVbSJ2d4tLcJgAjVyDzQ4V8ynG4=
+
+Name: ensemble/samples/media/images/button_pressed_back.png
+SHA1-Digest: 48bd+4KjiFEyFU+bxDzt3rYyb3I=
+
+Name: org/apache/lucene/index/IndexFileDeleter$CommitPoint.class
+SHA1-Digest: +LLS+IvmyfWOAZqhliYoqdGPjEk=
+
+Name: org/apache/lucene/index/IndexWriter$FlushControl.class
+SHA1-Digest: pjwLrZ9sZOi9BzHuWSdA6daZjy0=
+
+Name: ensemble/samples/charts/bar/AdvancedBarChartSample$4.class
+SHA1-Digest: ccJoTtdDymwFpNkZEKxdQMYwAZ0=
+
+Name: org/apache/lucene/search/payloads/AveragePayloadFunction.class
+SHA1-Digest: LWHbjAR1ZBbZKLsPRv+6FnTMXEc=
+
+Name: ensemble/samples/graphics3d/CubeSample.png
+SHA1-Digest: 4ce6tyl06Q++wU3lDyfcuWky8o0=
+
+Name: org/apache/lucene/search/IndexSearcher$ExecutionHelper.class
+SHA1-Digest: 0+as8rZNkc2M4QxCMB47sgI6rhw=
+
+Name: org/apache/lucene/queryParser/QueryParser.class
+SHA1-Digest: Hgxo0lF3Y8eham9o6mkvy/iLjPw=
+
+Name: org/apache/lucene/store/VerifyingLockFactory.class
+SHA1-Digest: C0pf/virUldlJwJjVP01pl3XiVc=
+
+Name: org/apache/lucene/document/DateTools.class
+SHA1-Digest: dBKelhcSVedDcutoB9PzbrnXJpI=
+
+Name: org/apache/lucene/search/function/OrdFieldSource.class
+SHA1-Digest: p0yN4ntNvQuJHkaS70k+vvuDRjc=
+
+Name: org/apache/lucene/search/QueryWrapperFilter$1.class
+SHA1-Digest: 2RMlse42zcopUV4Fn6U1htyN4uY=
+
+Name: org/apache/lucene/store/BufferedIndexOutput.class
+SHA1-Digest: NUbj+ftuJizMEEcSaqxZhL5dcPA=
+
+Name: org/apache/lucene/index/TermEnum.class
+SHA1-Digest: 8UGOvntwUWYEb0pqxVavj5zHOqM=
+
+Name: org/apache/lucene/analysis/tokenattributes/CharTermAttributeImpl
+ .class
+SHA1-Digest: JHTTICoW7sJ2qRaOj0gR5el5pIU=
+
+Name: ensemble/samples/graphics/paints/LinearGradientSample.class
+SHA1-Digest: DQrrUgD56ooMB+W+oKJLYF/rBgQ=
+
+Name: org/apache/lucene/index/DocFieldProcessorPerThread$1.class
+SHA1-Digest: 2+6CaI75sG2uu4TIDUt6Isr6VFs=
+
+Name: org/apache/lucene/search/FieldCache$6.class
+SHA1-Digest: jfM2X5Vc3LEQg96/vc39YpYKWKc=
+
+Name: org/apache/lucene/search/NumericRangeQuery.class
+SHA1-Digest: IrjYJPvxuBM5TTfeh4JdU6KDYEs=
+
+Name: org/apache/lucene/index/BufferedDeletesStream.class
+SHA1-Digest: Ab1+NZr/qM4repICxdyEVWAXTvc=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample.png
+SHA1-Digest: t6W7mKGoqc68oPhEg4d/FqAaIJE=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$6.class
+SHA1-Digest: Ef+8e4quiPvEeqKPKPX9/kJH+1c=
+
+Name: org/apache/lucene/index/SegmentInfos$FindSegmentsFile.class
+SHA1-Digest: SGYCTCLvzWpn55gs2Q6p89QlAxQ=
+
+Name: org/apache/lucene/analysis/FilteringTokenFilter.class
+SHA1-Digest: ZsW5LmO/rgXwJo2MEfDFJvvt2sk=
+
+Name: org/apache/lucene/search/FieldComparator$StringOrdValComparator.
+ class
+SHA1-Digest: VkTmNEgKxucgAx2YaSrNrO573yY=
+
+Name: org/apache/lucene/util/FieldCacheSanityChecker$Insanity.class
+SHA1-Digest: q9yhnyH8qITcI+3c+Tk++jYHbio=
+
+Name: org/apache/lucene/analysis/tokenattributes/TypeAttributeImpl.cla
+ ss
+SHA1-Digest: 8SIE8lLyY6BkHq27Ud+WZt/E6ck=
+
+Name: org/apache/lucene/util/FieldCacheSanityChecker$ReaderField.class
+SHA1-Digest: ddnw6FZ3JUI6UzsF7q8miLNRhVw=
+
+Name: org/apache/lucene/search/DocIdSet$1.class
+SHA1-Digest: N2pBZ3LgxJ+abKXZ7n9/xG61P1I=
+
+Name: org/apache/lucene/search/FieldCacheImpl$IntCache.class
+SHA1-Digest: m8YXE5apU1vOjxT5z80UUcVtpjI=
+
+Name: org/apache/lucene/search/BooleanQuery.class
+SHA1-Digest: SpRWJbdbY9/ZFJgK0h2wTbV8krQ=
+
+Name: org/apache/lucene/store/SimpleFSDirectory$SimpleFSIndexInput.cla
+ ss
+SHA1-Digest: S+rvoGbXaY2CS81mdbLr5Y8Vaqg=
+
+Name: org/apache/lucene/analysis/standard/StandardTokenizerInterface.c
+ lass
+SHA1-Digest: gI222kZY7hS6Rzf6rJmlpJDvxEA=
+
+Name: ensemble/pages/CategoryPage.class
+SHA1-Digest: haTHPg7FHFMaWX4vobWFURAe71Q=
+
+Name: ensemble/samples/graphics/paints/RadialGradientSample.class
+SHA1-Digest: 7zD/eXtHStBq+I3dz1cypG0aibQ=
+
+Name: ensemble/samples/controls/buttons/right-btn-selected.png
+SHA1-Digest: jsINuOaSozIL+ECE2YZ2HhMiiE8=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$8$1.class
+SHA1-Digest: qoxXsDunlXM/uYn7Leq9pPulz0Y=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample$8.cla
+ ss
+SHA1-Digest: LMq0s5amlsEKSPoAkUO1dxvksIs=
+
+Name: org/apache/lucene/analysis/standard/ClassicAnalyzer.class
+SHA1-Digest: MJ2Wdff0kqmHhhCA/s6YDsGA9co=
+
+Name: ensemble/samples/graphics/transforms/ShearSample.java
+SHA1-Digest: Cf+uYMBJ8XW1nQCzBS4UWzuEuTA=
+
+Name: ensemble/controls/PropertySheet$PropertyGroup.class
+SHA1-Digest: uchmADPS77/PMCoPP31vD3Q8IeI=
+
+Name: org/apache/lucene/search/MultiTermQueryWrapperFilter.class
+SHA1-Digest: dZgoryUPK8qMdOJNDW4GqvoW1bI=
+
+Name: ensemble/samples/charts/bar/StackedBarChartSample.class
+SHA1-Digest: xltCL34Y53cpBptF6PPKP/Rqrac=
+
+Name: ensemble/samples/animation/timelines/TimelineSample$4.class
+SHA1-Digest: whLuCpUSXC0DRJM7+NrtY4d3nUQ=
+
+Name: ensemble/samples/graphics/shapes/PathSample.java
+SHA1-Digest: Kvf9S/NWyasbau6ivPYp2sX8dWQ=
+
+Name: ensemble/samples/media/images/slider.png
+SHA1-Digest: LqtSNq9ukFjLYT/7kv4W1D5Nsl8=
+
+Name: org/apache/lucene/index/DocFieldProcessorPerThread.class
+SHA1-Digest: O6EezKzxf8uNfSFK76uwJdZKes0=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample$4.class
+SHA1-Digest: dkJq2sDZ5ALQwxGjc0XOYrxWQwM=
+
+Name: ensemble/search/index/_0.fdt
+SHA1-Digest: pyiEiaO1rmiWsukohZ37m3HfRpU=
+
+Name: ensemble/samples/scenegraph/stage/AdvancedStageSample.java
+SHA1-Digest: MwXsxOWkUlbm16sLTr0786LsgfI=
+
+Name: ensemble/samples/graphics/shapes/PolygonSample.class
+SHA1-Digest: csMlMeDV1ttazd9BwQtQ3NvQU0g=
+
+Name: org/apache/lucene/analysis/KeywordMarkerFilter.class
+SHA1-Digest: XOiBPfRb5yP7BElWrAA/JOcDoyQ=
+
+Name: ensemble/images/boat.jpg
+SHA1-Digest: QbB6+ooRNr39oMtZpwCyMGWtFXU=
+
+Name: org/apache/lucene/index/DocInverterPerThread$SingleTokenAttribut
+ eSource.class
+SHA1-Digest: PEvdyYW3FH6caX2NPoJZCjRI5XU=
+
+Name: ensemble/samples/scenegraph/events/KeyEventsSample.class
+SHA1-Digest: z2V07KYaldlg5Wj4WgLsz1I3F6Q=
+
+Name: org/apache/lucene/search/PhrasePositions.class
+SHA1-Digest: HETZQBuJBdffla4X+50KIjbtR5o=
+
+Name: org/apache/lucene/store/Lock$With.class
+SHA1-Digest: 53XUvoT2PJ76w2xzF9pe6DR5hKY=
+
+Name: ensemble/samples/graphics/images/sanfran.jpg
+SHA1-Digest: w5dImS8BzcXX5j75QJ4h38xRSRs=
+
+Name: org/apache/lucene/util/SorterTemplate.class
+SHA1-Digest: GOZapnwxmYf5qPQ1kAo6PluHMX0=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample$7$1.cla
+ ss
+SHA1-Digest: F7CEXdAUwtc5X9R5qx6conmvW5c=
+
+Name: org/apache/lucene/index/DocFieldProcessor.class
+SHA1-Digest: KncFEN392fqI+kbTdWirhT2NdSQ=
+
+Name: ensemble/samples/controls/splitpane/HiddenSplitPane.css
+SHA1-Digest: jujqaTwbWVXuBtMMhW9ZjPSLnkA=
+
+Name: org/apache/lucene/index/BufferedDeletesStream$QueryAndLimit.clas
+ s
+SHA1-Digest: 3UhFTEqSRnE2BQ0IiezZcS3hH94=
+
+Name: org/apache/lucene/analysis/ReusableAnalyzerBase.class
+SHA1-Digest: rUhfRc3hqnwQQMT2qjN0MFIK5R8=
+
+Name: ensemble/samples/graphics3d/XylophoneSample$Cube.class
+SHA1-Digest: IhwJWiSGwneBw/JbZHgXCQEQQJQ=
+
+Name: ensemble/samples/graphics/PuzzlePieces$Piece$2.class
+SHA1-Digest: OAm4ObE3zdz7GMZYWRFclWCXxt0=
+
+Name: ensemble/samples/scenegraph/events/animal3.jpg
+SHA1-Digest: ijsLXL6jReHqPEd57QyrgQDGtcw=
+
+Name: ensemble/search/BuildEnsembleSearchIndex.java.orig
+SHA1-Digest: YnLGV5WKxhuRiGY4CiVBsbb8j1c=
+
+Name: org/apache/lucene/index/FieldsReader.class
+SHA1-Digest: e3R4EZmb4c3O/7hAEM0Zu/Wci6g=
+
+Name: ensemble/images/search-text.png
+SHA1-Digest: 3VvSlLpe7tOYUw3ZA8VNks9KKCA=
+
+Name: org/apache/lucene/analysis/CharArrayMap$EmptyCharArrayMap.class
+SHA1-Digest: VdEjlQLorGyZ3DiCokiubFuR/E0=
+
+Name: org/apache/lucene/search/payloads/PayloadTermQuery$PayloadTermWe
+ ight.class
+SHA1-Digest: 5+kJATIWDDvnWFEzBl3/IMVBEx8=
+
+Name: org/apache/lucene/search/ParallelMultiSearcher$DocumentFrequency
+ Callable.class
+SHA1-Digest: SLfM8dOqeg+751K7XAV1yOLBgvI=
+
+Name: ensemble/samples/media/AudioClipSample$1.class
+SHA1-Digest: rP45HKQ5BZT1DPmPIR8CRDDIgOU=
+
+Name: ensemble/samples/graphics/animal11.jpg
+SHA1-Digest: fc3/AqFmh5pCTGm6XzY7+BhscmA=
+
+Name: ensemble/samples/language/collections/ObservableListSample$5.cla
+ ss
+SHA1-Digest: g3BsQkmaECoS3WUIC31VzqrL6os=
+
+Name: org/apache/lucene/store/RAMFile.class
+SHA1-Digest: mvvkNwDFmJznGUYIysXwfJiQupc=
+
+Name: ensemble/samples/media/images/slider_slice.png
+SHA1-Digest: zhqqj7TJBXPCNXAk4H/BKtSuCsA=
+
+Name: ensemble/samples/controls/buttons/InsetTextButtonSample.png
+SHA1-Digest: CtGH2l9bKbV5SJb2vVepCUlrBH8=
+
+Name: ensemble/samples/charts/pie/DrilldownChart.css
+SHA1-Digest: YDwBfBZo30lpLa6jk4IxllYmHUY=
+
+Name: ensemble/samples/controls/text/SimpleLabel.png
+SHA1-Digest: 9iXSMQAqDqVksWEFSwivnsB3jmQ=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample$10.cl
+ ass
+SHA1-Digest: bhSmlqWUw67wU+akcvA6LYArTQc=
+
+Name: ensemble/samples/controls/toolbar/ToolBarSample.java
+SHA1-Digest: vQIP1VSDAbOYNuIb5WYTOPI2on0=
+
+Name: ensemble/samples/controls/table/TableCellFactorySample.java
+SHA1-Digest: N69w7c14cAAusStXZyQMd/Y+j2c=
+
+Name: org/apache/lucene/search/FieldCacheTermsFilter$FieldCacheTermsFi
+ lterDocIdSet$FieldCacheTermsFilterDocIdSetIterator.class
+SHA1-Digest: ewVO8N3VscCjcv3cFLbVK6euIzk=
+
+Name: ensemble/samples/graphics3d/XylophoneSample$5.class
+SHA1-Digest: Ig/wJDDDMVey+47WYBEk5KaHLXc=
+
+Name: org/apache/lucene/index/FrozenBufferedDeletes.class
+SHA1-Digest: /oFcZ1Xv63NEEAisP4DtCU4Mtu4=
+
+Name: org/apache/lucene/store/MMapDirectory$MMapIndexInput.class
+SHA1-Digest: RVToSHoKW8RtzHT5AMeXYPf8XHk=
+
+Name: ensemble/samples/graphics/shapes/ArcSample.java
+SHA1-Digest: 1R+OnZteyBAEtmom3a6GOr7eg0A=
+
+Name: org/apache/lucene/search/NumericRangeQuery$NumericRangeTermEnum$
+ 2.class
+SHA1-Digest: 6q7VyW5HpsYV5skFz9noz3m+uA4=
+
+Name: ensemble/samples/web/WebViewSample.class
+SHA1-Digest: ayjpEjU7DFGWht/a7b41qPjJf6U=
+
+Name: org/apache/lucene/index/LogDocMergePolicy.class
+SHA1-Digest: 1KTrvZfUzlOFNrOhDgBTo1uZ0Gs=
+
+Name: org/apache/lucene/index/FilterIndexReader$FilterTermPositions.cl
+ ass
+SHA1-Digest: XBqdb8AMaP+rsWR/ik6sCdz8358=
+
+Name: org/apache/lucene/index/TermsHash.class
+SHA1-Digest: MpqonZTccQYpzRgX5olFYFY5jlU=
+
+Name: ensemble/samples/canvas/FireworksSample$SanFranciscoFireworks$1.
+ class
+SHA1-Digest: GUEjEokSkYY53SJo69wsJ3oxHeA=
+
+Name: org/apache/lucene/search/PhraseQuery$PostingsAndFreq.class
+SHA1-Digest: FBK6UWsat1Qk3cGNAqBYmysi0BI=
+
+Name: org/apache/lucene/index/MultipleTermPositions$TermPositionsQueue
+ .class
+SHA1-Digest: kykjN3DEh8ZvduNaX/jn2spxx+0=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$12.class
+SHA1-Digest: yv6dM+5pNmzFcuukeL03/3dCzsk=
+
+Name: ensemble/samples/graphics/effects/DropShadowSample.java
+SHA1-Digest: W0WJ8Hxu3X8BKuA0pQb5/hKrRwI=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample.java
+SHA1-Digest: WETkiIUM6vzxiUOMAqz6I+DKwzU=
+
+Name: org/apache/lucene/index/LogMergePolicy$SegmentInfoAndLevel.class
+SHA1-Digest: coEILNk7qWMOBHAxvSorLdMR4X8=
+
+Name: org/apache/lucene/index/Term.class
+SHA1-Digest: r7A/WSb5lOAiI9R1jY0/P1I8cbM=
+
+Name: org/apache/lucene/document/Field$Index$1.class
+SHA1-Digest: Z/BYpJf7tZuosfmWtxRsqpgq5Z0=
+
+Name: org/apache/lucene/index/MergeDocIDRemapper.class
+SHA1-Digest: HvFt+8++X/gx9I2nINl7++bxCCM=
+
+Name: ensemble/samples/controls/list/ListViewCellFactorySample$MoneyFo
+ rmatCell.class
+SHA1-Digest: D3fR1JMhGyDhz1VBEo00A0BQsDY=
+
+Name: org/apache/lucene/search/spans/SpanMultiTermQueryWrapper$1.class
+SHA1-Digest: xAGZ+JXIknDfZPwKunDufDRKXnA=
+
+Name: org/apache/lucene/search/TimeLimitingCollector$1.class
+SHA1-Digest: Kkc+mi0MERj1Mbo3yWBBjfpna04=
+
+Name: org/apache/lucene/search/FieldCacheImpl$DoubleCache.class
+SHA1-Digest: CFSEwtRxJDPE6obyb3OCIbRye34=
+
+Name: ensemble/samples/graphics/animal1.jpg
+SHA1-Digest: 0K6mXVDehobO4woR4oBndBCtu+8=
+
+Name: ensemble/samples/media/images/button_hover_forward.png
+SHA1-Digest: NEgke8JEsf1QzLLS+UVo63LF4zQ=
+
+Name: org/apache/lucene/analysis/standard/StandardTokenizer.class
+SHA1-Digest: lADHSf6qmjnYryaCCywPN2NVoog=
+
+Name: ensemble/config/FetchDocListTask.class
+SHA1-Digest: 6EUZbfXiLk6oDzmXUvOy517ZtRM=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$5.class
+SHA1-Digest: CzbiYaD0GFGg+1pFwgCxKR7jDo4=
+
+Name: org/apache/lucene/index/FormatPostingsPositionsWriter.class
+SHA1-Digest: iY0rL+jJSb7C6/3J5rLdzb3YTIo=
+
+Name: ensemble/images/window-expand-over.png
+SHA1-Digest: 8GG09DKkd8oIzRJX755S3oC+jqs=
+
+Name: ensemble/search/DocumentType.class
+SHA1-Digest: geIeag2nciuAdkIdp2XrIpRYlAQ=
+
+Name: ensemble/samples/concurrency/TaskSample$GetDailySalesTask.class
+SHA1-Digest: xuugS1bBaB+gjQbVEf7nPGSKXX0=
+
+Name: org/apache/lucene/util/Version.class
+SHA1-Digest: Dbh8dYaPl+CPpih8GJto4vzVTnk=
+
+Name: ensemble/samples/controls/text/SearchBoxSample.class
+SHA1-Digest: pjbexT2+G7SMVu5eOdRzBe9gDQU=
+
+Name: ensemble/controls/SimpleHSBColorPicker$1.class
+SHA1-Digest: fJ51UCZJX7PyS/sCtHrEOtRn+d8=
+
+Name: org/apache/lucene/index/IndexUpgrader.class
+SHA1-Digest: 9H7mb0W7dafzJLTFZgP226UBBHo=
+
+Name: org/apache/lucene/util/FieldCacheSanityChecker$InsanityType.clas
+ s
+SHA1-Digest: kY2CFUUSlScwwBQdKzP6pnI2F1k=
+
+Name: org/apache/lucene/index/DefaultSkipListReader.class
+SHA1-Digest: 85fxFlOk0ucA9EWDuGaqTkcVRJo=
+
+Name: ensemble/controls/PropertySheet$ActionPropertyImpl.class
+SHA1-Digest: PzhHBi7nEKhY20oTCASuEq7WxQE=
+
+Name: org/apache/lucene/index/ConcurrentMergeScheduler$1.class
+SHA1-Digest: PHD6Mn8Yqd7feoVBZ70IgnNuaRg=
+
+Name: org/apache/lucene/util/DocIdBitSet.class
+SHA1-Digest: r6PzwDUzjd8FS6g9xaxOjI6ulWc=
+
+Name: org/apache/lucene/search/FilterManager$FilterItem.class
+SHA1-Digest: cnZ2+1xqMMmdPnhXAzULJH9/VA4=
+
+Name: org/apache/lucene/search/MultiTermQuery$RewriteMethod.class
+SHA1-Digest: QrpU+cpgREvyAzsoH6i3+fOnxW0=
+
+Name: org/apache/lucene/index/DocumentsWriter$PerDocBuffer.class
+SHA1-Digest: hg4zQgBoFXTECgJ4Ej9lbOzw6W4=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample.java
+SHA1-Digest: uhbqX/aFW+3rNs7vJOrOrF9DphI=
+
+Name: ensemble/samples/controls/AccordionSample.png
+SHA1-Digest: vXozV+iLaKnzVotFSCNCQYVo0aY=
+
+Name: ensemble/samples/media/AlphaMediaPlayer.class
+SHA1-Digest: HqG6Tz2B75xkRWJAqNDX8nU9ecY=
+
+Name: org/apache/lucene/document/DateField.class
+SHA1-Digest: /TR/0TEDic+easJM73W8nXuWXKI=
+
+Name: ensemble/search/IndexSearcher.class
+SHA1-Digest: IiRDV7HY73DEDpYwLqZVgmzJuaU=
+
+Name: ensemble/images/animals-200x200/animal9.jpg
+SHA1-Digest: Xlev2xgsbjzZAtgif0fJGNaPABM=
+
+Name: ensemble/model/SampleInfo.class
+SHA1-Digest: 94d8k/0WzhIcx0Jm9IStUbKbEOw=
+
+Name: ensemble/samples/media/AlphaMediaPlayer.java
+SHA1-Digest: ijRHT/GGXBVH8IyxjO33KAsCua8=
+
+Name: ensemble/samples/media/images/thumb_hover.png
+SHA1-Digest: R5MpaM6Vus9qEPXqPoJJTuyME8k=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample.java
+SHA1-Digest: WSHc6V1gOXnBzJ0nB+KYrWttmg0=
+
+Name: org/apache/lucene/messages/NLS$1.class
+SHA1-Digest: R4bdaSUc9QBRFD5rjVg98CS044Q=
+
+Name: ensemble/samples/animation/transitions/RotateTransitionSample.ja
+ va
+SHA1-Digest: zDvdWnopEWP4R6Wnc5HMvdzifWo=
+
+Name: ensemble/samples/scenegraph/node/NodePropertiesSample$2.class
+SHA1-Digest: Gv4cpgxLRmzDXuXuvgNcBO6phLo=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$3.class
+SHA1-Digest: 1l/c5MdS3N0K8O3w/o4wRZH4xQA=
+
+Name: org/apache/lucene/queryParser/QueryParser$JJCalls.class
+SHA1-Digest: AF6vYYKYKtIyrlsULL8UPK9xPG4=
+
+Name: ensemble/samples/language/collections/ObservableListSample$3.cla
+ ss
+SHA1-Digest: 0026OrdbZiqeRJTzC8K03bJ/z+o=
+
+Name: ensemble/samples/graphics/DigitalClock$Clock$1.class
+SHA1-Digest: L1N4SR4sdMAc7hnuAnWe4+xXyVQ=
+
+Name: org/apache/lucene/index/ParallelReader$ParallelTermPositions.cla
+ ss
+SHA1-Digest: UDxwgan7Nx5TlarQAQAxMpXEj94=
+
+Name: ensemble/controls/SimplePropertySheet$1.class
+SHA1-Digest: 0Bjc0VkIg4GV8T7j4DFWhgJyFFc=
+
+Name: ensemble/samples/language/beans/StringBindingSample.java
+SHA1-Digest: fvkkqL0DL7Mmun8fJYp+NBhXqKA=
+
+Name: org/apache/lucene/analysis/standard/StandardAnalyzer$1.class
+SHA1-Digest: 9P3VgsI3TRzqpbNcXroKxQ45leI=
+
+Name: ensemble/samples/controls/buttons/left-btn.png
+SHA1-Digest: 6HUQRWT/nZhwT6p9TbK+h84TBLE=
+
+Name: org/apache/lucene/index/CompoundFileReader$1.class
+SHA1-Digest: YipxW5yvBfvdewuUe9Zanqb+zqs=
+
+Name: ensemble/samples/controls/text/SimpleLabel.class
+SHA1-Digest: Xtj9BWXT5qvD/5UTnTESU0/8PZg=
+
+Name: ensemble/samples/controls/MenuSample.class
+SHA1-Digest: ORiLTsijFoRhME5KcwJcM8LJ8+I=
+
+Name: org/apache/lucene/index/DocumentsWriter.class
+SHA1-Digest: o6BpEkZ9yTEV2bAcdeZH+YVCAqI=
+
+Name: ensemble/samples/charts/bar/AdvHorizontalBarChartSample$1.class
+SHA1-Digest: CReo6MUjo3ef2l2U3xgTJ4Jv3m4=
+
+Name: org/apache/lucene/search/FieldValueHitQueue$Entry.class
+SHA1-Digest: v/Drxn+RhZPACjTzAe2eRnIM08E=
+
+Name: org/apache/lucene/analysis/CharArrayMap$EntryIterator.class
+SHA1-Digest: la4eabFA6wamlulP02W4ZM54a7g=
+
+Name: ensemble/samples/controls/toolbar/StyledToolBarSample.class
+SHA1-Digest: 1DekPbXMCD7E8e4ncvahVedB6jc=
+
+Name: org/apache/lucene/util/OpenBitSetDISI.class
+SHA1-Digest: dR4IbsMsgQ+6mL9YQJbXuwa78Ns=
+
+Name: org/apache/lucene/search/Filter.class
+SHA1-Digest: VAfiFqAmLndxgXzrpNfqu+WDsB4=
+
+Name: ensemble/samples/scenegraph/events/MultiTouchSample$MultiTouchIm
+ ageView$6.class
+SHA1-Digest: D0kVfTyIHQfphuygt7rMlSpZed8=
+
+Name: org/apache/lucene/index/StoredFieldsWriter.class
+SHA1-Digest: wDJ9zXthhD14M6sNH/oLjAXR0Yo=
+
+Name: ensemble/samples/controls/animal6.jpg
+SHA1-Digest: mPfzkHUtXa/uYggrw3f++qbiKqA=
+
+Name: ensemble/samples/concurrency/ServiceSample.java
+SHA1-Digest: TExry/2zvXpVOZ8eQ0Xww51QWwY=
+
+Name: org/apache/lucene/util/AttributeSource$AttributeFactory.class
+SHA1-Digest: s7eLWWiYHsoau3tpACSMSmRFMB4=
+
+Name: ensemble/samples/graphics/StopWatchSample.java
+SHA1-Digest: SAZbYPR07RTzhx1kBhgabeC0B6M=
+
+Name: ensemble/samples/graphics/effects/InnerShadowSample.java
+SHA1-Digest: K0kLoNJyuPWtsODmHpWWyzDWd4c=
+
+Name: org/apache/lucene/search/ConstantScoreQuery$ConstantWeight.class
+SHA1-Digest: 3RwFruwg34VsisR4ItHMLTrTJDk=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$2.class
+SHA1-Digest: Rnj7jRnRghDDpfS61OhpU0nIVYg=
+
+Name: ensemble/samples/scenegraph/stage/AdvancedStageSample$1.class
+SHA1-Digest: ESFXN+K1668XW1LRpQCHHFmRx00=
+
+Name: ensemble/images/window-corner.png
+SHA1-Digest: 8uOplDIbE7+v/XTShqCu4399PAU=
+
+Name: ensemble/controls/PropertySheet$Property.class
+SHA1-Digest: BUCbzpBRZ4uBlBR5ZaoPdwWGqJw=
+
+Name: org/apache/lucene/index/BufferedDeletesStream$ApplyDeletesResult
+ .class
+SHA1-Digest: VfrysvujCY2W1I+nlaX8dDpgvEs=
+
+Name: ensemble/samples/controls/text/search-clear.png
+SHA1-Digest: 2A8+ckkcibAbYY7X8qpiLYuzHds=
+
+Name: ensemble/samples/charts/scatter/AdvScatterLiveChartSample.png
+SHA1-Digest: 18uOPBsDFLrWMX0InFo7AxIRd6Y=
+
+Name: ensemble/samples/scenegraph/events/MultiTouchSample$MultiTouchIm
+ ageView$1.class
+SHA1-Digest: cQIH+1gWIM6HD53SrdENhmpldqY=
+
+Name: ensemble/samples/language/collections/ObservableListSample.class
+SHA1-Digest: mMqnLnGwjwdP0x0Sy9G+qUnfc2o=
+
+Name: org/apache/lucene/util/SetOnce$AlreadySetException.class
+SHA1-Digest: WTf5k/EuSxXhuGv+J/s5tefQXwI=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$2.class
+SHA1-Digest: ZC2tkHYvhVIu6ODiZxsmbI8eRow=
+
+Name: org/apache/lucene/search/spans/SpanPositionCheckQuery.class
+SHA1-Digest: jrhArOwBeXnrcn1dnYc19CpdO0Y=
+
+Name: ensemble/samples/graphics3d/Note3.wav
+SHA1-Digest: QMF9IPXbCSt8lhpCUQlNYqrA/RM=
+
+Name: org/apache/lucene/search/function/OrdFieldSource$1.class
+SHA1-Digest: hvUEcpI+kJSiPUoYEktVf6kXbwk=
+
+Name: ensemble/samples/controls/list/SimpleListViewSample.java
+SHA1-Digest: Vx1BE2TtCDxWuwGvnbplZ7dn/lE=
+
+Name: org/apache/lucene/util/CollectionUtil$1.class
+SHA1-Digest: qkxhGCHm2X3rNuQjKYNf3iSweCo=
+
+Name: ensemble/samples/concurrency/TaskSample$DailySales.class
+SHA1-Digest: Zpo1B1Z4Pn2IGxgvXcO/0lNXr1w=
+
+Name: ensemble/samples/charts/line/LineChartSample.png
+SHA1-Digest: 6oKCN/j2aHilZgB9dMqT/DNdO1c=
+
+Name: org/apache/lucene/search/FieldComparator.class
+SHA1-Digest: H9UVYpP9COH5zL4S8lf/tJmuPcI=
+
+Name: ensemble/samples/charts/pie/AdvancedPieChartSample$2.class
+SHA1-Digest: CPGjRw5lMg9R2Q/qurMk6GavR/M=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$10.class
+SHA1-Digest: raB6YhSmZMpxmeTTP+MMoDH3UL0=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$6.class
+SHA1-Digest: o7vmEMvCa/k8NE0OoWA8UxbNa6k=
+
+Name: ensemble/images/crumb-focused.png
+SHA1-Digest: 38z/JRqisjz5xEo46ecxwedtUVw=
+
+Name: org/apache/lucene/index/ParallelReader$ParallelTermEnum.class
+SHA1-Digest: H0NTNl8ncJsurGehq6jEOAYe7ko=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$6.class
+SHA1-Digest: fffiiPXcxClOqJxF2Vihn4IVVAM=
+
+Name: ensemble/samples/controls/ComboBoxSample.java
+SHA1-Digest: IMJxMBcY2PZIyrtxxqttynweNwE=
+
+Name: org/apache/lucene/search/IndexSearcher.class
+SHA1-Digest: dXJBlea1Z6pMsXF/8F3gx7eJs+M=
+
+Name: org/apache/lucene/util/ArrayUtil$1.class
+SHA1-Digest: 9TytbKuk6B4ZcZ63/htnQssNwWs=
+
+Name: ensemble/samples/media/images/thumb_default.png
+SHA1-Digest: AcTWpJikUxGi1xZQ32Kw14IwqA8=
+
+Name: ensemble/samples/media/pausebutton.png
+SHA1-Digest: yU6nDj/4UngMajeKuvyNheajz64=
+
+Name: org/apache/lucene/store/NativeFSLock.class
+SHA1-Digest: T1p9uInV1hAzrhQkSkHS/xlgbS8=
+
+Name: org/apache/lucene/search/spans/NearSpansUnordered.class
+SHA1-Digest: adQA2pBgWo4FMS0O+8hra2nP+Gg=
+
+Name: org/apache/lucene/search/function/CustomScoreQuery$CustomScorer.
+ class
+SHA1-Digest: pGT09qW/8wpTkG9n8qE60wpWZ8c=
+
+Name: org/apache/lucene/store/SimpleFSDirectory$SimpleFSIndexInput$Des
+ criptor.class
+SHA1-Digest: NmiMmZBnhnN/CgT2u93zvTGsnY0=
+
+Name: ensemble/samples/graphics/transforms/RotateSample.java
+SHA1-Digest: MEltB/gRBKNYq9LcthuQ+Lhf3ME=
+
+Name: org/apache/lucene/analysis/tokenattributes/PayloadAttributeImpl.
+ class
+SHA1-Digest: 7+PO4/GmBacJ940/lBZ/oRsF4k4=
+
+Name: org/apache/lucene/index/TermsHashPerField$1.class
+SHA1-Digest: TaaZL/5th2/tjxDOmoDgdlbZwvI=
+
+Name: ensemble/samples/controls/buttons/ColorButtonSample.png
+SHA1-Digest: vJe1lJ7rbsVm7c3BI9WWc11l9rg=
+
+Name: ensemble/images/window-expand.png
+SHA1-Digest: nF5o+ZpAJc8FhyQq4Tu4SoPOd8U=
+
+Name: org/apache/lucene/search/TotalHitCountCollector.class
+SHA1-Digest: ahYNSSC4CBK2b0RO5G/AmX24/VY=
+
+Name: org/apache/lucene/store/SingleInstanceLockFactory.class
+SHA1-Digest: ICfDRy1aZ78YAtlCDn2Bxd6vPmQ=
+
+Name: ensemble/search/index/_0.tii
+SHA1-Digest: ruzob3tp8ui5w66noxo1deRUimk=
+
+Name: org/apache/lucene/search/TermQuery$TermWeight$1.class
+SHA1-Digest: NEv4Zqy1nz+3lgyxUIr1Z5Nlxmg=
+
+Name: ensemble/samples/graphics/animal13.jpg
+SHA1-Digest: Ty9NmYwkX/G9WcUIr9Ct3GpxihU=
+
+Name: org/apache/lucene/util/NumericUtils.class
+SHA1-Digest: 8aXQR8H0e57J7JyDU2+1iUr3wgU=
+
+Name: org/apache/lucene/util/NumericUtils$IntRangeBuilder.class
+SHA1-Digest: XXnd3JQDCNjRuY2UOBREi+s07+0=
+
+Name: org/apache/lucene/search/BooleanScorer2.class
+SHA1-Digest: 0mIH1cdBF7WOrNvHBn0YT+DajOA=
+
+Name: org/apache/lucene/search/grouping/CollectedSearchGroup.class
+SHA1-Digest: eipBRLuwQ3R6T4m6fPKOKghzz3c=
+
+Name: ensemble/samples/scenegraph/events/MouseEventsSample$3.class
+SHA1-Digest: v7eky+sNzve26EzphdtlA9YbXC8=
+
+Name: org/apache/lucene/store/MMapDirectory$1.class
+SHA1-Digest: DNdDo6ztC2zlmK8UjCTu+dSsnaY=
+
+Name: org/apache/lucene/analysis/LimitTokenCountFilter.class
+SHA1-Digest: gvYPfNc9LUa12Y5jiqqc3V6shvY=
+
+Name: ensemble/samples/layout/GridPaneSample.java
+SHA1-Digest: KTMizwMmpnh7/pUbi7z8/phvFT4=
+
+Name: org/apache/lucene/search/function/ValueSource.class
+SHA1-Digest: i00vdXOYW9dpQm64yewMuKzkvrU=
+
+Name: ensemble/samples/graphics/transforms/TranslateSample.java
+SHA1-Digest: as0Fh4Zpi+ihhlVIff2ClP8WUD0=
+
+Name: ensemble/samples/graphics/animal9.jpg
+SHA1-Digest: 7sBFAzOEQf4OjWstcwwpjbF0xAM=
+
+Name: ensemble/samples/graphics/shapes/EllipseSample.java
+SHA1-Digest: JZIXg6kweEfIIXpxIW0v9KNP4X0=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$PlanetaryPlayerPane$10.c
+ lass
+SHA1-Digest: slVMbxfPccC9Z1tE76a6r5egwjs=
+
+Name: ensemble/samples/controls/toolbar/StyledToolBarSample.java
+SHA1-Digest: 2ZM5opOQQVIZK1/pekxFwGMlLUk=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$8.class
+SHA1-Digest: Pr8WfklLYxIP3hAqBrysXi7lQJ0=
+
+Name: ensemble/samples/charts/pie/DrilldownPieChartSample$1.class
+SHA1-Digest: 7fiFzu2PnHF291Qd8O+YuYAHCGQ=
+
+Name: ensemble/samples/animation/transitions/PathTransitionSample.clas
+ s
+SHA1-Digest: m+I9ajKbJ/rMQIOmvRscrg9h2s0=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample$8$2.c
+ lass
+SHA1-Digest: 2GCWz+nvTcp2DVhFrNFVb1X/gU8=
+
+Name: org/apache/lucene/index/DirectoryReader$MultiTermPositions.class
+SHA1-Digest: Iab3h7EYDp8cXotEUZea7Ye87/w=
+
+Name: ensemble/samples/animation/transitions/ScaleTransitionSample.cla
+ ss
+SHA1-Digest: ES2+TTXgk7OaV9pqBS3tcprRJ88=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample.png
+SHA1-Digest: dS8e4eRDbIVZchGaDKNvthkhbyI=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$1.class
+SHA1-Digest: NRGMnaLLCp+daIQdDAcV8bgdkiE=
+
+Name: ensemble/samples/charts/bar/AdvancedBarChartSample.class
+SHA1-Digest: 9pYtwMrOeQYnpms+5M5WJemvNGI=
+
+Name: org/apache/lucene/search/TermRangeFilter.class
+SHA1-Digest: ginMt5l+UldpTyipk1SWgbnmuTM=
+
+Name: ensemble/samples/controls/PaginationSample.png
+SHA1-Digest: qcCLROAn30oqvnucfB0NQBxcJJ4=
+
+Name: org/apache/lucene/search/FilterManager$FilterCleaner$1.class
+SHA1-Digest: lpoLD7Uu/Vz9WsxM66bLB/S7Ymg=
+
+Name: ensemble/audio/Note4.wav
+SHA1-Digest: 5nwcM5+kC94KjeuLrdetaRqjNrk=
+
+Name: org/apache/lucene/index/FreqProxTermsWriterPerField.class
+SHA1-Digest: Nc8A0Ee34RFRajKlAXhBOJBa2WU=
+
+Name: ensemble/samples/charts/bar/AdvHorizontalBarChartSample$3.class
+SHA1-Digest: YrZIrEFjFmCbZPkWTNRSmhC3G+w=
+
+Name: ensemble/samples/media/AudioClipSample.java
+SHA1-Digest: 1waF/AT/M0ddgWoAHcspO7i1QXg=
+
+Name: org/apache/lucene/search/ReqExclScorer.class
+SHA1-Digest: hb/R0n6zmlCZhdLAKAd/BvvJioU=
+
+Name: ensemble/samples/graphics/shapes/CircleSample.class
+SHA1-Digest: IiO7/tguxtLoL+3edpIN1dvQHWM=
+
+Name: ensemble/samples/controls/ProgressBarSample.png
+SHA1-Digest: 8T2uisJU1jazvQr0uS8qCbgu1xc=
+
+Name: org/apache/lucene/search/ConstantScoreAutoRewrite$CutOffTermColl
+ ector.class
+SHA1-Digest: WjLEgrvUZl+H2/HTcB+K23vwe9I=
+
+Name: ensemble/samples/graphics/PuzzlePieces$2.class
+SHA1-Digest: /T1K+2f7f1bW5jQRZ2S3JoFFlEs=
+
+Name: ensemble/search/index/_0.fnm
+SHA1-Digest: 9j3b+JL+58dKfroZvYGv11tpNTo=
+
+Name: ensemble/samples/media/images/button_default_stop.png
+SHA1-Digest: uOE0Z8upX2jJ27zykrLoWwJv1do=
+
+Name: ensemble/controls/WindowResizeButton$1.class
+SHA1-Digest: YhWUKp4WTvne3VOE9Qaql5uNAyI=
+
+Name: ensemble/samples/layout/StackPaneSample.java
+SHA1-Digest: zzY5IORozTw2TJ3LhLnnP2oDW+E=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$PlanetaryPlayerPane.clas
+ s
+SHA1-Digest: Zg7meHFWpxACtj4XDGc53Q1A2aw=
+
+Name: org/apache/lucene/search/spans/SpanPositionRangeQuery.class
+SHA1-Digest: 04ViVt4NNN5FwMj6c2NFhOfTw10=
+
+Name: ensemble/samples/animation/transitions/ParallelTransitionSample$
+ 1.class
+SHA1-Digest: Z1YvhplA7wVwl+naCgE0+9ZHgec=
+
+Name: ensemble/samples/scenegraph/events/MultiTouchSample$MultiTouchIm
+ ageView$5.class
+SHA1-Digest: em28NSSY6lQLycDs4qilOxuzpWM=
+
+Name: ensemble/samples/animation/timelines/InterpolatorSample$6.class
+SHA1-Digest: IQ6ucGQpqPVwo/5kxVOCHCBPcnI=
+
+Name: ensemble/samples/media/AdvancedMedia.java
+SHA1-Digest: Vtgd0SK94+ieHhazQklg+a58thM=
+
+Name: org/apache/lucene/search/BooleanScorer2$1.class
+SHA1-Digest: 1Pt2CUIn8wWDjg32KG2bqgOgiVM=
+
+Name: ensemble/samples/media/Note5.wav
+SHA1-Digest: Nupo+LY/fOegyv8jpAC3Lc8gBNw=
+
+Name: org/apache/lucene/util/SortedVIntList.class
+SHA1-Digest: HdbMc53R5Xt+K1gpIUSyP4RXlRQ=
+
+Name: ensemble/samples/charts/area/CurveFittedChart.css
+SHA1-Digest: N2BMAyqsmaC/aVSLXtH1n7YKDXQ=
+
+Name: ensemble/samples/scenegraph/events/oracle.gif
+SHA1-Digest: fTZGzTi86cJASTjAg9eCm838Iz4=
+
+Name: ensemble/controls/PropertySheet$StringPropertyImpl$1.class
+SHA1-Digest: KqDx/1N8AiebV9J1JFM2RE363Ts=
+
+Name: ensemble/samples/controls/buttons/GraphicButton.png
+SHA1-Digest: 2XtBklf3zRScU7QnN+hTvVdF/TM=
+
+Name: ensemble/Ensemble2$11.class
+SHA1-Digest: f9XyhRHtpN7tnAi3DC/n7hwfbQs=
+
+Name: org/apache/lucene/analysis/CachingTokenFilter.class
+SHA1-Digest: HkbzfzYLH5ouz0zd1pgUlB/aMzI=
+
+Name: ensemble/samples/scenegraph/events/KeyEventsSample.java
+SHA1-Digest: k+BnmwqHcHBce5p55TSKeYJGxGM=
+
+Name: org/apache/lucene/search/spans/TermSpans.class
+SHA1-Digest: 9e8AwunG/03TJzklGACBMjd3Kno=
+
+Name: ensemble/pages/DocPage$DocPane$2.class
+SHA1-Digest: uPEH+eu/qV2m1njrSCoNbvkT7ig=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$9$1.class
+SHA1-Digest: X+56XSq5AZjqKm0Zf5jBtrlnHkA=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$PlanetaryPlayerPane$6.cl
+ ass
+SHA1-Digest: 1b22jm25ynkZfkHDOuXaKwiPxnI=
+
+Name: ensemble/samples/scenegraph/events/KeyStrokeMotion$LettersPane$1
+ .class
+SHA1-Digest: EM+PVRDMMmqQsRkeJuPJ9NbvdIY=
+
+Name: org/apache/lucene/index/FilterIndexReader.class
+SHA1-Digest: 9TfKX5OocmrvqjOO1qyLTAQ80cA=
+
+Name: ensemble/samples/scenegraph/events/MultiTouchSample$MultiTouchPa
+ ne.class
+SHA1-Digest: hdwcjDioBxPk856IQorxjdEK1+I=
+
+Name: org/apache/lucene/document/Field$TermVector$3.class
+SHA1-Digest: ICFw+2fl7/H9yTXQKgh/tgRdTlM=
+
+Name: org/apache/lucene/util/NumericUtils$LongRangeBuilder.class
+SHA1-Digest: 9RHmCQQwsjf8KlScVPbVGyurBRk=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$PlanetaryPlayerPane$7.cl
+ ass
+SHA1-Digest: 0hIHHOmCJC9LPdQrMyMl7ab2lqw=
+
+Name: ensemble/samples/charts/bar/AdvBarAudioChartSample.java
+SHA1-Digest: nxgD12lS5DHzYY6saH9SL9/Fh5o=
+
+Name: org/apache/lucene/util/BitUtil.class
+SHA1-Digest: XLRmt26lTHq2rtnPMSwD/zpY+VU=
+
+Name: org/apache/lucene/document/LoadFirstFieldSelector.class
+SHA1-Digest: ecClFa2re1eZgDJI0jC/FKCt0Wo=
+
+Name: org/apache/lucene/search/MultiSearcher$CachedDfSource.class
+SHA1-Digest: g1kQ3v/pvV9PbqWgwhfweAf/0fY=
+
+Name: ensemble/samples/graphics/images/icon-48x48.png
+SHA1-Digest: 6ylpj4BzR5DmyzjdeNmaWIfTR6M=
+
+Name: ensemble/samples/controls/text/AdvancedLabel.java
+SHA1-Digest: UDfo7DJ3k1pEAW7mDRCQgbNJe/U=
+
+Name: ensemble/search/index/_0.frq
+SHA1-Digest: i7l0zWt5W7eZ57+6/BhtCxaqJg8=
+
+Name: org/apache/lucene/document/DateTools$1.class
+SHA1-Digest: pLkweGCwpeIjq/aFrW8tHcynPLA=
+
+Name: ensemble/samples/graphics3d/Note2.wav
+SHA1-Digest: w505/mEDOYjMyc8Z0L0/R6QNztY=
+
+Name: org/apache/lucene/analysis/WordlistLoader.class
+SHA1-Digest: vtKirehNITHIZAnYRFcrQKAJjhE=
+
+Name: org/apache/lucene/search/FilteredDocIdSetIterator.class
+SHA1-Digest: /owU4ZqUejNkPQVANENe5kV5DHg=
+
+Name: ensemble/samples/animation/transitions/PathTransitionSample$2.cl
+ ass
+SHA1-Digest: 3muxaYQ4RwPLAcS6xcyw9at0x8Q=
+
+Name: org/apache/lucene/index/TermsHashConsumerPerThread.class
+SHA1-Digest: fwKNYimahNp+2gEe7GOiFjzL7mo=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$8$1.class
+SHA1-Digest: QkDOh2ydt1EP0JESJnst61ppZQo=
+
+Name: org/apache/lucene/search/TimeLimitingCollector$TimerThread.class
+SHA1-Digest: 1sgPu6dF85jJsx4ytB5eR7gGO08=
+
+Name: ensemble/controls/SearchBox$6$1.class
+SHA1-Digest: D7Ag4LHqAmM9wAEDXCYHx4zKr6k=
+
+Name: ensemble/samples/media/images/button_hover_back.png
+SHA1-Digest: +FT8cAs/lCDT0PCO1NUH8cCcT+I=
+
+Name: org/apache/lucene/analysis/ReusableAnalyzerBase$TokenStreamCompo
+ nents.class
+SHA1-Digest: 01vTPqGLBeBtiwepdM3zBhPJqEs=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample$8$2.cla
+ ss
+SHA1-Digest: TJ/UCK+rIp/gX8H4AJS2L8VbfRY=
+
+Name: ensemble/samples/controls/text/TextValidatorSample.class
+SHA1-Digest: AYlN2jR8poVkh4HNELOlxIinvSE=
+
+Name: ensemble/samples/scenegraph/events/MouseEventsSample$8.class
+SHA1-Digest: XhJjXdHa8wl12xVa1PBryl2T2oQ=
+
+Name: org/apache/lucene/search/FieldCache$CacheEntry.class
+SHA1-Digest: V3FvCRYQMKoaeQ48KBz/52babM8=
+
+Name: ensemble/samples/charts/scatter/AdvScatterLiveChartSample.class
+SHA1-Digest: LH0UhCEg6jUXU6RPCBV1nVygTw0=
+
+Name: ensemble/sampleproject/ProjectType$FreeformProjectType.class
+SHA1-Digest: kLhnzlmw6KNeqyj0aWZmb6e5QW8=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$7.class
+SHA1-Digest: WnX8HAELiFpiaOk7J0o4WhcguDE=
+
+Name: org/apache/lucene/queryParser/TokenMgrError.class
+SHA1-Digest: z3sZ/B2XdP5GjvaMnSR62OY1yYM=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample$9.class
+SHA1-Digest: 0iR0ayL2c+cp43UC7x6jJRrU68o=
+
+Name: ensemble/samples/media/images/button_pressed_pause.png
+SHA1-Digest: 7h+fkqPJyDnqDbBEryV0exR/wMw=
+
+Name: ensemble/pages/DocPage$DocPane.class
+SHA1-Digest: +IdGEd09z+XX50VdrM76Tq5U9Xk=
+
+Name: org/apache/lucene/store/NativeFSLockFactory.class
+SHA1-Digest: Yxdq+S5h4UylMChM2gEYD1HqDOk=
+
+Name: ensemble/samples/media/OverlayMediaPlayer.class
+SHA1-Digest: Y5aKfOM4VJsqu33hn1zMabMj8EE=
+
+Name: ensemble/samples/controls/text/search-box.png
+SHA1-Digest: 3JQs8oTTCg630+yMT4v8L4LTg60=
+
+Name: ensemble/samples/controls/animal1.jpg
+SHA1-Digest: ogofCObyqjl9go/ZDPxbnv9hZv4=
+
+Name: ensemble/samples/graphics/DisplayShelfSample$PerspectiveImage.cl
+ ass
+SHA1-Digest: RHQcGI0xtM3N3FAMTiX8XG0zZb4=
+
+Name: org/apache/lucene/search/HitQueue.class
+SHA1-Digest: zWXtw/vOc4upunNyrNLNAlGvEy4=
+
+Name: ensemble/images/animals-200x200/animal4.jpg
+SHA1-Digest: WYFtXs42quqkxiWWQRz+O1jXQyM=
+
+Name: ensemble/samples/charts/custom/AdvCandleStickChartSample$1.class
+SHA1-Digest: hDIWs9DP5NKfmfVX0IDrOXhQ570=
+
+Name: org/apache/lucene/index/PayloadProcessorProvider$DirPayloadProce
+ ssor.class
+SHA1-Digest: jlo0GdZi4jAlmfjJ4+qvTFQz3QU=
+
+Name: org/apache/lucene/index/TermVectorEntryFreqSortedComparator.clas
+ s
+SHA1-Digest: OguC+3lqXqK5Ef00ErI1fqctNR8=
+
+Name: org/apache/lucene/search/TimeLimitingCollector.class
+SHA1-Digest: v62fIjVaIgpgRthKftls3Q6KhJg=
+
+Name: org/apache/lucene/search/SpanFilterResult$PositionInfo.class
+SHA1-Digest: qFNqc87ONiTVcfpMaDKPWtq3fkE=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample$6.cla
+ ss
+SHA1-Digest: j9cbpFW3XXcxTjR2ZH4WTHPky64=
+
+Name: org/apache/lucene/search/TopFieldCollector$MultiComparatorScorin
+ gMaxScoreCollector.class
+SHA1-Digest: cInY/LjHM6r/qfF+hnqBBUlz1RI=
+
+Name: org/apache/lucene/search/spans/NearSpansOrdered$1.class
+SHA1-Digest: sqiU4lxcw8zashjWHc9D6r4FqT0=
+
+Name: ensemble/samples/layout/HBoxSample.class
+SHA1-Digest: W0mtKyypCTOnvaq4ek8eMVVlyUs=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$7.class
+SHA1-Digest: WuKxYF3tZmvD7zYM2RNShkGspDQ=
+
+Name: ensemble/samples/charts/scatter/AdvScatterLiveChartSample$1.clas
+ s
+SHA1-Digest: dAn1i1TfKLb3htTyudYxLfPmnUQ=
+
+Name: org/apache/lucene/search/ExactPhraseScorer$ChunkState.class
+SHA1-Digest: 25SJi+FFMQqLFlGJhQ2Uc1XiJTc=
+
+Name: ensemble/samples/controls/text/search-clear-over.png
+SHA1-Digest: zJ3h2BltfBS7aKS9/Z2Rv5T2yR4=
+
+Name: ensemble/samples/scenegraph/node/NodePropertiesSample$1.class
+SHA1-Digest: 0hvAj9wpV/+R308HTig6jgrM5Eg=
+
+Name: ensemble/Page.class
+SHA1-Digest: 3Jwk6/0sNe58Zhbdbu+OwLV4Od0=
+
+Name: ensemble/samples/graphics/effects/ReflectionSample.class
+SHA1-Digest: Tt7zop+T2SWDH4hp1BnbI/e2S9U=
+
+Name: ensemble/samples/controls/text/TextValidatorSample$ValidatorPane
+ $1.class
+SHA1-Digest: t+hpdoYAfOeiAUzl7gAH6R0rn5c=
+
+Name: org/apache/lucene/search/CachingCollector$1.class
+SHA1-Digest: GhhYYDCPL30e8yjisC9ubvoUshA=
+
+Name: org/apache/lucene/index/IndexWriter$ReaderPool.class
+SHA1-Digest: d8JC26hWazIB32F6jDUxB53oouk=
+
+Name: ensemble/samples/graphics/PuzzlePieces-picture.jpg
+SHA1-Digest: B4cmBzVctSo+o7raP3ZMfnIcjo8=
+
+Name: ensemble/samples/graphics/images/ImageCreationSample.java
+SHA1-Digest: PCjLu49cA9bsp5xgAF7SYPxqEY0=
+
+Name: org/apache/lucene/analysis/CharArraySet$CharArraySetIterator.cla
+ ss
+SHA1-Digest: 1TWLWdNsjshBWJcFI2d9ksm4ieI=
+
+Name: org/apache/lucene/search/payloads/PayloadNearQuery$PayloadNearSp
+ anWeight.class
+SHA1-Digest: Vd8n7OF4fjHVqlhm85Db2uEoP8o=
+
+Name: org/apache/lucene/search/BooleanClause$Occur$1.class
+SHA1-Digest: xe4uGytMgbzQnfiOC600QoUHUfs=
+
+Name: org/apache/lucene/search/FieldCacheImpl$StopFillCacheException.c
+ lass
+SHA1-Digest: b0xa4te9K54MvVOwxS9UVMdRnEw=
+
+Name: ensemble/Ensemble2$9.class
+SHA1-Digest: nswil1dHjTPExwMKMeaUdBHVmUc=
+
+Name: ensemble/Ensemble2$18.class
+SHA1-Digest: xWPqfgSHrIvvaczgXhTM/e8LQlU=
+
+Name: org/apache/lucene/search/FilterManager.class
+SHA1-Digest: /XktVbx1WvVHc84aYFuqty1mImc=
+
+Name: ensemble/samples/graphics/DigitalClock.class
+SHA1-Digest: m0FPmOg/bX+BYGQWeKOKgNKnVD0=
+
+Name: org/apache/lucene/index/PositionBasedTermVectorMapper$TVPosition
+ Info.class
+SHA1-Digest: j6qjXlA58VSaV5XB6zR/NnHDyP4=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample$2.cla
+ ss
+SHA1-Digest: 4YJADow45ep1HK6wpRKM7Gd26wA=
+
+Name: org/apache/lucene/index/ByteSliceReader.class
+SHA1-Digest: FfhZj/BX66IefTcSXI38cHWfm2w=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$11.class
+SHA1-Digest: 4DdrK+OpEjJ+220wGC0k8Wz/z0o=
+
+Name: ensemble/samples/charts/bar/sedan-s.png
+SHA1-Digest: BeXXl5dXA9fxn8wSZA8v41r5IqE=
+
+Name: ensemble/SampleHelper.class
+SHA1-Digest: eNvQsTMySpR58wPH50DJSjUsiyw=
+
+Name: ensemble/controls/PropertySheet$StringPropertyImpl$2.class
+SHA1-Digest: rvyp/jFDLH79Yoy4YWlpJWKYSJo=
+
+Name: org/apache/lucene/search/TopFieldCollector$OutOfOrderOneComparat
+ orNonScoringCollector.class
+SHA1-Digest: 2PluNVH6/8ztQohOzqJ0E8DoJsc=
+
+Name: ensemble/samples/charts/area/StackedAreaChartSample.png
+SHA1-Digest: MfYgzLQ2Gc517lCsRDMCJGKAwkM=
+
+Name: ensemble/samples/language/collections/ObservableListSample.java
+SHA1-Digest: Z9d8FBlFLBvh+YobD9Rn3SrHRk0=
+
+Name: com/javafx/main/Main.class
+SHA1-Digest: pFgCeAfsamCuwL+t4/q/CMj89VI=
+
+Name: org/apache/lucene/search/spans/NearSpansOrdered.class
+SHA1-Digest: wY5A84tygVWMJFGqzkS4c4vcZhY=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$13.class
+SHA1-Digest: Mk+pmkPi9jb740srcDi1Gtkh2BA=
+
+Name: org/apache/lucene/analysis/LowerCaseTokenizer.class
+SHA1-Digest: rKjjLiYeMImpqqvMRBOVRM6w3P0=
+
+Name: org/apache/lucene/index/TermVectorOffsetInfo.class
+SHA1-Digest: TvbUUofyCsz/wGjtu8l06WpPlUA=
+
+Name: org/apache/lucene/document/NumberTools.class
+SHA1-Digest: ls+WWfG/wMtJTCZ6aXgRATfG7/Y=
+
+Name: org/apache/lucene/store/LockReleaseFailedException.class
+SHA1-Digest: gde1CCvNl4M9gfIrRXKYYicqhV4=
+
+Name: org/apache/lucene/util/CloseableThreadLocal.class
+SHA1-Digest: MQmcllRnJdTi6Lbalh/6zczl5Qw=
+
+Name: ensemble/samples/layout/TilePaneSample.class
+SHA1-Digest: Yv1hCtnFAulFJ3nQZ9VKnffP3Do=
+
+Name: ensemble/samples/scenegraph/events/CursorSample.java
+SHA1-Digest: Pvg+MvfRdlRTIS9BcxiDmRxRLQo=
+
+Name: ensemble/samples/language/beans/ChangeListenerSample$4.class
+SHA1-Digest: +Axi5NBJE0hnfo/Awxm6Y3duO6U=
+
+Name: org/apache/lucene/analysis/TeeSinkTokenFilter$SinkFilter.class
+SHA1-Digest: KFlTfwSmgTClSjS2mevw3usXeS8=
+
+Name: org/apache/lucene/search/TopTermsRewrite$1.class
+SHA1-Digest: 42Xd0Lbx9abMghZifGFDRVLnSaM=
+
+Name: org/apache/lucene/search/TopFieldCollector$OneComparatorNonScori
+ ngCollector.class
+SHA1-Digest: MscoBlHB/nHEO/7Fr9lUSDhKUbI=
+
+Name: org/apache/lucene/store/ChecksumIndexInput.class
+SHA1-Digest: BssaUNWWOPxxbEP2rCXd/+ENaGU=
+
+Name: org/apache/lucene/search/SpanQueryFilter.class
+SHA1-Digest: 10upJavArVDL10JfOlvK/eHCQCA=
+
+Name: ensemble/samples/graphics/images/ImageOperatorSample.class
+SHA1-Digest: 9xkj6TlPJG2k3Oz7vb3d6MwA6uU=
+
+Name: ensemble/samples/animation/transitions/FadeTransitionSample$1.cl
+ ass
+SHA1-Digest: OMdrQ4ISIQhHw1SCPB9EkvqL6tI=
+
+Name: ensemble/samples/charts/bar/ImageBarChart.css
+SHA1-Digest: KvqYkj6+mpnA5n2kAjDLKJDdjqg=
+
+Name: ensemble/samples/controls/buttons/RadioButtons.png
+SHA1-Digest: 8PfyZOoKKGU2pGctn8l7D8Dr83A=
+
+Name: org/apache/lucene/search/ConstantScoreQuery$ConstantScorer$1.cla
+ ss
+SHA1-Digest: nidKnUD1yB9RRam0k1myst8edZw=
+
+Name: ensemble/samples/graphics3d/XylophoneSample$7.class
+SHA1-Digest: ZXwDzcKNHuNcCY9HnmCr/R0qCWw=
+
+Name: org/apache/lucene/index/ParallelArrayTermVectorMapper.class
+SHA1-Digest: Y4ea2+T+t1dYtmhzOMonVtcf4mA=
+
+Name: org/apache/lucene/analysis/tokenattributes/KeywordAttribute.clas
+ s
+SHA1-Digest: 5jMwwf5b/Ku3pxOCybRPLWSMC9I=
+
+Name: ensemble/samples/controls/animal7.jpg
+SHA1-Digest: cxIOYd+I6k38Od3yEsJVY3QEGI4=
+
+Name: org/apache/lucene/search/spans/SpanNotQuery$1.class
+SHA1-Digest: 0BsXfWFmuJn2JXBXua8IXyo6xiQ=
+
+Name: org/apache/lucene/index/TermVectorsTermsWriter$PerDoc.class
+SHA1-Digest: EfLDEKkLC2ZQ9MIshPvI/1J8+xY=
+
+Name: ensemble/samples/controls/list/ListViewCellFactorySample.java
+SHA1-Digest: i4xaIkqKJlRzqdUuWcE+d7LlRVQ=
+
+Name: ensemble/samples/animation/transitions/StrokeTransitionSample$1.
+ class
+SHA1-Digest: Dnyj4GnzdkMKNLyrArXd7ORMNxM=
+
+Name: ensemble/samples/charts/bar/ImageBarChartSample.class
+SHA1-Digest: +M3BupG/kmeiWP8KgqULvLTGL+4=
+
+Name: ensemble/samples/controls/ChoiceBoxSample.png
+SHA1-Digest: VrX6dIwj4hvMlT01xdGQ81lyKAQ=
+
+Name: ensemble/samples/graphics/StopWatchSample.png
+SHA1-Digest: /D/qnqp1QS70emYZ54KhVp79Otc=
+
+Name: ensemble/samples/charts/pie/AdvancedPieChartSample.png
+SHA1-Digest: SHUPGa4zmlvuoUszfLTyvXknPoE=
+
+Name: org/apache/lucene/search/CachingSpanFilter.class
+SHA1-Digest: OaVUXQDtsX/xSV/TPGxzBewnj8k=
+
+Name: org/apache/lucene/store/AlreadyClosedException.class
+SHA1-Digest: pQLbJLM+wuGQU4Fidv4UbLTPJTI=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$2.class
+SHA1-Digest: wf89kaz5bWXGVLypAqOCbjYz8L8=
+
+Name: org/apache/lucene/index/TermDocs.class
+SHA1-Digest: rIn0GXPUs+bpdV7J93V05xeUa8Q=
+
+Name: org/apache/lucene/queryParser/QueryParserConstants.class
+SHA1-Digest: V3e5qVn0lE+KrOrC8HCwMy3JJkE=
+
+Name: ensemble/samples/controls/table/TableSample$Person.class
+SHA1-Digest: 3KfnVhkYio4I6FRjEjvMvhGDYks=
+
+Name: ensemble/samples/charts/bar/StackedBarChartSample.png
+SHA1-Digest: 7D2FZBsW9J2H89TKqo6YNLzX+ro=
+
+Name: org/apache/lucene/search/TopFieldCollector$OneComparatorScoringM
+ axScoreCollector.class
+SHA1-Digest: PIY3x2Aok+iIfdaK2admbqM3SOk=
+
+Name: ensemble/images/icon-overlay.png
+SHA1-Digest: MGBEhBTt+XZMQym5KknJFYGQ4YA=
+
+Name: org/apache/lucene/search/function/CustomScoreQuery$CustomWeight.
+ class
+SHA1-Digest: o3v50Cg5bQ59rzpEDch18tGGrt8=
+
+Name: ensemble/samples/controls/buttons/InsetTextButtonSample.java
+SHA1-Digest: NqtofKk5zVkUMNeSKt7Y1Vm/HBk=
+
+Name: org/apache/lucene/analysis/LetterTokenizer.class
+SHA1-Digest: 8jETd5YIFVcLoncS4YftaZ6q/yY=
+
+Name: org/apache/lucene/index/DirectoryReader.class
+SHA1-Digest: FyptEhjsZnnZScGTg+MMpX0rlMI=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$3$1.class
+SHA1-Digest: lcP8HW0VJsmHzZBTQCbWm1S2jEI=
+
+Name: org/apache/lucene/messages/MessageImpl.class
+SHA1-Digest: 7+A2qMOGhKhWAOui/D+WSMn0QdE=
+
+Name: ensemble/samples/scenegraph/events/KeyEventsSample$2.class
+SHA1-Digest: 8wy4Dw43gr44o4EY5EGizk6j1pc=
+
+Name: org/apache/lucene/analysis/PerFieldAnalyzerWrapper.class
+SHA1-Digest: TP2aReACEXJYESWB14PhB7Ub5e8=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$5.class
+SHA1-Digest: APdg5X7VOaFAfKK5rkPgXErKHE4=
+
+Name: org/apache/lucene/document/Field$TermVector$2.class
+SHA1-Digest: 9iAeF+CmweVrQW4Iq9/4ngBz5Uw=
+
+Name: org/apache/lucene/index/DocumentsWriterThreadState.class
+SHA1-Digest: Lkq0ZB0LmOcIg2iblmStSZvCC2Y=
+
+Name: org/apache/lucene/index/AbstractAllTermDocs.class
+SHA1-Digest: qr/9yKdqbLnHtjRkmkk2XJWzU6M=
+
+Name: org/apache/lucene/index/SegmentWriteState.class
+SHA1-Digest: rZNu9Hje/VXU0cnUnrx0M8rB1Xk=
+
+Name: ensemble/samples/language/beans/ChangeListenerSample$1.class
+SHA1-Digest: BOVEd9CNow0PND9zovX03VX6Svc=
+
+Name: org/apache/lucene/util/UnicodeUtil.class
+SHA1-Digest: lGwNorhMCADNFftNyFRl7E19LSI=
+
+Name: org/apache/lucene/search/DocIdSet.class
+SHA1-Digest: dzmvZi/OMyx1y7tdHASp2AloDao=
+
+Name: ensemble/config/ProxyDialog$LocalDirPanel$1.class
+SHA1-Digest: HCoJYxBxqBTR3AHlyiJabq8D8+I=
+
+Name: ensemble/samples/controls/buttons/PillButtonSample.java
+SHA1-Digest: EEFg7usZbZxjrq1tVTCWMMe8XPw=
+
+Name: ensemble/samples/scenegraph/events/MouseEventsSample$10.class
+SHA1-Digest: vP+mJDpx2SR84RQ6MPeqKiDcepI=
+
+Name: ensemble/samples/layout/TilePaneSample.java
+SHA1-Digest: 5EEutiTKtnz59wg84nXplIRQP1U=
+
+Name: org/apache/lucene/analysis/BaseCharFilter.class
+SHA1-Digest: oTt/QSdvB4rR1LHW3Ip+wwW/akI=
+
+Name: org/apache/lucene/search/FieldValueHitQueue.class
+SHA1-Digest: ZT/ooh29HcliowuZoXa4q7taP0o=
+
+Name: org/apache/lucene/document/Field$Index$3.class
+SHA1-Digest: eDP/OAc0eMpuPEbxO/4n53rcZFw=
+
+Name: ensemble/samples/graphics/animal5.jpg
+SHA1-Digest: MzFL0DqKA5LfUaTh81mlf564hTw=
+
+Name: org/apache/lucene/index/TermInfosReader$1.class
+SHA1-Digest: qNrA64sodtry/KnntdsH6834NZ8=
+
+Name: org/apache/lucene/index/SegmentReader$FieldsReaderLocal.class
+SHA1-Digest: MKbCdRxzRC97THH+x02r7u6BS0M=
+
+Name: ensemble/samples/charts/area/AdvAreaAudioChartSample.java
+SHA1-Digest: pW2ae2ZOLeoNrwjxB1FbCft2YGo=
+
+Name: ensemble/samples/charts/area/AreaChartSample.java
+SHA1-Digest: kClic1fEa/a7k60XthqGZQx37lI=
+
+Name: com/javafx/main/Main$2.class
+SHA1-Digest: z+ritJ4WllT0qGiHx77ELxBEahY=
+
+Name: ensemble/pages/DocPage$DocPane$1.class
+SHA1-Digest: GqL0Xs31/XF3C9/1kZpGExBhJ3w=
+
+Name: ensemble/ensemble2.css
+SHA1-Digest: MwMtV442t7kg8e+uSmtZd1IAPKs=
+
+Name: org/apache/lucene/search/FieldCache$LongParser.class
+SHA1-Digest: odUS9tRtC2SBGWoQaK1GvM0heiM=
+
+Name: org/apache/lucene/index/FormatPostingsFieldsWriter.class
+SHA1-Digest: gGrXlwNU5MpiqtCU10UbujAawXc=
+
+Name: ensemble/pages/DocPage.java.orig
+SHA1-Digest: 7CkDjOAGI+d+pPUvhXDSME/Z3ik=
+
+Name: ensemble/samples/charts/pie/AdvancedPieChartSample$5$1.class
+SHA1-Digest: EyiN0Y1kNP4li+mm08nCVlp/hf8=
+
+Name: ensemble/images/animals-200x200/animal1.jpg
+SHA1-Digest: 69RmYW02RGREkP0im9BKMdcOfFc=
+
+Name: ensemble/samples/scenegraph/events/MultiTouchSample.class
+SHA1-Digest: 9YH4jPgbwkYxyHW4iTJWSxOgANw=
+
+Name: ensemble/samples/media/OverlayMediaPlayer.css
+SHA1-Digest: 8fHc3TkZvhbUXK9Hg8gtv3o29Tw=
+
+Name: org/apache/lucene/analysis/CharArrayMap$MapEntry.class
+SHA1-Digest: mpU0DPbQ9Qfwu4qJWnu3902kPds=
+
+Name: ensemble/samples/scenegraph/node/NodePropertiesSample$5.class
+SHA1-Digest: +eH/0XyZnxojkZ5Z1TzD4jHSL1o=
+
+Name: org/apache/lucene/index/UpgradeIndexMergePolicy.class
+SHA1-Digest: DHGxTmos7Jy59j8Vv4s1mkPuVKw=
+
+Name: ensemble/samplesAll.txt
+SHA1-Digest: lapfSjU+CzE8gHNkN6gJQWOM6qo=
+
+Name: org/apache/lucene/index/DocInverterPerThread.class
+SHA1-Digest: USSKvPfeVZgFMl4BguEEEBtGbiY=
+
+Name: org/apache/lucene/search/BooleanScorer2$Coordinator.class
+SHA1-Digest: NaBG3/6/EpV6Qvxi6Ehd2Ju8PII=
+
+Name: ensemble/samples/graphics3d/CubeSystemSample.java
+SHA1-Digest: 6ruQhVo1cI4AgFGJ7sRUa1mn8Ic=
+
+Name: org/apache/lucene/index/TieredMergePolicy.class
+SHA1-Digest: i8FgRA/gPAEdrHqizLQBW4SivGM=
+
+Name: org/apache/lucene/util/UnicodeUtil$UTF8Result.class
+SHA1-Digest: qth/e12twK8GHu/o2SbCOngyg9w=
+
+Name: org/apache/lucene/search/Scorer.class
+SHA1-Digest: jKQl6J28k9+IsR/+Zk5HVTs91WQ=
+
+Name: org/apache/lucene/index/BufferedDeletesStream$1.class
+SHA1-Digest: ux1SiDduKYLGXAIseJv37Lgd104=
+
+Name: org/apache/lucene/store/ChecksumIndexOutput.class
+SHA1-Digest: tqQjPWu7du577ZyoO8+VxMiiMvw=
+
+Name: org/apache/lucene/search/FieldCache$5.class
+SHA1-Digest: Z2DWat8I8sjer8h2S23nAsm6rxs=
+
+Name: org/apache/lucene/search/grouping/SecondPassGroupingCollector.cl
+ ass
+SHA1-Digest: HYLnpUiX02Gs0UP2QWuTt++kB44=
+
+Name: ensemble/samples/concurrency/TaskSample.png
+SHA1-Digest: Kugfc4PDMm6NcxMBtM7DYiF5qD4=
+
+Name: ensemble/samples/graphics/animal7.jpg
+SHA1-Digest: cor+EYEYpJVG6uEreG0L3S66NDI=
+
+Name: ensemble/samples/controls/ProgressIndicatorSample.png
+SHA1-Digest: bYR3A7NCN7fWnTxfsJrWq7cyPlg=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$13.class
+SHA1-Digest: PWhE/J30qyxAoSlvcATFPVv7G8E=
+
+Name: ensemble/samples/graphics3d/XylophoneSample.class
+SHA1-Digest: 3Vcea0l98BRfLnwaDys9YbbJ+ME=
+
+Name: org/apache/lucene/index/MergePolicy$MergeSpecification.class
+SHA1-Digest: VFL/1EItLabM2lObFjybYHiyzsc=
+
+Name: ensemble/samples/media/images/button_default_pause.png
+SHA1-Digest: jVgNgX4KwwHJAzJ2P2qGzBKEOmM=
+
+Name: ensemble/samples/controls/buttons/RadioButtons.java
+SHA1-Digest: yky6OtwViIg9lProQ8jtw8RIcI0=
+
+Name: org/apache/lucene/index/IndexFileNames.class
+SHA1-Digest: UFzOu5d8FNXCBsnu/SjcF8PIc+Q=
+
+Name: ensemble/samples/graphics/animal6.jpg
+SHA1-Digest: csr/1MzA9jKBEn/7WM3cOFjnkug=
+
+Name: ensemble/sampleproject/ProjectType$J2SEProjectType.class
+SHA1-Digest: uB+HFvLHYvU0HRXP3NgkimwcinQ=
+
+Name: ensemble/samples/animation/transitions/FadeTransitionSample.clas
+ s
+SHA1-Digest: 1RXaxze8bUdbm4oh7fIc0H1NNyw=
+
+Name: ensemble/images/crumb.png
+SHA1-Digest: 3K291USQrVErsH1atZKOG37SitY=
+
+Name: org/apache/lucene/search/ExactPhraseScorer.class
+SHA1-Digest: CIPFT51zAU5Ese6Sb0HOr7LVsbc=
+
+Name: org/apache/lucene/search/Sort.class
+SHA1-Digest: 9p9NQAyVLggDgEHRSfNOJsqA7uU=
+
+Name: ensemble/samples/media/StreamingMediaPlayer.java
+SHA1-Digest: x2hU84lsjYgO2Ngd5ohBaBwnC8A=
+
+Name: org/apache/lucene/search/Explanation.class
+SHA1-Digest: jSr7F2QJ/6wPVuZxYJyVNZIgmi8=
+
+Name: org/apache/lucene/search/SingleTermEnum.class
+SHA1-Digest: EjgPOJ7zfLcLNvc/Z6p6I5lOqKo=
+
+Name: ensemble/samples/graphics/PuzzlePieces$1.class
+SHA1-Digest: TeTimsm0fUU44fM9M5cCx7YZt5I=
+
+Name: org/apache/lucene/analysis/LowerCaseFilter.class
+SHA1-Digest: AgQjvKuuunY3SHt8JdqiSAH1yxs=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$6.class
+SHA1-Digest: 5VUdsNhUr8XoTSefrTCuW79rSZg=
+
+Name: ensemble/samples/web/WebViewSample.png
+SHA1-Digest: leGjq4GX8EROjGotuwxlxkr6PeQ=
+
+Name: org/apache/lucene/search/MultiPhraseQuery.class
+SHA1-Digest: ACkkNy7/8wglr/cDCLlVKWZYYAE=
+
+Name: ensemble/samples/media/AudioClipSample$2.class
+SHA1-Digest: oWnP1cmmPgH407l9eVh1uvtowuo=
+
+Name: org/apache/lucene/store/LockVerifyServer.class
+SHA1-Digest: Hyr5njWqyLVjSJD7C1UFYeqNcCM=
+
+Name: org/apache/lucene/search/TimeLimitingCollector$TimeExceededExcep
+ tion.class
+SHA1-Digest: pi5aAiVPLkl2E04CYwRmUWfHBUI=
+
+Name: ensemble/samples/animation/timelines/TimelineEventsSample$4.clas
+ s
+SHA1-Digest: 29qNzqKxOQCiQqDjL1njN9RlR0o=
+
+Name: org/apache/lucene/index/InvertedDocConsumerPerThread.class
+SHA1-Digest: wrGU12pekdtOCv3MyRkKfyvVbjI=
+
+Name: ensemble/samples/animation/timelines/InterpolatorSample$3.class
+SHA1-Digest: ChFVMZ46TQLxMJ7Dqwsq8h8jy2g=
+
+Name: org/apache/lucene/search/TopFieldCollector$OutOfOrderOneComparat
+ orScoringNoMaxScoreCollector.class
+SHA1-Digest: sB5P6hzlMEjFMamFxm1V2k0LdjA=
+
+Name: ensemble/samples/controls/text/InsetTextSample.png
+SHA1-Digest: Dvx6je6oaE6+ZVPwNb89Yy8FvBI=
+
+Name: org/apache/lucene/store/SimpleFSDirectory.class
+SHA1-Digest: /fQlj5KEPDaji3SYG/EN+epSNH0=
+
+Name: ensemble/samples/graphics3d/Note5.wav
+SHA1-Digest: jI/sZ/78d9M0fU8G5s5yiFk5yMA=
+
+Name: ensemble/samples/controls/buttons/center-btn.png
+SHA1-Digest: Q9BvYEnfusjX9+FtQZjeoe5OnVs=
+
+Name: org/apache/lucene/analysis/standard/ClassicTokenizerImpl.class
+SHA1-Digest: btyivDAgnA1EpV1rkP1XKdwbGK8=
+
+Name: org/apache/lucene/document/SetBasedFieldSelector.class
+SHA1-Digest: H9JM7sVJbVlQXl3iRZ6aSUQjHg8=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$11.class
+SHA1-Digest: 41W0KnYrkVuBD7q+pLwfI/3QZVM=
+
+Name: ensemble/samples/layout/icon-48x48.png
+SHA1-Digest: SoBYr1CUPINkm0tl70YwalKoxVQ=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$1.class
+SHA1-Digest: frkdeJSILO0ZFxTTrjljLNxczWU=
+
+Name: org/apache/lucene/search/TopFieldCollector$1.class
+SHA1-Digest: ZGfZEDEyMJybwMxutO6vKHim5Zs=
+
+Name: ensemble/samples/animation/timelines/TimelineSample.java
+SHA1-Digest: g4nfbbqvfAxMxOY7jwgwUik6WTw=
+
+Name: ensemble/Sample.class
+SHA1-Digest: lk6eNcL0SOez0U4v5psaJvh2PO8=
+
+Name: org/apache/lucene/search/FilteredQuery$1.class
+SHA1-Digest: u6k+dPZmEzJOz+fgdk3C7e6yCME=
+
+Name: ensemble/samples/charts/bar/AdvancedBarChartSample$2.class
+SHA1-Digest: IUDoiW5KNl6eb4g0V+nU4rideqo=
+
+Name: org/apache/lucene/search/BooleanQuery$BooleanWeight.class
+SHA1-Digest: pNCHjtCVJ2qDtRYTYURAxdXX8L4=
+
+Name: ensemble/samples/web/HTMLEditorSample$1.class
+SHA1-Digest: 4zLxaTh5KqhXosGoNZv4+W8Q3Rk=
+
+Name: org/apache/lucene/search/SloppyPhraseScorer.class
+SHA1-Digest: ttdBlYHNAIrbx0PG5WaTQQyY9Z0=
+
+Name: ensemble/sampleproject/ProjectType.class
+SHA1-Digest: bhs8LzydbNfgQEhPRr7qrfjq8Og=
+
+Name: ensemble/samples/animation/transitions/SequentialTransitionSampl
+ e$2.class
+SHA1-Digest: 2q1khyaotHFGKnw0iHYEF6ctKoQ=
+
+Name: org/apache/lucene/analysis/StopAnalyzer.class
+SHA1-Digest: B59IYMVJ8DcKWBBCpRkAcd4T1b0=
+
+Name: org/apache/lucene/index/SegmentTermDocs.class
+SHA1-Digest: MgW14R0ygCGrdpGA11cteMdAaus=
+
+Name: ensemble/samples/concurrency/ServiceSample$DailySales.class
+SHA1-Digest: EXU/jWl9pem5syvJbjzCyA8G+Us=
+
+Name: org/apache/lucene/index/FieldsWriter.class
+SHA1-Digest: sf1NhSNbZYkZAjqy0nMnvGn5K0k=
+
+Name: org/apache/lucene/util/CollectionUtil$2.class
+SHA1-Digest: eKzpbBTN3UZM5vPvfaVMuesU2R4=
+
+Name: org/apache/lucene/util/ArrayUtil.class
+SHA1-Digest: Qa2OiZ8ql341pfLtXfDmcIJ3WDE=
+
+Name: org/apache/lucene/index/TermsHashConsumer.class
+SHA1-Digest: Rnf/umsTH/1/TCAGOvttB4kwKrI=
+
+Name: ensemble/samples/controls/animal8.jpg
+SHA1-Digest: kLe80J5qo/A3LQOjlGNA3VjjzJg=
+
+Name: ensemble/samples/controls/ChoiceBoxSample.class
+SHA1-Digest: g51nJmKQsSbubFuGw3PoAEiYjyw=
+
+Name: ensemble/images/search-clear-over.png
+SHA1-Digest: DczC1vklxvNxQPIaGytLbmCeWnA=
+
+Name: com/javafx/main/NoJavaFXFallback.class
+SHA1-Digest: eLiAP7ATmZ+9+PYXZMpM5QrmGGE=
+
+Name: org/apache/lucene/search/ScoringRewrite.class
+SHA1-Digest: ZzxypWkKeGxP5Eiom1cARzOleVo=
+
+Name: ensemble/samples/charts/bar/AdvHorizontalBarChartSample$4.class
+SHA1-Digest: qKpd6MBHVaIWP2ycx3i8vg6P/tM=
+
+Name: ensemble/samples/graphics/ColorfulCirclesSample.class
+SHA1-Digest: CVayP82RD5TLUOQcyF2iaxxFbtA=
+
+Name: org/apache/lucene/search/MatchAllDocsQuery$MatchAllDocsWeight.cl
+ ass
+SHA1-Digest: KdkLQgqZv0oZk91HXqwIZeiS6uI=
+
+Name: ensemble/samples/graphics/paints/ColorSample.class
+SHA1-Digest: S2Yo6eSDYuChzmc/4MfGRqJtRzg=
+
+Name: ensemble/samples/controls/table/TableCellFactorySample$Person$1.
+ class
+SHA1-Digest: EcU+K5qKyc6H7uYDaYlxMVEkSVU=
+
+Name: org/apache/lucene/search/CachingWrapperFilter$FilterCache.class
+SHA1-Digest: BtZehQBpp5398rGyUas6SY+8+lk=
+
+Name: ensemble/samples/charts/pie/DrilldownPieChartSample.class
+SHA1-Digest: pDmulMfHouKgWobs8tNy3BrN4eo=
+
+Name: org/apache/lucene/search/ReqOptSumScorer.class
+SHA1-Digest: NpAHg/DyWWQndus7U1rMeBYNPTk=
+
+Name: org/apache/lucene/search/ParallelMultiSearcher$2.class
+SHA1-Digest: kCG2xFMskQuF/efyEa/OMWV7VN8=
+
+Name: org/apache/lucene/util/DoubleBarrelLRUCache$CloneableKey.class
+SHA1-Digest: Yyr4pl2SYurksbfr+VIbpisz9s0=
+
+Name: ensemble/samples/charts/bar/AdvancedBarChartSample.png
+SHA1-Digest: jUCrtVelJnOQ66CF26oSqRebjB8=
+
+Name: org/apache/lucene/search/TermQuery$TermWeight.class
+SHA1-Digest: 8uwbA+c+i7IBUF4u8mCR/K/J5AI=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$8.class
+SHA1-Digest: 6Gayo5yyFfDxZcIB903fzW8RNhY=
+
+Name: org/apache/lucene/index/BufferedDeletes$1.class
+SHA1-Digest: M48oFuMH4Rm7JNm+QQEBG81HkSM=
+
+Name: ensemble/samples/language/beans/ChangeListenerSample$2.class
+SHA1-Digest: F5+9/bhLWGZJW3ipvlQZvsBV+t8=
+
+Name: ensemble/samples/graphics3d/Note7.wav
+SHA1-Digest: 0fTUseg8euQg4ZfS9BjkROW81y4=
+
+Name: org/apache/lucene/queryParser/Token.class
+SHA1-Digest: ZWvCKhe2Z9wS6dXnM9KbxrC0B7o=
+
+Name: org/apache/lucene/util/RamUsageEstimator.class
+SHA1-Digest: Kf55cB0Cx6v7XJ5OgnhljNuIYz4=
+
+Name: org/apache/lucene/search/TopScoreDocCollector$1.class
+SHA1-Digest: MYKdSspYR8g7Z8TvmXcFltGWTE0=
+
+Name: org/apache/lucene/search/TopTermsRewrite.class
+SHA1-Digest: b7n4Q3sM7mueWtczw/dUG1fvKYM=
+
+Name: org/apache/lucene/index/IndexReader$ReaderFinishedListener.class
+SHA1-Digest: MQa+A9OsNMrLzxHYfGgRSuZ2iKo=
+
+Name: ensemble/samples/charts/area/CurveFittedAreaChartSample.java
+SHA1-Digest: +k7GiU62JTbN+vVQ9qeUGpFrXfk=
+
+Name: ensemble/samples/controls/text/TextValidatorSample.png
+SHA1-Digest: 03Qjf+woN0Rs59xXZJECsotfXHU=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$8.class
+SHA1-Digest: xggXoM3xlB4IUzKyvY6Myrx8dpY=
+
+Name: ensemble/samples/web/HTMLEditorSample.java
+SHA1-Digest: z3tDoTE4oYGPjIuGcOdUxore8Z4=
+
+Name: ensemble/samples/media/images/button_default_play.png
+SHA1-Digest: cbXDaMZBrjNbq9MXe/1V255VPFE=
+
+Name: org/apache/lucene/search/TopScoreDocCollector.class
+SHA1-Digest: B3xfKlvR3x+M1gB3pH0pShahbzc=
+
+Name: ensemble/samples/charts/area/CurveFittedAreaChartSample$CurveFit
+ tedAreaChart.class
+SHA1-Digest: xp04Qu0ZL6jaYIF44dUJaYjkFvM=
+
+Name: org/apache/lucene/index/DocumentsWriter$ByteBlockAllocator.class
+SHA1-Digest: I+6TEt8ycDR6ztiSPvh4p2VXpdE=
+
+Name: ensemble/samples/controls/text/SearchBoxSample$SearchBox$1.class
+SHA1-Digest: aAPUVXIVTXm1sYCVPmXn/OPhCCk=
+
+Name: org/apache/lucene/index/CorruptIndexException.class
+SHA1-Digest: VDpzcP/HEecgJQLpJBVJsn7CzWg=
+
+Name: org/apache/lucene/index/SnapshotDeletionPolicy.class
+SHA1-Digest: uClSIeGBsLT1w4LHC/KZI9iC6zY=
+
+Name: ensemble/samples/scenegraph/stage/AdvancedStageSample$1$3.class
+SHA1-Digest: wbWM7wp2mx0eRr6x/0x8dQGoQJk=
+
+Name: org/apache/lucene/analysis/Tokenizer.class
+SHA1-Digest: LDPNdp5WKVj3HLM6Lmx8QUmi9Nc=
+
+Name: org/apache/lucene/analysis/tokenattributes/FlagsAttribute.class
+SHA1-Digest: pBO2OBxcZ401BqwZwLiCOGMqOMk=
+
+Name: ensemble/samples/animation/transitions/PauseTransitionSample$1.c
+ lass
+SHA1-Digest: a2hnYkTomaRJwMiq/Hxihd12Wa4=
+
+Name: org/apache/lucene/index/SnapshotDeletionPolicy$SnapshotCommitPoi
+ nt.class
+SHA1-Digest: z4DdomSVWLDfxzog2akysGLpTMw=
+
+Name: ensemble/samples/scenegraph/node/CustomNodeSample.java
+SHA1-Digest: CUClGyD3UzYB6syOW0Q0J6cah5c=
+
+Name: org/apache/lucene/messages/Message.class
+SHA1-Digest: AVy0RYVPF4h7LHqBdUjnDu1ZyEI=
+
+Name: org/apache/lucene/search/FieldCacheImpl$StringIndexCache.class
+SHA1-Digest: ntxbdqmwIR9b/Ta0okF/cmyIPnQ=
+
+Name: ensemble/search/ClasspathDirectory.class
+SHA1-Digest: dyO++LcmUo1mcUDy6ff6t8U27eE=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample$8.class
+SHA1-Digest: fsZtxsP3bpsB33BkrNpPtY5nXHc=
+
+Name: ensemble/samples/controls/text/SearchBox.css
+SHA1-Digest: 2KYzJhe8tCREZzamwYjsJYUy8nI=
+
+Name: ensemble/controls/PropertySheet$DoublePropertyImpl$2.class
+SHA1-Digest: Q3ijELs725DN0A64/qRAr/VFKkg=
+
+Name: org/apache/lucene/search/function/ReverseOrdFieldSource.class
+SHA1-Digest: xvtB/OtSgHjNW7CLQSzz0kVtPdw=
+
+Name: org/apache/lucene/util/FieldCacheSanityChecker.class
+SHA1-Digest: Nr4iOO7/4UI5DvgkKc24TAvpEVA=
+
+Name: org/apache/lucene/search/spans/SpanQuery.class
+SHA1-Digest: meX8wMKslwQlZYLjE5AuWX3ElzY=
+
+Name: org/apache/lucene/index/MergePolicy.class
+SHA1-Digest: jiZV9cUE2zy4VyMuQN31wupDXhQ=
+
+Name: ensemble/controls/WindowButtons.class
+SHA1-Digest: zypog7T74WAi0xUNELkTvi+uhPI=
+
+Name: ensemble/pages/SamplePage$2.class
+SHA1-Digest: +KtQ5+kcmeAVMSV4lfZhinHPJMM=
+
+Name: org/apache/lucene/store/SimpleFSLockFactory.class
+SHA1-Digest: RojoUYzLy8Xb5W8dlIGVrkmLMIQ=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$PlanetaryPlayerPane$2.cl
+ ass
+SHA1-Digest: PoFEePnKxai4ZysehulVGxR1/8M=
+
+Name: ensemble/samples/charts/area/AdvAreaAudioChartSample.png
+SHA1-Digest: zsz+qjxzLKXoEBLB83UF3chOOnY=
+
+Name: org/apache/lucene/index/SegmentInfo.class
+SHA1-Digest: MWfyJUQqcmi1OWpLjuCSE75Pnyo=
+
+Name: org/apache/lucene/store/FSDirectory$FSIndexOutput.class
+SHA1-Digest: hHnanYfaW1wLOfgOvh0I+2A0GmE=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample$1.class
+SHA1-Digest: jPywO6U/9wiHWbU5exb8GAMeBNU=
+
+Name: org/apache/lucene/index/TieredMergePolicy$MergeScore.class
+SHA1-Digest: 0cH+Jkq4Ya0WpLU6VkTdFivDKrE=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$4.class
+SHA1-Digest: BTNrUa1FVweAZesQsu6bZsF5pKI=
+
+Name: org/apache/lucene/search/FieldValueHitQueue$OneComparatorFieldVa
+ lueHitQueue.class
+SHA1-Digest: cmB2c1tSHE4aF+0nXpQUvkUAgis=
+
+Name: ensemble/images/logo.png
+SHA1-Digest: pDwap5AgsxJBmwCe50lBMnfyD+Q=
+
+Name: ensemble/samples/media/AudioClipSample.class
+SHA1-Digest: mOPce4wrXcA/CULmqESNAOueBB8=
+
+Name: ensemble/samples/language/beans/ChangeListenerSample$3.class
+SHA1-Digest: YMZsoWeZEBiuMXimt+9KrCjUSgY=
+
+Name: ensemble/samples/charts/bar/AdvBarAudioChartSample.png
+SHA1-Digest: 2vYcF8DE7XFLTV8BEcsE8G8RIMY=
+
+Name: ensemble/audio/Note2.wav
+SHA1-Digest: dzadBe8F5a/UItWzzBWXWzH6Qfk=
+
+Name: ensemble/samples/graphics/shapes/RectangleSample.class
+SHA1-Digest: ZNhyE6pz+gqcDiD0fCBU+nC5Sgo=
+
+Name: org/apache/lucene/search/FieldCache$DoubleParser.class
+SHA1-Digest: ASQ/uCqsWT3wXK37tpXmkYVhPSA=
+
+Name: ensemble/samples/charts/scatter/ScatterChartSample.java
+SHA1-Digest: nq+73x8icEOZKl1FO4tbutIqZz4=
+
+Name: ensemble/samples/controls/animal5.jpg
+SHA1-Digest: pjS33aj56vqySd0+5dyZskbCO7E=
+
+Name: org/apache/lucene/store/LockFactory.class
+SHA1-Digest: R0AATxK681puhQqeO6OYbBg+GNM=
+
+Name: ensemble/images/forward.png
+SHA1-Digest: SuFRWl9DQRW4scfsT261cRHta5E=
+
+Name: ensemble/samples/media/Note4.wav
+SHA1-Digest: DbYAkPhbMrqpktsKr7KOYVBZs30=
+
+Name: org/apache/lucene/document/FieldSelector.class
+SHA1-Digest: usOK1K5nG/2KLWCXAb9UmNzQ8FQ=
+
+Name: ensemble/samples/concurrency/TaskSample.java
+SHA1-Digest: WsizGoy+H2RdY124JgyhkESzu3U=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample$8$1.clas
+ s
+SHA1-Digest: Ig+bFi2v7PfcbZ3U/mzibcVmSZk=
+
+Name: org/apache/lucene/index/DocInverter.class
+SHA1-Digest: G8rDVtZoFPkgBWqInwrD1hiQGSA=
+
+Name: org/apache/lucene/analysis/SimpleAnalyzer.class
+SHA1-Digest: KqXus3djGaBGOOmAmVlXsbhRi9E=
+
+Name: ensemble/samples/charts/bar/suv-s.png
+SHA1-Digest: o95K35t4LQbybUNFLzjdYSLg2pQ=
+
+Name: ensemble/samples/controls/tree/TreeViewSample.class
+SHA1-Digest: +X/G5kkKUPdnf2sfoWF1yeX2CjY=
+
+Name: ensemble/samples/scenegraph/node/NodePropertiesSample.class
+SHA1-Digest: L2WF4bWqnqtEIiJqLRqfCm9bsXI=
+
+Name: ensemble/samples/graphics/StopWatchSample$Watch$5.class
+SHA1-Digest: KMbV4lDy7/XWn9VRK33ZuxOqTvI=
+
+Name: org/apache/lucene/search/SortField.class
+SHA1-Digest: a5r8Jqo8bvrj+fkIIh8h6MvuccU=
+
+Name: ensemble/samples/graphics3d/CubeSample.java
+SHA1-Digest: t8QNtq6atIH9j94/VhYXfMbQL2M=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample.class
+SHA1-Digest: nEUFSFXt9ec36PRZVafh133hf9s=
+
+Name: org/apache/lucene/search/Weight.class
+SHA1-Digest: ggN9Ayq6aPn13qOyPBt9V8Zmvr0=
+
+Name: ensemble/samples/graphics/images/ImagePropertiesSample.java
+SHA1-Digest: +pWP1C2sIVnKviBixWzelpaO/9E=
+
+Name: ensemble/samples/controls/ColorPickerSample.class
+SHA1-Digest: XzEJy4uIvoCBbG+/CHRNV6jaghM=
+
+Name: ensemble/search/index/_0.tis
+SHA1-Digest: CHAvqL7nSpHI81uRg3MghDghrSo=
+
+Name: org/apache/lucene/search/function/ByteFieldSource.class
+SHA1-Digest: 94Y7nNh/YxYQ/nbvwfsiLN01zB0=
+
+Name: ensemble/samples/canvas/FireworksSample.png
+SHA1-Digest: PH+f9XOEI17RwfUTFFwZCk9Jock=
+
+Name: org/apache/lucene/document/Field.class
+SHA1-Digest: 0RZwwCdUFwGuLHez1bUlrT3iNE8=
+
+Name: org/apache/lucene/analysis/TokenFilter.class
+SHA1-Digest: aCoT5VImBg0k61Lu21k8BSwyADw=
+
+Name: ensemble/samples/canvas/FireworksSample$Particle.class
+SHA1-Digest: 0q8wwfi1IUyMeq1N0wu3E1Sg9Dw=
+
+Name: ensemble/samples/concurrency/ServiceSample$GetDailySalesTask.cla
+ ss
+SHA1-Digest: jMaPgjKXDh7DCbc1WddJb8dWekk=
+
+Name: ensemble/samples/controls/buttons/GraphicButton.class
+SHA1-Digest: u3wIcfhtW1teriRHZTLHAkG6MN4=
+
+Name: ensemble/controls/SearchBox.class
+SHA1-Digest: gojEPvKjC0Agx41Fboaai/xyBgs=
+
+Name: ensemble/samples/scenegraph/events/CursorSample.png
+SHA1-Digest: iVhmGmLZ5iZXFh+W6/QQ/dYR5Bk=
+
+Name: ensemble/pages/DocPage$1.class
+SHA1-Digest: r4lSsyGpj/bqeBuupq5A3bcoj8U=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$14.class
+SHA1-Digest: Oj8bhCwlWHUBHe15K59SomgKUcw=
+
+Name: org/apache/lucene/search/ConjunctionScorer$1.class
+SHA1-Digest: cC9ysnJtxH2K+i1gWGZrGd+dQwk=
+
+Name: ensemble/samples/media/Note3.wav
+SHA1-Digest: RamOXQwypeCiz7s8O/P9siQ4EN0=
+
+Name: org/apache/lucene/search/FieldDoc.class
+SHA1-Digest: 6ZubiUdJ2kBlNfJCBXO2U1aliLA=
+
+Name: ensemble/samples/animation/transitions/ParallelTransitionSample.
+ class
+SHA1-Digest: DPUH+Ay1A6Cy7P4Z5ZC0Zhm6TTg=
+
+Name: ensemble/samples/graphics/effects/GaussianBlurSample.class
+SHA1-Digest: cb+LQ3VhIstc/gLF8omoS/DEMHE=
+
+Name: org/apache/lucene/analysis/WhitespaceAnalyzer.class
+SHA1-Digest: wWGq+C15AqwedPvIBj3ntXJCA1o=
+
+Name: ensemble/samples/graphics/animal8.jpg
+SHA1-Digest: ghKBS8HoIcTwmolmszlSnEdievM=
+
+Name: org/apache/lucene/util/AttributeSource$State.class
+SHA1-Digest: Zt4rQOwU2+Caw+IaqSR2EDkdbeI=
+
+Name: ensemble/samples/controls/list/ListViewCellFactorySample.class
+SHA1-Digest: PXfWW7s+t69LlJY4wrZXeLb17bA=
+
+Name: ensemble/samples/controls/AccordionSample.java
+SHA1-Digest: n+JRNjLb8NqDEMLs5+Lsy1Zr6ts=
+
+Name: org/apache/lucene/search/SpanFilterResult.class
+SHA1-Digest: +zH5CUSlGftn00tyKIq0fvsK+rk=
+
+Name: ensemble/samples/charts/pie/PieChartSample.class
+SHA1-Digest: RxzFBgua2GBb3Y2S5bx42h9GG8M=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample$5.class
+SHA1-Digest: 6pjnV8fkblyK5WP7ZSP6oGQzrMs=
+
+Name: ensemble/samples/animation/timelines/TimelineEventsSample$2.clas
+ s
+SHA1-Digest: IY0NDRXbpeBzO42bSlvfPPntzXs=
+
+Name: org/apache/lucene/analysis/StopwordAnalyzerBase.class
+SHA1-Digest: 4HhDez+HsPXxrNBPpeBelAWan+Y=
+
+Name: org/apache/lucene/index/CharBlockPool.class
+SHA1-Digest: p1qX4bZ2Mo6TM/RnFbdSWMVXVF0=
+
+Name: org/apache/lucene/search/FieldCache$Parser.class
+SHA1-Digest: KhGAoQevWxcLrzs3wc+zaQIVWlw=
+
+Name: org/apache/lucene/util/AttributeImpl.class
+SHA1-Digest: o9M3W5KpJXWmM2lH9K06aid66WI=
+
+Name: org/apache/lucene/store/FileSwitchDirectory.class
+SHA1-Digest: 2jcRHuR4+BagSv9TvaEP/7dI/MQ=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$6.class
+SHA1-Digest: rAb7cLDozOy7hYJFzsmJbA/4+e8=
+
+Name: ensemble/syntaxhighlighter/shBrushJava.js
+SHA1-Digest: zAWFJhkQjyIlSkZW4TzvuUJFNRc=
+
+Name: org/apache/lucene/index/MergePolicy$MergeException.class
+SHA1-Digest: IXSYeDdPKMg33ny2lUCV8D0nA78=
+
+Name: org/apache/lucene/search/Similarity$2.class
+SHA1-Digest: //iRcwS3rIzyIGhTzYeJl+ISdXE=
+
+Name: ensemble/images/animals-200x200/animal10.jpg
+SHA1-Digest: Sk+It2qede6u2msdHH+QIYLreGc=
+
+Name: ensemble/samples/graphics/DigitalClock-background.png
+SHA1-Digest: jIW2RSEPz1Q0b7TIxfDGhB+qXAE=
+
+Name: org/apache/lucene/search/SpanFilterResult$StartEnd.class
+SHA1-Digest: Qp7lxsmkt4bEShG1FK5Ln9PlDdg=
+
+Name: org/apache/lucene/search/MultiSearcher$1.class
+SHA1-Digest: 2nhYf3iMNLoFZ3pUF5rtFZF4iJY=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample$4.class
+SHA1-Digest: IPdrQwKObXdJC+UDNdPzX/fUnrE=
+
+Name: org/apache/lucene/search/function/IntFieldSource$1.class
+SHA1-Digest: r3wOgLjzFrluyCdJPWBmRUsAgQw=
+
+Name: org/apache/lucene/analysis/ASCIIFoldingFilter.class
+SHA1-Digest: bMpYiIPSZUseHtORo/R+gLZMsL0=
+
+Name: ensemble/samples/scenegraph/events/MultiTouchSample$MultiTouchIm
+ ageView.class
+SHA1-Digest: j8QHRnVtxcOGYH4uJIIUfWn7IGo=
+
+Name: org/apache/lucene/store/NIOFSDirectory$NIOFSIndexInput.class
+SHA1-Digest: IwJHjyha3l6g/xiTLLznxRQBAso=
+
+Name: ensemble/samples/language/collections/ObservableListSample$7.cla
+ ss
+SHA1-Digest: F5+7+CJeZOyTTTW5mRmC1/ZtPCQ=
+
+Name: ensemble/samples/charts/bar/AdvHorizontalBarChartSample.png
+SHA1-Digest: RJ25+Hmc2aTc/zfLslcP05IRc8M=
+
+Name: org/apache/lucene/search/CachingWrapperFilter$1$1.class
+SHA1-Digest: AKK2CY9Hwr3XFf4odPSPDOjB4sA=
+
+Name: ensemble/samples/graphics/shapes/PathSample.class
+SHA1-Digest: nRcJKjRRRvupd5Egf7Vb7F6YbEE=
+
+Name: ensemble/samples/canvas/FireworksSample$SanFranciscoFireworks.cl
+ ass
+SHA1-Digest: JQAY23EeR+qDXSFLFWT8sb/dhYs=
+
+Name: org/apache/lucene/index/SerialMergeScheduler.class
+SHA1-Digest: /TXcojWiFXomwAi6V2s1lTff6Y4=
+
+Name: org/apache/lucene/index/TermInfo.class
+SHA1-Digest: HKxwnGdG2/G6kXeEYLTWS/QXQHo=
+
+Name: ensemble/sampleproject/SampleProject.zip
+SHA1-Digest: bbO6q/W6QYd2yc3YWebcfvC+ZR4=
+
+Name: org/apache/lucene/index/FieldsReader$1.class
+SHA1-Digest: kPD+82W5uR+wqObVAOujJZ4dzek=
+
+Name: org/apache/lucene/search/FieldCache$3.class
+SHA1-Digest: Bi96/QqFCBsr78oytorwpyxJonk=
+
+Name: org/apache/lucene/search/ComplexExplanation.class
+SHA1-Digest: M4nF4aIpvWWdgUWyuds45HKQRug=
+
+Name: org/apache/lucene/store/NoLock.class
+SHA1-Digest: 7J474FZDu7Q+A0FsJpEHcq+QK4A=
+
+Name: ensemble/samples/graphics/shapes/RectangleSample.java
+SHA1-Digest: 14kfQ0PCG1ispbD5ry4UA6lxmts=
+
+Name: ensemble/samples/graphics/images/ImageCreationSample.class
+SHA1-Digest: 1BWoZ0UCFc2MTu+w5ghwxhAujWg=
+
+Name: ensemble/samples/controls/buttons/ColorButtonSample.class
+SHA1-Digest: jk6rxZW067cn58UFpQBDdZBHAAs=
+
+Name: ensemble/samples/controls/PaginationSample$2.class
+SHA1-Digest: g8md9L6Z1gzjad6klqWxt01u0TE=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$3.class
+SHA1-Digest: wn9e6DwxLmkr9+UsbiSr5epTqyM=
+
+Name: ensemble/images/crumb-hover.png
+SHA1-Digest: PIVktZYTJn6/DhsEKkfrLiGPYIs=
+
+Name: ensemble/sampleproject/ProjectType$WebProjectType.class
+SHA1-Digest: mMZkomDy9DFrirJMVxk15yY5UB8=
+
+Name: ensemble/images/crumb-selected.png
+SHA1-Digest: ZDJdl3H3f8uoFk6RAcT4JmQqwpk=
+
+Name: ensemble/audio/Note5.wav
+SHA1-Digest: Kn0UsJw3UdazeeeIJOq8I4cmEY0=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$10.class
+SHA1-Digest: g71YJaqKybsDF9wtl+GB+dd+Ito=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$11.class
+SHA1-Digest: 9lae4SHPaIQyzKdReSYpMC12Irk=
+
+Name: ensemble/samples/graphics/DigitalClock.png
+SHA1-Digest: xtDNTGj50yMVrK/6wf3Fma2GRgE=
+
+Name: org/apache/lucene/document/Field$Store.class
+SHA1-Digest: fT6qQX0KLmSVqHiyYUPfAg7s7lE=
+
+Name: ensemble/samples/animation/timelines/TimelineEventsSample$5.clas
+ s
+SHA1-Digest: M6mnlcmXyX3uz6HLbP9DjoHhqJw=
+
+Name: org/apache/lucene/util/AttributeSource$2.class
+SHA1-Digest: HbDJE78kN8mjb8r063Rj8nOcG/o=
+
+Name: ensemble/images/mid-bar-right.png
+SHA1-Digest: +trjtKr1rjpfWzysPncaMVA+nPs=
+
+Name: ensemble/syntaxhighlighter/shCoreDefault.css
+SHA1-Digest: PyqRkNHUVEodMo580rjSVwF3LvU=
+
+Name: ensemble/samples/controls/text/TextFieldSample.java
+SHA1-Digest: 2sC8L1w1wF86NAkzmPPElO0SIz0=
+
+Name: ensemble/samples/controls/list/HorizontalListViewSample.png
+SHA1-Digest: YxYOpgkVJu5l4FEN0jZWzsam1sY=
+
+Name: org/apache/lucene/document/NumericField.class
+SHA1-Digest: tYhi5i781cLDc/Sjms2E75342bc=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$2.class
+SHA1-Digest: XRKUpDetC/p6Ej7FuCVTq7vp6ug=
+
+Name: ensemble/images/search-clear.png
+SHA1-Digest: xbKxNC4mv491cGP5DckPMNp7iPw=
+
+Name: org/apache/lucene/document/Field$TermVector.class
+SHA1-Digest: UGxqJHlj9TEB/4VxIxW20gm0+LY=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample$9.class
+SHA1-Digest: ihyF6RO3Zh+/q95IWoPo3lWHMPU=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$9.class
+SHA1-Digest: w4ESxt1oYb7BGXPnfMS8zX1kYmc=
+
+Name: org/apache/lucene/search/FieldComparator$ByteComparator.class
+SHA1-Digest: 463dKa695M0EwCBadPPZ/h1UmII=
+
+Name: ensemble/samples/canvas/sf.jpg
+SHA1-Digest: rkL/bUxii6uZfTkvaQNx/dq4r+0=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane.class
+SHA1-Digest: m/s1EFbn37G21gMfgb6KhWnEUqU=
+
+Name: org/apache/lucene/index/TermFreqVector.class
+SHA1-Digest: mg6lhrMYlz3ffFA3FbnSELE//O4=
+
+Name: ensemble/search/SearchResult.class
+SHA1-Digest: +spJlmLLAk9IqQYWV6+ueVtIygA=
+
+Name: ensemble/samples/concurrency/ServiceSample.class
+SHA1-Digest: u4U5w4OTHpLk9sTgs14GUWn4OHY=
+
+Name: org/apache/lucene/search/ParallelMultiSearcher.class
+SHA1-Digest: 6lY9b+aU+vbnrAvf/euEaA8mpTg=
+
+Name: ensemble/samples/controls/PaginationSample$1.class
+SHA1-Digest: oytSjbDA9rSJdU4FmI39Lj2QNlE=
+
+Name: ensemble/samples/controls/tree/TreeViewSample.png
+SHA1-Digest: l5+nkVjOx9SQFDizAobfv7Lwvr8=
+
+Name: ensemble/sampleproject/ProjectType$EJBProjectType.class
+SHA1-Digest: zRV1GVVncPRec/utNgp7Ady3w/I=
+
+Name: ensemble/samples/graphics/animal2.jpg
+SHA1-Digest: FkpAUZFvCmS86pSYFwBX1S7oHck=
+
+Name: org/apache/lucene/search/payloads/PayloadTermQuery.class
+SHA1-Digest: vFchPx9qE3WpENcP28R0Bn6L+e8=
+
+Name: ensemble/samples/scenegraph/events/MouseEventsSample$4.class
+SHA1-Digest: 1ACQaTqKm+DRWAEvpQLobD4VLdQ=
+
+Name: org/apache/lucene/document/Field$TermVector$4.class
+SHA1-Digest: xZi5Ix8pLf3q7Xl3Zd0fcdTcY/I=
+
+Name: org/apache/lucene/search/DisjunctionSumScorer.class
+SHA1-Digest: 4Wzfs8w+E53rYNwEK0IU3GwHQNY=
+
+Name: ensemble/controls/BreadcrumbBar.class
+SHA1-Digest: oDaNfiSY77MMunc3ZxQSEue/tT0=
+
+Name: ensemble/samples/media/OverlayMediaPlayer.java
+SHA1-Digest: Bvk/OPGwwKNeCwE2exaXv5fejmE=
+
+Name: org/apache/lucene/index/CheckIndex$MySegmentTermDocs.class
+SHA1-Digest: xdjl2m86ZJzPtIX6X+t8v7Rd/oo=
+
+Name: org/apache/lucene/index/PersistentSnapshotDeletionPolicy.class
+SHA1-Digest: v2qk4qtOVY8s60vW+RJF3GS2jio=
+
+Name: ensemble/Ensemble2$4.class
+SHA1-Digest: mfaomIHeqhzuUeYSUhpLYNCsKHg=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample.png
+SHA1-Digest: KwaMbsciJ1wmP6mMZq1tzXIVf38=
+
+Name: org/apache/lucene/index/DocFieldProcessorPerField.class
+SHA1-Digest: h5koQo3D1enTTBBbFjtKbnBJTiE=
+
+Name: org/apache/lucene/search/FuzzyTermEnum.class
+SHA1-Digest: WjBmEezAfBklHD2kj1VWzd7lzx4=
+
+Name: org/apache/lucene/store/NoSuchDirectoryException.class
+SHA1-Digest: UDWt6VJIhMytqZBnGNSkRKhyI0g=
+
+Name: org/apache/lucene/search/MultiPhraseQuery$MultiPhraseWeight.clas
+ s
+SHA1-Digest: 9SYpmPpjTdBA7C8t8e/yf3nVz3Y=
+
+Name: org/apache/lucene/search/BooleanQuery$TooManyClauses.class
+SHA1-Digest: S1A8onnQNxn93d/xNNUG21KvAj8=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$3.class
+SHA1-Digest: D4q4MF7OtYp52wSx4bPzNAX24Qk=
+
+Name: org/apache/lucene/search/FieldCacheImpl$CacheEntryImpl.class
+SHA1-Digest: sgfKvzhrSt4P0iQxbt+4fTvppHs=
+
+Name: org/apache/lucene/search/FieldCache$2.class
+SHA1-Digest: XI+GSG2caC6plTZJ7qfqbovK8sE=
+
+Name: ensemble/samples/controls/buttons/left-btn-selected.png
+SHA1-Digest: u8FneEvXnGGDunFcs3vHDK4dqzQ=
+
+Name: ensemble/samples/charts/line/LineChartSample.class
+SHA1-Digest: LwSo2McmZeilFVQ5c37BMqvhhZ8=
+
+Name: org/apache/lucene/analysis/TeeSinkTokenFilter.class
+SHA1-Digest: AAZDboFAc2sDloztR9x986CZnio=
+
+Name: ensemble/samples/scenegraph/events/KeyStrokeMotion$LettersPane$3
+ .class
+SHA1-Digest: c2qX7gn/Yq9EqaoCmLvHJhlX4pc=
+
+Name: org/apache/lucene/index/BufferedDeletes$2.class
+SHA1-Digest: 0Q4D4Vx3WZqDnSZOdS5ZDOgwrmE=
+
+Name: ensemble/images/crumb-selected-focused.png
+SHA1-Digest: Nt0VK+Z5aBxgFt81rHWenQK/e/w=
+
+Name: org/apache/lucene/queryParser/QueryParser$Operator.class
+SHA1-Digest: e88m5wOwq4jxbQlSHpn1XnJaEJA=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$1.class
+SHA1-Digest: xpXLCUoW6IsHhhO3iG3iZ7A79K8=
+
+Name: ensemble/Ensemble2$10.class
+SHA1-Digest: qRdtfrvUg5ez5zBQPCwqp059osk=
+
+Name: ensemble/samples/controls/buttons/HyperlinkSample.png
+SHA1-Digest: uOE3djF8pb/DRRH9jgJ96pkK7Y0=
+
+Name: ensemble/samples/media/images/button_hover_stop.png
+SHA1-Digest: gOiShrhBMxVTj5mYq5GEnIRDfv0=
+
+Name: ensemble/search/index/segments_1
+SHA1-Digest: qu+j8J9FxDp5UvabjPn8c82nV4Y=
+
+Name: org/apache/lucene/analysis/CharArrayMap$UnmodifiableCharArrayMap
+ .class
+SHA1-Digest: 8Xw7cXQ0HjDJ3As96BYrH785gLg=
+
+Name: org/apache/lucene/index/FieldsReader$LazyField.class
+SHA1-Digest: aA2RfK4qBp65i/hadNiZx/gycZs=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$2$1.class
+SHA1-Digest: rXTvZCUpuHN+LL0WWFuhqMZhp6M=
+
+Name: org/apache/lucene/index/MultiLevelSkipListWriter.class
+SHA1-Digest: NTyUaIyFr0bIAhUGLI0tX/0LMew=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$2.class
+SHA1-Digest: 39t/qJh0sRjBBeE//YIStg4HVPM=
+
+Name: ensemble/samples/animation/timelines/TimelineEventsSample$3.clas
+ s
+SHA1-Digest: 8mgb2eGQ8klTAHMk/ArVmseKnXU=
+
+Name: org/apache/lucene/document/Document.class
+SHA1-Digest: NKl537rJNTLKIYW5WoRSg4ezWQk=
+
+Name: org/apache/lucene/queryParser/FastCharStream.class
+SHA1-Digest: L5ylXKIBGqvEkQLipmffDeTrcEI=
+
+Name: ensemble/samples/media/AlphaMediaPlayer.png
+SHA1-Digest: obUn6IwOj6tO1yoI7zyi8ZmeGAA=
+
+Name: ensemble/samples/scenegraph/events/animal1.jpg
+SHA1-Digest: sgSIFn5nkFSGp739Y4RHFSfJAtg=
+
+Name: org/apache/lucene/search/function/ReverseOrdFieldSource$1.class
+SHA1-Digest: LdY1QZ5vqYjAPCDxgR7e0Z7yfug=
+
+Name: ensemble/samples/animation/transitions/RotateTransitionSample.cl
+ ass
+SHA1-Digest: DxtbqmD+MkGU6u2mlAn59H8aEUs=
+
+Name: org/apache/lucene/index/CompoundFileReader$CSIndexInput.class
+SHA1-Digest: Ja/VdnIRQtJTw/S9VnbHwF4x8KA=
+
+Name: ensemble/samples/scenegraph/events/KeyStrokeMotion$1.class
+SHA1-Digest: Qm08X8VP+u3HW9kqEKokj96XNEE=
+
+Name: ensemble/samples/media/StreamingMediaPlayer.css
+SHA1-Digest: zrzZvwTw8of0RDGYpNQSiIuTOok=
+
+Name: org/apache/lucene/document/Field$Store$2.class
+SHA1-Digest: 5CNlvl9nreHhdW0ya1UGEQOKeA4=
+
+Name: ensemble/sampleproject/ProjectType$MavenProjectType.class
+SHA1-Digest: 22zE2h9pz+WftK6EgLbNV+BTjwI=
+
+Name: org/apache/lucene/index/TermVectorsWriter.class
+SHA1-Digest: 166vH7zcM+8SjbNrGkxrmdzsUaU=
+
+Name: ensemble/samples/language/beans/ChangeListenerSample.java
+SHA1-Digest: i2lm5OE7pis3MI4Dg+RsFxYyCmc=
+
+Name: ensemble/samples/graphics/StopWatchSample$Watch$3.class
+SHA1-Digest: b4LGrNsylppzCwP5bWc4PLV4KJM=
+
+Name: ensemble/samples/animation/transitions/FillTransitionSample$1.cl
+ ass
+SHA1-Digest: GtsiFLwXJQiiVw89GJ7Jf5a1NBw=
+
+Name: ensemble/samples/graphics/transforms/ScaleSample.class
+SHA1-Digest: xpzZwAjz/XblwdxA2Q9fsqlJsrA=
+
+Name: org/apache/lucene/analysis/Token$TokenAttributeFactory.class
+SHA1-Digest: 6DQHXkPTw4SOLJ1EzBvTfTvr0EQ=
+
+Name: ensemble/samples/graphics3d/XylophoneSample$4.class
+SHA1-Digest: 82nryFQM8q/y3TuRokE7Fa5ZXdE=
+
+Name: org/apache/lucene/util/AttributeSource.class
+SHA1-Digest: sjDCQqGOsz5HMcpPodKPT606E8E=
+
+Name: ensemble/samples/animation/transitions/SequentialTransitionSampl
+ e.class
+SHA1-Digest: Jz/k7wZ50FBhnkw4kzV/FVr0gfc=
+
+Name: ensemble/samples/charts/pie/AdvancedPieChartSample$6.class
+SHA1-Digest: oYHMbV9FFtLgMgczDx7510wPico=
+
+Name: ensemble/audio/Note8.wav
+SHA1-Digest: awwGbgu7pmi0K+ns4ltme5CHauc=
+
+Name: org/apache/lucene/search/spans/SpanWeight.class
+SHA1-Digest: /w3YQxa++VTqF7KfECjrO/FADn4=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample$7$1.c
+ lass
+SHA1-Digest: +X/fIHcP+kZQkKBmTr/WKJTS6jA=
+
+Name: org/apache/lucene/search/FilteredQuery.class
+SHA1-Digest: Ac6TY1YGmTT3p0KThKsIxe5vkSY=
+
+Name: ensemble/samples/media/images/button_hover_pause.png
+SHA1-Digest: v1INnz8l0zrDy7Ezo5CPnFRZiWo=
+
+Name: ensemble/samples/charts/pie/AdvancedPieChartSample$7.class
+SHA1-Digest: uOzX+t3EHmTdloIYct7xqeRuPck=
+
+Name: org/apache/lucene/store/LockStressTest.class
+SHA1-Digest: cDv4XsNGzk0RnCwsUDmxuT3eAJ8=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$7.class
+SHA1-Digest: K5wx2CqC9tNtpL4A7c/0Bi0+roQ=
+
+Name: ensemble/config/ProxyDialog.class
+SHA1-Digest: rBYuMTycrRQkinLA/evEC7581tg=
+
+Name: org/apache/lucene/search/TopFieldCollector$OutOfOrderMultiCompar
+ atorNonScoringCollector.class
+SHA1-Digest: SjizKzR9JVU+J0Ac9RG18V0+l4E=
+
+Name: ensemble/controls/PropertySheet$StringPropertyImpl.class
+SHA1-Digest: Ukk9yHftmLv1aGoyFNH0WjVmuUM=
+
+Name: org/apache/lucene/index/FrozenBufferedDeletes$1$1.class
+SHA1-Digest: VpMtWAS3ThQesoTdxjGFL6eHXY8=
+
+Name: ensemble/samples/controls/menuInfo.png
+SHA1-Digest: ERp+aEcTPyXAF1mkJbUqJO5Y50A=
+
+Name: org/apache/lucene/document/NumericField$DataType.class
+SHA1-Digest: u5O5Kn3qxNIpaicDMF+CmzN/z2w=
+
+Name: org/apache/lucene/index/NoMergePolicy.class
+SHA1-Digest: 05qieVnBf2ucQVMIIxH7ahJwceE=
+
+Name: org/apache/lucene/index/FieldSortedTermVectorMapper.class
+SHA1-Digest: YMoulNsB+sy5nBBp8mIdZIh74Dc=
+
+Name: ensemble/samples/graphics3d/XylophoneSample$1.class
+SHA1-Digest: ZMm58BMOh7F1KfrF/UI4CVgiBmw=
+
+Name: ensemble/samples/scenegraph/events/KeyEventsSample$4.class
+SHA1-Digest: gRThM+cFGqgJQDMaJITPHDcedDk=
+
+Name: org/apache/lucene/search/FieldCache$10.class
+SHA1-Digest: h7xZLi0APNM6A+tmHjsEYOIwsgM=
+
+Name: org/apache/lucene/index/BufferedDeletes$2$1.class
+SHA1-Digest: KymCfGwnK2PWPQsB5uYbFZbhsR0=
+
+Name: org/apache/lucene/search/IndexSearcher$MultiSearcherCallableWith
+ Sort$FakeScorer.class
+SHA1-Digest: PLcccGzH7zrus67PGDzWTc7wBsI=
+
+Name: ensemble/samples/graphics/shapes/ArcSample.class
+SHA1-Digest: pPkJI5i+ft3jQARhl4B3unG6a1g=
+
+Name: org/apache/lucene/search/function/CustomScoreQuery$1.class
+SHA1-Digest: vkwQsZbRqVPUDWSAam93RaX6Tqs=
+
+Name: ensemble/pages/SamplePage$SamplePageView.class
+SHA1-Digest: cRVvD+tPKLeS+K35vr43ZsL8vx0=
+
+Name: org/apache/lucene/document/Field$Index$5.class
+SHA1-Digest: hYScqNvYaGvVA8b71xaLqI3aD3U=
+
+Name: org/apache/lucene/search/BooleanClause.class
+SHA1-Digest: 7YAVDXmrB1+byCQA48wOO1WMKQs=
+
+Name: org/apache/lucene/analysis/CharArrayMap$EntrySet.class
+SHA1-Digest: v43Wz1W1k1gVGe3FKkMv7dG7x+M=
+
+Name: org/apache/lucene/index/CheckIndex$Status$TermVectorStatus.class
+SHA1-Digest: 4uu1N5+yuen6wzYvQ+o1reKwvc4=
+
+Name: ensemble/controls/FlowSafeVBox.class
+SHA1-Digest: dCNUBu2jqvCwI5nOO7UvH8u7qc0=
+
+Name: org/apache/lucene/search/BooleanScorer$Bucket.class
+SHA1-Digest: Ap0oTu5ahpNNhxZliwLL5lWOsSY=
+
+Name: ensemble/samples/charts/bar/AdvHorizontalBarChartSample.java
+SHA1-Digest: dxekcWHE0mL8AAR8uLzAGCqNvVA=
+
+Name: org/apache/lucene/index/DocumentsWriter$DocWriter.class
+SHA1-Digest: bYDq8Nh0EumGrKgxMtTv3rdIWkU=
+
+Name: ensemble/samples/animation/transitions/FadeTransitionSample.java
+SHA1-Digest: NZGHvuX5sUnG8wNQfvYBztIIP4g=
+
+Name: ensemble/config/ProxyDialog$3$1.class
+SHA1-Digest: xGu/r/Q3OWWggkkZs8xpUzJqp5o=
+
+Name: ensemble/samples/animation/timelines/TimelineSample$6.class
+SHA1-Digest: 83DT5ZHMu95WA/lBYAdorYZIR68=
+
+Name: ensemble/images/info-tooltip.png
+SHA1-Digest: EaR9YFo0VMjsCuK0fEkCUtjc4FI=
+
+Name: org/apache/lucene/search/grouping/GroupDocs.class
+SHA1-Digest: hOoW7WmF1xYt12OBgCA9bg0UdNg=
+
+Name: org/apache/lucene/index/DocumentsWriter$IndexingChain.class
+SHA1-Digest: FC0+SAKPQ0HJV81/ZCijfMig3Jc=
+
+Name: ensemble/samples/media/StreamingMediaPlayer.png
+SHA1-Digest: imbF276rLEaez3qkl89OpTLCJkY=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$FieldCacheDocIdSe
+ t.class
+SHA1-Digest: +b9JI0rVp+3FeN/gP0sWKCGudKI=
+
+Name: ensemble/samples/controls/ScrollBarSample.class
+SHA1-Digest: Wq6mWLJYx651EzPRcRPISvdV21I=
+
+Name: org/apache/lucene/index/PositionBasedTermVectorMapper.class
+SHA1-Digest: v9dVQp4YCUj+H3iNzotytvlK8IQ=
+
+Name: ensemble/samples/graphics3d/Note6.wav
+SHA1-Digest: Y5dcX9FK4K4Lc7LnMbt9shRE6Qo=
+
+Name: ensemble/samples/controls/text/InsetTextSample.java
+SHA1-Digest: 5OFgV9Noi2RufBnkVG7EfKGLzvs=
+
+Name: org/apache/lucene/search/FieldCacheTermsFilter.class
+SHA1-Digest: JRT04OmcBhdS1WqhD5HojIRRKHI=
+
+Name: org/apache/lucene/util/OpenBitSet.class
+SHA1-Digest: oC/pcMcozoBH/HPx3w35L3W6J0Q=
+
+Name: org/apache/lucene/store/MMapDirectory$MultiMMapIndexInput.class
+SHA1-Digest: +CBPu15jh6u8BlWOj8jEorjmGWo=
+
+Name: ensemble/controls/BreadcrumbBar$1.class
+SHA1-Digest: xcTXVQmDRyIDLMHbn7ktCJkliag=
+
+Name: ensemble/samples/charts/area/AdvAreaAudioChartSample.class
+SHA1-Digest: VGHEc7mU/uE6w8Dt1AI5IuvtyNM=
+
+Name: org/apache/lucene/document/Field$Index$4.class
+SHA1-Digest: Saguuxhfp/WF+KsCClh1lnnVLuE=
+
+Name: ensemble/samples/graphics/effects/SepiaToneSample.java
+SHA1-Digest: XvHx5UW0UMmFrVAESdO7F5ELXGw=
+
+Name: org/apache/lucene/index/SegmentTermPositionVector.class
+SHA1-Digest: Dv1s5oMNAqOQwWVjC4XKQt4UfkA=
+
+Name: org/apache/lucene/search/spans/SpanMultiTermQueryWrapper.class
+SHA1-Digest: N9xshT7dpsbhjAQycUhX3oS5s/E=
+
+Name: org/apache/lucene/document/Field$Store$1.class
+SHA1-Digest: P1faTwErq7dWhWo3d/4ZS0Y4Mqc=
+
+Name: ensemble/samples/controls/ScrollBarSample.png
+SHA1-Digest: Qs8BZaxscvvuZfLDNCrT8F0FQyk=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample$3.cla
+ ss
+SHA1-Digest: X8h6ZfEBrLEeCyvWZqr9Zxdw35k=
+
+Name: ensemble/samples/language/collections/ObservableListSample$1.cla
+ ss
+SHA1-Digest: fzhzb1PmwFQhHEzOwlBntNVc3GI=
+
+Name: org/apache/lucene/index/IndexWriter$IndexReaderWarmer.class
+SHA1-Digest: 9QnziIvIjGJWR3mvhR67V6b/zII=
+
+Name: org/apache/lucene/search/spans/SpanPositionCheckQuery$AcceptStat
+ us.class
+SHA1-Digest: 8eeVkA1r3e/AVzduSBQ68npmHEI=
+
+Name: org/apache/lucene/search/PhraseQuery.class
+SHA1-Digest: cnVUwbbAcUv2Bli5s07KsI8ORgo=
+
+Name: org/apache/lucene/search/FieldCache$8.class
+SHA1-Digest: 6ICVLnU1v8GWAo5SjNtT0Vu6Qz4=
+
+Name: ensemble/samples/charts/scatter/ScatterChartSample.class
+SHA1-Digest: vpmBNrbxxZM75RQXCBQshjuAlj8=
+
+Name: ensemble/samples/graphics/animal3.jpg
+SHA1-Digest: XMdhqbazwvunJ85nNhfJ0CXhVNU=
+
+Name: ensemble/controls/WindowButtons$2.class
+SHA1-Digest: onIGxfyScz5osqm49VPPpBSEQss=
+
+Name: ensemble/samples/graphics/shapes/LineSample.java
+SHA1-Digest: klT4kGjP41Hcz182lvaBz19/bJ0=
+
+Name: org/apache/lucene/search/FieldCache$IntParser.class
+SHA1-Digest: VPWazxC4KGiyQtujzBSnb6Tpdr0=
+
+Name: org/apache/lucene/util/ArrayUtil$2.class
+SHA1-Digest: yQgimheP4Z28KZ7aZvUUKEan9zA=
+
+Name: org/apache/lucene/util/AttributeReflector.class
+SHA1-Digest: AqcehqSmrHaCMgjN8CIqwreGM/8=
+
+Name: org/apache/lucene/search/Scorer$1.class
+SHA1-Digest: 832Dl3xEjR2hGX5QrXYHNEBT7yE=
+
+Name: ensemble/samples/controls/AccordionSample.class
+SHA1-Digest: D29CZ+jg5b5vespexJC1yG5D+ek=
+
+Name: ensemble/samples/controls/buttons/ToggleButtonSample.png
+SHA1-Digest: AbSGr/ddYYhSMzMs8O37KrHjyGw=
+
+Name: org/apache/lucene/search/FieldCacheImpl$StringCache.class
+SHA1-Digest: FUKgX1MSEnJ5LkG6pX9h/CGJmAs=
+
+Name: ensemble/samples/animation/transitions/FadeTransitionSample$2.cl
+ ass
+SHA1-Digest: aE60gK+mM0jPrSnJhkp4JabQqog=
+
+Name: ensemble/samples/graphics3d/CubeSystemSample$Xform.class
+SHA1-Digest: 4AuIpfgMHkA8P8NnqlruxAId5Vc=
+
+Name: org/apache/lucene/index/StaleReaderException.class
+SHA1-Digest: 1McAZ5sPUV5QtcGC/j0luzo+lnE=
+
+Name: ensemble/audio/Note3.wav
+SHA1-Digest: iQMSqBEgf6o3bmdAhf6IhwmA5Qg=
+
+Name: ensemble/samples/scenegraph/events/MultiTouchSample$MultiTouchIm
+ ageView$3.class
+SHA1-Digest: GLae3PHs46seHRyxlSeTSrHVndg=
+
+Name: ensemble/samples/animation/timelines/InterpolatorSample$5.class
+SHA1-Digest: +c/qRP5QcWXIYWx6H/wBBvCYjAY=
+
+Name: ensemble/Pages.class
+SHA1-Digest: eCxVoBnzR7TPG0BmOMKdz0HD89s=
+
+Name: ensemble/samples/media/Note7.wav
+SHA1-Digest: fUpsPTk9dJc2vytM9biuSWXIYoU=
+
+Name: org/apache/lucene/util/Constants.class
+SHA1-Digest: KmMXNv7G8f4/myC7IRLsQ9vRUaE=
+
+Name: org/apache/lucene/search/function/CustomScoreProvider.class
+SHA1-Digest: reH6cTeuFTHAlLcloCmRQ1/u5RE=
+
+Name: ensemble/controls/SearchBox$7.class
+SHA1-Digest: Mw8ECtce75ArV8Jx7i4aasRsmUo=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample$4.cla
+ ss
+SHA1-Digest: ea9wh8/p623/ZDaeEBj+mNR8HNE=
+
+Name: ensemble/samples/controls/table/TableSample$1.class
+SHA1-Digest: WBeWKSZKe+p8ZUFOsWk0C4dIcJ0=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample$2.class
+SHA1-Digest: vi0CZrv79GnjYm6IR1pJBRW9J/w=
+
+Name: org/apache/lucene/index/AllTermDocs.class
+SHA1-Digest: EgOHRmYfUtzmMZbIuavfbE59U4c=
+
+Name: org/apache/lucene/search/spans/Spans.class
+SHA1-Digest: zNv+1OMJKOOryeCcqYDOXXnfDV0=
+
+Name: ensemble/samples/animation/transitions/RotateTransitionSample$2.
+ class
+SHA1-Digest: M96AWNyr4pgZc6kVOMCJsp8S2VM=
+
+Name: ensemble/samples/scenegraph/events/MultiTouchSample$MultiTouchIm
+ ageView$4.class
+SHA1-Digest: d9yPY8brNDZ2/fXZHHqxn7bswLQ=
+
+Name: ensemble/samples/scenegraph/stage/AdvancedStageSample.png
+SHA1-Digest: owekJtoJN9aSX83mr9ehP32Aj1g=
+
+Name: org/apache/lucene/search/BooleanScorer$SubScorer.class
+SHA1-Digest: 6IV4gf+D+fzZ0ZecwqIh4hsSf+o=
+
+Name: ensemble/samples/animation/transitions/StrokeTransitionSample.cl
+ ass
+SHA1-Digest: Nh6jksTwlzbcoaLdGhUzghpqTvw=
+
+Name: org/apache/lucene/collation/CollationKeyAnalyzer$1.class
+SHA1-Digest: 9bzehc1QPzs8Sx5ukWnl2RYAHmY=
+
+Name: org/apache/lucene/search/FieldCacheImpl$Entry.class
+SHA1-Digest: KsBEWarjQDks/lohhDQO8rM0XWg=
+
+Name: org/apache/lucene/index/TermVectorsTermsWriterPerField.class
+SHA1-Digest: p/1ms5/p+jBqZ7BWBl/vBpMUHD4=
+
+Name: org/apache/lucene/index/IndexWriterConfig.class
+SHA1-Digest: rulfVA5FlsrprCxoK1TCWkRfabs=
+
+Name: org/apache/lucene/index/ParallelReader$ParallelTermDocs.class
+SHA1-Digest: XZJHC5836jWNOZ/23+2W1xAblvo=
+
+Name: ensemble/samples/controls/table/TableCellFactorySample$1.class
+SHA1-Digest: hD+KyGjwjsEKGBq+oU+uFhkbMqk=
+
+Name: org/apache/lucene/index/LogByteSizeMergePolicy.class
+SHA1-Digest: oGf0/W/cnCPa5OCTqZ1KI7IzMRQ=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$15.class
+SHA1-Digest: G1mny6DIhFXhAtE35iw8/5eklB4=
+
+Name: org/apache/lucene/analysis/Token.class
+SHA1-Digest: W7VBGKxl6yrpjvwrU0DxDWoO7IM=
+
+Name: org/apache/lucene/search/FuzzyQuery.class
+SHA1-Digest: BwZyEw2Fy2RIvbzXw38AJdDCkOE=
+
+Name: org/apache/lucene/index/CheckIndex$Status$SegmentInfoStatus.clas
+ s
+SHA1-Digest: /+pjfMlksUsZ4DuwQcBPxeXw5kA=
+
+Name: ensemble/samples/scenegraph/node/NodePropertiesSample$4.class
+SHA1-Digest: kPYfiMOROnr3cKrwSccHaE49Mm4=
+
+Name: org/apache/lucene/index/ByteSliceWriter.class
+SHA1-Digest: DVmvJPTlKMXtlIlx7z2XsriGIaw=
+
+Name: org/apache/lucene/util/IndexableBinaryStringTools$CodingCase.cla
+ ss
+SHA1-Digest: BgjU9o+wXV5c1gbT6DT6I8Xozr8=
+
+Name: ensemble/samples/charts/bar/AdvancedBarChartSample$3.class
+SHA1-Digest: AG4tn6CttbjbnrrilR2710HbOMk=
+
+Name: ensemble/samples/controls/splitpane/HiddenSplitPaneSample.png
+SHA1-Digest: WHgurmRM9Tmscqo4tm3RyRckyIQ=
+
+Name: ensemble/images/ribbon-highlights.png
+SHA1-Digest: uT2mfW+9tygdCnCxsctdg2y3GdY=
+
+Name: org/apache/lucene/index/MergePolicy$OneMerge.class
+SHA1-Digest: 1bVEQR66zZ2lWtVGxZa5pHu5joI=
+
+Name: ensemble/images/animals-200x200/animal5.jpg
+SHA1-Digest: v2prWWh5HG4TmZ1i5usaF7MJ4Tw=
+
+Name: ensemble/Ensemble2$7.class
+SHA1-Digest: wnqZJ210FN0EHx+vS2p+Z67KhV8=
+
+Name: ensemble/samples/controls/buttons/right-btn.png
+SHA1-Digest: Iy6UoJ2UAc2jvonjOzlu0mSlx/U=
+
+Name: org/apache/lucene/index/CheckIndex$Status$FieldNormStatus.class
+SHA1-Digest: rTVCay4+cbYatA55J4Lz8fU6tcw=
+
+Name: ensemble/samples/charts/bar/AdvancedBarChartSample$1.class
+SHA1-Digest: 0ZIZN5LAGNTXc2gIuixaQko+gjY=
+
+Name: ensemble/samples/controls/tree/TreeViewSample.java
+SHA1-Digest: 75PBhrzgxQ7OPapOrS3HWA7HWig=
+
+Name: org/apache/lucene/analysis/standard/ClassicFilter.class
+SHA1-Digest: +D6P4DG3dV1paMliWAKjMcepHrY=
+
+Name: ensemble/samples/controls/ScrollBarSample.java
+SHA1-Digest: 6YE8bIqMVPWfrqy1hA3gdmWupQY=
+
+Name: ensemble/samples/controls/ProgressBarSample.java
+SHA1-Digest: Kq2LgSRfTYJvhrxqHaFTQY9KLP4=
+
+Name: org/apache/lucene/search/payloads/MaxPayloadFunction.class
+SHA1-Digest: S773uAzGqX1care0gTSrSXbfteY=
+
+Name: ensemble/syntaxhighlighter/shCore.js
+SHA1-Digest: tozPmjOY3VhG0Y1SruTPxii0jes=
+
+Name: ensemble/samples/charts/pie/AdvancedPieChartSample$4$1.class
+SHA1-Digest: bf5j3SWQGsuXr9V2dnzJmDkRJVw=
+
+Name: org/apache/lucene/queryParser/CharStream.class
+SHA1-Digest: RdBrdBJsVu29TYP6vFcYiZ6FSdA=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$1.class
+SHA1-Digest: 9dtKK7dmtYXO3fHumKTq7n7tmRE=
+
+Name: ensemble/images/animals-200x200/animal2.jpg
+SHA1-Digest: 4GqFQCkhId1fdr3MDjj9T847EEs=
+
+Name: ensemble/samples/controls/ScrollBarSample$1.class
+SHA1-Digest: cfn9HSeqjGzYo8XvdQW9pRlFwns=
+
+Name: ensemble/images/animals-200x200/animal12.jpg
+SHA1-Digest: D0IGmPxKkmsdMpFHDekwwhOlXIA=
+
+Name: org/apache/lucene/search/MultiTermQuery$ConstantScoreAutoRewrite
+ .class
+SHA1-Digest: auFq8qPHPGDff+dMLcum6m/paJA=
+
+Name: org/apache/lucene/document/Fieldable.class
+SHA1-Digest: yT7ndTGNHqXddcvDqf8LXTM2rQs=
+
+Name: org/apache/lucene/search/TermRangeQuery.class
+SHA1-Digest: M4dOpSsaky0xIiud+3i1IV6OZBw=
+
+Name: org/apache/lucene/index/FieldInvertState.class
+SHA1-Digest: FznOyIVb+lR5JzfM+0tvAshz3UA=
+
+Name: org/apache/lucene/search/FieldComparator$RelevanceComparator.cla
+ ss
+SHA1-Digest: WpW0AuLKcKGqliIR4fkegjlhMKs=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$FieldCacheDocIdSe
+ t$1.class
+SHA1-Digest: goEoJA9RkEjmzgPKCVPK4uWUEF4=
+
+Name: org/apache/lucene/index/ConcurrentMergeScheduler$MergeThread.cla
+ ss
+SHA1-Digest: yiHoixRIPcdQ6vJkTKAmB1MH2WU=
+
+Name: org/apache/lucene/document/CompressionTools.class
+SHA1-Digest: VwakJdD44F5cfF2tqVWwlWM1eCs=
+
+Name: org/apache/lucene/search/spans/SpanMultiTermQueryWrapper$TopTerm
+ sSpanBooleanQueryRewrite.class
+SHA1-Digest: VExicWG7+smZLWZ4E9wtL9xS3r0=
+
+Name: org/apache/lucene/util/CharacterUtils.class
+SHA1-Digest: OjPjQo5QGsy2oyTlC5j1dykzXs0=
+
+Name: ensemble/samples/controls/toolbar/StyledToolBarSample.png
+SHA1-Digest: cnothGvTDWQqO1TrhAm2xupuAJ4=
+
+Name: ensemble/sampleproject/ProjectType$EARProjectType.class
+SHA1-Digest: gnS0maFR8uuGPTPeLEziT5AhRN0=
+
+Name: org/apache/lucene/index/MultipleTermPositions.class
+SHA1-Digest: tyqTlMy4eQOdrRTohWmx4pTtEpU=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$3.class
+SHA1-Digest: YIMkbD1tWhv3TLSR8VBGayZhJ94=
+
+Name: ensemble/samples/controls/list/HorizontalListViewSample.java
+SHA1-Digest: XatVxTQFgiCWKe/IS4yAoJw+MMI=
+
+Name: org/apache/lucene/index/TermInfosReader$CloneableTerm.class
+SHA1-Digest: bylLSLzFhGw4qecPrcm7/5ofDTI=
+
+Name: ensemble/images/animals-200x200/animal14.jpg
+SHA1-Digest: pi4b53dcLUzU03xr3qq6IQZb5XY=
+
+Name: ensemble/samples/charts/pie/DrilldownPieChartSample.java
+SHA1-Digest: RvU6eDiZhJAftUqEoqqS+rvJ4ss=
+
+Name: ensemble/images/top-bar.png
+SHA1-Digest: jZxieUB2w94XHCkqP4+Z7D475F8=
+
+Name: ensemble/samples/media/images/thumb_pressed.png
+SHA1-Digest: PGlOYizxsKTfHmP+JJecbDlvlf4=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample$1.cla
+ ss
+SHA1-Digest: f/ARMFYxF0RPkmvCTcLc1OpUcSM=
+
+Name: ensemble/samples/scenegraph/events/MultiTouchSample.java
+SHA1-Digest: YlCYePEEzF+lIl6UjeuPmVHVcpE=
+
+Name: ensemble/samples/scenegraph/events/MouseEventsSample$9.class
+SHA1-Digest: sHEvbIykUO8Ie5cZAO8fzhzITdw=
+
+Name: ensemble/samples/charts/bar/AdvHorizontalBarChartSample$5.class
+SHA1-Digest: SPKQvJqdcklKHwLPvJ8FRqd2Vqw=
+
+Name: ensemble/samples/controls/animal4.jpg
+SHA1-Digest: aCR25sf+6gwWAw2m8aLfL49kbFM=
+
+Name: ensemble/samples/controls/MenuSample$3.class
+SHA1-Digest: CF+RNVJGzlj/pHSlxp79b6k93yk=
+
+Name: org/apache/lucene/index/IndexFileDeleter$RefCount.class
+SHA1-Digest: iSvV3m5twbAimDKro7iJgCQUFDI=
+
+Name: ensemble/samples/animation/timelines/TimelineSample$5.class
+SHA1-Digest: qso4Y4JDBg4GdrEd1Qi6jej/7UM=
+
+Name: org/apache/lucene/search/DefaultSimilarity.class
+SHA1-Digest: CITYnOpy6QPAnN1bxFIzrSLSgh8=
+
+Name: org/apache/lucene/index/ReadOnlySegmentReader.class
+SHA1-Digest: GLm+L9Qhb9QhGab7uFtyr95r7PI=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$4.class
+SHA1-Digest: VxkZSKb5iHdaxYU8YGp1p5uW97M=
+
+Name: ensemble/samples/charts/line/AdvancedLineChartSample$7.class
+SHA1-Digest: G8ZGRepNorZq0z0huz1ju7qoBa4=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$3.class
+SHA1-Digest: PY2R9wYn82ZtmlR4l3oKz7JgXOs=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$10.class
+SHA1-Digest: 9tTxLWWG4ABj8AQGbm+1a8C0MtE=
+
+Name: ensemble/samples/controls/tabs/TabSample.png
+SHA1-Digest: 1aaBfgTdK9OR5o+Id5KzSMydw0g=
+
+Name: ensemble/samples/controls/text/SearchBoxSample.java
+SHA1-Digest: OLSNzxr2KFvnU1x7TZl62BlT/gs=
+
+Name: org/apache/lucene/index/SegmentMerger.class
+SHA1-Digest: 42ZKYvRRwNWqf78hRx9IF26JOUo=
+
+Name: ensemble/samples/scenegraph/events/MultiTouchSample.png
+SHA1-Digest: ABqJei71d8SMWdU1Iaoy976u+9E=
+
+Name: ensemble/samples/graphics/animal12.jpg
+SHA1-Digest: q4bCDsgcwD8RWqd5Se1X8IhOldQ=
+
+Name: org/apache/lucene/store/RAMOutputStream.class
+SHA1-Digest: 0BXdR5sxCY5pe0Bnh4kTsRyAd50=
+
+Name: org/apache/lucene/index/FormatPostingsTermsWriter.class
+SHA1-Digest: OvpjLH0t7elbTpMb8jiKO8bJPFE=
+
+Name: org/apache/lucene/index/FormatPostingsDocsWriter.class
+SHA1-Digest: 6sVInzn1lx2/RuUD7DmOA66KOBM=
+
+Name: ensemble/samples/scenegraph/events/KeyStrokeMotion.java
+SHA1-Digest: 9nip9Lv7jYcNPXRuiOdgYLiw878=
+
+Name: org/apache/lucene/search/spans/NearSpansUnordered$SpansCell.clas
+ s
+SHA1-Digest: DCfE6mzeNg2adC2TTtSzqG/6vkE=
+
+Name: org/apache/lucene/index/CheckIndex$Status$StoredFieldStatus.clas
+ s
+SHA1-Digest: A3aGvQfzGOX3l0A0xI+Q6pWu8UA=
+
+Name: org/apache/lucene/search/DisjunctionMaxScorer.class
+SHA1-Digest: bedw3DUe5uf13aUivddw+zHSs6Y=
+
+Name: ensemble/samples/animation/transitions/ScaleTransitionSample$1.c
+ lass
+SHA1-Digest: y/DOUBje8yPybwH+fQcUF+074A0=
+
+Name: ensemble/samples/controls/splitpane/HiddenSplitPaneSample.class
+SHA1-Digest: 5N0oqe2oqDr6ZpSeN7wRndHgws0=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample$6.class
+SHA1-Digest: 3DWKt4rkZuIqDEcuny3mg3HQTNA=
+
+Name: org/apache/lucene/index/FieldInfo.class
+SHA1-Digest: w+vC6dmPOuvMdVlWWuJX/46QTYI=
+
+Name: ensemble/samples/charts/pie/PieChartSample.png
+SHA1-Digest: TtkUFIr0K1Ke6OsFYwL3hSkW4o8=
+
+Name: org/apache/lucene/index/TermBuffer.class
+SHA1-Digest: L12yGtmxagu8+9U82aSMqQwTk4s=
+
+Name: ensemble/samples/graphics/PuzzlePieces$Piece.class
+SHA1-Digest: 128n1I5nc/ZClmP2n43B1iv1QbE=
+
+Name: org/apache/lucene/search/FieldCache$ShortParser.class
+SHA1-Digest: mMjArz//Rjj8FPfG8nCtymIAfgQ=
+
+Name: ensemble/Ensemble2$1.class
+SHA1-Digest: BMCRnYe6ftB+1JID+jKOsB7e2m0=
+
+Name: ensemble/samples/charts/custom/AdvCandleStickChartSample.png
+SHA1-Digest: LcjcaEXgsIywzkN8dQTsv6tFnHs=
+
+Name: ensemble/samples/graphics/shapes/CubicCurveSample.class
+SHA1-Digest: 4SuP+Z3+F4zrBf+6VJPcZ7ZCQMY=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$1.class
+SHA1-Digest: gQAyPxEMOmkBt1GvqixBZNOJt4c=
+
+Name: org/apache/lucene/search/Explanation$IDFExplanation.class
+SHA1-Digest: uiCUczV+gmWNbfaVp2ZWwNbTZnA=
+
+Name: ensemble/samples/charts/bar/AdvancedBarChartSample.java
+SHA1-Digest: nClzp8jIg6ZmsCudMZI/kEdKst4=
+
+Name: org/apache/lucene/search/FilterManager$FilterCleaner.class
+SHA1-Digest: rraHv2lqFnZ5kUJ7rsB6b0hKqnA=
+
+Name: org/apache/lucene/document/NumericField$1.class
+SHA1-Digest: 9wKaUDLJ2beakPxAvfi1wBHO7TM=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter.class
+SHA1-Digest: RNB7LvOPxjwb9EKs3SrCO2hs12w=
+
+Name: org/apache/lucene/index/FormatPostingsPositionsConsumer.class
+SHA1-Digest: ACFbahdmrpjxqPoP/hHc0Tg9zKI=
+
+Name: ensemble/samples/graphics3d/CubeSample.class
+SHA1-Digest: POz0x6HImFIsdmDoaWPtKvnhUk0=
+
+Name: ensemble/samples/graphics3d/XylophoneSample.png
+SHA1-Digest: 98z4DL0rl4NSPzgUvqQOeKpTSPk=
+
+Name: ensemble/samples/controls/ColorPickerSample.png
+SHA1-Digest: 1+ODAQN+sCE+q2eBm/bWkEo/ntE=
+
+Name: org/apache/lucene/index/SegmentInfos.class
+SHA1-Digest: Typ5x8lVrv1sKT+ikClvzlOipBg=
+
+Name: ensemble/samples/charts/scatter/AdvancedScatterChartSample$5.cla
+ ss
+SHA1-Digest: su2JDjiMS38szsRe39y0ulLy0vw=
+
+Name: org/apache/lucene/search/spans/FieldMaskingSpanQuery.class
+SHA1-Digest: Ym2wOHaFSWlemyVLb1zlUoZu+dU=
+
+Name: org/apache/lucene/search/FieldCache$4.class
+SHA1-Digest: G4vM8zY9K0WrgF/WH+jq8/rFFCc=
+
+Name: ensemble/samples/controls/table/TableSample.java
+SHA1-Digest: PgLZNMHCkn+1V9iA+NEoNzgmEtM=
+
+Name: org/apache/lucene/search/CachingSpanFilter$1.class
+SHA1-Digest: Gn6WsmQ4idtdF/arFcDAhWb4O1o=
+
+Name: org/apache/lucene/search/FieldCache$CreationPlaceholder.class
+SHA1-Digest: DUDVhdxCOa7MlhNcrn3fV/kzjKw=
+
+Name: ensemble/samples/controls/tabs/TabSample.class
+SHA1-Digest: hmVV7gHa46kjhOx99+vaqO0i2I4=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$16.class
+SHA1-Digest: bSwl1w/+DtARMX7/PD0oslanMJY=
+
+Name: ensemble/images/clef.png
+SHA1-Digest: 2Yqql96QZeK0ZjS9aoDDzdV3Yqs=
+
+Name: org/apache/lucene/util/ScorerDocQueue$HeapedScorerDoc.class
+SHA1-Digest: FFSi6YA2UjuXiZsrYb3N5DXPkJk=
+
+Name: org/apache/lucene/index/SegmentCoreReaders.class
+SHA1-Digest: 8Q2MAWQGawj1T1vHI6Vd17Cfrik=
+
+Name: org/apache/lucene/analysis/standard/StandardAnalyzer.class
+SHA1-Digest: qfqdLTBYP5w6qqp2DSGyCqS1CVk=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$1$1.class
+SHA1-Digest: WvFKMy4b+7fDVwxFr7/mnbtzZ6s=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$4$1.class
+SHA1-Digest: xY42AsFcW+rRwyIHIl6CbRVuPb8=
+
+Name: ensemble/images/ribbon-new.png
+SHA1-Digest: rRVBYnB22YYU+SmCP51VaoQAxuI=
+
+Name: org/apache/lucene/index/SegmentReader.class
+SHA1-Digest: jQg6dhuvxNHEdcAUFBc8W4sCqds=
+
+Name: ensemble/samples/charts/bar/StackedBarChartSample.java
+SHA1-Digest: WVaDupJmvyqVpljba+5DCKkrz4Y=
+
+Name: org/apache/lucene/index/CheckIndex.class
+SHA1-Digest: LgBuMU3kCBFfGqylDbNjpZGbe0Y=
+
+Name: ensemble/samples/media/images/button_default_back.png
+SHA1-Digest: zH7Pyv1Fj9ztkK0+lxh3/Rr7l7Q=
+
+Name: org/apache/lucene/analysis/tokenattributes/PayloadAttribute.clas
+ s
+SHA1-Digest: NNXlY6E+iBE+K2cHkyvDw2thcQc=
+
+Name: ensemble/Ensemble2$16.class
+SHA1-Digest: 3dBHldBJB1XlPIx0rChiypjBGnM=
+
+Name: org/apache/lucene/analysis/tokenattributes/KeywordAttributeImpl.
+ class
+SHA1-Digest: sAyakFXDib51hbWnuv6wIY4tx2w=
+
+Name: ensemble/samples/controls/text/AdvancedLabel.png
+SHA1-Digest: /6LPsxh+WF5QA4LOP3H31VbOGcM=
+
+Name: ensemble/samples/graphics/DisplayShelfSample$PerspectiveImage$1.
+ class
+SHA1-Digest: R3EMW147zSLnJ4AnRTDkv7pmrKQ=
+
+Name: org/apache/lucene/index/CompoundFileReader$FileEntry.class
+SHA1-Digest: CEen09XvVdRQWSPnFuae/1L7Ipw=
+
+Name: ensemble/samples/controls/text/TextValidatorSample$Validator.cla
+ ss
+SHA1-Digest: 75M0YcPlHdm+hov61oZuWEmnj08=
+
+Name: org/apache/lucene/search/function/ByteFieldSource$1.class
+SHA1-Digest: pxiV9w7iLcfJ2Kmj7JFo/dy0kO0=
+
+Name: ensemble/samples/graphics3d/XylophoneSample$2.class
+SHA1-Digest: u4qfZiuW1IfBT69WdBQgrU2Tlts=
+
+Name: org/apache/lucene/util/CharacterUtils$Java5CharacterUtils.class
+SHA1-Digest: Wt+JH7gVfiyjKnb7qTBvZOXH9BE=
+
+Name: org/apache/lucene/queryParser/QueryParser$1.class
+SHA1-Digest: 1Vryr2nYkKwsEs4+8IvI7dM8rJ0=
+
+Name: ensemble/samples/controls/buttons/HyperlinkSample.java
+SHA1-Digest: yJYYh6Z0yF0L0an2UHH0O35BOiU=
+
+Name: org/apache/lucene/search/BooleanScorer$BucketScorer.class
+SHA1-Digest: TUF9fzPFZk/HfcHGqbdNAH0hC7s=
+
+Name: ensemble/samples/scenegraph/stage/StageSample$1.class
+SHA1-Digest: M6ujlGJrXTdY9qwLCYP2MNGtzjI=
+
+Name: org/apache/lucene/search/MultiTermQuery.class
+SHA1-Digest: h3L9PqhbnsJ5FZCh3pTk8GIIFYY=
+
+Name: org/apache/lucene/collation/CollationKeyAnalyzer.class
+SHA1-Digest: 0T9g+2AuFbPM+v6tkSY5HXrOHlg=
+
+Name: ensemble/audio/Note6.wav
+SHA1-Digest: 39sogFoGva4TCdWrV2L5366CQHM=
+
+Name: ensemble/Ensemble2$14.class
+SHA1-Digest: 6M6/IIhNt1N2E+/Gerj0sIkgMMQ=
+
+Name: org/apache/lucene/search/function/ShortFieldSource.class
+SHA1-Digest: M6LJBBJKmhQo1sTovLPleUQd/ik=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$PlanetaryPlayerPane$8.cl
+ ass
+SHA1-Digest: XRG0krS2DK5LvHVBG+3VYrAw+iM=
+
+Name: ensemble/samples/controls/text/InsetText.css
+SHA1-Digest: OGhzdCGaBz0gpAGkDJ+sCAtzNaw=
+
+Name: ensemble/samples/media/StreamingMediaPlayer.class
+SHA1-Digest: 7wRy+Ftosm331U0ZB6rcAmFZrW8=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$9.class
+SHA1-Digest: /LTJcvhCupY0wyPButmoRKnjfhg=
+
+Name: org/apache/lucene/document/FieldSelectorResult.class
+SHA1-Digest: c3pf8N2cfyREvRtMuGqKQBWaUNU=
+
+Name: ensemble/samples/charts/scatter/AdvScatterLiveChartSample.java
+SHA1-Digest: aB2YMAhIWJ2Jf0WFhYz/6zWO/9o=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$7.class
+SHA1-Digest: 50+uIOLeJ5Wq+VWI9LZS3aWhB7k=
+
+Name: ensemble/samples/scenegraph/events/MouseEventsSample$2.class
+SHA1-Digest: 49Vp+URyTz3nfpIcDD5rR8DM3Cg=
+
+Name: ensemble/util/Utils.class
+SHA1-Digest: a6SUFn/v9ANEF7XRd5A8VUz9/1E=
+
+Name: ensemble/controls/PropertySheet$BooleanPropertyImpl$2.class
+SHA1-Digest: 6IPY4FHVvsdXgmf6SOQRAaoAmgA=
+
+Name: org/apache/lucene/index/FreqProxFieldMergeState.class
+SHA1-Digest: HVDvaJK5BSEqELbLh8scV4A4RiE=
+
+Name: org/apache/lucene/search/BooleanClause$Occur$2.class
+SHA1-Digest: 2gyG+/tId7MsusHzSoP+FepY168=
+
+Name: org/apache/lucene/index/DocFieldProcessorPerThread$PerDoc.class
+SHA1-Digest: WjxieibjbxXu0x7lhWP0WFH3vD0=
+
+Name: org/apache/lucene/search/TopFieldCollector$OneComparatorScoringN
+ oMaxScoreCollector.class
+SHA1-Digest: 3Bti3pjBPRSp51qNzPA2XCtvXsM=
+
+Name: ensemble/controls/PropertySheet$BooleanPropertyImpl.class
+SHA1-Digest: CaEyWODAIS571rI5mkeSPtxVftk=
+
+Name: ensemble/samples/controls/animal3.jpg
+SHA1-Digest: hryTaAyei0uVvcl9WoABcRU9nAk=
+
+Name: org/apache/lucene/search/ConstantScoreAutoRewrite.class
+SHA1-Digest: pcF6suemi83p1emxLhPAorA+kTQ=
+
+Name: ensemble/pages/SamplePage$1.class
+SHA1-Digest: bEUPkxtsG8zjx8Vrvhrq36fUzBg=
+
+Name: org/apache/lucene/index/ByteBlockPool$Allocator.class
+SHA1-Digest: DFHzJ18KwThPlPkQOlsHgsB/7BY=
+
+Name: ensemble/controls/WindowResizeButton.class
+SHA1-Digest: dnAfKLEEHAZO+YpR3diStgXs3d0=
+
+Name: org/apache/lucene/analysis/LimitTokenCountAnalyzer.class
+SHA1-Digest: dArqFuy/AzI3M1+Bsq71818eLEY=
+
+Name: ensemble/samples/controls/buttons/InsetTextButtonSample.class
+SHA1-Digest: 8HuoFMkkhWYnpsfk/VGcVfrUW0o=
+
+Name: ensemble/samples/graphics/shapes/QuadCurveSample.java
+SHA1-Digest: z2Lr07UA+6U0vglpbYX3YMD9+U8=
+
+Name: org/apache/lucene/search/TopTermsRewrite$ScoreTerm.class
+SHA1-Digest: WVXjRBMVd3FbPgkVFTe+Bk7WBWM=
+
+Name: org/apache/lucene/index/FieldReaderException.class
+SHA1-Digest: GCQH72Gv2fNYYwe8YmYeKA+byHk=
+
+Name: org/apache/lucene/index/TermInfosReader$TermInfoAndOrd.class
+SHA1-Digest: OHkzZBa2+LnMGIE6EOdva3T0GTA=
+
+Name: ensemble/samples/controls/buttons/center-btn-selected.png
+SHA1-Digest: YGYRKyOcJAJfK1L0FZLrvREbRZY=
+
+Name: ensemble/samples/charts/bubble/AdvancedBubbleChartSample$3.class
+SHA1-Digest: ceahuHSFW+8OcHnUcoJAUu5B5A0=
+
+Name: org/apache/lucene/search/BooleanClause$1.class
+SHA1-Digest: NPw7JW5uxJ2/peNM6Kk/pW6FvI4=
+
+Name: ensemble/samples/charts/bar/ImageBarChartSample.java
+SHA1-Digest: R75OhHKwzAJRcp+5PXhOsghoMVw=
+
+Name: ensemble/samples/media/StreamingMediaPlayer$PlayerPane$12.class
+SHA1-Digest: 0JXatieULI2rR+2Z03xfQTEOrRg=
+
+Name: ensemble/samples/graphics3d/CubeSystemSample.png
+SHA1-Digest: 3+ioMSGVp4zdoo+Na5KUQdc2OAU=
+
+Name: ensemble/samples/media/images/button_pressed_stop.png
+SHA1-Digest: n3Kg7bCOxqWIbzZ9FvMZfc5SszQ=
+
+Name: ensemble/controls/PropertySheet$IntegerPropertyImpl.class
+SHA1-Digest: syTOGXLHmr6ydtP35m69iLj4H7A=
+
+Name: org/apache/lucene/analysis/tokenattributes/PositionIncrementAttr
+ ibute.class
+SHA1-Digest: 5oK5l8i6rE0oXCvPs2RlxILopUA=
+
+Name: org/apache/lucene/search/MultiSearcher$MultiSearcherCallableNoSo
+ rt.class
+SHA1-Digest: msAKUCdOb/Ew5uJmDoe4+M/yaYM=
+
+Name: org/apache/lucene/index/FreqProxTermsWriterPerField$FreqProxPost
+ ingsArray.class
+SHA1-Digest: udpaP7erIchrFmyHUi6hs7aizPo=
+
+Name: org/apache/lucene/index/SegmentMerger$CheckAbort.class
+SHA1-Digest: KknAVhQ38FXan3X/che1IAOrs0I=
+
+Name: ensemble/samples/scenegraph/stage/AdvancedStageSample$1$1.class
+SHA1-Digest: vOvUoKizcIR2cry2npi/2xKC2mg=
+
+Name: ensemble/samples/controls/MenuSample$1.class
+SHA1-Digest: /HmHYb5UJ9pY9Sv9VUMgZdaYPUg=
+
+Name: org/apache/lucene/index/IndexFileDeleter.class
+SHA1-Digest: iCOxuCJfuovGj1cmqsDGFpgJF34=
+
+Name: org/apache/lucene/search/Similarity.class
+SHA1-Digest: 5TMEogjQOvp+iCMoTjOhI/ioPjw=
+
+Name: org/apache/lucene/search/ConstantScoreQuery$ConstantScorer.class
+SHA1-Digest: wWJbFVO7zQAx1PDzt/7ltvmoxP8=
+
+Name: ensemble/samples/layout/HBoxSample.java
+SHA1-Digest: 8q4OrpQkJFMO5555pnkOD47iwFo=
+
+Name: ensemble/samples/controls/text/icon-48x48.png
+SHA1-Digest: FOuqVPewYV3P03BbiZoX7bKgAnk=
+
+Name: ensemble/samples/graphics/shapes/PolygonSample.java
+SHA1-Digest: 2Rbj3DuxwInGQJGciw3HxVI76JQ=
+
+Name: org/apache/lucene/analysis/tokenattributes/TypeAttribute.class
+SHA1-Digest: RfTZgbFUPuCzjWzCIOxijxhVuE0=
+
+Name: ensemble/samples/charts/area/CurveFittedAreaChartSample.png
+SHA1-Digest: b99LTfygw2JA/t+qgBhIS3FuEMc=
+
+Name: org/apache/lucene/util/OpenBitSetIterator.class
+SHA1-Digest: TZYQhWNXyyOFU8Y2307D2KOdNhI=
+
+Name: ensemble/samples/media/AudioClipSample$7.class
+SHA1-Digest: kq1MIQ7LGbKoS1Ghik1s8op8JU8=
+
+Name: org/apache/lucene/index/IndexNotFoundException.class
+SHA1-Digest: tVcpp51UW8vWQxYEKXLU6e0X0bc=
+
+Name: ensemble/samples/language/collections/ObservableListSample$4.cla
+ ss
+SHA1-Digest: ZBlUdM3YKXbuPtDbGCAksbx3LoE=
+
+Name: org/apache/lucene/index/ConcurrentMergeScheduler.class
+SHA1-Digest: fCHqwsm4lFmj9YsncNC/K2QsOjM=
+
+Name: org/apache/lucene/search/payloads/MinPayloadFunction.class
+SHA1-Digest: Yl2uRv19jPl1fvLa1tAGww/D5E8=
+
+Name: ensemble/samples/controls/ChoiceBoxSample.java
+SHA1-Digest: jgEqO6tYOg0D7NgQFg1s1jO0tH4=
+
+Name: org/apache/lucene/index/SegmentMerger$1.class
+SHA1-Digest: 8pADXj4SwCSiiq5pUsQgKXyZFyM=
+
+Name: ensemble/samples/media/AudioClipSample$4.class
+SHA1-Digest: z1DvtuKA2AMsyoPXQiPrnymLtpw=
+
+Name: org/apache/lucene/index/CheckIndex$Status.class
+SHA1-Digest: 59OfwVjEhK5NMygRSJmKaCdBLZ4=
+
+Name: ensemble/samples/scenegraph/events/warning.png
+SHA1-Digest: LttTKodtIcs2d0pb5h9ymlovfvo=
+
+Name: org/apache/lucene/search/PrefixFilter.class
+SHA1-Digest: /RXdVXT9lmfhhQViGUvTfSARrfo=
+
+Name: ensemble/samples/scenegraph/node/CustomNodeSample$MyEnsembleNode
+ .class
+SHA1-Digest: HHymc74x/eRrgHW50WPwJTSsBKw=
+
+Name: ensemble/samples/graphics/DisplayShelfSample$DisplayShelf$1.clas
+ s
+SHA1-Digest: DZ613qIB2BFDOiIkkEj4RfgfVgg=
+
+Name: org/apache/lucene/util/DocIdBitSet$DocIdBitSetIterator.class
+SHA1-Digest: CXud3Xde7/DnmDvbHL7lo/hxS2E=
+
+Name: ensemble/Ensemble2$17.class
+SHA1-Digest: OEoWMWhxPG+oGycJmFsXZjoa2qw=
+
+Name: org/apache/lucene/index/NoMergeScheduler.class
+SHA1-Digest: a7uJcU0bmj39g2qjNTocW+TC1FI=
+
+Name: org/apache/lucene/analysis/CharTokenizer.class
+SHA1-Digest: jzDfhJHmSd3zWLO4EX3g98sZcIo=
+
+Name: org/apache/lucene/util/AttributeSource$1.class
+SHA1-Digest: 5x7n13a0418LlkiQ5bUpcGqaOx0=
+
+Name: ensemble/samples/graphics/stopwatch.png
+SHA1-Digest: vTFQC3B7Mj9UmKOGdG8QP5Zb+zY=
+
+Name: org/apache/lucene/search/spans/SpanNearQuery.class
+SHA1-Digest: j/MAQo7zEp1avM2CEYfQpyjzk7I=
+
+Name: ensemble/samples/controls/table/TableCellFactorySample$EditingCe
+ ll.class
+SHA1-Digest: Kp9qQ4HTLJ3KT4jTdMqiRBDPmG0=
+
+Name: org/apache/lucene/store/FSDirectory$1.class
+SHA1-Digest: //l0uiVwtOcp51/dbKRUa1QTUTs=
+
+Name: org/apache/lucene/index/DocInverterPerField.class
+SHA1-Digest: 8ZIiZudrV7HpMyxidLdhKd1OUB8=
+
+Name: org/apache/lucene/search/FieldValueHitQueue$MultiComparatorsFiel
+ dValueHitQueue.class
+SHA1-Digest: FZkx2KclkrOxRssNtQAQP8EMtQw=
+
+Name: ensemble/samples/controls/text/SearchBoxSample.png
+SHA1-Digest: Gvv5v0JMUvYYKCa6T1DzswiBmE4=
+
+Name: ensemble/samples/controls/table/TableCellFactorySample$Person.cl
+ ass
+SHA1-Digest: AWyy1/dai8OarcUbgO6UfbnMfrM=
+
+Name: org/apache/lucene/search/BooleanScorer.class
+SHA1-Digest: x8Oty37mcctT5/xyVHqha6yemHA=
+
+Name: org/apache/lucene/search/CachingWrapperFilter$DeletesMode.class
+SHA1-Digest: 84R09ZM4Ir9qQ7ktRyhN/RpgRHk=
+
+Name: org/apache/lucene/index/FrozenBufferedDeletes$2$1.class
+SHA1-Digest: HX86hHR2+AsdegFEQuEnXxPku3w=
+
+Name: ensemble/samples/controls/buttons/PillButtonSample.class
+SHA1-Digest: E5JxqiTpbJ4pjjx4rrG7Efvq0bU=
+
+Name: org/apache/lucene/util/SimpleStringInterner.class
+SHA1-Digest: vJXbDZULp0HvBoivRoWnkQVSJpY=
+
+Name: org/apache/lucene/util/ReaderUtil$Gather.class
+SHA1-Digest: WpuS0tj6MdefBNJVxxweKXmJxZs=
+
+Name: org/apache/lucene/document/DateTools$Resolution.class
+SHA1-Digest: bWxuLuJcPg/wbOKCTr42MiaPOhA=
+
+Name: ensemble/samples/charts/pie/AdvancedPieChartSample.java
+SHA1-Digest: TL1MyGmDI4x17sCEKhiIqozgO24=
+
+Name: ensemble/samples/controls/ProgressIndicatorSample.class
+SHA1-Digest: kzABhpYFus2Xog77M+0elT8QGcw=
+
+Name: org/apache/lucene/store/BufferedIndexInput.class
+SHA1-Digest: RCZUJlAHKgqAM89usJ5X+6s+ES0=
+
+Name: org/apache/lucene/search/TopFieldCollector$MultiComparatorScorin
+ gNoMaxScoreCollector.class
+SHA1-Digest: U92LLjUF6KwIzeULeRG+/Ntz3jA=
+
+Name: ensemble/samples/controls/text/TextValidatorSample$TextInputVali
+ datorPane$1.class
+SHA1-Digest: FjVqrYGsUun/GNouHqFInScCDN4=
+
+Name: ensemble/config/ProxyDialog$2.class
+SHA1-Digest: ItozHeFPj+akUcBYeN4N1BixdPg=
+
+Name: ensemble/samples/concurrency/ServiceSample$1.class
+SHA1-Digest: 0DqFnhAnsx9DTuOGaHZjhz3MG4I=
+
+Name: ensemble/samples/animation/transitions/SequentialTransitionSampl
+ e.java
+SHA1-Digest: suNtR8yyFr2SaOE2C1MR5Q6p9yQ=
+
+Name: org/apache/lucene/index/DocumentsWriter$WaitQueue.class
+SHA1-Digest: yiS/V8vvBpXUe1Hkigj4w93WHjI=
+
+Name: ensemble/samples/controls/tabs/TabSample.java
+SHA1-Digest: 15sToL1/uB8eQwjOz049qg+uXZA=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$12.class
+SHA1-Digest: OEKic84l+XC98hLfCwKpynV8H2w=
+
+Name: ensemble/samples/media/OverlayMediaPlayer$PlayerPane$8.class
+SHA1-Digest: yDuh3QNVjgeways3Ublw/YZWSZE=
+
+Name: ensemble/samples/charts/line/AdvancedStockLineChartSample.java
+SHA1-Digest: 5uBUqsyrCZPAe90o+jjp8CEgP3c=
+
+Name: org/apache/lucene/index/CompoundFileWriter.class
+SHA1-Digest: rcXyvcRdTyzPA8XiBG5+FOBmZHw=
+
+Name: org/apache/lucene/index/TieredMergePolicy$1.class
+SHA1-Digest: ZADPvVC69BbblXGV1rXtgx5iSEo=
+
+Name: ensemble/controls/PropertySheet$DoublePropertyImpl.class
+SHA1-Digest: cUhtX2pFQNA73Vu21Q/jwvIVix4=
+
+Name: ensemble/samples/graphics/DigitalClock$Digit.class
+SHA1-Digest: HZS+OgHP4kfwjQXC574L3gjGZM4=
+
+Name: ensemble/images/animals-200x200/animal6.jpg
+SHA1-Digest: 6ILeytFZAM3xS05Dc6Qp0sMSal0=
+
+Name: org/apache/lucene/search/Query.class
+SHA1-Digest: dOfbUaNYbH3ZilA20TPWGMvmj10=
+
+Name: org/apache/lucene/search/MultiCollector.class
+SHA1-Digest: lWsk0NKaHqAyc8BS7iAkDka1irI=
+
+Name: org/apache/lucene/search/FieldCache$FloatParser.class
+SHA1-Digest: 3f+SvCZGViv9XJsIt/uzUCumPQw=
+
+Name: ensemble/config/ProxyDialog$ProxyPanel.class
+SHA1-Digest: YIXsBhS/4en+hWrqKakJYGP2BPk=
+
+Name: ensemble/samples/controls/toolbar/ToolBarSample.class
+SHA1-Digest: Vni1zJEEDHRCUG9QpcJ4d+E2Wdo=
+
+Name: org/apache/lucene/index/TieredMergePolicy$SegmentByteSizeDescend
+ ing.class
+SHA1-Digest: 1TfpNiWGX5ieagrSHVqwovPaIeQ=
+
+Name: ensemble/samples/controls/PaginationSample.class
+SHA1-Digest: cJtvNWWfrl7eeKzStDFPznxWCXY=
+
+Name: ensemble/sampleproject/NBInstallation$1.class
+SHA1-Digest: Ht6LGmKrkG23UuiHiVl8FnT4Vyk=
+
+Name: ensemble/samples/canvas/FireworksSample.java
+SHA1-Digest: aa9uEaCyiNI/DIIxi+vjObbY1aQ=
+
+Name: org/apache/lucene/search/MultiTermQuery$TopTermsBoostOnlyBoolean
+ QueryRewrite.class
+SHA1-Digest: zJX/5VRCWgvpDKX6teH6yXFUsJ0=
+
+Name: ensemble/samples/controls/buttons/ToggleButtonSample.java
+SHA1-Digest: m8Ec8dO72hn0GjdFZpkYRMm2pLA=
+
+Name: ensemble/images/mid-bar-left.png
+SHA1-Digest: 76x/C5pL1UGhQZi9IsdO3i5H8BU=
+
+Name: ensemble/samples/charts/custom/AdvCandleStickChartSample$CandleS
+ tickChart$2.class
+SHA1-Digest: ZiShoSy4nGn/jqCPKN4FpSoJkwc=
+
+Name: org/apache/lucene/store/RAMInputStream.class
+SHA1-Digest: 1PwUvZUYc6LfcI2CHJe1784M3E0=
+
+Name: ensemble/samples/graphics/images/ImageOperatorSample$1.class
+SHA1-Digest: HOt3yJ6UB0ADizWrTIpx9U/QGR4=
+
+Name: org/apache/lucene/util/VirtualMethod.class
+SHA1-Digest: tkgefO7Ggc7a/uoxMf7A6JgwOr8=
+
+Name: org/apache/lucene/index/DirectoryReader$MultiTermEnum.class
+SHA1-Digest: ZmQ61c5sZsZ7xHrLhKz0HpvC0+c=
+
+Name: ensemble/samples/controls/ScrollBarSample$2.class
+SHA1-Digest: vWIjtOgejDJAhhv4MpFxN27mEWw=
+
+Name: ensemble/samples/media/images/button_hover_play.png
+SHA1-Digest: CfgjU4cTlrhggsbV/AV5YShdlk8=
+
+Name: org/apache/lucene/analysis/tokenattributes/OffsetAttribute.class
+SHA1-Digest: +Cgpo+gzDMy3rJ/lJAnIZ25rgsE=
+
+Name: ensemble/samples/charts/pie/AdvancedPieChartSample$3.class
+SHA1-Digest: lP8qvqsPmb5Opws/0aAkyBB5i58=
+
+Name: org/apache/lucene/search/function/ValueSourceQuery$1.class
+SHA1-Digest: iSOSAzNkbEHnOuvHsjvCGjK+gOk=
+
+Name: org/apache/lucene/index/ReadOnlyDirectoryReader.class
+SHA1-Digest: eugzUU2KVco90gMiVEM/jGd5XGk=
+
+Name: org/apache/lucene/search/FilteredDocIdSet.class
+SHA1-Digest: QZLjZsmS+0VNfzC9+XVWPaTuax8=
+
+Name: ensemble/samples/controls/buttons/icon-48x48.png
+SHA1-Digest: 6vfkALt2UnDH/POfiMzgnqdHcjE=
+
+Name: ensemble/samples/language/beans/StringBindingSample$1.class
+SHA1-Digest: YvcdG1cL0XIXrgZiCkg2QBohGLA=
+
+Name: org/apache/lucene/search/FilteredQuery$1$1.class
+SHA1-Digest: Yogt9FKAEiwtMQz8dRwkIaIBYN8=
+
+Name: org/apache/lucene/index/DocFieldConsumerPerField.class
+SHA1-Digest: nbg01WA3IhGOUQyqUaIeGd/T5f0=
+
+Name: org/apache/lucene/search/PhraseQueue.class
+SHA1-Digest: xiW2VVZqAka2umvxU6qR/Ry8P5M=
+
+Name: org/apache/lucene/search/payloads/PayloadSpanUtil.class
+SHA1-Digest: s6A2ayzlibRbXHDjfMrrq/IA05k=
+
+Name: org/apache/lucene/search/ParallelMultiSearcher$1.class
+SHA1-Digest: jF9or0M84eSy533orisu9Sb1vJk=
+
+Name: ensemble/samples/charts/area/AdvancedAreaChartSample$5.class
+SHA1-Digest: rXUNddi4O9OmnctwTRy8L/b1Eyo=
+
+Name: ensemble/samples/graphics/PuzzlePieces.png
+SHA1-Digest: +EJj60dYlLVJRHefISjVOSWei4A=
+
+Name: ensemble/samples/charts/line/AdvancedStockLineChartSample.png
+SHA1-Digest: ovTW5A+8kYwvBwi5m5hH3xBnsHo=
+
+Name: ensemble/samples/animation/timelines/TimelineSample.class
+SHA1-Digest: TzDGomly+vomt7HUl8q4+KAU5s8=
+
+Name: ensemble/samples/media/AdvancedMedia$MediaControl$8$2.class
+SHA1-Digest: QBYV0QscBeh2sPzGIQ2clvxQRvQ=
+
+Name: org/apache/lucene/search/NumericRangeQuery$NumericRangeTermEnum.
+ class
+SHA1-Digest: MgUmFhRTIZDtU6dg8WHHXHoXt5I=
+
+Name: org/apache/lucene/search/FieldCacheRangeFilter$7$1.class
+SHA1-Digest: eR/o8qEf8F96cq/laB0llzQWojg=
+
+Name: org/apache/lucene/util/AverageGuessMemoryModel$1.class
+SHA1-Digest: 248vHpSQ9W3y7edVabrxeceVf6U=
+
+Name: org/apache/lucene/search/CachingCollector$ScoreCachingCollector.
+ class
+SHA1-Digest: WRbWNuSo8C2qOpEKPYENw07ThIY=
+
+Name: ensemble/audio/Note1.wav
+SHA1-Digest: S6oDbDDY+NWPSVQAsaJbopblOhg=
+
+Name: ensemble/samples/animation/transitions/FillTransitionSample.java
+SHA1-Digest: MAhbkbXS45HgJaNNggD0+B0mGJM=
+
+Name: ensemble/samples/graphics/DisplayShelfSample.class
+SHA1-Digest: Irq/td6OnpdXoAa+z4o6rBLVr5Q=
+
+Name: ensemble/samples/graphics/effects/SepiaToneSample.class
+SHA1-Digest: /Dzs4yjxaz5XZYelQ9TDv+duna0=
+
+Name: org/apache/lucene/index/SegmentTermPositions.class
+SHA1-Digest: zIScO6y5be39XcEqZF+3D/KxXnw=
+
+Name: org/apache/lucene/analysis/KeywordAnalyzer.class
+SHA1-Digest: wKgQ2baEtt+s73k6eaRuqXDCV50=
+
+Name: ensemble/config/ProxyDialog$4.class
+SHA1-Digest: zH5+BgGzCqGxn4di/xM1GMgkmzU=
+
+Name: org/apache/lucene/search/DocIdSetIterator.class
+SHA1-Digest: lrqtKj7Q48nIMFosGK8WnBmZvZQ=
+
+Name: ensemble/samples/charts/bar/AdvBarAudioChartSample$1.class
+SHA1-Digest: 9QEKVoHPIL/7GjeXiRwHCUGIVjA=
+
+Name: ensemble/Ensemble2$5.class
+SHA1-Digest: og0rLjjMD4f3BFoasd7xUVOBOmc=
+
+Name: org/apache/lucene/index/DocFieldConsumerPerThread.class
+SHA1-Digest: PI1leZ0qbLvOQl2p1PewiucRDj8=
+
+Name: ensemble/samples/charts/scatter/ScatterChartSample.png
+SHA1-Digest: IMlWjeztcdVNJYkaM4HevZqoumM=
+
+Name: org/apache/lucene/index/DocFieldConsumer.class
+SHA1-Digest: Dd2g41SH+me9ti6PdtbMXvQq37Q=
+
+Name: ensemble/samples/media/AlphaMediaPlayer$2.class
+SHA1-Digest: OTTkW3lnqD3ku/cfZVRAYOyQI3o=
+
+Name: ensemble/controls/SearchBox$5.class
+SHA1-Digest: PTME/LTUlOwU6hiXw+4npEZ9uAM=
+
+Name: ensemble/samples/graphics/DisplayShelfSample.png
+SHA1-Digest: 1EYkZRTri8yHIcPMxYGPr/TSaLA=
+
+Name: ensemble/samples/charts/pie/AdvancedPieChartSample$1.class
+SHA1-Digest: CTZxLQzkZcFBeva61keOsI+bpGk=
+
+Name: ensemble/samples/scenegraph/events/cursor.png
+SHA1-Digest: HhE5ovyG3p4vuy6bzPDQ17axhJg=
+
+Name: ensemble/samples/charts/line/AdvLineCategoryChartSample$8.class
+SHA1-Digest: okG84Szan4tN25RvVTp6g/cHmj0=
+
+Name: ensemble/samples/controls/MenuSample.png
+SHA1-Digest: /bNj24F94SWnf+hINo6pa/Ow9ug=
+
+Name: org/apache/lucene/analysis/standard/StandardFilter.class
+SHA1-Digest: 54b/45NjJ1uYfrENDDbCZ7ecWg8=
+
+Name: ensemble/sampleproject/ProjectType$J2MEProjectType.class
+SHA1-Digest: dHUEKUM5fRp5+PHPB9gsUG2jyRk=
+
+Name: org/apache/lucene/store/MMapDirectory.class
+SHA1-Digest: eyCp+/w1eYlTj1Ow3LCHiU5yhBU=
+
+Name: ensemble/samples/graphics/StopWatchSample$Watch$7.class
+SHA1-Digest: DbRy6VA0WrD/9dKTDCRHQxtPkjg=
+
+Name: org/apache/lucene/index/SegmentTermVector.class
+SHA1-Digest: xxHcKJrw6YpWNxDQkv+2fLTtSig=
+
+Name: org/apache/lucene/store/VerifyingLockFactory$CheckedLock.class
+SHA1-Digest: 10x2hZT9ihakVBVbpuM3cRkg+DU=
+
+Name: org/apache/lucene/util/NamedThreadFactory.class
+SHA1-Digest: KwXP3jp4r+O7VFA5fRItvvmuDOY=
+
+Name: ensemble/samples/charts/custom/AdvCandleStickChartSample$CandleS
+ tickChart.class
+SHA1-Digest: 7nrLhVsGBzBy63kv/waYaYrLp7w=
+

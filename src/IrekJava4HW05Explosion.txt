@@ -1,0 +1,92 @@
+package com.geekbrains.game;
+
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
+
+
+public class Bomb implements Poolable {
+    private TextureRegion texture;
+    private AnimationEmitter animationEmitter;
+    private int cellX, cellY;
+    private int radius;
+    private float time;
+    private float maxTime;
+    private boolean active;
+    private Map map;
+
+    public int getCellX() {
+        return cellX;
+    }
+
+    public int getCellY() {
+        return cellY;
+    }
+
+    @Override
+    public boolean isActive() {
+        return active;
+    }
+
+    public Bomb(AnimationEmitter animationEmitter, TextureRegion texture, Map map) {
+        this.texture = texture;
+        this.animationEmitter = animationEmitter;
+        this.map = map;
+    }
+
+    public void update(float dt) {
+        time += dt;
+        if (time >= maxTime) {
+            boom(map);
+        }
+    }
+
+    public void boom(Map map) {
+        active = false;
+        animationEmitter.createAnimation(cellX * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, cellY * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
+        for (int i = 1; i <= Rules.RADIUS; i++) {
+            if(map.isCellEmpty(getCellX() + 1, getCellY())||map.isCellDestructable(getCellX() + 1, getCellY())) {
+                animationEmitter.createAnimation((cellX + i) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, cellY * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
+            }
+            if(map.isCellDestructable(getCellX() + 1, getCellY())) {
+            i = Rules.RADIUS;
+            map.clearCell(getCellX() + 1, getCellY());
+            }
+
+            if(map.isCellEmpty(getCellX() - 1, getCellY())||map.isCellDestructable(getCellX() - 1, getCellY())) {
+                animationEmitter.createAnimation((cellX - i) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, cellY * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
+            }
+            if(map.isCellDestructable(getCellX() - 1, getCellY())) {
+                    i = Rules.RADIUS;
+                    map.clearCell(getCellX() - 1, getCellY());
+            }
+            if(map.isCellEmpty(getCellX(), getCellY() + 1)||map.isCellDestructable(getCellX(), getCellY() + 1 )) {
+                animationEmitter.createAnimation(cellX * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, (cellY + i) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
+            }
+            if(map.isCellDestructable(getCellX(), getCellY() + 1 )) {
+                i = Rules.RADIUS;
+                map.clearCell(getCellX(), getCellY() + 1 );
+            }
+            if(map.isCellEmpty(getCellX(), getCellY() - 1)||map.isCellDestructable(getCellX(), getCellY() - 1 )) {
+                animationEmitter.createAnimation(cellX * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, (cellY - i) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
+            }
+            if(map.isCellDestructable(getCellX(), getCellY() - 1 )) {
+                i = Rules.RADIUS;
+                map.clearCell(getCellX(), getCellY() - 1 );
+            }
+
+        }
+    }
+
+    public void activate(int cellX, int cellY, float maxTime, int radius) {
+        this.cellX = cellX;
+        this.cellY = cellY;
+        this.maxTime = maxTime;
+        this.radius = radius;
+        this.time = 0.0f;
+        this.active = true;
+    }
+
+    public void render(SpriteBatch batch) {
+        batch.draw(texture, cellX * Rules.CELL_SIZE, cellY * Rules.CELL_SIZE);
+    }
+}

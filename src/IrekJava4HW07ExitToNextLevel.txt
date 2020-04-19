@@ -1,0 +1,448 @@
+public class Map {
+    public static final int CELL_EMPTY = 0;
+    public static final int CELL_WALL = 1;
+    public static final int CELL_BOX = 2;
+    public static final int CELL_BOMB = 3;
+    public static final int CELL_EXIT_CLOSED = 4;  // new cell added
+    public static final int CELL_EXIT_OPENED = 5;
+
+    private int mapX, mapY;
+    private byte[][] data;
+    private TextureRegion textureGrass, textureWall, textureBox, textureExitClosed, textureExitOpened;
+    private Vector2 startPosition;
+
+    public int getMapX() {
+        return mapX;
+    }
+
+    public int getMapY() {
+        return mapY;
+    }
+
+    public Vector2 getStartPosition() {
+        return startPosition;
+    }
+
+    public Map() {
+        textureBox = Assets.getInstance().getAtlas().findRegion("box");
+        textureGrass = Assets.getInstance().getAtlas().findRegion("grass");
+        textureWall = Assets.getInstance().getAtlas().findRegion("wall");
+        textureExitClosed = Assets.getInstance().getAtlas().findRegion("box");
+        textureExitOpened = Assets.getInstance().getAtlas().findRegion("exit");
+        loadMap("map2.dat");
+    }
+
+    public void loadMap(String mapName) {
+        BufferedReader br = null;
+        try {
+            br = Gdx.files.internal(mapName).reader(8192);
+            String str;
+            mapX = Integer.parseInt(br.readLine());
+            mapY = Integer.parseInt(br.readLine());
+            data = new byte[mapX][mapY];
+            for (int i = mapY - 1; i >= 0; i--) {
+                str = br.readLine();
+                for (int j = 0; j < mapX; j++) {
+                    char c = str.charAt(j);
+                    switch (c) {
+                        case '0':
+                            data[j][i] = CELL_EMPTY;
+                            break;
+                        case '1':
+                            data[j][i] = CELL_WALL;
+                            break;
+                        case '2':
+                            data[j][i] = CELL_BOX;
+                            System.out.println("j = " + j + " i = " + i);
+                            break;
+ //                       case '4':     if we want to put stable exit (not random)
+//                            data[j][i] = CELL_EXIT_CLOSED;
+                        case 's':
+                            startPosition = new Vector2(j * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, i * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE);
+                            break;
+                    }
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                br.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        setRandomExit();
+    }
+
+    public void setRandomExit() {		// set random exit cell
+        int cx = -1, cy = -1;
+        do {
+            cx = MathUtils.random(0, this.getMapX() - 1);
+            cy = MathUtils.random(0, this.getMapY() - 1);
+        } while (!this.isCellDestructable(cx, cy));
+        data[cx][cy] = CELL_EXIT_CLOSED;
+    }
+
+    public void render(SpriteBatch batch) {
+        for (int i = 0; i < mapX; i++) {
+            for (int j = 0; j < mapY; j++) {
+                batch.draw(textureGrass, i * Rules.CELL_SIZE, j * Rules.CELL_SIZE);
+                if (data[i][j] == CELL_WALL) {
+                    batch.draw(textureWall, i * Rules.CELL_SIZE, j * Rules.CELL_SIZE);
+                }
+                if (data[i][j] == CELL_BOX) {
+                    batch.draw(textureBox, i * Rules.CELL_SIZE, j * Rules.CELL_SIZE);
+                }
+                if (data[i][j] == CELL_EXIT_CLOSED) {
+                    batch.draw(textureExitClosed, i * Rules.CELL_SIZE, j * Rules.CELL_SIZE);
+                }
+                if (data[i][j] == CELL_EXIT_OPENED) {
+                    batch.draw(textureExitOpened, i * Rules.CELL_SIZE, j * Rules.CELL_SIZE);
+                }
+            }
+        }
+    }
+
+    public boolean isCellEmpty(int cellX, int cellY) {
+        return data[cellX][cellY] == CELL_EMPTY;
+    }
+
+    public boolean isCellDestructable(int cellX, int cellY) {
+        return data[cellX][cellY] == CELL_BOX;
+    }
+
+    public boolean isCellBomb(int cellX, int cellY) {
+        return data[cellX][cellY] == CELL_BOMB;
+    }
+
+    public boolean isCellUndestructable(int cellX, int cellY) {
+        return data[cellX][cellY] == CELL_WALL;
+    }
+    public boolean isCellExitClosed(int cellX, int cellY) {   // add new kind of CELL - EXIT (closed and opened after blow)
+        return data[cellX][cellY] == CELL_EXIT_CLOSED;
+    }
+
+    public boolean isCellExitOpened(int cellX, int cellY) {
+        return data[cellX][cellY] == CELL_EXIT_OPENED;
+    }
+
+    public void openExit(int cellX, int cellY) {
+        data[cellX][cellY] = CELL_EXIT_OPENED;
+    }
+
+    public void setBombCell(int cellX, int cellY) {
+        data[cellX][cellY] = CELL_BOMB;
+    }
+
+    public void clearCell(int cellX, int cellY) {
+        data[cellX][cellY] = CELL_EMPTY;
+    }
+
+}
+
+
+
+public class Bomb implements Poolable {
+    private Bomberman owner;
+    private TextureRegion texture;
+    private GameScreen gs;
+    private int cellX, cellY;
+    private int radius;
+    private float time;
+    private float maxTime;
+    private boolean active;
+
+    @Override
+    public boolean isActive() {
+        return active;
+    }
+
+    public int getCellX() {
+        return cellX;
+    }
+
+    public int getCellY() {
+        return cellY;
+    }
+
+    public Bomb(GameScreen gs, TextureRegion texture) {
+        this.gs = gs;
+        this.texture = texture;
+        this.owner = null;
+    }
+
+    public void update(float dt) {
+        time += dt;
+        if (time >= maxTime) {
+            boom();
+        }
+    }
+
+    public void boom() {
+        boolean left = true, right = true, up = true, down = true;
+        active = false;
+        boomInCell(cellX, cellY);
+        for (int i = 1; i <= radius; i++) {
+            if (right && cellX + i < gs.getMap().getMapX() - 1) right = boomInCell(cellX + i, cellY);
+            if (left && cellX - i > 0) left = boomInCell(cellX - i, cellY);
+            if (up && cellY + i < gs.getMap().getMapY() - 1) up = boomInCell(cellX, cellY + i);
+            if (down && cellY - i > 0) down = boomInCell(cellX, cellY - i);
+        }
+    }
+
+    private boolean boomInCell(int cellX, int cellY) {
+        if (gs.getMap().isCellUndestructable(cellX, cellY)) {
+            return false;
+        }
+        gs.getAnimationEmitter().createAnimation((cellX) * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, cellY * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE, 4.0f, AnimationEmitter.AnimationType.EXPLOSION);
+        List<Bot> damagedBots = gs.getBotEmitter().getBotsInCell(cellX, cellY);
+        for (int i = 0; i < damagedBots.size(); i++) {
+            damagedBots.get(i).destroy();
+            gs.getAnimationEmitter().createAnimation(damagedBots.get(i).getPosition().x, damagedBots.get(i).getPosition().y,2.0f, AnimationEmitter.AnimationType.BLOOD);;
+            owner.addScore(500);
+        }
+        if (gs.getMap().isCellDestructable(cellX, cellY)) {
+            if (gs.getMap().isCellExitClosed(cellX, cellY)){	//added check for closed exit cell. 
+                gs.getMap().openExit(cellX, cellY);				// open exit
+            } else {
+            gs.getMap().clearCell(cellX, cellY);}
+            owner.addScore(100);
+            return false;
+        }
+        if (gs.getMap().isCellBomb(cellX, cellY)) {
+            gs.getMap().clearCell(cellX, cellY);
+            gs.getBombEmitter().tryToDetonateBomb(cellX, cellY);
+            return false;
+        }
+        return true;
+    }
+
+    public void activate(Bomberman owner, int cellX, int cellY, float maxTime, int radius) {
+        this.owner = owner;
+        this.cellX = cellX;
+        this.cellY = cellY;
+        this.gs.getMap().setBombCell(cellX, cellY);
+        this.maxTime = maxTime;
+        this.radius = radius;
+        this.time = 0.0f;
+        this.active = true;
+    }
+
+    public void detonate() {
+        this.time = this.maxTime;
+    }
+
+    public void render(SpriteBatch batch) {
+        batch.draw(texture, cellX * Rules.CELL_SIZE, cellY * Rules.CELL_SIZE);
+    }
+}
+
+
+public class Bomberman {
+    public enum State {
+        IDLE(0), MOVE(1);
+
+        private int animationIndex;
+
+        State(int animationIndex) {
+            this.animationIndex = animationIndex;
+        }
+    }
+
+    private GameScreen gs;
+    private Animation[] animations;
+    private Vector2 position;
+    private Vector2 velocity;
+    private float pathCounter;
+    private float speed;
+    private State currentState;
+    private int score;
+    private int scoreToShow;
+    private StringBuilder tmpStringBuilder;
+
+    public Vector2 getPosition() {
+        return position;
+    }
+
+    public int getCellX() {
+        return (int) (position.x / Rules.CELL_SIZE);
+    }
+
+    public int getCellY() {
+        return (int) (position.y / Rules.CELL_SIZE);
+    }
+
+    public Bomberman(GameScreen gs) {
+        this.gs = gs;
+        this.position = gs.getMap().getStartPosition();
+        this.velocity = new Vector2(0.0f, 0.0f);
+        this.speed = 200.0f;
+        this.pathCounter = -1;
+        this.animations = new Animation[State.values().length];
+        for (int i = 0; i < State.values().length; i++) {
+            this.animations[i] = new Animation();
+            this.animations[i].activate(0, 0, 1, new TextureRegion(Assets.getInstance().getAtlas().findRegion("bomber")).split(Rules.CELL_SIZE, Rules.CELL_SIZE)[i], 0.1f, true);
+        }
+        this.currentState = State.IDLE;
+        this.score = 0;
+        this.scoreToShow = 0;
+        this.tmpStringBuilder = new StringBuilder(32);
+    }
+
+    public void render(SpriteBatch batch) {
+        batch.draw(animations[currentState.animationIndex].getCurrentRegion(), position.x - Rules.CELL_HALF_SIZE, position.y - Rules.CELL_HALF_SIZE);
+    }
+
+    public void renderGUI(SpriteBatch batch, BitmapFont font) {
+        tmpStringBuilder.setLength(0);
+        tmpStringBuilder.append("Score: ").append(scoreToShow);
+        font.draw(batch, tmpStringBuilder, 20, 700);
+    }
+
+    public void update(float dt) {
+        animations[currentState.animationIndex].update(dt);
+        if (scoreToShow < score) {
+            scoreToShow += 400;
+            if (scoreToShow > score) {
+                scoreToShow = score;
+            }
+        }
+
+        if (Gdx.input.isKeyPressed(Input.Keys.D) && pathCounter < 0.0f && gs.getMap().isCellEmpty(getCellX() + 1, getCellY())) {
+            velocity.set(speed, 0.0f);
+            pathCounter = 0.1f;
+            currentState = State.MOVE;
+        }
+        if (Gdx.input.isKeyPressed(Input.Keys.A) && pathCounter < 0.0f && gs.getMap().isCellEmpty(getCellX() - 1, getCellY())) {
+            velocity.set(-speed, 0.0f);
+            pathCounter = 0.1f;
+            currentState = State.MOVE;
+        }
+        if (Gdx.input.isKeyPressed(Input.Keys.W) && pathCounter < 0.0f && gs.getMap().isCellEmpty(getCellX(), getCellY() + 1)) {
+            velocity.set(0.0f, speed);
+            pathCounter = 0.1f;
+            currentState = State.MOVE;
+        }
+        if (Gdx.input.isKeyPressed(Input.Keys.S) && pathCounter < 0.0f && gs.getMap().isCellEmpty(getCellX(), getCellY() - 1)) {
+            velocity.set(0.0f, -speed);
+            pathCounter = 0.1f;
+            currentState = State.MOVE;
+        }
+        if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) {
+            if (!gs.getBombEmitter().isBombInCell(getCellX(), getCellY())) {
+                Bomb b = gs.getBombEmitter().getActiveElement();
+                b.activate(this, getCellX(), getCellY(), 2.0f, 3);
+            }
+        }
+
+        if (pathCounter > 0.0f) {
+            position.mulAdd(velocity, dt);
+            pathCounter += velocity.len() * dt;
+            if (pathCounter >= Rules.CELL_SIZE) {
+                position.x = getCellX() * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE;
+                position.y = getCellY() * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE;
+                pathCounter = -1.0f;
+                currentState = State.IDLE;
+            }
+        }
+
+        if (gs.getMap().isCellExitOpened(this.getCellX(),this.getCellY())){
+            exitLevel();
+        }
+    }
+
+    public void addScore(int amount) {
+        score += amount;
+    }
+
+    public void exitLevel () {
+               ScreenManager.getInstance().changeScreen(ScreenManager.ScreenType.LEVEL2);	 // Exit to next level
+            }
+
+}
+
+
+public class ScreenManager {
+    public enum ScreenType {
+        MENU, GAME, LEVEL2;
+    }
+
+    private static ScreenManager ourInstance = new ScreenManager();
+
+    public static ScreenManager getInstance() {
+        return ourInstance;
+    }
+
+    private BomberGame game;
+    private Screen targetScreen;
+    private LoadingScreen loadingScreen;
+    private GameScreen gameScreen;
+//    private GameScreen gameScreenLevel1;
+//    private GameScreen gameScreenLevel2
+    private MenuScreen menuScreen;
+
+    private SpriteBatch batch;
+    private Viewport viewport;
+    private Camera camera;
+//    private Map map;
+
+    public Viewport getViewport() {
+        return viewport;
+    }
+
+    private ScreenManager() {
+    }
+
+    public void init(BomberGame game, SpriteBatch batch) {
+        this.game = game;
+        this.batch = batch;
+        this.camera = new OrthographicCamera(1280, 720);
+        this.viewport = new FitViewport(1280, 720, camera);
+        this.gameScreen = new GameScreen(batch, camera);
+//        this.gameScreenLevel2 = new GameScreen(batch, camera);  //sorry, not completed
+        this.menuScreen = new MenuScreen(batch);
+        this.loadingScreen = new LoadingScreen(batch);
+    }
+
+    public void resize(int width, int height) {
+        viewport.update(width, height);
+        viewport.apply();
+    }
+
+    public void changeScreen(ScreenType type) {
+        Screen screen = game.getScreen();
+        Gdx.input.setInputProcessor(null); // ?
+        Assets.getInstance().clear();
+        if (screen != null) {
+            screen.dispose();
+        }
+        resetCamera();
+        game.setScreen(loadingScreen);
+        switch (type) {
+            case MENU:
+                targetScreen = menuScreen;
+                Assets.getInstance().loadAssets(ScreenType.MENU);
+                break;
+            case GAME:
+                targetScreen = gameScreen;
+                Assets.getInstance().loadAssets(ScreenType.GAME);
+                break;
+//            case LEVEL2:
+//                targetScreen = gameScreenLevel2;
+//                Assets.getInstance().loadAssets(ScreenType.LEVEL2);
+//                break;
+        }
+    }
+
+    public void resetCamera() {
+        camera.position.set(640, 360, 0);
+        camera.update();
+        batch.setProjectionMatrix(camera.combined);
+    }
+
+    public void goToTarget() {
+        game.setScreen(targetScreen);
+    }
+}
+

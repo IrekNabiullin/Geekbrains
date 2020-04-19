@@ -1,0 +1,89 @@
+
+public class Bomberman {
+
+    private float time;
+
+
+        if ((int)time%10000 == 9) {
+            time = 0.0f;
+            createBot();  // Ne ponyatno, pochemu BotEmitter sozdaet bolee 10 botov esli ego size ukazan kak 10
+        }
+    }
+
+    public void createBot() {
+        int CellX ;
+        int CellY;
+        do {
+        CellX = MathUtils.random(0, (1280- Rules.CELL_SIZE) / Rules.CELL_SIZE);
+        CellY = MathUtils.random(0, (720 - Rules.CELL_SIZE)  / Rules.CELL_SIZE);
+               }while(!gs.getMap().isCellEmpty(CellX, CellY));
+
+            if (!gs.getBotEmitter().isBotInCell(CellX, CellY)) {
+                Bot bot = gs.getBotEmitter().getActiveElement();
+                bot.activate(CellX, CellY);
+
+        }
+    }
+}
+
+
+
+public class BotEmitter extends ObjectPool<Bot>  {
+    private GameScreen gs;
+    private TextureRegion textureRegion;
+
+    @Override
+    protected Bot newObject() {
+        return new Bot(gs);
+    }
+
+    public BotEmitter(GameScreen gs) {
+        this.gs = gs;
+        this.textureRegion = Assets.getInstance().getAtlas().findRegion("bot");
+        this.addObjectsToFreeList(10); 			// nesmotrya na eto ogranichenie sozdaetsa bolee 10 botov 
+    }
+
+    public void update(float dt) {
+        for (int i = 0; i < activeList.size(); i++) {
+            activeList.get(i).update(dt);
+        }
+        checkPool();
+    }
+
+    public void render(SpriteBatch batch) {
+        for (int i = 0; i < activeList.size(); i++) {
+            activeList.get(i).render(batch);
+        }
+    }
+
+    public boolean isBotInCell(int cellX, int cellY) {
+        for (int i = 0; i < activeList.size(); i++) {
+            Bot bot = activeList.get(i);
+            if (bot.getCellX() == cellX && bot.getCellY() == cellY) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void activateBot(int cellX, int cellY) {
+        for (int i = 0; i < activeList.size(); i++) {
+            Bot bot = activeList.get(i);
+            bot.activate(cellX,cellY);
+                return;
+            }
+        }
+}
+
+
+
+public class Bot implements Poolable  {
+ 
+    public void activate(int cellX, int cellY) {
+        this.position.x = cellX * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE;
+        this.position.y = cellY  * Rules.CELL_SIZE + Rules.CELL_HALF_SIZE;
+        this.active = true;
+    }
+}
+
+

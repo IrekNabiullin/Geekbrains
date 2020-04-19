@@ -1,0 +1,428 @@
+
+images1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+explosion
+  rotate: false
+  xy: 2, 2
+  size: 640, 640
+  orig: 640, 640
+  offset: 0, 0
+  index: -1
+upgPanel4x3
+  rotate: false
+  xy: 2, 644
+  size: 400, 300
+  orig: 400, 300
+  offset: 0, 0
+  index: -1
+upgPanel4x2
+  rotate: false
+  xy: 404, 644
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1
+bomber4x3
+  rotate: false
+  xy: 644, 2
+  size: 320, 240
+  orig: 320, 240
+  offset: 0, 0
+  index: -1
+bulletvirus
+  rotate: false
+  xy: 644, 244
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+botzombie
+  rotate: false
+  xy: 644, 406
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+bomberI
+  rotate: false
+  xy: 404, 846
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+hpBar2
+  rotate: false
+  xy: 806, 644
+  size: 160, 80
+  orig: 160, 80
+  offset: 0, 0
+  index: -1
+hpBar
+  rotate: false
+  xy: 806, 726
+  size: 160, 80
+  orig: 160, 80
+  offset: 0, 0
+  index: -1
+yesButton
+  rotate: false
+  xy: 806, 808
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+upgScore
+  rotate: false
+  xy: 806, 910
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+upgRad
+  rotate: false
+  xy: 908, 808
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+upgLife
+  rotate: false
+  xy: 908, 910
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+rectangleButtonpng
+  rotate: false
+  xy: 966, 2
+  size: 51, 53
+  orig: 51, 53
+  offset: 0, 0
+  index: -1
+closeButton
+  rotate: false
+  xy: 966, 57
+  size: 51, 53
+  orig: 51, 53
+  offset: 0, 0
+  index: -1
+closeButtonLittle
+  rotate: false
+  xy: 966, 112
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1
+
+images2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+upgPanelBig
+  rotate: false
+  xy: 2, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+upgPanelBig2
+  rotate: false
+  xy: 404, 2
+  size: 400, 399
+  orig: 400, 399
+  offset: 0, 0
+  index: -1
+upgPanelBig0
+  rotate: false
+  xy: 2, 404
+  size: 400, 399
+  orig: 400, 399
+  offset: 0, 0
+  index: -1
+bomber
+  rotate: false
+  xy: 2, 805
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+bombA
+  rotate: false
+  xy: 404, 404
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+upgPanel
+  rotate: false
+  xy: 404, 566
+  size: 400, 100
+  orig: 400, 100
+  offset: 0, 0
+  index: -1
+transparentButton2
+  rotate: false
+  xy: 404, 668
+  size: 320, 80
+  orig: 320, 80
+  offset: 0, 0
+  index: -1
+transparentButton
+  rotate: false
+  xy: 404, 750
+  size: 320, 80
+  orig: 320, 80
+  offset: 0, 0
+  index: -1
+simpleButton3
+  rotate: false
+  xy: 404, 832
+  size: 320, 80
+  orig: 320, 80
+  offset: 0, 0
+  index: -1
+simpleButton2
+  rotate: false
+  xy: 404, 914
+  size: 320, 80
+  orig: 320, 80
+  offset: 0, 0
+  index: -1
+upgHp
+  rotate: false
+  xy: 806, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+upArrow
+  rotate: false
+  xy: 908, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+rightArrow
+  rotate: false
+  xy: 806, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+resratButton
+  rotate: false
+  xy: 908, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+pauseButton
+  rotate: false
+  xy: 806, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+noButton
+  rotate: false
+  xy: 908, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+menuButton
+  rotate: false
+  xy: 726, 404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+loadButton
+  rotate: false
+  xy: 828, 404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+leftArrow
+  rotate: false
+  xy: 806, 566
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+helpButton
+  rotate: false
+  xy: 908, 566
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+fireButton
+  rotate: false
+  xy: 726, 668
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+exitButton
+  rotate: false
+  xy: 828, 668
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+emptyButton
+  rotate: false
+  xy: 726, 770
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+downArrow
+  rotate: false
+  xy: 726, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+bombEmptyButton
+  rotate: false
+  xy: 828, 770
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+bombButton
+  rotate: false
+  xy: 828, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+zippo02
+  rotate: false
+  xy: 806, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+wall
+  rotate: false
+  xy: 908, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+rag
+  rotate: false
+  xy: 930, 404
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+key
+  rotate: false
+  xy: 930, 668
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+grass
+  rotate: false
+  xy: 930, 770
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+doorOpen
+  rotate: false
+  xy: 930, 872
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+
+images3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+molotov5
+  rotate: false
+  xy: 2, 2
+  size: 640, 160
+  orig: 640, 160
+  offset: 0, 0
+  index: -1
+fire
+  rotate: false
+  xy: 2, 164
+  size: 640, 80
+  orig: 640, 80
+  offset: 0, 0
+  index: -1
+botDestroyed5
+  rotate: false
+  xy: 2, 246
+  size: 640, 80
+  orig: 640, 80
+  offset: 0, 0
+  index: -1
+simpleButton
+  rotate: false
+  xy: 2, 328
+  size: 320, 80
+  orig: 320, 80
+  offset: 0, 0
+  index: -1
+backButton
+  rotate: false
+  xy: 2, 410
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+door
+  rotate: false
+  xy: 104, 410
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+box
+  rotate: false
+  xy: 186, 410
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+bottle2
+  rotate: false
+  xy: 324, 328
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+bottle
+  rotate: false
+  xy: 324, 410
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+bonus
+  rotate: false
+  xy: 406, 328
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+bomb
+  rotate: false
+  xy: 406, 410
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1

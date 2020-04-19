@@ -1,0 +1,42 @@
+Импорт проекта LibGDX в IntellijIDEA
+
+В IntelligIDEA -> Open -> Build.gradle
+
+Заходим в InellijIDEA
+- главное окно
+- импортировать проект Import Project
+- находим нашу папку LibGDXDemo
+- выбираем файл build.gradle
+- ОК
+- снимаем галочку
+	 Create Separate module per source set
+- ОК
+- Выбираем все три галочки
+	- LibGDXDemo
+	- desktop
+	- core
+- ОК
+
+Проект должен открыться в студии
+
+Для запуска проекта 
+- Заходим в меню Run
+- Edit Configurations
+- Нажимаем +
+- Выбираем Application
+-Name: даем DeskApp
+- Main class (это файл, с которого мы стартуем):
+	@DesktopLauncher (com.mygdx.game.desktop)
+-Working directory (рабочая папка)
+	указать на каталог assets:
+	LibGDXDemo - Core - assets
+	(где хранятся звуки, музыка, картинки и т.п.)
+- Use classpath of module: 
+	desktop
+-ОК
+
+Запускаем  Run - Run 'DeskApp'
+Останавливаем (красный квадратик)
+
+
+

@@ -1,0 +1,15 @@
+.myBtn {
+    -fx-background-color: linear-gradient(#8f8 0%, #afa 20%, #0b0 60%, #0c0 75%, #0f0 100%);
+}
+
+.myBtn:hover {
+    -fx-background-color: linear-gradient(#afa 0%, #bfb 20%, #0c0 60%, #0d0 75%, #0f0 100%);
+}
+
+.myBtn2 {
+    -fx-background-color: linear-gradient(#f88 0%, #faa 20%, #b00 50%, #c00 55%, #f00 100%);
+}
+
+.myBtn2:hover {
+    -fx-background-color: linear-gradient(#faa 0%, #fbb 20%, #c00 50%, #d00 55%, #f00 100%);
+}

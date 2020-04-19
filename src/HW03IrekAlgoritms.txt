@@ -1,0 +1,130 @@
+/* HomeWork 03
+* @author Irek Nabiullin
+* @version dated Sept 03, 2018
+* @link on my github:
+* https://github.com/IrekNabiullin
+*
+* Реализовать программу проверки скобочных последовательностей () <> {} [] используя стек
+*/
+
+import java.util.Scanner;
+import java.io.*;
+import java.util.regex.*;
+import java.io.UnsupportedEncodingException;
+import java.util.*;
+
+
+// Make class for stack
+public class  Stack {
+    int leng;//length of stack
+    int tos; //top of stack
+    int stck[];
+    
+    public Stack(int leng){
+        this.leng = leng;
+        stck = new int [leng];
+        tos = -1;
+        }
+//        int stck [] = new int [6];
+        
+
+    
+    // push an element to the stack
+    void push (int item) {
+        if (tos == leng) {
+            System.out.println ("Stack is full");
+        }
+        else {
+            stck[++tos] = item;
+ //           System.out.print("stck [tos] = " + tos + " ");
+ //           System.out.println ("item = " + item);
+        }
+    }
+    
+    // pop an element from the stack
+    int pop () {
+        if (tos <0) {
+            System.out.println ("Stack is empty");
+            return 0;
+        }
+        else {
+            return stck [tos--];
+        }
+    }    
+}
+
+
+// Example for two stacks filling and wasting
+
+class TestStack{
+    public static void main (String args[]){
+    Scanner sc = new Scanner(System.in);
+    String str = sc.nextLine();
+
+//close scaner on exit
+try {
+sc.close();
+} catch (Exception e) {
+e.printStackTrace();
+}
+// System.exit(0);
+int leng = str.length();
+System.out.println(str);
+  
+       Stack mystack1 = new Stack(leng);
+       Stack mystack2 = new Stack(leng);
+       
+       
+// push elements to stacks
+// let's use ASCII codes for brakes:
+// () - 40,41; [] - 91, 93; {} - 123, 125; <> - 60,62
+
+for (int i=0; i<leng; i++) { 
+    if (i==leng && mystack2.tos < 0) {
+       System.out.println ("Success");
+       }
+       
+    System.out.println ("i = " + i + " char = " + str.charAt(i));
+    
+    if (str.charAt(i) == 40 || str.charAt(i) == 91 || str.charAt(i) == 123 || str.charAt(i) == 60){
+
+    mystack1.push(str.charAt(i));
+    mystack2.push(i);
+    System.out.println("loaded to stack: " + str.charAt(i));
+    }
+    
+    if (str.charAt(i) == 41){
+    if (mystack1.pop() != 40){
+    System.out.println ("Error at char: " + mystack2.pop());
+    }else System.out.println ("removed from stack: ) at " + i);
+    }
+    
+    if (str.charAt(i) == 93){
+    if (mystack1.pop() != 91){
+    System.out.println ("Error at char: " + mystack2.pop());
+    }else System.out.println ("removed from stack: ] at " + i);
+    }
+    
+    if (str.charAt(i) == 125){
+    if (mystack1.pop() != 123){
+    System.out.println ("Error at char: " + "Error at char: " + mystack2.pop());
+    }else System.out.println ("removed from stack: } at " + i);
+    }
+    
+    if (str.charAt(i) == 62){
+    if (mystack1.pop() != 60){
+    System.out.println ("Error at char: " + mystack2.pop());
+    }else System.out.println ("removed from stack: > at " + i);
+    }
+    
+  }       
+
+}
+}
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.TextArea?>
+<VBox alignment="center" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.112-ea"
+      fx:controller="sample.Controller" stylesheets="@stylesheet.css">
+    <HBox>
+        <Button fx:id="exitHBox" prefWidth="48" prefHeight="20" text="Exit" onAction="#exitWindow" styleClass="myBtn2"/>
+    </HBox>
+
+    <TextArea VBox.vgrow="ALWAYS" fx:id="textArea"/>
+    <HBox>
+        <Button text="Clear" onAction="#firstOfThreeButtonClick"/>
+        <Button text=":)" onAction="#oneOfThreeButtonClick"/>
+        <Button text=":(" onAction="#oneOfThreeButtonClick"/>
+        <TextField fx:id="mainTextField" promptText="Write HERE..." HBox.hgrow="ALWAYS" onAction="#addTextToArea"/>
+        <Button fx:id="btnAddText" prefWidth="64" prefHeight="20" text="Send" onAction="#addTextToArea" styleClass="myBtn"/>
+    </HBox>
+
+
+    <padding>
+        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0"/>
+    </padding>
+</VBox>

@@ -1,0 +1,25 @@
+/* HomeWork 05
+* @author Irek Nabiullin
+* @version dated Sept 10, 2018
+* @link on my github:
+* https://github.com/IrekNabiullin
+*
+* Task 1 Tower of Hanoi
+*/
+
+public class Hanoi
+{
+static int n = 3;
+    public static void main(String[] args) {
+        doTowers (n, "A", "B", "C");
+        }
+        public static void doTowers (int top, String from, String inter, String to) {
+            if (top == 1)
+            System.out.println ("Disk " + top + " from " + from + " to " + to);
+            else {
+                doTowers (top-1, from, to, inter);
+                System.out.println ("Disk " + top + " from " + from + " to " + to);
+                doTowers (top-1, inter, from, to);
+        }
+    }
+}
