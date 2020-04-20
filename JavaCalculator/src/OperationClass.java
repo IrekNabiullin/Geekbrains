@@ -1,12 +1,17 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 
 class OperationClass {
 
-    OperationClass(String inputMessage){
-        this.inputMessage = inputMessage;
+    OperationClass(String typeOfInput, int minRange, int maxRange){
+        this.typeOfInput = typeOfInput;
+        this.minRange = minRange;
+        this.maxRange = maxRange;
     }
+
+    private String typeOfInput;
+    protected int minRange;
+    protected int maxRange;
 
     private static String[] tokens;
     private static ArrayList<String> figures;
@@ -28,39 +33,71 @@ class OperationClass {
     int countResult = 0;
 
 
-    public void calculation(){
+    public void startCalculation(){
+
+        while(true){
+            InputClass input = new InputClass(typeOfInput);
+            inputMessage = input.getInputMessage();
+            calculation(inputMessage);
+        }
+
+    }
+
+    private void calculation(String inputMessage){
         findFigures(inputMessage);
         transformFigures(figures);
         arithmeticCalculations(figuresToCalculate);
+        variablesReset();
     }
 
-    protected ArrayList<String> findFigures(String userInput){       // Split input string to tokens devided by Math operation chars
-        SpaceRemover tester = new SpaceRemover(userInput);
+    private void variablesReset(){          // reset added to use calculator one more
+        tokens = null;   //
+        figures = null;   //
+        inputMessage = null;
+        inputMessageWithoutSpaces = null;
+        inputType = null;  //
+        inputFigures = null;
+        arabicNumerals = null;
+        romanNumerals = null;
+        figuresToCalculate = null;
+        tempFigure = 0.0;
+        counterArabicType = 0;
+        counterRomanType = 0;
+        result = 0.0;
+        arabicLength = 0;
+        romanLength = 0;
+        countArabic = 0;
+        countRoman = 0;
+        countResult = 0;
+    }
+
+
+    protected ArrayList<String> findFigures(String userInput){       // Split input string to tokens divided by Math operation chars
+        SpaceRemover tester = new SpaceRemover();
+//        System.out.println("userInput " + userInput);
         inputMessageWithoutSpaces = tester.getMessageWithoutSpaces(userInput);
+
         figures = new ArrayList<>();
-//        System.out.println("inputMessageWithoutSpaces = " + inputMessageWithoutSpaces);
         tokens = inputMessageWithoutSpaces.split("[- +*/]");
-//        System.out.println("tokens.length = " + tokens.length);
-//        System.out.println(Arrays.toString(tokens));
+
         for (int i=0; i<tokens.length; i++) {
-            System.out.println("token " + i + " = " + tokens[i]);
+//            System.out.println("token " + i + " = " + tokens[i]);  // remove commenting slashes if you want to see every token
             figures.add(tokens[i]);
         }
         return figures;
     }
 
     private double[] transformFigures(ArrayList<String> inputFigures) {
+
         arabicNumerals = new double[inputFigures.size()];               //counter for arabic figures in input message
         romanNumerals = new double[inputFigures.size()];               //counter for roman figures in input message
 
-//        System.out.println("inputFigures.size = " + inputFigures.size());
         for (int i = 0; i < inputFigures.size(); i++) {
             try {
                 tempFigure = Integer.parseInt(inputFigures.get(i));
-                if (tempFigure > 0 && tempFigure <= 10) {
+                if (tempFigure >= minRange && tempFigure <= maxRange) {  //Compare with range condition. [1-10] by Default. May be changed in MainClass
                     arabicNumerals[i] = Double.parseDouble(inputFigures.get(i));
                     counterArabicType++;
-                    System.out.println("Arabic figure " + i + " = " + arabicNumerals[i]);
                 } else {
                     System.out.println("Wrong input. Program finished.");
                     System.exit(0);
@@ -75,7 +112,7 @@ class OperationClass {
                         inputFigures.get(i).equals("VII") ||
                         inputFigures.get(i).equals("VIII") ||
                         inputFigures.get(i).equals("IX") ||
-                        inputFigures.get(i).equals("X")) {
+                        inputFigures.get(i).equals("X")) {      //TODO. Fix range problem for Roman figures. If we want to change input range and calculate XI for example
 
                     counterRomanType++;
                 } else {
@@ -84,12 +121,9 @@ class OperationClass {
                 }
             }
 
-//            System.out.println("tempFigure = " + tempFigure);
-
-
-            switch (inputFigures.get(i)) {
+            switch (inputFigures.get(i)) {      //convert roman characters into standard figures
                 case "I":
-                    romanNumerals[i] = 1.0;
+                    romanNumerals[i] = 1.0;     // we use double type to correct calculations for divide operation
                     counterRomanType++;
                     break;
                 case "II":
@@ -129,30 +163,30 @@ class OperationClass {
                     counterRomanType++;
                     break;
             }
-            System.out.println("Roman figure " + i + " = " + romanNumerals[i]);
+//            System.out.println("Roman figure " + i + " = " + romanNumerals[i]);  // remove commenting slashes if you want to see every figure
         }
 
-        for (double arabic : arabicNumerals
+        for (double arabic : arabicNumerals     //to exclude spaces in input
         ) {
             if (arabic > 0.0) {
-                arabicLength++;
+                arabicLength++;                 //calculate array length without spaces
             }
         }
-        System.out.println("arabicLength = " + arabicLength);
 
-        for (double roman : romanNumerals
+        for (double roman : romanNumerals       //to exclude spaces in input
         ) {
             if (roman > 0.0) {
-                romanLength++;
+                romanLength++;                  //calculate array length without spaces
             }
         }
-        System.out.println("romanLength = " + romanLength);
 
-        if (arabicLength > 0) {
+
+        if (arabicLength > 0) {                                 //work with input in case of arabic figures
             countArabic = 0;
             figuresToCalculate = new double[arabicLength];
+
             while (countArabic < arabicLength) {
-                if (arabicNumerals[countArabic] != 0.0) {
+                if (arabicNumerals[countArabic] != 0.0) {       // move not zero figures into new array
                     figuresToCalculate[countResult] = arabicNumerals[countArabic];
                     countResult++;
                     countArabic++;
@@ -160,7 +194,7 @@ class OperationClass {
                     countArabic++;
                 }
             }
-        } else if (romanLength > 0) {
+        } else if (romanLength > 0) {                           //work with input in case of roman figures
             countRoman = 0;
             figuresToCalculate = new double[romanLength];
             while (countRoman < romanLength) {
@@ -174,12 +208,10 @@ class OperationClass {
             }
         }
 
-        if (counterArabicType > 0 && counterRomanType == 0) {
+        if (counterArabicType > 0 && counterRomanType == 0) {  //check which type of figures were entered
             inputType = "Arabic";
-//            System.out.println("inputType = " + inputType);
         } else if (counterArabicType == 0 && counterRomanType > 0) {
             inputType = "Roman";
-//            System.out.println("inputType = " + inputType);
         } else {
             throw new NumberFormatException("Different formats of input figures! Program finished.");
         }
@@ -190,36 +222,36 @@ class OperationClass {
 
 
     private void arithmeticCalculations(double[] figuresToCalculate) {
-        FindOperators operators = new FindOperators(inputMessageWithoutSpaces);
+
+
+        FindOperators operators = new FindOperators();                  //receive arithmetic operators from input
         char[] arr = operators.getOperators(inputMessageWithoutSpaces);
 
         result = figuresToCalculate[0];
-        for (int i=0; i<arr.length; i++) {
-            switch (arr[i]) {
-                case 43:
-                    result = result + figuresToCalculate[i + 1];
-                    System.out.println("RESULT = " + result);
-                    break;
-                case 45:
-                    result = result - figuresToCalculate[i + 1];
-                    System.out.println("RESULT = " + result);
-                    break;
-                case 42:
-                    result = result * figuresToCalculate[i + 1];
-                    System.out.println("RESULT = " + result);
-                    break;
-                case 47:
-                    result = result / figuresToCalculate[i + 1];
-                    System.out.println("RESULT = " + result);
-                    break;
+        try {
+            for (int i = 0; i < arr.length; i++) {
+                switch (arr[i]) {                                       //make arithmetic operation depending on received operator
+                    case 43:
+                        result = result + figuresToCalculate[i + 1];
+                        break;
+                    case 45:
+                        result = result - figuresToCalculate[i + 1];
+                        break;
+                    case 42:
+                        result = result * figuresToCalculate[i + 1];
+                        break;
+                    case 47:
+                        result = result / figuresToCalculate[i + 1];
+//                    System.out.println("RESULT = " + result);         // remove commenting slashes if you want to see correct result in double format
+                        break;
+                }
             }
+
+            OutputClass output = new OutputClass();             // Use special Class for output our result
+            output.outputToConsole(result, inputType);          // if we want to change output channel< not only console
+        }catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Wrong input. Try again!");
         }
-
-//        return result;
-
-//        OutputClass output = new OutputClass(result, inputType);
-        OutputClass output = new OutputClass();
-        output.outputToConsole(result, inputType);
     }
 
 }

@@ -1,10 +1,13 @@
 public class MainClass {
-    public static void main(String[] args) {
-        InputClass input = new InputClass(RulesClass.INPUT_TYPE);
 
-        OperationClass calculation = new OperationClass(input.getInputMessage());
-        calculation.calculation();
-//        OutputClass output = new OutputClass(calculation.getResult());
-//        output.outputToConsole(calculation.result);
+
+    public static void main(String[] args) {
+        String typeOfInput  = "Console";
+        int rangeMin = 1;
+        int rangeMax = 10;
+
+        OperationClass calculation = new OperationClass(typeOfInput, rangeMin, rangeMax);
+        calculation.startCalculation ();
+
     }
 }

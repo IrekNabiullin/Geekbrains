@@ -6,12 +6,12 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 
-class InputClass {
+class InputClass  {
 
     private String inputType;
-
-
     String userInput;
+    String input;
+    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));   // We use BufferedReader because it is more preferable than scanner
 
     private Scanner in;
     String netInput;
@@ -23,26 +23,27 @@ class InputClass {
     }
 
     protected String getInputMessage() {
+        inputMessage = null;
 
-        String input = inputMsg(inputType);
+        input = inputMsg(inputType);
         return input;
     }
 
-//    protected String input(String inputType) throws Exception {
     protected String inputMsg(String inputType){
         try {
             if (inputType.equals("Console")) {
-                BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));   // We use BufferedReader because it is more preferable then scanner
-                System.out.println("Please input arithmetic operation with two figures from 0 till 10:");
+                System.out.println();
+                System.out.println("You have got the Best Сalculator ever! Let's try it. Enter \"exit\" to stop.");
+                System.out.println("Please input figures from 1 till 10 and arithmetic operation (+-*/):");
+
+                userInput = null;
                 userInput = reader.readLine();
-                try {
-                    reader.close();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
                 inputMessage = userInput;
 
-            } else if (inputType.equals("InputStream")) {  //TO DO. Write bufferedInputStream
+
+                //TODO. If we want to have input not only from console
+
+            } else if (inputType.equals("InputStream")) {
                 System.out.println("Not console input");
                 new Thread(new Runnable() {
                     @Override
@@ -61,8 +62,9 @@ class InputClass {
                 inputMessage = netInput;
             }
         }catch (IOException e){
-
+            System.out.println("Wrong input. Program finished.");
+            System.exit(0);
         }
-    return inputMessage;
+        return inputMessage;
     }
 }

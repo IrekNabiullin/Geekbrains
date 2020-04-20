@@ -1,16 +1,18 @@
 public class SpaceRemover {
-    String userInput;
+
     String inputWithoutSpaces;
     char[] inputArray;
     char[] tempArray;
     int inputArrayLengthCount = 0;
     int tempArrayLengthCount = 0;
 
-    public SpaceRemover(String userInput) {
-        this.userInput = userInput;
-    }
+
 
     protected String getMessageWithoutSpaces(String userMessage){
+        inputWithoutSpaces = null;              // null added to use calculator one more
+        inputArray = null;
+        tempArray = null;
+//        System.out.println("userMessage = " + userMessage);
         inputWithoutSpaces = removeSpaces(userMessage);
         return inputWithoutSpaces;
     }
@@ -26,19 +28,14 @@ public class SpaceRemover {
             }
         }
 
-//        System.out.println("temp char array length  = " + tempArrayLengthCount);
         tempArray = new char[tempArrayLengthCount];
 
         inputArrayLengthCount = 0;
         tempArrayLengthCount = 0;
-//        System.out.println("inputArray.length = " + inputArray.length);
-//        System.out.println("inputArrayLengthCount = " + inputArrayLengthCount);
 
-        while (inputArrayLengthCount < inputArray.length) {
+        while (inputArrayLengthCount < inputArray.length) {     //move figures>0 into new array
             if (arrayByteCodes[inputArrayLengthCount] != 32) {
                 tempArray[tempArrayLengthCount] = inputArray[inputArrayLengthCount];
-//                System.out.println("tempArray" + tempArrayLengthCount + " = " + tempArray[tempArrayLengthCount]);
-//                System.out.println("inputArrayLengthCount = " + inputArrayLengthCount);
                 tempArrayLengthCount++;
                 inputArrayLengthCount++;
 
@@ -47,9 +44,8 @@ public class SpaceRemover {
             }
         }
 
-        System.out.println(tempArray.toString());
         inputWithoutSpaces = new String(tempArray);
-        System.out.println("inputWithoutSpaces = " + inputWithoutSpaces);
+//        System.out.println("inputWithoutSpaces = " + inputWithoutSpaces);    // remove commenting slashes if you want to see input cleaned from spaces
 
         return inputWithoutSpaces;
     }
