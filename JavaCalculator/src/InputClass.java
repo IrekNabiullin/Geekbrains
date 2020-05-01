@@ -33,7 +33,7 @@ class InputClass  {
         try {
             if (inputType.equals("Console")) {
                 System.out.println();
-                System.out.println("You have got the Best Сalculator ever! Let's try it. Enter \"exit\" to stop.");
+                System.out.println("You have got the Best calculator ever! Let's try it. Enter \"exit\" to stop.");
                 System.out.println("Please input figures from 1 till 10 and arithmetic operation (+-*/):");
 
                 userInput = null;

@@ -1,4 +1,4 @@
-//This class is written by baelding and taken from the site https://www.baeldung.com/java-convert-roman-arabic
+//This class is written by baeldung and taken from the site https://www.baeldung.com/java-convert-roman-arabic
 // Little modified
 
 
@@ -41,7 +41,7 @@ public class ArabicRomanConverter {
             throw new IllegalArgumentException(number + " is not in range (-10,4000]");
         }
 
-        if ((number > -10) && (number <= 0)) {       //to output nagative result
+        if ((number > -10) && (number <= 0)) {       //to output negative result
             number = -1 * number;
 
             sb.append("- ");
