@@ -2,9 +2,9 @@ package com.geekbrains.game;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.badlogic.gdx.math.Rectangle;
+//import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
-import org.lwjgl.Sys;
+//import org.lwjgl.Sys;
 
 import java.io.Serializable;
 import java.util.List;
