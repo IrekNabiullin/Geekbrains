@@ -5,5 +5,5 @@ public interface Participant {
     void jump(int height);
     void swim(int distance);
     boolean isOnDistance();
-    void info();
+    void info(); //информация об участнике
 }

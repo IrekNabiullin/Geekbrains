@@ -8,7 +8,7 @@ import ru.geekbrains.racing.participants.*;
 
 public class Main {
     public static void main(String[] args) {
-        Participant[] participants = {new Cat("Barsik"), new Dog("Bobik"), new Human("Bob")};
+        Participant[] participants = {new Cat("Barsik"), new Dog("Bobik"), new Human("Human Bob")};
         Obstacle[] obstacles = {new Cross(100), new Wall(10), new Water(5)};
 
         for (Participant p : participants) {

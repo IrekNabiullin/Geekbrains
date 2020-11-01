@@ -16,9 +16,9 @@ public class Human implements Participant {
 
     public Human(String name) {
         this.name = name;
-        this.maxRunDistance = 10000;
-        this.maxJumpHeight = 150;
-        this.maxSwimDistance = 1000;
+        this.maxRunDistance = 5000;
+        this.maxJumpHeight = 1;
+        this.maxSwimDistance = 100;
         this.active = true;
     }
 
@@ -54,6 +54,6 @@ public class Human implements Participant {
 
     @Override
     public void info() {
-        System.out.println(name + ": " + active);
+        System.out.println(name + " is active: " + active);
     }
 }

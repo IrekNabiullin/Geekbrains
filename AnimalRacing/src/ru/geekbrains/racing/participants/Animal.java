@@ -26,6 +26,7 @@ public abstract class Animal implements Participant {
 
     @Override
     public void run(int distance) {
+        System.out.println("Stage 1. Run distance " + distance);
         if (distance <= maxRunDistance) {
             System.out.println(type + " " + name + " - Run OK");
         } else {
@@ -36,6 +37,7 @@ public abstract class Animal implements Participant {
 
     @Override
     public void jump(int height) {
+        System.out.println("Stage 2. Jump over the wall with height " + height);
         if (height <= maxJumpHeight) {
             System.out.println(type + " " + name + " - Jump OK");
         } else {
@@ -46,9 +48,11 @@ public abstract class Animal implements Participant {
 
     @Override
     public void swim(int distance) {
+        System.out.println("Stage 3. Swim distance " + distance);
         if (maxSwimDistance == 0) {
             System.out.println(type + " " + name + " can't swim");
             onDistance = false;
+            System.out.println(type + " " + name + " get out of the race");
             return;
         }
         if (distance <= maxSwimDistance) {
@@ -56,11 +60,12 @@ public abstract class Animal implements Participant {
         } else {
             System.out.println(type + " " + name + " - Swim FAILED");
             onDistance = false;
+            System.out.println(type + " " + name + " get out of the race");
         }
     }
 
     @Override
     public void info() {
-        System.out.println(type + " " + name + ": " + onDistance);
+        System.out.println(type + " " + name + ": " + "on distance:" + onDistance);
     }
 }
