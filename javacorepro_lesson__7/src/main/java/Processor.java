@@ -1,6 +1,9 @@
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * reflection example
+ */
 public class Processor {
     public static int[] arrayAfter4(int[] array){
         for(int i = array.length-1; i >= 0 ; i--){

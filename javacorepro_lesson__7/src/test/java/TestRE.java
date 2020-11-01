@@ -1,5 +1,8 @@
 import org.junit.Test;
 
+/**
+ * test example
+ */
 public class TestRE {
     @Test(expected = RuntimeException.class)
     public void reTest(){

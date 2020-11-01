@@ -2,6 +2,9 @@ package workgroup;
 
 import java.lang.reflect.Method;
 
+/**
+ * example
+ */
 public class Main3 {
     public static void main(String[] args) throws Exception{
         Class c = Cat.class;

@@ -8,6 +8,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * test example
+ */
 public class TestDB {
     public static Connection connection;
     public static Statement statement;

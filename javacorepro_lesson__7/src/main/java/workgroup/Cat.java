@@ -28,7 +28,7 @@ public class Cat {
         if(this == o) return true;
         if(!(o instanceof Cat)) return false;
         Cat cat = (Cat) o;
-        return age == cat.age && Objects.equals(name, cat.name) && Objects.equals(color, cat.color);
+        return age == cat.age && Objects.equals(name, cat.name) && Objects.equals(color, cat.color); //Java7
     }
     @Override
     public int hashCode(){

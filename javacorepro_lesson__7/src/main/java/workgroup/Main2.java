@@ -1,7 +1,9 @@
 package workgroup;
 
 import java.lang.reflect.Field;
-
+/**
+ * example
+ */
 public class Main2 {
     public static void main(String[] args) throws Exception{
         Class c = Cat.class;
