@@ -64,4 +64,9 @@ public class CalcTest {
         calculator.div(4,0);
     }
 
+    @Test
+    public void powTest(){
+//        calculator = new Calculator();
+        Assert.assertEquals(8, calculator.pow(2,3));
+    }
 }

@@ -39,7 +39,7 @@ public class TestDB {
     }
     @Test
     public void testInsert(){
-        Assert.assertEquals(true, Processor.checkDB(statement, "INSERT INTO students(name, score) VALUES ('Morty', 45);"));
+        Assert.assertEquals(true, Processor.checkDB(statement, "INSERT INTO students(name, score) VALUES ('Morty', 20);"));
     }
     @Test
     public void testUpdate(){
