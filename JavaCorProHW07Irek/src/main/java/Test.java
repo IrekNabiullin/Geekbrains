@@ -17,7 +17,7 @@ class Tests {
 
     @BeforeSuite
     public void beforeSuite(){
-        System.out.println("BeforeSuite method executed...");
+        System.out.println("1.BeforeSuite method executed...");
     }
 
     @Test (value = 8.0f)
@@ -47,7 +47,7 @@ class Tests {
 
     @AfterSuite
     public void afterSuite(){
-        System.out.println("AfterSuite method executed...");
+        System.out.println("2.AfterSuite method executed...");
     }
 
 }

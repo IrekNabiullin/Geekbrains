@@ -31,11 +31,11 @@ public class Main {
                 list.add(m);
 
             }else if(m.isAnnotationPresent(BeforeSuite.class)) {
-                if(before != null) throw new RuntimeException("BeforeSuite");
+                if(before != null) throw new RuntimeException("I.BeforeSuite");
                 before = m;
             }
             else if (m.isAnnotationPresent(AfterSuite.class)) {
-                if(after != null) throw new RuntimeException("AfterSuite");
+                if(after != null) throw new RuntimeException("II.AfterSuite");
                 after = m;
             }
         }
