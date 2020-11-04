@@ -13,6 +13,7 @@ public class Array2Test {
 
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
+        System.out.println("Parametrized test");
         return Arrays.asList(new Object[][]{
                 {new int []{1, 1, 4}, true},
                 {new int []{1, 1, 4, 4},true},

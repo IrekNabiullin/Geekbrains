@@ -24,7 +24,7 @@ public class MainTest {
     @Test
     public void addEntry(){
         try{
-            statement.execute("INSERT INTO students(studid, name, score) VALUES (100,name100,1000);");
+            statement.execute("INSERT INTO students(studid, name, score) VALUES (100,100,1000);");
             Assert.assertEquals(getCount(),11);
         } catch(SQLException e){
             e.printStackTrace();
@@ -34,6 +34,7 @@ public class MainTest {
     @Test
     public void updateEntry() {
         try{
+            System.out.println("Main test");
             statement.executeUpdate("UPDATE students SET score = '15000' WHERE name = 'name11';");
             ResultSet resultSet = statement.executeQuery("SELECT score FROM students WHERE name = 'name11';" );
             while(resultSet.next()) System.out.println(resultSet.getString("score"));
